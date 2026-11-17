@@ -116,8 +116,9 @@ async function firebaseBackend() {
 // ------------------------------------------------------------
 function demoBackend() {
   const KEY = "itep_demo_accounts";
-  const load = () => JSON.parse(localStorage.getItem(KEY) || "{}");
-  const save = (db) => localStorage.setItem(KEY, JSON.stringify(db));
+  let memory = {}; // fallback when the browser blocks localStorage
+  const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch { return memory; } };
+  const save = (db) => { memory = db; try { localStorage.setItem(KEY, JSON.stringify(db)); } catch {} };
   const hash = async (s) => {
     const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
     return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");

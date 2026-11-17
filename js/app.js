@@ -328,6 +328,29 @@ addEventListener("keydown", (e) => {
   }
 });
 
+// Student clicked the link in the verification e-mail
+async function returnFromEmail(oobCode, id) {
+  try {
+    if (oobCode) { await backendReady; await backend.verify(oobCode); }
+    toast("E-mail verified! Log in with your School ID.", "success", 5000);
+  } catch (err) {
+    toast(err.message, "error", 6000);
+  }
+  await wait(500);
+  goLogin({ prefill: id || "" });
+}
+
+// Demo inbox: verify inside the page (no reload needed)
+$("#demoLink").addEventListener("click", async (e) => {
+  e.preventDefault();
+  const url = new URL(e.currentTarget.href);
+  $("#demoInbox").hidden = true;
+  showPanel(null);
+  setState("home");
+  await wait(700);
+  returnFromEmail(url.searchParams.get("oobCode"), url.searchParams.get("id"));
+});
+
 // ------------------------------------------------------------
 //  Boot: normal intro, or coming back from the verification e-mail
 // ------------------------------------------------------------
@@ -349,16 +372,9 @@ async function boot() {
   }
 
   if ((mode === "verifyEmail" && oobCode) || q.get("verified")) {
-    history.replaceState(null, "", location.pathname);
+    try { history.replaceState(null, "", location.pathname); } catch {}
     jumpTo("home");
-    try {
-      if (oobCode) { await backendReady; await backend.verify(oobCode); }
-      toast("E-mail verified! Log in with your School ID.", "success", 5000);
-    } catch (err) {
-      toast(err.message, "error", 6000);
-    }
-    await wait(500);
-    goLogin({ prefill: id || "" });
+    returnFromEmail(oobCode, id);
     return;
   }
 
