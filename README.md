@@ -38,9 +38,9 @@ Mientras `js/firebase-config.js` tenga `PASTE_YOUR_API_KEY`, la app funciona en 
 3. **Build → Firestore Database → Create database** (modo producción). En la pestaña **Rules**, pega el contenido de `firestore.rules` → **Publish**.
 4. **Project settings (⚙️) → Your apps → Web (`</>`)** → registra la app y copia el `firebaseConfig` en `js/firebase-config.js`.
 5. **Authentication → Settings → Authorized domains → Add domain**: agrega tu dominio de Netlify (`tu-sitio.netlify.app`).
-6. **Authentication → Templates → Email address verification → ✏️**:
-   - **Sender name**: `iTEP Practice Course`. **Subject**: `Welcome to the iTEP Practice Course – verify your e-mail`.
-   - **Customize action URL** → `https://tu-sitio.netlify.app/`. Así el enlace del correo regresa directo a la app, verifica la cuenta y abre LOG IN.
+6. **Correo de verificación**: se usa la plantilla estándar de Firebase. El enlace del correo abre la página de Firebase que confirma la verificación; su botón **Continue** regresa a la app y abre LOG IN con la matrícula escrita. (Por ahora Firebase no permite editar plantillas en proyectos nuevos; cuando lo permita, en *Templates → Customize action URL* se puede poner `https://itep-practice-upsrj.netlify.app/` para saltarse esa página.)
+
+**Sitio en producción:** <https://itep-practice-upsrj.netlify.app> · Proyecto Firebase: `itep-practice-upsrj` (Firestore en `northamerica-south1`, México).
 
 ## GitHub → Netlify (actualización automática)
 
