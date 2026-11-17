@@ -63,8 +63,14 @@ const tts = (() => {
     if (who === "M") return pick(/daniel|david|guy|male|alex|fred|google uk english male/i) || pool[1] || pool[0];
     return pick(/google us english|samantha|aria|jenny/i) || pool[0];
   }
-  return {
-    supported: Boolean(synth && "SpeechSynthesisUtterance" in window),
+  const api = {
+    supported: false,
+    // voices load late in some browsers; without English voices we show the script instead
+    async ready() {
+      if (!synth || !("SpeechSynthesisUtterance" in window)) return (api.supported = false);
+      for (let i = 0; i < 15 && !voices.length; i++) { await wait(100); load(); }
+      return (api.supported = voices.length > 0);
+    },
     stop() { synth?.cancel(); },
     play(script, onEnd) {
       synth.cancel();
@@ -84,6 +90,7 @@ const tts = (() => {
       });
     },
   };
+  return api;
 })();
 
 // ------------------------------------------------------------
@@ -144,8 +151,9 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
     sectionIntro();
   }
 
-  function sectionIntro() {
+  async function sectionIntro() {
     const S = SECTIONS[state.sec];
+    if (S.key === "L") await tts.ready();
     progress();
     const extra = S.key === "L" && !tts.supported
       ? `<p class="x-note warn">Audio is not available in this browser, so you will read the script instead. For the real test experience, use Chrome, Edge or Safari.</p>` : "";
