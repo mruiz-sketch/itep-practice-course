@@ -201,7 +201,8 @@ export function createTeacherArea({ backend, toast, onLogout }) {
   function diagnostic(s) {
     if (s.diagnosticLevel || s.diagnosticScore != null) {
       const parts = [s.diagnosticLevel, s.diagnosticScore != null ? `${s.diagnosticScore}` : ""].filter(Boolean);
-      return `<span class="pill done">${esc(parts.join(" · "))}</span>`;
+      const secs = Object.entries(s.diagnosticSections || {}).map(([k, v]) => `${k}: ${v.level}`).join(" · ");
+      return `<span class="pill done" title="${esc(secs)}">${esc(parts.join(" · "))}</span>`;
     }
     return `<span class="pill">Not taken yet</span>`;
   }

@@ -640,3 +640,85 @@ body.is-diag #demoBadge { color: rgba(28, 69, 147, .55); }
 .portrait .code-display .slot-empty::before { width: 18px; }
 .portrait .code-display .dash { width: 18px; }
 .portrait .code-form .btn-outline { width: 380px; }
+
+/* ==========================================================
+   DIAGNOSTIC TEST
+   ========================================================== */
+.exam { z-index: 5; color: var(--blue); }
+.x-progress { position: absolute; left: 383px; width: 600px; top: 84px; text-align: center; }
+.x-bar { height: 8px; border-radius: 999px; background: rgba(28, 69, 147, .15); overflow: hidden; }
+.x-bar span { display: block; height: 100%; width: 0; background: var(--blue); border-radius: 999px; transition: width .5s cubic-bezier(.2, .8, .2, 1); }
+#xStep { display: block; margin-top: 8px; font-size: 14px; letter-spacing: .04em; color: rgba(28, 69, 147, .75); min-height: 18px; }
+.x-body { position: absolute; left: 80px; right: 80px; top: 150px; bottom: 60px; overflow-y: auto; }
+.x-body.show > * { animation: rise .5s cubic-bezier(.2, .8, .2, 1) both; }
+.x-center { display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 960px; margin: 0 auto; }
+.x-lead { font-size: 20px; line-height: 1.5; margin: 16px 0 10px; max-width: 760px; }
+.x-facts { list-style: none; display: flex; gap: 14px; margin: 14px 0 18px; flex-wrap: wrap; justify-content: center; }
+.x-facts li { background: rgba(255, 255, 255, .6); border-radius: 999px; padding: 10px 20px; font-size: 16px; }
+.x-note { font-size: 15px; line-height: 1.6; color: rgba(28, 69, 147, .8); max-width: 760px; }
+.x-note.warn { background: #fff7e8; color: #7a4b00; border-radius: 16px; padding: 12px 18px; margin-top: 10px; }
+.x-q { font-size: 28px; line-height: 1.35; margin: 18px 0 26px; max-width: 900px; }
+.x-blank { letter-spacing: .05em; color: rgba(28, 69, 147, .55); }
+.x-options { display: grid; grid-template-columns: repeat(2, minmax(0, 420px)); gap: 14px 18px; width: 100%; justify-content: center; }
+.x-options.one-col { grid-template-columns: 1fr; }
+.x-opt {
+  display: flex; align-items: center; gap: 14px; text-align: left;
+  min-height: 60px; padding: 10px 18px 10px 12px;
+  border: 2px solid rgba(28, 69, 147, .35); border-radius: 20px;
+  background: rgba(255, 255, 255, .7); color: #1d2433; font-size: 18px; cursor: pointer;
+  transition: border-color .15s, background-color .15s, transform .15s, box-shadow .15s;
+}
+.x-opt:hover:not(:disabled) { border-color: var(--blue); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(28, 69, 147, .15); }
+.x-opt:disabled { opacity: .5; cursor: not-allowed; }
+.x-opt.on { background: var(--blue); border-color: var(--blue); color: #fff; }
+.x-letter { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: rgba(28, 69, 147, .12); color: var(--blue); font-weight: 500; font-size: 15px; }
+.x-opt.on .x-letter { background: rgba(255, 255, 255, .2); color: #fff; }
+.x-opt:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+
+.x-read { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: start; height: 100%; }
+.x-passage {
+  background: #fff; border-radius: 24px; padding: 26px 30px; font-size: 18px; line-height: 1.65; color: #1d2433;
+  max-height: 100%; overflow-y: auto; box-shadow: 0 10px 30px rgba(28, 69, 147, .1); text-align: left;
+}
+.x-passage.small { font-size: 16px; max-width: 760px; margin-top: 10px; }
+.x-side { text-align: left; }
+.x-side .x-q { font-size: 23px; margin: 12px 0 18px; }
+.x-side .t-actions { justify-content: flex-start; }
+
+.x-audio { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 6px; }
+.x-play { width: 92px; height: 92px; border-radius: 50%; border: 0; background: var(--blue); color: var(--gray); cursor: pointer; display: grid; place-items: center; transition: transform .2s, box-shadow .2s, opacity .2s; }
+.x-play svg { width: 44px; height: 44px; margin-left: 6px; }
+.x-play:hover:not(:disabled) { transform: scale(1.05); box-shadow: 0 14px 30px rgba(28, 69, 147, .35); }
+.x-play:disabled { opacity: .45; cursor: default; }
+.x-play.playing { animation: pulse 1.2s ease-in-out infinite; opacity: 1; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(28, 69, 147, .45); } 50% { box-shadow: 0 0 0 18px rgba(28, 69, 147, 0); } }
+.x-plays { font-size: 15px; color: rgba(28, 69, 147, .8); }
+.x-audio + .x-q { margin-top: 12px; }
+
+.x-result { display: grid; grid-template-columns: 340px 1fr; gap: 40px; align-items: start; max-width: 1060px; margin: 0 auto; }
+.x-badge { background: var(--blue); color: var(--gray); border-radius: 32px; padding: 30px 24px; text-align: center; }
+.x-badge .t-kicker { color: rgba(200, 209, 217, .8); }
+.x-big { font-size: 110px; line-height: 1; color: #fff; margin: 6px 0; }
+.x-name { font-size: 24px; color: #fff; }
+.x-band { font-size: 18px; margin-top: 14px; }
+.x-small { font-size: 15px; opacity: .8; margin-top: 6px; }
+.x-detail h3 { font-size: 20px; font-weight: 500; margin: 4px 0 14px; }
+.x-detail h3 + .x-row { margin-top: 0; }
+.x-row { display: grid; grid-template-columns: 130px 1fr 48px; align-items: center; gap: 14px; margin-bottom: 12px; font-size: 18px; }
+.x-track { height: 14px; background: rgba(28, 69, 147, .12); border-radius: 999px; overflow: hidden; }
+.x-track span { display: block; height: 100%; background: var(--blue); border-radius: 999px; animation: grow 1s cubic-bezier(.2, .8, .2, 1) both .2s; transform-origin: left; }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.x-lvl { font-weight: 500; text-align: right; }
+.x-practice { margin: 0 0 6px 20px; font-size: 16px; line-height: 1.7; }
+.x-detail h3:nth-of-type(2) { margin-top: 24px; }
+.t-actions.left { justify-content: flex-start; }
+
+.portrait .x-progress { left: 134px; width: 500px; top: 150px; }
+.portrait .x-body { left: 40px; right: 40px; top: 220px; bottom: 80px; }
+.portrait .x-q { font-size: 32px; }
+.portrait .x-options { grid-template-columns: 1fr; }
+.portrait .x-opt { font-size: 22px; min-height: 72px; }
+.portrait .x-read { grid-template-columns: 1fr; height: auto; }
+.portrait .x-passage { max-height: 420px; font-size: 21px; }
+.portrait .x-result { grid-template-columns: 1fr; }
+.portrait .x-lead { font-size: 23px; }

@@ -115,6 +115,12 @@ async function firebaseBackend() {
       } catch (e) { throw wrap(e); }
     },
 
+    async saveDiagnostic(result) {
+      try {
+        await F.updateDoc(userRef(auth.currentUser.uid), { ...result, diagnosticCompleted: true, diagnosticAt: F.serverTimestamp() });
+      } catch (e) { throw wrap(e); }
+    },
+
     async getMyProfile() {
       const snap = await F.getDoc(userRef(auth.currentUser.uid));
       return snap.data();
@@ -193,6 +199,10 @@ function demoBackend() {
     },
 
     async getMyProfile() { return load()[current]?.profile; },
+
+    async saveDiagnostic(result) {
+      const db = load(); Object.assign(db[current].profile, result, { diagnosticCompleted: true, diagnosticAt: new Date().toISOString() }); save(db);
+    },
 
     async listStudents(quarter, key) {
       return Object.values(load()).map((a) => a.profile)

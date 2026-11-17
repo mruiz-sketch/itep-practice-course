@@ -4,6 +4,7 @@
 import { createBackend, DEMO, toSchoolId, AppError } from "./backend.js";
 import { firebaseConfig, EMAIL_DOMAIN } from "./firebase-config.js";
 import { createTeacherArea } from "./teacher.js";
+import { createDiagnostic } from "./diagnostic.js";
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -20,6 +21,16 @@ const toastEl = $("#toast");
 
 let backend = null;
 let teacherArea = null;
+let currentProfile = null;
+const exam = createDiagnostic({
+  root: $("#exam"),
+  toast,
+  onSave: async (result) => {
+    await backend.saveDiagnostic(result);
+    Object.assign(currentProfile, result, { diagnosticCompleted: true, isNew: false });
+  },
+  onExit: () => openDiagnostic(currentProfile),
+});
 const backendReady = createBackend().then((b) => {
   backend = b;
   teacherArea = createTeacherArea({ backend, toast, onLogout: logout });
@@ -352,9 +363,10 @@ loginForm.addEventListener("submit", async (e) => {
 //  Diagnostic screen (students)
 // ------------------------------------------------------------
 function openDiagnostic(profile) {
+  currentProfile = profile;
   $("#diagHello").textContent = profile.firstName ? `Welcome, ${profile.firstName}!` : "Welcome!";
   $("#diagUser").textContent = `School ID: ${profile.schoolId || ""}`;
-  $(".btn-diag").innerHTML = profile.isNew ? "TAKE<br>DIAGNOSTIC TEST" : "CONTINUE<br>PRACTICING";
+  $(".btn-diag").innerHTML = profile.diagnosticCompleted ? "MY DIAGNOSTIC<br>RESULT" : "TAKE<br>DIAGNOSTIC TEST";
   document.body.classList.add("is-diag");
   diag.classList.add("show");
   diag.setAttribute("aria-hidden", "false");
@@ -364,6 +376,8 @@ async function logout() {
   diag.classList.remove("show");
   diag.setAttribute("aria-hidden", "true");
   teacherArea?.close();
+  exam.close();
+  currentProfile = null;
   document.body.classList.remove("is-diag");
   await wait(400);
   goHome();
@@ -410,7 +424,11 @@ document.addEventListener("click", async (e) => {
     case "login-from-sent": switchTo("login", lastSignupRole === "teacher"); break;
     case "logout": logout(); break;
     case "close-demo": $("#demoInbox").hidden = true; break;
-    case "start-diagnostic": toast("The diagnostic test is coming soon. Stay tuned!", "", 3500); break;
+    case "start-diagnostic":
+      if (!currentProfile) break;
+      if (currentProfile.diagnosticCompleted) exam.showResult(currentProfile);
+      else exam.start(currentProfile);
+      break;
     case "forgot": {
       const id = toSchoolId(loginForm.elements.schoolId.value);
       if (!id) { flagErrors([[loginForm.elements.schoolId, "Write your School ID first, then click “Forgot your password?”."]]); return; }

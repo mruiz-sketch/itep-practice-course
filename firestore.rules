@@ -38,7 +38,13 @@ service cloud.firestore {
 
       allow update: if isOwner() && (
         (resource.data.role == 'student'
-          && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'diagnosticCompleted']))
+          && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin']))
+        // the diagnostic result can be saved only once
+        || (resource.data.role == 'student' && resource.data.diagnosticCompleted == false
+          && d().diagnosticCompleted == true
+          && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'diagnosticCompleted',
+               'diagnosticLevel', 'diagnosticScore', 'diagnosticSections', 'diagnosticPractice',
+               'diagnosticCorrect', 'diagnosticTotal', 'diagnosticAt']))
         || (resource.data.role == 'teacher'
           && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'quarters', 'groups', 'setupComplete']))
       );

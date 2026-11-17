@@ -11,6 +11,15 @@ Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS 
 5. **Enlace del correo**: regresa a la app y abre LOG IN con la matrícula ya escrita.
 6. **Log in**: matrícula + contraseña. Si la cuenta es nueva, va a TAKE DIAGNOSTIC TEST.
 
+## Examen diagnóstico
+
+- Al dar clic en **TAKE DIAGNOSTIC TEST** empieza el examen: 4 secciones (Grammar, Vocabulary, Listening, Reading) × 8 preguntas = 32, unos 20–25 minutos.
+- Las preguntas salen del banco de 500 reactivos (`data/question-bank.json`, copiado de la hoja *iTEP Diagnostic Question Bank (500)*).
+- **Adaptativo:** después de cada respuesta se recalcula el nivel estimado del alumno en esa sección y la siguiente pregunta se toma de ese nivel (A1–C2). Cada sección empieza cerca del nivel obtenido en las anteriores.
+- **Listening:** el navegador lee el guion en voz alta (dos voces para W/M); se puede escuchar 2 veces. Si el navegador no tiene voces, se muestra el guion para leer.
+- **Resultado:** nivel CEFR general, banda tipo iTEP (1.0–6.0), nivel por sección y "What to practice next" (temas que falló). Se guarda en Firestore (`diagnosticLevel`, `diagnosticScore`, `diagnosticSections`, …) y aparece en la pestaña *Students* de cada curso. Solo se puede guardar una vez.
+- Si se actualiza la hoja del banco, hay que volver a generar `data/question-bank.json`.
+
 ## Docentes
 
 1. En la pantalla inicial: **ARE YOU A TEACHER?** pide el **teachers code** (lo da la administradora; la regla de Firestore también lo exige, y en este repositorio aparece como `TEACHER_CODE_HERE` porque es público). Con el código correcto aparecen su propio **CREATE ACCOUNT** (nombre, apellido, correo institucional y contraseña → correo de verificación) y su propio **LOG IN**.
@@ -63,6 +72,8 @@ index.html             pantallas
 css/styles.css         estilo y animaciones (lienzo 1366×768; versión vertical para celular)
 js/app.js              navegación, animaciones y validaciones
 js/backend.js          Firebase (o modo demo)
+js/diagnostic.js       examen diagnóstico adaptativo
+data/question-bank.json banco de 500 preguntas
 js/teacher.js          área docente: cuatrimestres, grupos, carpetas, cursos y lista de alumnos
 js/firebase-config.js  ← aquí va tu configuración de Firebase
 firestore.rules        reglas de seguridad de la base de datos
