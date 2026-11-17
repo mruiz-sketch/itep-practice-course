@@ -31,6 +31,7 @@
 
       <button class="actor btn-main btn-create" type="button" data-action="signup">CREATE ACCOUNT</button>
       <button class="actor btn-main btn-login" type="button" data-action="login">LOG IN</button>
+      <button class="actor btn-teacher" type="button" data-action="tsignup"><span class="lbl">ARE YOU A TEACHER?</span></button>
 
       <!-- CREATE ACCOUNT form -->
       <form id="signupForm" class="panel form form-signup" novalidate autocomplete="on">
@@ -63,6 +64,38 @@
           <div class="pw-wrap">
             <input id="su-pass" name="password" type="password" autocomplete="new-password" maxlength="64" required />
             <button type="button" class="eye" data-toggle="su-pass" aria-label="Show password">SHOW</button>
+          </div>
+        </div>
+        <ul class="pw-rules" aria-label="Password requirements">
+          <li data-rule="len">8+ characters</li>
+          <li data-rule="upper">Uppercase</li>
+          <li data-rule="lower">Lowercase</li>
+          <li data-rule="digit">Number</li>
+          <li data-rule="symbol">Symbol</li>
+        </ul>
+        <button type="submit" class="btn-outline btn-send">Send verification e-mail</button>
+        <p class="legend"><span class="req">*</span> All fields marked with an asterisk are required.</p>
+      </form>
+
+      <!-- TEACHER ACCOUNT form -->
+      <form id="teacherForm" class="panel form form-signup form-teacher" novalidate autocomplete="on">
+        <div class="row">
+          <label for="tf-first">First Name<span class="req">*</span>:</label>
+          <input id="tf-first" name="firstName" type="text" autocomplete="given-name" maxlength="60" required />
+        </div>
+        <div class="row">
+          <label for="tf-last">Last Name<span class="req">*</span>:</label>
+          <input id="tf-last" name="lastName" type="text" autocomplete="family-name" maxlength="80" required />
+        </div>
+        <div class="row">
+          <label for="tf-email">e-mail<span class="req">*</span>:</label>
+          <input id="tf-email" name="email" type="email" autocomplete="email" placeholder="yourname@upsrj.edu.mx" maxlength="80" required />
+        </div>
+        <div class="row">
+          <label for="tf-pass">Password<span class="req">*</span>:</label>
+          <div class="pw-wrap">
+            <input id="tf-pass" name="password" type="password" autocomplete="new-password" maxlength="64" required />
+            <button type="button" class="eye" data-toggle="tf-pass" aria-label="Show password">SHOW</button>
           </div>
         </div>
         <ul class="pw-rules" aria-label="Password requirements">
@@ -115,6 +148,46 @@
         <button type="button" class="btn-diag" data-action="start-diagnostic">TAKE<br />DIAGNOSTIC TEST</button>
         <p class="diag-foot">
           <span id="diagUser"></span>
+          <button type="button" class="link link-blue" data-action="logout">Log out</button>
+        </p>
+      </section>
+
+      <!-- TEACHER area -->
+      <section id="teacher" class="diag teacher" aria-hidden="true">
+        <div class="frame frame-diag" aria-hidden="true"></div>
+        <img class="diag-itep" src="assets/itep-blue.png" alt="iTEP" />
+        <img class="diag-oblt" src="assets/oblt-orange.png" alt="OBLT" />
+
+        <!-- Step 1: quarters -->
+        <div class="t-view" id="tQuarters">
+          <p class="t-kicker">TEACHER SET-UP · STEP 1 OF 2</p>
+          <h2 class="t-title">IN WHICH QUARTERS ARE YOU TEACHING?</h2>
+          <p class="t-hint">Select all that apply.</p>
+          <div class="q-grid" id="qGrid"></div>
+          <button type="button" class="btn-blue" data-action="t-next">Next</button>
+        </div>
+
+        <!-- Step 2: groups -->
+        <div class="t-view" id="tGroups">
+          <p class="t-kicker">TEACHER SET-UP · STEP 2 OF 2</p>
+          <h2 class="t-title">WRITE THE GROUPS YOU TEACH</h2>
+          <p class="t-hint">Type a group and press Enter (or separate them with commas). Example: IAEV-31</p>
+          <div class="g-list" id="gList"></div>
+          <div class="t-actions">
+            <button type="button" class="btn-blue ghost" data-action="t-back">Back</button>
+            <button type="button" class="btn-blue" data-action="t-create">Create my courses</button>
+          </div>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="t-view t-dash" id="tDash">
+          <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+          <div class="t-content" id="tContent"></div>
+        </div>
+
+        <p class="diag-foot t-foot">
+          <span id="teacherUser"></span>
+          <button type="button" class="link link-blue" data-action="t-edit">Edit quarters &amp; groups</button>
           <button type="button" class="link link-blue" data-action="logout">Log out</button>
         </p>
       </section>

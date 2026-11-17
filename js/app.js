@@ -3,6 +3,7 @@
 // ============================================================
 import { createBackend, DEMO, toSchoolId, AppError } from "./backend.js";
 import { firebaseConfig, EMAIL_DOMAIN } from "./firebase-config.js";
+import { createTeacherArea } from "./teacher.js";
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -10,13 +11,19 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const stage = $("#stage");
 const signupForm = $("#signupForm");
+const teacherForm = $("#teacherForm");
 const loginForm = $("#loginForm");
 const sentPanel = $("#sentPanel");
 const diag = $("#diag");
 const toastEl = $("#toast");
+const teacherBtnLabel = $(".btn-teacher .lbl");
 
 let backend = null;
-const backendReady = createBackend().then((b) => (backend = b)).catch((e) => {
+let teacherArea = null;
+const backendReady = createBackend().then((b) => {
+  backend = b;
+  teacherArea = createTeacherArea({ backend, toast, onLogout: logout });
+}).catch((e) => {
   console.error(e);
   toast("Could not connect to the server. Check your internet connection.", "error", 6000);
 });
@@ -50,19 +57,29 @@ function jumpTo(s) {
   requestAnimationFrame(() => stage.classList.remove("no-anim"));
 }
 function showPanel(panel) {
-  [signupForm, loginForm, sentPanel].forEach((p) => p.classList.toggle("show", p === panel));
+  [signupForm, teacherForm, loginForm, sentPanel].forEach((p) => p.classList.toggle("show", p === panel));
+}
+async function setTeacherLabel(text) {
+  const btn = $(".btn-teacher");
+  if (teacherBtnLabel.textContent === text) return;
+  btn.classList.add("swap");
+  await wait(250);
+  teacherBtnLabel.textContent = text;
+  btn.classList.remove("swap");
 }
 
 let busy = false;
-async function goSignup() {
+async function goSignup(role = "student") {
   if (busy) return; busy = true;
+  const form = role === "teacher" ? teacherForm : signupForm;
   showPanel(null);
-  setState("signup");
+  if (role === "teacher") setTeacherLabel("TEACHER ACCOUNT");
+  setState(role === "teacher" ? "tsignup" : "signup");
   await wait(650);
-  showPanel(signupForm);
-  updateSendButton();
+  showPanel(form);
+  updateSendButton(form);
   busy = false;
-  setTimeout(() => $("#su-first").focus({ preventScroll: true }), 300);
+  setTimeout(() => form.elements.firstName.focus({ preventScroll: true }), 300);
 }
 async function goLogin({ prefill } = {}) {
   if (busy) return; busy = true;
@@ -79,6 +96,7 @@ async function goHome() {
   showPanel(null);
   await wait(250);
   setState("home");
+  setTeacherLabel("ARE YOU A TEACHER?");
   await wait(700);
   busy = false;
 }
@@ -110,7 +128,7 @@ function toast(msg, type = "", ms = 4200) {
 }
 
 // ------------------------------------------------------------
-//  Validation
+//  Validation (student and teacher forms)
 // ------------------------------------------------------------
 const PW_RULES = {
   len: (v) => v.length >= 8,
@@ -121,40 +139,42 @@ const PW_RULES = {
 };
 const EMAIL_RE = new RegExp(`^[a-z0-9._%+-]+@${EMAIL_DOMAIN.replace(/\./g, "\\.")}$`, "i");
 
-function readSignup() {
-  const f = signupForm.elements;
-  return {
+function readForm(form) {
+  const f = form.elements;
+  const d = {
+    role: form === teacherForm ? "teacher" : "student",
     firstName: f.firstName.value.trim().replace(/\s+/g, " "),
     lastName: f.lastName.value.trim().replace(/\s+/g, " "),
     email: f.email.value.trim().toLowerCase(),
-    quarter: f.quarter.value,
-    group: f.group.value.trim().toUpperCase(),
     password: f.password.value,
   };
+  if (f.quarter) d.quarter = f.quarter.value;
+  if (f.group) d.group = f.group.value.trim().toUpperCase();
+  return d;
 }
 
-function validateSignup(d) {
+function validateForm(form, d) {
   const errors = [];
-  const f = signupForm.elements;
+  const f = form.elements;
   if (!d.firstName) errors.push([f.firstName, "Please write your first name."]);
   if (!d.lastName) errors.push([f.lastName, "Please write your last name."]);
   if (!d.email) errors.push([f.email, "Please write your institutional e-mail."]);
   else if (!EMAIL_RE.test(d.email)) errors.push([f.email, `Use your institutional e-mail (…@${EMAIL_DOMAIN}).`]);
-  if (!d.quarter) errors.push([f.quarter, "Please choose your quarter."]);
-  if (!d.group) errors.push([f.group, "Please write your group."]);
+  if (f.quarter && !d.quarter) errors.push([f.quarter, "Please choose your quarter."]);
+  if (f.group && !d.group) errors.push([f.group, "Please write your group."]);
   if (!d.password) errors.push([f.password, "Please create a password."]);
   else if (!Object.values(PW_RULES).every((r) => r(d.password)))
     errors.push([f.password, "Password: 8+ characters with uppercase, lowercase, a number and a symbol."]);
   return errors;
 }
 
-function updatePwRules() {
-  const v = signupForm.elements.password.value;
-  $$(".pw-rules li").forEach((li) => li.classList.toggle("ok", PW_RULES[li.dataset.rule](v)));
+function updatePwRules(form) {
+  const v = form.elements.password.value;
+  $$(".pw-rules li", form).forEach((li) => li.classList.toggle("ok", PW_RULES[li.dataset.rule](v)));
 }
-function updateSendButton() {
-  const incomplete = validateSignup(readSignup()).length > 0;
-  $(".btn-send").classList.toggle("incomplete", incomplete);
+function updateSendButton(form) {
+  const incomplete = validateForm(form, readForm(form)).length > 0;
+  $(".btn-send", form).classList.toggle("incomplete", incomplete);
 }
 
 function flagErrors(errors) {
@@ -168,45 +188,47 @@ function flagErrors(errors) {
   }
 }
 
-signupForm.addEventListener("input", (e) => {
-  e.target.classList.remove("invalid");
-  if (e.target.name === "password") updatePwRules();
-  updateSendButton();
-});
-signupForm.addEventListener("change", updateSendButton);
-
-// Email field: show a hint as soon as a different domain is typed
-signupForm.elements.email.addEventListener("blur", (e) => {
-  const v = e.target.value.trim();
-  if (v && !EMAIL_RE.test(v)) { e.target.classList.add("invalid"); toast(`Only institutional e-mails are accepted (…@${EMAIL_DOMAIN}).`, "error"); }
-});
-
 // ------------------------------------------------------------
-//  Create account
+//  Create account (students and teachers)
 // ------------------------------------------------------------
-signupForm.addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const data = readSignup();
-  const errors = validateSignup(data);
-  flagErrors(errors);
-  if (errors.length) return;
+[signupForm, teacherForm].forEach((form) => {
+  form.addEventListener("input", (e) => {
+    e.target.classList.remove("invalid");
+    if (e.target.name === "password") updatePwRules(form);
+    updateSendButton(form);
+  });
+  form.addEventListener("change", () => updateSendButton(form));
 
-  const btn = $(".btn-send");
-  btn.disabled = true; btn.textContent = "Sending…";
-  try {
-    await backendReady;
-    const res = await backend.signUp(data);
-    $("#sentEmail").textContent = data.email;
-    signupForm.reset(); updatePwRules();
-    showPanel(sentPanel);
-    toast("Account created! Check your e-mail.", "success");
-    if (res && res.demoLink) openDemoInbox(res);
-  } catch (err) {
-    if (err.code === "auth/email-already-in-use") flagErrors([[signupForm.elements.email, err.message]]);
-    else toast(err.message, "error", 6000);
-  } finally {
-    btn.disabled = false; btn.textContent = "Send verification e-mail";
-  }
+  // Email field: show a hint as soon as a different domain is typed
+  form.elements.email.addEventListener("blur", (e) => {
+    const v = e.target.value.trim();
+    if (v && !EMAIL_RE.test(v)) { e.target.classList.add("invalid"); toast(`Only institutional e-mails are accepted (…@${EMAIL_DOMAIN}).`, "error"); }
+  });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const data = readForm(form);
+    const errors = validateForm(form, data);
+    flagErrors(errors);
+    if (errors.length) return;
+
+    const btn = $(".btn-send", form);
+    btn.disabled = true; btn.textContent = "Sending…";
+    try {
+      await backendReady;
+      const res = await backend.signUp(data);
+      $("#sentEmail").textContent = data.email;
+      form.reset(); updatePwRules(form);
+      showPanel(sentPanel);
+      toast("Account created! Check your e-mail.", "success");
+      if (res && res.demoLink) openDemoInbox(res);
+    } catch (err) {
+      if (err.code === "auth/email-already-in-use") flagErrors([[form.elements.email, err.message]]);
+      else toast(err.message, "error", 6000);
+    } finally {
+      btn.disabled = false; btn.textContent = "Send verification e-mail";
+    }
+  });
 });
 
 // ------------------------------------------------------------
@@ -231,7 +253,9 @@ loginForm.addEventListener("submit", async (e) => {
     const profile = await backend.signIn(schoolId, password);
     $("[data-action='resend']").hidden = true;
     loginForm.reset();
-    openDiagnostic(profile);
+    showPanel(null);
+    if (profile.role === "teacher") teacherArea.open(profile);
+    else openDiagnostic(profile);
   } catch (err) {
     if (err.code === "not-verified") {
       $("[data-action='resend']").hidden = false;
@@ -245,10 +269,9 @@ loginForm.addEventListener("submit", async (e) => {
 });
 
 // ------------------------------------------------------------
-//  Diagnostic screen
+//  Diagnostic screen (students)
 // ------------------------------------------------------------
 function openDiagnostic(profile) {
-  showPanel(null);
   $("#diagHello").textContent = profile.firstName ? `Welcome, ${profile.firstName}!` : "Welcome!";
   $("#diagUser").textContent = `School ID: ${profile.schoolId || ""}`;
   $(".btn-diag").innerHTML = profile.isNew ? "TAKE<br>DIAGNOSTIC TEST" : "CONTINUE<br>PRACTICING";
@@ -260,6 +283,7 @@ async function logout() {
   await backend?.signOut();
   diag.classList.remove("show");
   diag.setAttribute("aria-hidden", "true");
+  teacherArea?.close();
   document.body.classList.remove("is-diag");
   await wait(400);
   goHome();
@@ -292,7 +316,8 @@ document.addEventListener("click", async (e) => {
   }
 
   switch (t.dataset.action) {
-    case "signup": if (stage.dataset.state === "home") goSignup(); break;
+    case "signup": if (stage.dataset.state === "home") goSignup("student"); break;
+    case "tsignup": if (stage.dataset.state === "home") goSignup("teacher"); break;
     case "login": if (stage.dataset.state === "home") goLogin(); break;
     case "back": goHome(); break;
     case "to-signup": switchTo("signup"); break;
@@ -324,7 +349,7 @@ document.addEventListener("click", async (e) => {
 addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     if (!$("#demoInbox").hidden) $("#demoInbox").hidden = true;
-    else if (["signup", "login"].includes(stage.dataset.state)) goHome();
+    else if (["signup", "tsignup", "login"].includes(stage.dataset.state)) goHome();
   }
 });
 

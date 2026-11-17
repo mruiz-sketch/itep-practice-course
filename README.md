@@ -11,14 +11,22 @@ Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS 
 5. **Enlace del correo**: regresa a la app y abre LOG IN con la matrícula ya escrita.
 6. **Log in**: matrícula + contraseña. Si la cuenta es nueva, va a TAKE DIAGNOSTIC TEST.
 
+## Docentes
+
+1. En la pantalla inicial: **ARE YOU A TEACHER?** → nombre, apellido, correo institucional y contraseña → correo de verificación.
+2. Al entrar por primera vez: **In which quarters are you teaching?** (0 · Immersion a 9th) → **Write the groups you teach** (por cuatrimestre).
+3. Se crean las carpetas por cuatrimestre y, dentro, un curso por grupo. Cada curso tiene la pestaña **Students**: alumnos en orden alfabético (apellido) con correo, matrícula y resultado del diagnóstico. Un alumno aparece en el curso cuando su cuatrimestre y su grupo coinciden (no importan mayúsculas, espacios ni guiones: `iaev 31` = `IAEV-31`).
+4. **Aprobación:** un docente nuevo ve sus carpetas y cursos, pero **no ve alumnos** hasta que la administradora lo aprueba: Firebase console → Firestore → `users` → documento del docente → campo `approved` → `true`.
+
 ## Base de datos (Firestore → colección `users`)
 
 | Campo | Ejemplo |
 |---|---|
 | firstName | Ana |
 | lastName | López Pérez |
+| role | student / teacher |
 | quarter | 0 (Immersion) a 9 |
-| group | IAEV-31 |
+| group / groupKey | IAEV-31 / IAEV31 |
 | email | 022000123@upsrj.edu.mx |
 | schoolId (matrícula) | 022000123 |
 | emailVerified | true / false |
@@ -55,6 +63,7 @@ index.html             pantallas
 css/styles.css         estilo y animaciones (lienzo 1366×768; versión vertical para celular)
 js/app.js              navegación, animaciones y validaciones
 js/backend.js          Firebase (o modo demo)
+js/teacher.js          área docente: cuatrimestres, grupos, carpetas, cursos y lista de alumnos
 js/firebase-config.js  ← aquí va tu configuración de Firebase
 firestore.rules        reglas de seguridad de la base de datos
 assets/  fonts/        logos y tipografía Poppins

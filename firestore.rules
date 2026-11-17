@@ -2,29 +2,45 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // users/{uid}: one document per student account.
-    // Fields: firstName, lastName, quarter, group, email, schoolId,
-    //         role, emailVerified, diagnosticCompleted, createdAt, lastLogin
+    function signedIn() { return request.auth != null; }
+    function institutional() { return request.auth.token.email.matches('.*@upsrj[.]edu[.]mx$'); }
+    function me() { return get(/databases/$(database)/documents/users/$(request.auth.uid)).data; }
+
+    // A teacher sees students only after the administrator sets approved = true
+    // on the teacher's document (Firebase console > Firestore > users).
+    function isApprovedTeacher() {
+      return signedIn() && request.auth.token.email_verified == true
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && me().role == 'teacher' && me().approved == true;
+    }
+
+    // users/{uid}: one document per account (role: 'student' or 'teacher').
     match /users/{uid} {
-      function isOwner() { return request.auth != null && request.auth.uid == uid; }
-      function institutional() { return request.auth.token.email.matches('.*@upsrj[.]edu[.]mx$'); }
+      function isOwner() { return signedIn() && request.auth.uid == uid; }
+      function d() { return request.resource.data; }
+      function baseOk() {
+        return isOwner() && institutional()
+          && d().email == request.auth.token.email
+          && d().schoolId == request.auth.token.email.split('@')[0]
+          && d().firstName is string && d().firstName.size() > 0
+          && d().lastName is string && d().lastName.size() > 0;
+      }
 
-      allow read: if isOwner();
+      allow read: if isOwner() || (isApprovedTeacher() && resource.data.role == 'student');
 
-      allow create: if isOwner()
-        && institutional()
-        && request.resource.data.email == request.auth.token.email
-        && request.resource.data.schoolId == request.auth.token.email.split('@')[0]
-        && request.resource.data.role == 'student'
-        && request.resource.data.firstName is string && request.resource.data.firstName.size() > 0
-        && request.resource.data.lastName  is string && request.resource.data.lastName.size()  > 0
-        && request.resource.data.group     is string && request.resource.data.group.size()     > 0
-        && request.resource.data.quarter   is int    && request.resource.data.quarter >= 0 && request.resource.data.quarter <= 9;
+      allow create: if baseOk() && (
+        (d().role == 'student'
+          && d().group is string && d().group.size() > 0
+          && d().quarter is int && d().quarter >= 0 && d().quarter <= 9)
+        || (d().role == 'teacher' && d().approved == false)
+      );
 
-      // Students may only update these fields of their own document.
-      allow update: if isOwner()
-        && request.resource.data.diff(resource.data).affectedKeys()
-             .hasOnly(['emailVerified', 'lastLogin', 'diagnosticCompleted']);
+      allow update: if isOwner() && (
+        (resource.data.role == 'student'
+          && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'diagnosticCompleted']))
+        || (resource.data.role == 'teacher'
+          && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'quarters', 'groups', 'setupComplete']))
+      );
 
       allow delete: if false;
     }
