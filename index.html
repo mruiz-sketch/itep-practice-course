@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <title>iTEP Practice Course · Politécnica Santa Rosa</title>
+  <meta name="description" content="iTEP Practice Course — Universidad Politécnica de Santa Rosa Jáuregui · OBLT" />
+  <meta name="theme-color" content="#1c4593" />
+  <link rel="icon" type="image/png" href="assets/itep-blue.png" />
+  <link rel="preload" href="fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="viewport">
+    <main id="stage" data-state="s0" aria-live="polite">
+      <div class="frame" aria-hidden="true"></div>
+
+      <!-- Brand logos (always visible on the blue screens) -->
+      <img class="brand upsrj" src="assets/upsrj.png" alt="Politécnica Santa Rosa" />
+      <img class="brand oblt" src="assets/oblt-white.png" alt="OBLT" />
+
+      <!-- Back button (create account / log in) -->
+      <button class="btn-back" type="button" data-action="back" aria-label="Back">
+        <span aria-hidden="true">←</span> Back
+      </button>
+
+      <!-- Animated actors -->
+      <h1 class="actor txt txt-welcome">WELCOME TO</h1>
+      <img class="actor logo" src="assets/itep-white.png" alt="iTEP — International Test of English Proficiency" />
+      <h1 class="actor txt txt-practice">PRACTICE COURSE</h1>
+
+      <button class="actor btn-main btn-create" type="button" data-action="signup">CREATE ACCOUNT</button>
+      <button class="actor btn-main btn-login" type="button" data-action="login">LOG IN</button>
+
+      <!-- CREATE ACCOUNT form -->
+      <form id="signupForm" class="panel form form-signup" novalidate autocomplete="on">
+        <div class="row">
+          <label for="su-first">First Name<span class="req">*</span>:</label>
+          <input id="su-first" name="firstName" type="text" autocomplete="given-name" maxlength="60" required />
+        </div>
+        <div class="row">
+          <label for="su-last">Last Name<span class="req">*</span>:</label>
+          <input id="su-last" name="lastName" type="text" autocomplete="family-name" maxlength="80" required />
+        </div>
+        <div class="row">
+          <label for="su-email">e-mail<span class="req">*</span>:</label>
+          <input id="su-email" name="email" type="email" autocomplete="email" placeholder="schoolid@upsrj.edu.mx" maxlength="80" required />
+        </div>
+        <div class="row split">
+          <label for="su-quarter">Quarter<span class="req">*</span>:</label>
+          <select id="su-quarter" name="quarter" required>
+            <option value="" selected disabled hidden></option>
+            <option value="1">1st</option><option value="2">2nd</option><option value="3">3rd</option>
+            <option value="4">4th</option><option value="5">5th</option><option value="6">6th</option>
+            <option value="7">7th</option><option value="8">8th</option><option value="9">9th</option>
+            <option value="10">10th</option>
+          </select>
+          <label for="su-group" class="lbl-group">Group<span class="req">*</span>:</label>
+          <input id="su-group" name="group" type="text" maxlength="12" autocomplete="off" required />
+        </div>
+        <div class="row">
+          <label for="su-pass">Password<span class="req">*</span>:</label>
+          <div class="pw-wrap">
+            <input id="su-pass" name="password" type="password" autocomplete="new-password" maxlength="64" required />
+            <button type="button" class="eye" data-toggle="su-pass" aria-label="Show password">SHOW</button>
+          </div>
+        </div>
+        <ul class="pw-rules" aria-label="Password requirements">
+          <li data-rule="len">8+ characters</li>
+          <li data-rule="upper">Uppercase</li>
+          <li data-rule="lower">Lowercase</li>
+          <li data-rule="digit">Number</li>
+          <li data-rule="symbol">Symbol</li>
+        </ul>
+        <button type="submit" class="btn-outline btn-send">Send verification e-mail</button>
+        <p class="legend"><span class="req">*</span> All fields marked with an asterisk are required.</p>
+      </form>
+
+      <!-- "Check your inbox" panel -->
+      <section id="sentPanel" class="panel sent">
+        <p class="sent-title">CHECK YOUR INBOX</p>
+        <p class="sent-text">We sent a verification e-mail to<br /><strong id="sentEmail">—</strong></p>
+        <p class="sent-text small">Open it and click <em>Verify e-mail</em>. You will come back here to log in.</p>
+        <button type="button" class="btn-outline" data-action="login-from-sent">Go to Log In</button>
+      </section>
+
+      <!-- LOG IN form -->
+      <form id="loginForm" class="panel form form-login" novalidate autocomplete="on">
+        <div class="row">
+          <label for="li-id">School ID:</label>
+          <input id="li-id" name="schoolId" type="text" autocomplete="username" autocapitalize="off" spellcheck="false" maxlength="80" required />
+        </div>
+        <div class="row">
+          <label for="li-pass">Password:</label>
+          <div class="pw-wrap">
+            <input id="li-pass" name="password" type="password" autocomplete="current-password" maxlength="64" required />
+            <button type="button" class="eye" data-toggle="li-pass" aria-label="Show password">SHOW</button>
+          </div>
+        </div>
+        <button type="submit" class="btn-outline btn-dologin">Log In</button>
+        <p class="links">
+          <button type="button" class="link" data-action="forgot">Forgot your password?</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" class="link" data-action="resend" hidden>Resend verification e-mail</button>
+          <button type="button" class="link" data-action="to-signup">Create an account</button>
+        </p>
+      </form>
+
+      <!-- DIAGNOSTIC screen -->
+      <section id="diag" class="diag" aria-hidden="true">
+        <div class="frame frame-diag" aria-hidden="true"></div>
+        <img class="diag-itep" src="assets/itep-blue.png" alt="iTEP" />
+        <img class="diag-oblt" src="assets/oblt-orange.png" alt="OBLT" />
+        <p class="diag-hello" id="diagHello"></p>
+        <button type="button" class="btn-diag" data-action="start-diagnostic">TAKE<br />DIAGNOSTIC TEST</button>
+        <p class="diag-foot">
+          <span id="diagUser"></span>
+          <button type="button" class="link link-blue" data-action="logout">Log out</button>
+        </p>
+      </section>
+
+      <!-- Demo inbox (only in demo mode) -->
+      <section id="demoInbox" class="demo-inbox" hidden>
+        <div class="mail">
+          <p class="mail-meta">DEMO INBOX · simulated e-mail to <strong id="demoTo"></strong></p>
+          <div class="mail-head"><img src="assets/itep-white.png" alt="iTEP" /></div>
+          <div class="mail-body">
+            <p class="mail-title">WELCOME TO THE iTEP PRACTICE COURSE</p>
+            <p>Hi <strong id="demoName"></strong>,</p>
+            <p>Your account is almost ready. Please confirm your institutional e-mail to start practicing.</p>
+            <a class="mail-btn" id="demoLink" href="#">Verify e-mail</a>
+            <p class="mail-small">Politécnica Santa Rosa · OBLT</p>
+          </div>
+          <button type="button" class="link" data-action="close-demo">Close</button>
+        </div>
+      </section>
+
+      <div id="toast" role="status"></div>
+      <div id="demoBadge" hidden>DEMO MODE · data is saved only in this browser</div>
+    </main>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
