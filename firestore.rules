@@ -19,7 +19,7 @@ service cloud.firestore {
         && request.resource.data.firstName is string && request.resource.data.firstName.size() > 0
         && request.resource.data.lastName  is string && request.resource.data.lastName.size()  > 0
         && request.resource.data.group     is string && request.resource.data.group.size()     > 0
-        && request.resource.data.quarter   is int    && request.resource.data.quarter >= 1 && request.resource.data.quarter <= 10;
+        && request.resource.data.quarter   is int    && request.resource.data.quarter >= 0 && request.resource.data.quarter <= 9;
 
       // Students may only update these fields of their own document.
       allow update: if isOwner()

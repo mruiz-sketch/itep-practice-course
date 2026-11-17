@@ -17,7 +17,7 @@ Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS 
 |---|---|
 | firstName | Ana |
 | lastName | López Pérez |
-| quarter | 3 |
+| quarter | 0 (Immersion) a 9 |
 | group | IAEV-31 |
 | email | 022000123@upsrj.edu.mx |
 | schoolId (matrícula) | 022000123 |
