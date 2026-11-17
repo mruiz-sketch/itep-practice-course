@@ -36,7 +36,11 @@
       <!-- TEACHERS CODE (gate before the teacher's Create account / Log in) -->
       <form id="codeForm" class="panel code-form" novalidate autocomplete="off">
         <label for="t-code" class="code-label">ENTER TEACHERS CODE</label>
-        <input id="t-code" name="code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="24" placeholder="XXXX-XXXX-XXXXXX" />
+        <div class="code-box">
+          <input id="t-code" name="code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="16" aria-label="Teachers code" />
+          <div class="code-display" id="codeDisplay" aria-hidden="true"></div>
+          <button type="button" class="eye" data-toggle-code aria-label="Show code">SHOW</button>
+        </div>
         <button type="submit" class="btn-outline">Continue</button>
       </form>
 

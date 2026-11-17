@@ -136,7 +136,32 @@ async function sha256(text) {
   const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
   return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
-codeForm.addEventListener("input", (e) => e.target.classList.remove("invalid"));
+// Code field: dashes already in place, empty slots shown, hidden like a password
+const codeInput = $("#t-code");
+let codeVisible = false;
+function renderCode() {
+  const v = normCode(codeInput.value).slice(0, 14);
+  if (codeInput.value !== v) codeInput.value = v;
+  let html = "";
+  for (let i = 0; i < 14; i++) {
+    if (i === 4 || i === 8) html += `<span class="dash">-</span>`;
+    const ch = v[i];
+    const cls = ch ? "" : "slot-empty";
+    const cur = i === v.length ? " cur" : "";
+    html += `<span class="${cls}${cur}">${ch ? (codeVisible ? ch : "•") : ""}</span>`;
+  }
+  $("#codeDisplay").innerHTML = html;
+}
+codeInput.addEventListener("input", () => { codeInput.classList.remove("invalid"); renderCode(); });
+codeInput.addEventListener("keydown", () => requestAnimationFrame(renderCode));
+$("[data-toggle-code]").addEventListener("click", (e) => {
+  codeVisible = !codeVisible;
+  e.currentTarget.textContent = codeVisible ? "HIDE" : "SHOW";
+  e.currentTarget.setAttribute("aria-label", codeVisible ? "Hide code" : "Show code");
+  renderCode();
+  codeInput.focus({ preventScroll: true });
+});
+renderCode();
 codeForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   const input = $("#t-code");
@@ -147,7 +172,7 @@ codeForm.addEventListener("submit", async (e) => {
     return;
   }
   teacherCode = `${n.slice(0, 4)}-${n.slice(4, 8)}-${n.slice(8)}`;
-  input.value = "";
+  input.value = ""; renderCode();
   showPanel(null);
   await wait(350);
   stage.classList.add("code-ok");
