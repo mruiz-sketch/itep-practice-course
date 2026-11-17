@@ -36,11 +36,11 @@ const MESSAGES = {
 };
 const wrap = (e) => (e instanceof AppError ? e : new AppError(e.code || "unknown", MESSAGES[e.code] || "Something went wrong. Please try again."));
 
-function newProfile({ firstName, lastName, email, quarter, group, role }) {
+function newProfile({ firstName, lastName, email, quarter, group, role, teacherCode }) {
   const schoolId = toSchoolId(email);
   const base = { firstName, lastName, email, schoolId, role, emailVerified: false };
   return role === "teacher"
-    ? { ...base, approved: false, setupComplete: false, quarters: [], groups: {} }
+    ? { ...base, teacherCode, approved: false, setupComplete: false, quarters: [], groups: {} }
     : { ...base, quarter: Number(quarter), group, groupKey: groupKey(group), diagnosticCompleted: false };
 }
 

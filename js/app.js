@@ -14,6 +14,7 @@ const signupForm = $("#signupForm");
 const teacherForm = $("#teacherForm");
 const loginForm = $("#loginForm");
 const sentPanel = $("#sentPanel");
+const codeForm = $("#codeForm");
 const diag = $("#diag");
 const toastEl = $("#toast");
 
@@ -56,7 +57,7 @@ function jumpTo(s) {
   requestAnimationFrame(() => stage.classList.remove("no-anim"));
 }
 function showPanel(panel) {
-  [signupForm, teacherForm, loginForm, sentPanel].forEach((p) => p.classList.toggle("show", p === panel));
+  [signupForm, teacherForm, loginForm, sentPanel, codeForm].forEach((p) => p.classList.toggle("show", p === panel));
 }
 // Cross-fade the text of a morphing button
 async function setLabel(sel, text) {
@@ -111,12 +112,47 @@ async function goTeacherHome() {
   const fromForm = stage.dataset.state !== "home";
   showPanel(null);
   if (fromForm) await wait(250);
+  stage.classList.toggle("code-ok", Boolean(teacherCode));
   setState("thome");
   setTeacherLabel("ARE YOU A TEACHER?");
   setLabel(".btn-login", "LOG IN");
   await wait(700);
   busy = false;
+  if (!teacherCode) {
+    showPanel(codeForm);
+    setTimeout(() => $("#t-code").focus({ preventScroll: true }), 300);
+  }
 }
+
+// ------------------------------------------------------------
+//  Teachers code: only people with the code can reach the
+//  teacher's Create account / Log in. (Firestore rules also
+//  require it to create a teacher account.)
+// ------------------------------------------------------------
+const CODE_HASH = "d16c14f32ace74df4c7785aaae0b635ec7db6004dc1acb08c269e4b5c6351e19";
+let teacherCode = null;
+const normCode = (v) => v.toUpperCase().replace(/[^A-Z0-9]/g, "");
+async function sha256(text) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+codeForm.addEventListener("input", (e) => e.target.classList.remove("invalid"));
+codeForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const input = $("#t-code");
+  const n = normCode(input.value);
+  if (!n) { flagErrors([[input, "Please enter the teachers code."]]); return; }
+  if ((await sha256(n)) !== CODE_HASH) {
+    flagErrors([[input, "That code is not correct. Please check it and try again."]]);
+    return;
+  }
+  teacherCode = `${n.slice(0, 4)}-${n.slice(4, 8)}-${n.slice(8)}`;
+  input.value = "";
+  showPanel(null);
+  await wait(350);
+  stage.classList.add("code-ok");
+});
+
 async function switchTo(target, teacher = isTeacherState()) {
   // signup <-> login passes through the (teacher) home so the buttons morph back
   if (teacher) { await goTeacherHome(); target === "signup" ? goSignup("teacher") : goLogin({ teacher: true }); }
@@ -160,6 +196,7 @@ function readForm(form) {
   const f = form.elements;
   const d = {
     role: form === teacherForm ? "teacher" : "student",
+    ...(form === teacherForm ? { teacherCode } : {}),
     firstName: f.firstName.value.trim().replace(/\s+/g, " "),
     lastName: f.lastName.value.trim().replace(/\s+/g, " "),
     email: f.email.value.trim().toLowerCase(),

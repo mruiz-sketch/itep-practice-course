@@ -13,7 +13,7 @@ Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS 
 
 ## Docentes
 
-1. En la pantalla inicial: **ARE YOU A TEACHER?** abre la entrada de docentes, con su propio **CREATE ACCOUNT** (nombre, apellido, correo institucional y contraseña → correo de verificación) y su propio **LOG IN**.
+1. En la pantalla inicial: **ARE YOU A TEACHER?** pide el **teachers code** (lo da la administradora; la regla de Firestore también lo exige, y en este repositorio aparece como `TEACHER_CODE_HERE` porque es público). Con el código correcto aparecen su propio **CREATE ACCOUNT** (nombre, apellido, correo institucional y contraseña → correo de verificación) y su propio **LOG IN**.
 2. Al entrar por primera vez: **In which quarters are you teaching?** (0 · Immersion a 9th) → **Write the groups you teach** (por cuatrimestre).
 3. Se crean las carpetas por cuatrimestre y, dentro, un curso por grupo. Cada curso tiene la pestaña **Students**: alumnos en orden alfabético (apellido) con correo, matrícula y resultado del diagnóstico. Un alumno aparece en el curso cuando su cuatrimestre y su grupo coinciden (no importan mayúsculas, espacios ni guiones: `iaev 31` = `IAEV-31`).
 4. **Aprobación:** un docente nuevo ve sus carpetas y cursos, pero **no ve alumnos** hasta que la administradora lo aprueba: Firebase console → Firestore → `users` → documento del docente → campo `approved` → `true`.

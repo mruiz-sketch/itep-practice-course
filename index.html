@@ -33,6 +33,13 @@
       <button class="actor btn-main btn-login" type="button" data-action="login"><span class="lbl">LOG IN</span></button>
       <button class="actor btn-teacher" type="button" data-action="tsignup"><span class="lbl">ARE YOU A TEACHER?</span></button>
 
+      <!-- TEACHERS CODE (gate before the teacher's Create account / Log in) -->
+      <form id="codeForm" class="panel code-form" novalidate autocomplete="off">
+        <label for="t-code" class="code-label">ENTER TEACHERS CODE</label>
+        <input id="t-code" name="code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="24" placeholder="XXXX-XXXX-XXXXXX" />
+        <button type="submit" class="btn-outline">Continue</button>
+      </form>
+
       <!-- CREATE ACCOUNT form -->
       <form id="signupForm" class="panel form form-signup" novalidate autocomplete="on">
         <div class="row">

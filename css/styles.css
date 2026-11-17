@@ -590,3 +590,16 @@ body.is-diag #demoBadge { color: rgba(28, 69, 147, .55); }
 
 .portrait[data-state="thome"] .logo { top: 250px; width: 360px; }
 .portrait[data-state="thome"] .btn-teacher { left: 84px; top: 620px; width: 600px; height: 60px; font-size: 42px; }
+
+/* ---------- Teachers code ---------- */
+.code-form { left: 433px; width: 500px; top: 428px; text-align: center; }
+.code-label { display: block; font-size: 20px; letter-spacing: .14em; color: var(--gray); margin-bottom: 16px; }
+.code-form input { height: 54px; font-size: 22px; text-align: center; letter-spacing: .12em; text-transform: uppercase; padding: 0 24px; }
+.code-form input::placeholder { letter-spacing: .12em; }
+.code-form .btn-outline { width: 300px; margin-top: 26px; }
+[data-state="thome"]:not(.code-ok) .btn-main { opacity: 0; pointer-events: none; transition-duration: .4s; }
+
+.portrait .code-form { left: 109px; width: 550px; top: 740px; }
+.portrait .code-label { font-size: 26px; }
+.portrait .code-form input { height: 70px; font-size: 28px; }
+.portrait .code-form .btn-outline { width: 380px; }
