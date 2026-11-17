@@ -101,8 +101,8 @@ button, input, select { font-family: inherit; }
 #stage:not([data-state="s0"]):not([data-state="s1"]) .txt-practice { translate: 0 -124px; opacity: 0; pointer-events: none; }
 [data-state="s2"] .logo, [data-state="home"] .logo { top: 152px; }
 [data-state="signup"] .logo { top: 108px; width: 232px; }
-[data-state="login"]  .logo { top: 118px; width: 232px; }
-[data-state="signup"] .txt, [data-state="login"] .txt { transition-duration: .3s; }
+:is([data-state="login"], [data-state="tlogin"])  .logo { top: 118px; width: 232px; }
+[data-state="signup"] .txt, :is([data-state="login"], [data-state="tlogin"]) .txt { transition-duration: .3s; }
 
 /* ---------- Main buttons (become titles) ---------- */
 .btn-main {
@@ -130,13 +130,13 @@ button, input, select { font-family: inherit; }
   background-color: rgba(200, 209, 217, 0); border-color: rgba(200, 209, 217, 0); color: #fff;
   opacity: 1; cursor: default;
 }
-[data-state="login"] .btn-login {
+:is([data-state="login"], [data-state="tlogin"]) .btn-login {
   left: 483px; top: 300px; width: 400px; height: 44px;
   border-color: rgba(255, 255, 255, 0); color: #fff;
   opacity: 1; cursor: default;
 }
 [data-state="signup"] .btn-login,
-[data-state="login"] .btn-create { opacity: 0; transition-duration: .4s; }
+:is([data-state="login"], [data-state="tlogin"]) .btn-create { opacity: 0; transition-duration: .4s; }
 
 /* ---------- Back ---------- */
 .btn-back {
@@ -147,7 +147,7 @@ button, input, select { font-family: inherit; }
   transition: opacity .5s ease, color .2s;
 }
 .btn-back:hover { color: #fff; }
-[data-state="signup"] .btn-back, [data-state="login"] .btn-back { opacity: 1; pointer-events: auto; transition-delay: .6s; }
+[data-state="signup"] .btn-back, :is([data-state="login"], [data-state="tlogin"]) .btn-back { opacity: 1; pointer-events: auto; transition-delay: .6s; }
 .portrait .btn-back { left: 60px; top: 132px; font-size: 22px; }
 
 /* ---------- Panels (forms) ---------- */
@@ -351,7 +351,7 @@ body.is-diag #demoBadge { color: rgba(28, 69, 147, .55); }
 .portrait .logo { top: 470px; width: 440px; }
 .portrait[data-state="s2"] .logo, .portrait[data-state="home"] .logo { top: 300px; }
 .portrait[data-state="signup"] .logo { top: 170px; width: 260px; }
-.portrait[data-state="login"]  .logo { top: 250px; width: 300px; }
+.portrait:is([data-state="login"], [data-state="tlogin"])  .logo { top: 250px; width: 300px; }
 #stage.portrait:not([data-state="s0"]):not([data-state="s1"]) .txt-welcome,
 #stage.portrait:not([data-state="s0"]):not([data-state="s1"]) .txt-practice { translate: 0 -170px; }
 
@@ -359,7 +359,7 @@ body.is-diag #demoBadge { color: rgba(28, 69, 147, .55); }
 .portrait .btn-create { top: 800px; }
 .portrait .btn-login  { top: 940px; }
 .portrait[data-state="signup"] .btn-create { left: 134px; top: 345px; width: 500px; height: 60px; font-size: 42px; }
-.portrait[data-state="login"]  .btn-login  { left: 134px; top: 470px; width: 500px; height: 60px; font-size: 42px; }
+.portrait:is([data-state="login"], [data-state="tlogin"])  .btn-login  { left: 134px; top: 470px; width: 500px; height: 60px; font-size: 42px; }
 
 .portrait .form { left: 94px; width: 580px; }
 .portrait .form-signup { top: 440px; }
@@ -418,7 +418,7 @@ body.is-diag #demoBadge { color: rgba(28, 69, 147, .55); }
 [data-state="home"] .btn-teacher { opacity: 1; pointer-events: auto; }
 [data-state="home"] .btn-teacher:hover { border-color: #fff; color: #fff; background-color: rgba(255, 255, 255, .08); }
 [data-state="signup"] .btn-teacher,
-[data-state="login"] .btn-teacher { opacity: 0; transition-duration: .4s; }
+:is([data-state="login"], [data-state="tlogin"]) .btn-teacher { opacity: 0; transition-duration: .4s; }
 [data-state="tsignup"] .btn-teacher {
   left: 383px; top: 273px; width: 600px; height: 44px;
   font-size: 34px; letter-spacing: 0;
@@ -570,3 +570,23 @@ body.is-diag #demoBadge { color: rgba(28, 69, 147, .55); }
 .portrait .crumbs { margin: 0 10px 22px; font-size: 22px; }
 .portrait .roster { font-size: 18px; }
 .portrait .roster .hide-sm { display: none; }
+
+/* ---------- Teacher home ("ARE YOU A TEACHER?" → its own CREATE ACCOUNT / LOG IN) ---------- */
+.btn-main .lbl { transition: opacity .25s ease; }
+.btn-main.swap .lbl { opacity: 0; }
+[data-state="thome"] .logo { top: 104px; width: 290px; }
+[data-state="thome"] .btn-teacher {
+  left: 383px; top: 352px; width: 600px; height: 44px;
+  font-size: 34px; letter-spacing: 0;
+  border-color: rgba(200, 209, 217, 0); color: #fff;
+  opacity: 1; cursor: default; pointer-events: none;
+}
+[data-state="thome"] .btn-main { opacity: 1; pointer-events: auto; }
+[data-state="thome"] .btn-main:hover { box-shadow: 0 10px 30px rgba(0, 0, 0, .28); translate: 0 -2px; }
+[data-state="thome"] .btn-create:hover { background-color: #fff; border-color: #fff; }
+[data-state="thome"] .btn-login:hover  { background-color: rgba(255, 255, 255, .08); }
+[data-state="thome"] .btn-back { opacity: 1; pointer-events: auto; transition-delay: .6s; }
+[data-state="thome"] .txt { transition-duration: .3s; }
+
+.portrait[data-state="thome"] .logo { top: 250px; width: 360px; }
+.portrait[data-state="thome"] .btn-teacher { left: 84px; top: 620px; width: 600px; height: 60px; font-size: 42px; }

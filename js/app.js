@@ -16,7 +16,6 @@ const loginForm = $("#loginForm");
 const sentPanel = $("#sentPanel");
 const diag = $("#diag");
 const toastEl = $("#toast");
-const teacherBtnLabel = $(".btn-teacher .lbl");
 
 let backend = null;
 let teacherArea = null;
@@ -59,14 +58,18 @@ function jumpTo(s) {
 function showPanel(panel) {
   [signupForm, teacherForm, loginForm, sentPanel].forEach((p) => p.classList.toggle("show", p === panel));
 }
-async function setTeacherLabel(text) {
-  const btn = $(".btn-teacher");
-  if (teacherBtnLabel.textContent === text) return;
+// Cross-fade the text of a morphing button
+async function setLabel(sel, text) {
+  const btn = $(sel), lbl = $(".lbl", btn);
+  if (lbl.textContent === text) return;
   btn.classList.add("swap");
   await wait(250);
-  teacherBtnLabel.textContent = text;
+  lbl.textContent = text;
   btn.classList.remove("swap");
 }
+const setTeacherLabel = (t) => setLabel(".btn-teacher", t);
+const isTeacherState = () => ["thome", "tsignup", "tlogin"].includes(stage.dataset.state);
+let lastSignupRole = "student";
 
 let busy = false;
 async function goSignup(role = "student") {
@@ -81,10 +84,11 @@ async function goSignup(role = "student") {
   busy = false;
   setTimeout(() => form.elements.firstName.focus({ preventScroll: true }), 300);
 }
-async function goLogin({ prefill } = {}) {
+async function goLogin({ prefill, teacher = false } = {}) {
   if (busy) return; busy = true;
   showPanel(null);
-  setState("login");
+  setLabel(".btn-login", teacher ? "TEACHER LOG IN" : "LOG IN");
+  setState(teacher ? "tlogin" : "login");
   await wait(650);
   showPanel(loginForm);
   if (prefill) $("#li-id").value = prefill;
@@ -97,13 +101,26 @@ async function goHome() {
   await wait(250);
   setState("home");
   setTeacherLabel("ARE YOU A TEACHER?");
+  setLabel(".btn-login", "LOG IN");
   await wait(700);
   busy = false;
 }
-async function switchTo(target) {
-  // signup <-> login passes through home so the buttons morph back
-  await goHome();
-  target === "signup" ? goSignup() : goLogin();
+// Teachers' own entrance: "ARE YOU A TEACHER?" becomes a title with CREATE ACCOUNT / LOG IN below
+async function goTeacherHome() {
+  if (busy) return; busy = true;
+  const fromForm = stage.dataset.state !== "home";
+  showPanel(null);
+  if (fromForm) await wait(250);
+  setState("thome");
+  setTeacherLabel("ARE YOU A TEACHER?");
+  setLabel(".btn-login", "LOG IN");
+  await wait(700);
+  busy = false;
+}
+async function switchTo(target, teacher = isTeacherState()) {
+  // signup <-> login passes through the (teacher) home so the buttons morph back
+  if (teacher) { await goTeacherHome(); target === "signup" ? goSignup("teacher") : goLogin({ teacher: true }); }
+  else { await goHome(); target === "signup" ? goSignup() : goLogin(); }
 }
 
 async function playIntro() {
@@ -217,6 +234,7 @@ function flagErrors(errors) {
     try {
       await backendReady;
       const res = await backend.signUp(data);
+      lastSignupRole = data.role;
       $("#sentEmail").textContent = data.email;
       form.reset(); updatePwRules(form);
       showPanel(sentPanel);
@@ -316,12 +334,18 @@ document.addEventListener("click", async (e) => {
   }
 
   switch (t.dataset.action) {
-    case "signup": if (stage.dataset.state === "home") goSignup("student"); break;
-    case "tsignup": if (stage.dataset.state === "home") goSignup("teacher"); break;
-    case "login": if (stage.dataset.state === "home") goLogin(); break;
-    case "back": goHome(); break;
+    case "signup":
+      if (stage.dataset.state === "home") goSignup("student");
+      else if (stage.dataset.state === "thome") goSignup("teacher");
+      break;
+    case "login":
+      if (stage.dataset.state === "home") goLogin();
+      else if (stage.dataset.state === "thome") goLogin({ teacher: true });
+      break;
+    case "tsignup": if (stage.dataset.state === "home") goTeacherHome(); break;
+    case "back": goBack(); break;
     case "to-signup": switchTo("signup"); break;
-    case "login-from-sent": switchTo("login"); break;
+    case "login-from-sent": switchTo("login", lastSignupRole === "teacher"); break;
     case "logout": logout(); break;
     case "close-demo": $("#demoInbox").hidden = true; break;
     case "start-diagnostic": toast("The diagnostic test is coming soon. Stay tuned!", "", 3500); break;
@@ -349,9 +373,13 @@ document.addEventListener("click", async (e) => {
 addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     if (!$("#demoInbox").hidden) $("#demoInbox").hidden = true;
-    else if (["signup", "tsignup", "login"].includes(stage.dataset.state)) goHome();
+    else if (["signup", "login", "thome", "tsignup", "tlogin"].includes(stage.dataset.state)) goBack();
   }
 });
+
+function goBack() {
+  ["tsignup", "tlogin"].includes(stage.dataset.state) ? goTeacherHome() : goHome();
+}
 
 // Student clicked the link in the verification e-mail
 async function returnFromEmail(oobCode, id) {
