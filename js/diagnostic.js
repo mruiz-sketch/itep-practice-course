@@ -94,6 +94,115 @@ const tts = (() => {
 })();
 
 // ------------------------------------------------------------
+//  Personalized study plan (built from the diagnostic result)
+// ------------------------------------------------------------
+const SEC_NAMES = { grammar: "Grammar", vocabulary: "Vocabulary", listening: "Listening", reading: "Reading" };
+const tier = (band) => (band < 2.5 ? 0 : band < 4.5 ? 1 : 2); // A1–A2 · B1–B2 · C1–C2
+
+// Activities by section and level tier. {skill} is replaced by a topic the student missed.
+const ACTIVITIES = {
+  grammar: [
+    ["Review {skill}: read a short explanation and write down 5 example sentences.",
+     "Do 10 practice exercises on {skill} and check your answers.",
+     "Write 5 sentences about your own day using {skill}.",
+     "Make a mini cheat sheet with the forms you keep forgetting."],
+    ["Study {skill}: compare correct and incorrect examples, then do 15 exercises.",
+     "Rewrite a short paragraph (80–100 words) using {skill} at least three times.",
+     "Find {skill} in a news article or song and copy 5 real examples.",
+     "Do a timed set of 20 mixed grammar questions; review every mistake."],
+    ["Analyze how {skill} is used in an authentic article; note 5 examples and why they work.",
+     "Write a formal paragraph (150 words) that uses {skill} accurately.",
+     "Transform 10 sentences into more formal or emphatic structures.",
+     "Do a timed set of 25 advanced grammar questions; explain each mistake to yourself."],
+  ],
+  vocabulary: [
+    ["Learn 10 new everyday words a day with flashcards (word + picture + example).",
+     "Practice {skill}: write each new word in a sentence about your life.",
+     "Label 15 objects in your house or classroom in English.",
+     "Review your flashcards every morning for 5 minutes."],
+    ["Keep a collocations notebook: 5 new collocations a day ({skill}).",
+     "Learn 8 phrasal verbs this week and use each one in a message or chat.",
+     "Read a short article and guess 5 new words from context before checking.",
+     "Practice word families: noun, verb, adjective and adverb of 10 words."],
+    ["Collect 10 advanced expressions a week from opinion articles ({skill}).",
+     "Practice formal vs. informal synonyms: rewrite 10 informal sentences formally.",
+     "Learn 5 idioms and their exact meaning; use them in a short text.",
+     "Review academic vocabulary (e.g. analyze, significant, evidence) with example sentences."],
+  ],
+  listening: [
+    ["Listen to a slow English podcast or video for 10 minutes; repeat key phrases.",
+     "Practice {skill}: listen for numbers, times, names and places in short dialogues.",
+     "Watch a short video with English subtitles, then again without them.",
+     "Listen to the same 2-minute audio three times and write what you understand."],
+    ["Watch a 5-minute video with English subtitles, then without; write the main idea.",
+     "Practice {skill}: pause after each speaker and predict what comes next.",
+     "Listen to announcements or voicemails and note the key details.",
+     "Do 10 listening questions a day and replay the ones you missed."],
+    ["Listen to a lecture or TED talk; take notes on the main idea and the speaker's attitude.",
+     "Practice {skill}: identify what speakers imply but don't say directly.",
+     "Listen to a podcast at normal speed and summarize it in 3 sentences.",
+     "Shadow a native speaker for 5 minutes (repeat along with the audio)."],
+  ],
+  reading: [
+    ["Read short messages, signs and notices; find specific details (times, prices, places).",
+     "Practice {skill}: answer 5 questions about a short text each day.",
+     "Read a graded reader (level A1–A2) for 10 minutes a day.",
+     "Underline every word you don't know and look up only the 5 most important."],
+    ["Read a 300-word news article a day; underline the main idea and one inference.",
+     "Practice {skill}: answer comprehension questions before reading the whole text.",
+     "Skim a text in 1 minute, then scan it for 3 specific details.",
+     "Summarize what you read in 2–3 sentences."],
+    ["Read academic or opinion texts; identify the author's purpose and tone.",
+     "Practice {skill}: explain the implied meaning of 3 sentences in each text.",
+     "Compare two articles on the same topic and note how their arguments differ.",
+     "Do timed reading sets (2 texts in 20 minutes) like the iTEP exam."],
+  ],
+};
+const WEEK4 = [
+  "Take a full mixed practice set (grammar, vocabulary, listening and reading) and compare it with your diagnostic.",
+  "Writing (iTEP): write a 150-word message or opinion text and check it with your teacher.",
+  "Speaking (iTEP): record yourself answering a question for 60 seconds; listen and improve it.",
+  "Review your notebook: the topics from \"What to practice next\" that still feel difficult.",
+];
+
+export function buildPlan(r) {
+  const secs = Object.entries(r.diagnosticSections || {}).map(([k, v]) => ({ key: k, name: SEC_NAMES[k] || k, level: v.level, band: Number(v.band) }));
+  secs.sort((a, b) => a.band - b.band); // weakest first
+  const practice = r.diagnosticPractice || {};
+  // one missed topic per activity, so each task is concrete
+  const fill = (text, key, i) => {
+    const skills = practice[key] || [];
+    return text.replace("{skill}", skills.length ? skills[i % skills.length] : "the topics you find hardest");
+  };
+  const tasks = (sec, n, offset = 0) => {
+    const list = ACTIVITIES[sec.key][tier(sec.band)];
+    let k = 0;
+    return Array.from({ length: n }, (_, i) => {
+      const t = list[(i + offset) % list.length];
+      return t.includes("{skill}") ? fill(t, sec.key, k++) : t;
+    });
+  };
+
+  // minutes per week (5 days × 30 min), more time for weaker sections
+  const total = 150;
+  const weights = secs.map((s) => Math.max(0.6, 6.5 - s.band));
+  const sum = weights.reduce((a, b) => a + b, 0);
+  const minutes = secs.map((s, i) => ({ ...s, min: Math.max(10, Math.round((weights[i] / sum) * total / 5) * 5) }));
+  minutes[0].min += total - minutes.reduce((a, m) => a + m.min, 0); // make the week add up to 150 min
+
+  const li = LEVELS.indexOf(r.diagnosticLevel);
+  const target = li >= 5 ? "keep your C2 level" : `reach ${LEVELS[li + 1]}`;
+  const [w1, w2, w3, w4] = [secs[0], secs[1], secs[2], secs[3]];
+  const weeks = [
+    { title: `Week 1 · ${w1.name}`, focus: `Your top priority (${w1.level}).`, items: tasks(w1, 3) },
+    { title: `Week 2 · ${w2.name}`, focus: `Your second priority (${w2.level}), plus 10 minutes a day of ${w1.name}.`, items: [...tasks(w2, 3), ...tasks(w1, 1, 3)] },
+    { title: `Week 3 · ${w3.name} + ${w4.name}`, focus: `Keep your stronger areas active (${w3.level} · ${w4.level}).`, items: [...tasks(w3, 2), ...tasks(w4, 2)] },
+    { title: "Week 4 · Review + iTEP Writing & Speaking", focus: "Put everything together and practice the parts the diagnostic didn't test.", items: WEEK4 },
+  ];
+  return { target, minutes, weeks };
+}
+
+// ------------------------------------------------------------
 //  Test controller
 // ------------------------------------------------------------
 export function createDiagnostic({ root, toast, onSave, onExit }) {
@@ -111,6 +220,7 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
     const done = state ? state.answers.length : 0;
     const total = SECTIONS.length * PER_SECTION;
     $("#xBar", root).style.width = `${(done / total) * 100}%`;
+    $(".x-progress", root).style.visibility = state ? "visible" : "hidden";
     $("#xStep", root).textContent = state && state.sec < SECTIONS.length ? `${SECTIONS[state.sec].name} · ${done} of ${total} answered` : "";
   }
 
@@ -289,7 +399,9 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
   }
 
   // ---------- Result ----------
+  let lastResult = null;
   function showResult(r, profile) {
+    lastResult = r;
     open();
     state = null; progress();
     const secs = SECTIONS.map((S) => {
@@ -309,7 +421,27 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
         ${r.diagnosticTotal ? `<p class="x-small">${r.diagnosticCorrect} of ${r.diagnosticTotal} correct</p>` : ""}</div>
       <div class="x-detail"><h3>By section</h3>${secs}
         ${practice ? `<h3>What to practice next</h3><ul class="x-practice">${practice}</ul>` : `<h3>Excellent work!</h3><p class="x-small">You answered every question correctly.</p>`}
-        <div class="t-actions left"><button type="button" class="btn-blue" data-x="exit">Done</button></div></div></div>`);
+        <div class="t-actions left"><button type="button" class="btn-blue" data-x="plan">See my study plan</button>
+        <button type="button" class="btn-blue ghost" data-x="exit">Done</button></div></div></div>`);
+  }
+
+  function showPlan(r) {
+    const plan = buildPlan(r);
+    const split = plan.minutes.map((m) => `<li><span>${esc(m.name)}</span><strong>${m.min} min</strong><em>${esc(m.level)}</em></li>`).join("");
+    const weeks = plan.weeks.map((w, i) => `<section class="p-week">
+        <p class="p-num">${i + 1}</p><h3>${esc(w.title)}</h3><p class="p-focus">${esc(w.focus)}</p>
+        <ul>${w.items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>`).join("");
+    render(`<div class="p-plan">
+      <div class="p-head">
+        <div><p class="t-kicker">PERSONALIZED STUDY PLAN · 4 WEEKS</p>
+          <h2 class="t-title">YOUR PLAN TO ${esc(plan.target.toUpperCase())}</h2>
+          <p class="x-note">Based on your diagnostic (${esc(r.diagnosticLevel)} · band ${Number(r.diagnosticScore).toFixed(1)}). Study about 30 minutes a day, 5 days a week. Your weakest areas get more time.</p></div>
+        <div class="p-split"><p class="p-split-t">Each week · 150 min</p><ul>${split}</ul></div>
+      </div>
+      <div class="p-weeks">${weeks}</div>
+      <div class="t-actions"><button type="button" class="btn-blue ghost" data-x="back-result">Back to my result</button>
+        <button type="button" class="btn-blue" data-x="exit">Done</button></div></div>`);
+    body.scrollTop = 0;
   }
 
   root.addEventListener("click", (e) => {
@@ -321,6 +453,8 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
       case "section-go": nextQuestion(); break;
       case "play": play(a); break;
       case "next": answer(); break;
+      case "plan": showPlan(lastResult); break;
+      case "back-result": showResult(lastResult); break;
       case "exit": close(); onExit(); break;
     }
   });

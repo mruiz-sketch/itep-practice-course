@@ -43,16 +43,32 @@ if (DEMO) $("#demoBadge").hidden = false;
 // ------------------------------------------------------------
 //  Fit the 16:9 artboard to any screen (portrait on phones)
 // ------------------------------------------------------------
+const viewport = $("#viewport");
+const sizer = document.createElement("div");
+sizer.className = "sizer";
+viewport.appendChild(sizer);
 function fit() {
   // Ignore the resize caused by the phone keyboard while typing
   const typing = /^(INPUT|SELECT)$/.test(document.activeElement?.tagName || "");
   if (typing && stage.style.transform) return;
   const w = innerWidth, h = innerHeight;
+  // Phones and tablets held upright use the vertical layout
   const portrait = h > w * 1.1;
   stage.classList.toggle("portrait", portrait);
-  const W = portrait ? 768 : 1366, H = portrait ? 1366 : 768;
-  const s = Math.min(w / W, h / H);
-  stage.style.transform = `scale(${s}) translate(-50%, -50%)`;
+  const W = portrait ? 768 : 1366, baseH = portrait ? 1366 : 768;
+  let s = Math.min(w / W, h / baseH);
+  let H = baseH;
+  // Phones held sideways are very short: fit the width and let the page scroll
+  const scroll = !portrait && h < 540 && w / W > s * 1.15;
+  if (scroll) s = w / W;
+  // Screens taller than the artboard: stretch it to fill the screen and keep
+  // the content centered (no empty bands above and below)
+  else if (w / h < W / baseH) { s = w / W; H = Math.round(h / s); }
+  stage.style.height = `${H}px`;
+  stage.style.setProperty("--dy", `${(H - baseH) / 2}px`);
+  viewport.classList.toggle("scroll", scroll);
+  sizer.style.height = scroll ? `${H * s}px` : "0";
+  stage.style.transform = scroll ? `scale(${s}) translate(-50%, 0)` : `scale(${s}) translate(-50%, -50%)`;
 }
 addEventListener("resize", fit);
 fit();
