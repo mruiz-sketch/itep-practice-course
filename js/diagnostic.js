@@ -4,7 +4,7 @@
 //  estimated level up or down; the next question is taken
 //  from that level. Result: CEFR level + iTEP-style band (1–6).
 // ============================================================
-import { buildPathway, renderPathway } from "./pathway.js";
+import { buildPathway, renderPathway, pathStats } from "./pathway.js";
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -422,14 +422,17 @@ export function createDiagnostic({ root, toast, onSave, onExit, getProgress = ()
         ${r.diagnosticTotal ? `<p class="x-small">${r.diagnosticCorrect} of ${r.diagnosticTotal} correct</p>` : ""}</div>
       <div class="x-detail"><h3>By section</h3>${secs}
         ${practice ? `<h3>What to practice next</h3><ul class="x-practice">${practice}</ul>` : `<h3>Excellent work!</h3><p class="x-small">You answered every question correctly.</p>`}
-        <div class="t-actions left"><button type="button" class="btn-blue" data-x="path">My learning path</button>
-        <button type="button" class="btn-blue ghost" data-x="plan">See my study plan</button>
+        <div class="t-actions left"><button type="button" class="btn-blue" data-x="plan">See my study plan</button>
+        <button type="button" class="btn-blue ghost" data-x="path">My learning path</button>
         <button type="button" class="btn-blue ghost" data-x="exit">Done</button></div></div></div>`);
   }
 
   function showPlan(r) {
     const plan = buildPlan(r);
     const path = buildPathway(r);
+    const st = path ? pathStats(path, getProgress() || {}) : null;
+    const beginLabel = !st ? "" : !st.next ? "SEE MY COMPLETED PLAN" : st.done ? `CONTINUE PLAN · LESSON ${st.nextIdx + 1}` : "BEGIN PLAN";
+    const beginBtn = path ? `<button type="button" class="btn-blue btn-begin" data-x="begin-plan">${beginLabel}</button>` : "";
     const split = plan.minutes.map((m) => `<li><span>${esc(m.name)}</span><strong>${m.min} min</strong><em>${esc(m.level)}</em></li>`).join("");
     const weeks = plan.weeks.map((w, i) => `<section class="p-week">
         <p class="p-num">${i + 1}</p><h3>${esc(w.title)}</h3><p class="p-focus">${esc(w.focus)}</p>
@@ -439,12 +442,13 @@ export function createDiagnostic({ root, toast, onSave, onExit, getProgress = ()
       <div class="p-head">
         <div><p class="t-kicker">PERSONALIZED STUDY PLAN · 4 WEEKS</p>
           <h2 class="t-title">YOUR PLAN TO ${esc(plan.target.toUpperCase())}</h2>
-          <p class="x-note">Based on your diagnostic (${esc(r.diagnosticLevel)} · band ${Number(r.diagnosticScore).toFixed(1)}). Study about 30 minutes a day, 5 days a week. Your weakest areas get more time.</p></div>
+          <p class="x-note">Based on your diagnostic (${esc(r.diagnosticLevel)} · band ${Number(r.diagnosticScore).toFixed(1)}). Study about 30 minutes a day, 5 days a week. Your weakest areas get more time.</p>
+          ${path ? `<div class="p-begin">${beginBtn}<span>${path.total} interactive lessons chosen for you, in this order · Week 1 starts with ${esc(path.lessons[0]?.title || "")}</span></div>` : ""}</div>
         <div class="p-split"><p class="p-split-t">Each week · 150 min</p><ul>${split}</ul></div>
       </div>
       <div class="p-weeks">${weeks}</div>
       <div class="t-actions"><button type="button" class="btn-blue ghost" data-x="back-result">Back to my result</button>
-        <button type="button" class="btn-blue" data-x="path">Start my lessons</button>
+        ${beginBtn}
         <button type="button" class="btn-blue ghost" data-x="exit">Done</button></div></div>`);
     body.scrollTop = 0;
   }
@@ -471,6 +475,14 @@ export function createDiagnostic({ root, toast, onSave, onExit, getProgress = ()
       case "next": answer(); break;
       case "plan": showPlan(lastResult); break;
       case "path": showPath(lastResult); break;
+      case "begin-plan": {
+        const path = buildPathway(lastResult);
+        if (!path) break;
+        const st = pathStats(path, getProgress() || {});
+        if (st.next) onLesson(st.next.id, path);
+        else showPath(lastResult);
+        break;
+      }
       case "back-result": showResult(lastResult); break;
       case "exit": close(); onExit(); break;
     }
