@@ -1,0 +1,70 @@
+{
+ "id": "c2-g04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Tense for modality and social distance",
+   "subtitle": "I was wondering… / Were you wanting…?",
+   "goals": [
+    "Use past and continuous forms for politeness.",
+    "Understand tentative meaning.",
+    "Sound sophisticated in requests."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Neutral",
+     "Distanced / tentative"
+    ],
+    "rows": [
+     [
+      "I want to ask you something.",
+      "I **was wanting** to ask you something."
+     ],
+     [
+      "Do you need anything?",
+      "**Did** you **need** anything?"
+     ],
+     [
+      "I hope you can help.",
+      "I **was hoping** you could help."
+     ],
+     [
+      "I wonder if…",
+      "I **was wondering** if…"
+     ],
+     [
+      "Will you be paying by card?",
+      "**Were** you **thinking** of paying by card?"
+     ]
+    ]
+   },
+   "tip": "The past here does not refer to past time; it creates **distance**, which sounds more polite."
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Most tentative:",
+     "options": [
+      "I was hoping you might review my draft.",
+      "Review my draft."
+     ],
+     "a": 0
+    },
+    {
+     "q": "A waiter, very polite:",
+     "options": [
+      "Did you want to see the dessert menu?",
+      "Do you want the dessert menu?"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

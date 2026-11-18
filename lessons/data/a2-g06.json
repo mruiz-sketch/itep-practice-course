@@ -1,0 +1,135 @@
+{
+ "id": "a2-g06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Present continuous for the future",
+   "subtitle": "Presente continuo con valor de futuro",
+   "goals": [
+    "Hablar de **citas y planes acordados**.",
+    "Distinguirlo de *going to*.",
+    "Preguntar *What are you doing tonight?*"
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Planes con fecha, hora o lugar",
+   "body": [
+    "El presente continuo habla del futuro cuando el plan está **organizado**: hay una hora, una cita, un boleto o alguien más involucrado."
+   ],
+   "table": {
+    "head": [
+     "Estructura",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "am / is / are + -ing + tiempo futuro",
+      "I'**m meeting** Ana **at 6**."
+     ],
+     [
+      "Pregunta",
+      "What **are** you **doing** tonight?"
+     ],
+     [
+      "Negativa",
+      "We **aren't going** to the party on Saturday."
+     ]
+    ]
+   },
+   "tip": "Siempre incluye una **expresión de futuro** (*tomorrow, tonight, next week, on Friday*); si no, se entiende como *ahora*."
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "I'm seeing the dentist on Thursday.",
+     "es": "Tengo cita con el dentista el jueves."
+    },
+    {
+     "en": "We're flying to Tijuana next week.",
+     "es": "Volamos a Tijuana la próxima semana."
+    },
+    {
+     "en": "Are you coming to the meeting tomorrow?",
+     "es": "¿Vas a venir a la junta mañana?"
+    },
+    {
+     "en": "She's having lunch with her boss at 2.",
+     "es": "Come con su jefe a las 2."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "¿Ahora o futuro?",
+   "items": [
+    {
+     "q": "I'm working on my project.",
+     "options": [
+      "Ahora",
+      "Futuro"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I'm working on Saturday.",
+     "options": [
+      "Ahora",
+      "Futuro"
+     ],
+     "a": 1
+    },
+    {
+     "q": "They're playing tomorrow at 5.",
+     "options": [
+      "Ahora",
+      "Futuro"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa con presente continuo",
+   "items": [
+    {
+     "t": "I ___ (meet) my friends tonight.",
+     "a": [
+      "'m meeting",
+      "am meeting"
+     ]
+    },
+    {
+     "t": "What time ___ the bus leaving tomorrow? (be)",
+     "a": [
+      "is"
+     ]
+    },
+    {
+     "t": "We ___ (not / go) to the concert on Friday.",
+     "a": [
+      "aren't going",
+      "are not going"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "What are you doing on Saturday night?",
+     "es": "¿Qué vas a hacer el sábado en la noche?"
+    },
+    {
+     "a": "I'm having dinner with my family.",
+     "es": "Voy a cenar con mi familia."
+    }
+   ]
+  }
+ ]
+}

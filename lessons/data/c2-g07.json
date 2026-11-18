@@ -1,0 +1,65 @@
+{
+ "id": "c2-g07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Complex syntax",
+   "subtitle": "Subordination, apposition and parenthesis",
+   "goals": [
+    "Manage long, complex sentences.",
+    "Use apposition and parenthesis for density.",
+    "Keep sentences clear."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Device",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Apposition",
+      "Frida Kahlo, **one of Mexico's most celebrated artists**, painted 55 self-portraits."
+     ],
+     [
+      "Parenthesis",
+      "The results—**surprising as they were**—confirmed the hypothesis."
+     ],
+     [
+      "Multiple subordination",
+      "**Although** the plan, **which** had been approved, seemed solid, **it** failed **because**…"
+     ],
+     [
+      "Absolute phrase",
+      "**Her voice trembling**, she began to speak."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Which uses apposition?",
+     "options": [
+      "Paris, the capital of France, is beautiful.",
+      "Paris is beautiful because it is the capital."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which uses an absolute phrase?",
+     "options": [
+      "His hands shaking, he opened the letter.",
+      "He opened the letter with shaking hands."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "a1-g20",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Me, you, him, her…",
+      "subtitle": "Pronombres objeto",
+      "goals": [
+        "Usar **me, you, him, her, it, us, them** después del verbo.",
+        "Usarlos después de preposiciones: *with me, for her*.",
+        "No confundir pronombres sujeto y objeto."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Sujeto vs. objeto",
+      "body": ["El pronombre **sujeto** va antes del verbo. El pronombre **objeto** va **después del verbo** o **después de una preposición**."],
+      "table": {
+        "head": ["Sujeto", "Objeto", "Ejemplo"],
+        "rows": [
+          ["I", "**me**", "Call **me** later."],
+          ["you", "**you**", "I love **you**."],
+          ["he", "**him**", "I know **him**."],
+          ["she", "**her**", "Talk to **her**."],
+          ["it", "**it**", "I like **it**."],
+          ["we", "**us**", "Come with **us**."],
+          ["they", "**them**", "I see **them** every day."]
+        ]
+      },
+      "errors": [
+        { "bad": "She loves he.", "good": "She loves **him**." },
+        { "bad": "Come with we.", "good": "Come with **us**." },
+        { "bad": "Me and Ana are friends.", "good": "**Ana and I** are friends.", "note": "Como sujeto se usa **I**, y por cortesía va al final." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Pronombres objeto en contexto",
+      "items": [
+        { "en": "Can you help **me**?", "es": "¿Me puedes ayudar?" },
+        { "en": "Where's Luis? I can't see **him**.", "es": "¿Dónde está Luis? No lo veo." },
+        { "en": "This gift is for **her**.", "es": "Este regalo es para ella." },
+        { "en": "I like this song. Listen to **it**!", "es": "Me gusta esta canción. ¡Escúchala!" },
+        { "en": "Our teacher always helps **us**.", "es": "Nuestra maestra siempre nos ayuda." },
+        { "en": "My cousins? I visit **them** on Sundays.", "es": "¿Mis primos? Los visito los domingos." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Sustituye las palabras en negritas",
+      "items": [
+        { "q": "I call **my mom** every day.", "options": ["she", "her", "him"], "a": 1 },
+        { "q": "We watch **the series** at night.", "options": ["it", "them", "they"], "a": 0 },
+        { "q": "Please give the books to **Luis and Pedro**.", "options": ["they", "us", "them"], "a": 2 },
+        { "q": "Can you come with **Ana and me**?", "options": ["we", "us", "our"], "a": 1 },
+        { "q": "I don't know **that man**.", "options": ["him", "he", "his"], "a": 0 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con el pronombre objeto",
+      "items": [
+        { "t": "Where are my keys? I can't find ___.", "a": ["them"] },
+        { "t": "Sofía is nice. I like ___.", "a": ["her"] },
+        { "t": "Wait for ___! We're coming.", "a": ["us"] },
+        { "t": "This is my new phone. Do you like ___?", "a": ["it"] },
+        { "t": "Can you send ___ the file? I need it. (yo)", "a": ["me"] }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Sujeto u objeto?",
+      "buckets": ["sujeto", "objeto"],
+      "items": [
+        { "w": "I", "b": 0 }, { "w": "he", "b": 0 }, { "w": "we", "b": 0 }, { "w": "they", "b": 0 }, { "w": "she", "b": 0 },
+        { "w": "me", "b": 1 }, { "w": "him", "b": 1 }, { "w": "us", "b": 1 }, { "w": "them", "b": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "Can you explain it to me?", "es": "¿Me lo puedes explicar?" },
+        { "a": "I often play football with them.", "es": "A menudo juego futbol con ellos." }
+      ]
+    }
+  ]
+}

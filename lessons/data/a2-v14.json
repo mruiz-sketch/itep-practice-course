@@ -1,0 +1,153 @@
+{
+ "id": "a2-v14",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Negative prefixes un-, dis-",
+   "subtitle": "Prefijos negativos un-, dis-, im-, in-",
+   "goals": [
+    "Formar opuestos con prefijos.",
+    "Reconocer **un-, dis-, im-, in-**.",
+    "Ampliar tu vocabulario rápidamente."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Opuestos con prefijo",
+   "items": [
+    {
+     "en": "happy → **un**happy",
+     "es": "feliz → infeliz"
+    },
+    {
+     "en": "like → **dis**like",
+     "es": "gustar → disgustar"
+    },
+    {
+     "en": "possible → **im**possible",
+     "es": "posible → imposible"
+    },
+    {
+     "en": "correct → **in**correct",
+     "es": "correcto → incorrecto"
+    },
+    {
+     "en": "agree → **dis**agree",
+     "es": "estar de acuerdo → no estarlo"
+    },
+    {
+     "en": "comfortable → **un**comfortable",
+     "es": "cómodo → incómodo"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Elige el prefijo",
+   "buckets": [
+    "un-",
+    "dis-",
+    "im-"
+   ],
+   "items": [
+    {
+     "w": "friendly",
+     "b": 0
+    },
+    {
+     "w": "healthy",
+     "b": 0
+    },
+    {
+     "w": "fair",
+     "b": 0
+    },
+    {
+     "w": "honest",
+     "b": 1
+    },
+    {
+     "w": "appear",
+     "b": 1
+    },
+    {
+     "w": "like",
+     "b": 1
+    },
+    {
+     "w": "possible",
+     "b": 2
+    },
+    {
+     "w": "patient",
+     "b": 2
+    },
+    {
+     "w": "polite",
+     "b": 2
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "unkind",
+     "poco amable"
+    ],
+    [
+     "dishonest",
+     "deshonesto"
+    ],
+    [
+     "impatient",
+     "impaciente"
+    ],
+    [
+     "informal",
+     "informal"
+    ],
+    [
+     "unlock",
+     "abrir (con llave)"
+    ],
+    [
+     "disappear",
+     "desaparecer"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "The opposite of *polite*:",
+     "options": [
+      "impolite",
+      "unpolite"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The opposite of *agree*:",
+     "options": [
+      "unagree",
+      "disagree"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The opposite of *usual*:",
+     "options": [
+      "unusual",
+      "disusual"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

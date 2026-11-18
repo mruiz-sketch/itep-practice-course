@@ -1,0 +1,110 @@
+{
+ "id": "a2-v05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Everyday technology",
+   "subtitle": "Tecnología cotidiana",
+   "goals": [
+    "Hablar de dispositivos y apps.",
+    "Usar verbos como **download, upload, charge, log in**.",
+    "Describir problemas técnicos."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Verbos de tecnología",
+   "items": [
+    {
+     "en": "download / upload a file",
+     "es": "descargar / subir un archivo"
+    },
+    {
+     "en": "log in / log out",
+     "es": "iniciar / cerrar sesión"
+    },
+    {
+     "en": "charge my phone",
+     "es": "cargar mi celular"
+    },
+    {
+     "en": "My battery is dead.",
+     "es": "Se me acabó la pila."
+    },
+    {
+     "en": "The Wi-Fi isn't working.",
+     "es": "No funciona el wifi."
+    },
+    {
+     "en": "Send me the link.",
+     "es": "Mándame el enlace."
+    },
+    {
+     "en": "I posted a photo on Instagram.",
+     "es": "Subí una foto a Instagram."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "screen",
+     "pantalla"
+    ],
+    [
+     "charger",
+     "cargador"
+    ],
+    [
+     "password",
+     "contraseña"
+    ],
+    [
+     "keyboard",
+     "teclado"
+    ],
+    [
+     "to save",
+     "guardar"
+    ],
+    [
+     "to delete",
+     "borrar"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "Put a file from the internet on your computer:",
+     "options": [
+      "upload",
+      "download"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Your phone has 0%. You need a…",
+     "options": [
+      "charger",
+      "keyboard"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Enter the app with your username:",
+     "options": [
+      "log in",
+      "log out"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

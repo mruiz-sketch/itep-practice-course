@@ -1,0 +1,97 @@
+{
+ "id": "b1-f06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advice and suggestions",
+   "subtitle": "Making and responding to suggestions",
+   "goals": [
+    "Suggest with **How about…? Why don't we…? Let's… / You could…**",
+    "Give advice with **should / ought to / had better**.",
+    "Accept and reject suggestions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Patterns",
+   "table": {
+    "head": [
+     "Phrase",
+     "Grammar",
+     "Example"
+    ],
+    "rows": [
+     [
+      "How about / What about",
+      "+ -ing",
+      "How about **going** to the museum?"
+     ],
+     [
+      "Why don't we / you",
+      "+ base verb",
+      "Why don't we **order** pizza?"
+     ],
+     [
+      "Let's",
+      "+ base verb",
+      "Let's **take** a break."
+     ],
+     [
+      "You'd better",
+      "+ base verb (warning)",
+      "You'd better **hurry** or you'll be late."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "How about ___ a movie?",
+     "options": [
+      "watch",
+      "watching"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Why don't we ___ the bus?",
+     "options": [
+      "take",
+      "taking"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You'd better ___ an umbrella.",
+     "options": [
+      "take",
+      "to take"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Respond",
+   "pairs": [
+    [
+     "Let's go to the beach.",
+     "Great idea! I'm in."
+    ],
+    [
+     "How about Chinese food?",
+     "I'm not really in the mood. Maybe Italian?"
+    ],
+    [
+     "You'd better see a doctor.",
+     "You're right. I'll book an appointment."
+    ]
+   ],
+   "speak": "left"
+  }
+ ]
+}

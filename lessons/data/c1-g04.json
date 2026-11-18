@@ -1,0 +1,78 @@
+{
+ "id": "c1-g04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "The subjunctive; as if / as though",
+   "subtitle": "Formal requirements and unreal comparisons",
+   "goals": [
+    "Use the **mandative subjunctive** after *suggest, insist, essential*.",
+    "Use **as if / as though** for appearances and unreal comparisons.",
+    "Recognize formal register."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "verb + that + base form",
+      "The doctor **recommended that** he **rest**."
+     ],
+     [
+      "It is essential / vital that + base form",
+      "It's **essential that** every student **be** present."
+     ],
+     [
+      "Negative",
+      "They **insisted that** she **not go** alone."
+     ],
+     [
+      "as if + present (likely)",
+      "It looks **as if** it's going to rain."
+     ],
+     [
+      "as if + past (unreal)",
+      "He talks **as if** he **owned** the place."
+     ]
+    ]
+   },
+   "tip": "The subjunctive uses the **base form** for all persons: *I suggest that she **go**.* British English often uses *should go*."
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "The committee proposed that the meeting ___ postponed.",
+     "options": [
+      "be",
+      "is"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She acts as if she ___ the boss. (she isn't)",
+     "options": [
+      "were",
+      "is"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's vital that he ___ the truth.",
+     "options": [
+      "know",
+      "knows"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

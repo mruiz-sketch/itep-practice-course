@@ -1,0 +1,94 @@
+{
+ "id": "c1-v11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "British and American English",
+   "subtitle": "Vocabulary and spelling differences",
+   "goals": [
+    "Recognize UK vs US vocabulary.",
+    "Recognize spelling differences.",
+    "Be consistent in writing."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "flat / apartment, lift / elevator, queue / line"
+    },
+    {
+     "en": "rubbish / trash, holiday / vacation, mobile / cell phone"
+    },
+    {
+     "en": "colour / color, centre / center, organise / organize"
+    },
+    {
+     "en": "travelled / traveled, programme / program"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "lift",
+     "elevator"
+    ],
+    [
+     "queue",
+     "line"
+    ],
+    [
+     "rubbish",
+     "trash"
+    ],
+    [
+     "flat",
+     "apartment"
+    ],
+    [
+     "petrol",
+     "gas"
+    ],
+    [
+     "motorway",
+     "highway"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "US spelling:",
+     "options": [
+      "colour",
+      "color"
+     ],
+     "a": 1
+    },
+    {
+     "q": "UK word for *cookie*:",
+     "options": [
+      "biscuit",
+      "scone"
+     ],
+     "a": 0
+    },
+    {
+     "q": "UK word for *pants* (trousers):",
+     "options": [
+      "trousers",
+      "knickers"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

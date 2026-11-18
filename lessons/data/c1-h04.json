@@ -1,0 +1,38 @@
+{
+ "id": "c1-h04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Speaking: presentations and negotiation",
+   "subtitle": "C1 speaking",
+   "goals": [
+    "Speak spontaneously on abstract topics.",
+    "Present for 5 minutes with Q&A.",
+    "Negotiate professionally."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Spontaneous speaking strategies",
+   "list": [
+    "Buy time: *That's an interesting question… Let me think about that for a second.*",
+    "Structure on the go: *There are two sides to this…*",
+    "Reformulate: *What I'm trying to say is…*",
+    "Use examples from your own field."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Prepare a 5-minute presentation about a topic in your field (e.g. the future of animation). Record it and answer three questions a classmate asks you."
+   ],
+   "list": [
+    "☐ Clear signposting",
+    "☐ Engaging opening",
+    "☐ Handled questions confidently",
+    "☐ Natural pace and pausing"
+   ]
+  }
+ ]
+}

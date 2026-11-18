@@ -1,0 +1,50 @@
+{
+ "id": "c2-h04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Speaking: lectures, debate and mediation",
+   "subtitle": "C2 speaking",
+   "goals": [
+    "Deliver a lecture-style talk.",
+    "Debate formally with rebuttals.",
+    "Mediate between opposing views."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Formal debate structure",
+   "table": {
+    "head": [
+     "Stage",
+     "Language"
+    ],
+    "rows": [
+     [
+      "Proposition",
+      "This house believes that…"
+     ],
+     [
+      "Rebuttal",
+      "My opponent claims…; however, this fails to…"
+     ],
+     [
+      "Point of information",
+      "Would the speaker accept a point of information?"
+     ],
+     [
+      "Summary",
+      "In summary, we have demonstrated three things…"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Debate with a classmate: *\"This house believes that AI will make human creativity more valuable, not less.\"* Each side speaks 3 minutes, then 1-minute rebuttals."
+   ]
+  }
+ ]
+}

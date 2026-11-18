@@ -1,0 +1,166 @@
+{
+ "id": "a2-v01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Travel and accommodation",
+   "subtitle": "Viajes y alojamiento",
+   "goals": [
+    "Reservar un hotel y hacer el check-in.",
+    "Hablar de equipaje, boletos y destinos.",
+    "Usar **book, check in, check out**."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Vocabulario clave",
+   "items": [
+    {
+     "en": "book a room / a flight",
+     "es": "reservar un cuarto / un vuelo"
+    },
+    {
+     "en": "check in / check out",
+     "es": "registrarse / salir del hotel"
+    },
+    {
+     "en": "a single / double room",
+     "es": "cuarto sencillo / doble"
+    },
+    {
+     "en": "luggage / suitcase / backpack",
+     "es": "equipaje / maleta / mochila"
+    },
+    {
+     "en": "a one-way / round-trip ticket",
+     "es": "boleto sencillo / redondo"
+    },
+    {
+     "en": "passport, boarding pass",
+     "es": "pasaporte, pase de abordar"
+    },
+    {
+     "en": "I'd like to book a double room for two nights.",
+     "es": "Quisiera reservar un cuarto doble por dos noches."
+    },
+    {
+     "en": "What time is check-out? — At noon.",
+     "es": "¿A qué hora es la salida? — Al mediodía."
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "¿Hotel o aeropuerto?",
+   "buckets": [
+    "hotel",
+    "airport"
+   ],
+   "items": [
+    {
+     "w": "reception",
+     "b": 0
+    },
+    {
+     "w": "room service",
+     "b": 0
+    },
+    {
+     "w": "key card",
+     "b": 0
+    },
+    {
+     "w": "check-out",
+     "b": 0
+    },
+    {
+     "w": "gate",
+     "b": 1
+    },
+    {
+     "w": "boarding pass",
+     "b": 1
+    },
+    {
+     "w": "baggage claim",
+     "b": 1
+    },
+    {
+     "w": "customs",
+     "b": 1
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "luggage",
+     "equipaje"
+    ],
+    [
+     "booking",
+     "reservación"
+    ],
+    [
+     "receptionist",
+     "recepcionista"
+    ],
+    [
+     "trip",
+     "viaje"
+    ],
+    [
+     "sightseeing",
+     "visitar lugares turísticos"
+    ],
+    [
+     "souvenir",
+     "recuerdo"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "You want to go and come back. You buy a…",
+     "options": [
+      "one-way ticket",
+      "round-trip ticket"
+     ],
+     "a": 1
+    },
+    {
+     "q": "You arrive at the hotel. You…",
+     "options": [
+      "check in",
+      "check out"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Luggage* is…",
+     "options": [
+      "countable",
+      "uncountable"
+     ],
+     "a": 1,
+     "why": "Se dice *a piece of luggage*, no *a luggage*."
+    },
+    {
+     "q": "¿Cómo se dice *viaje* (sustantivo)?",
+     "options": [
+      "travel",
+      "trip"
+     ],
+     "a": 1,
+     "why": "*travel* es el verbo o el concepto general; un viaje concreto es *a trip*."
+    }
+   ]
+  }
+ ]
+}

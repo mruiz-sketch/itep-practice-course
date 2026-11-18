@@ -1,0 +1,178 @@
+{
+ "id": "a2-g03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Past time expressions",
+   "subtitle": "Expresiones de tiempo pasado",
+   "goals": [
+    "Usar **yesterday, last, ago** correctamente.",
+    "Ubicar hechos con **in, on, at** en pasado.",
+    "Ordenar una historia en el tiempo."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Cuándo pasó",
+   "table": {
+    "head": [
+     "Expresión",
+     "Ejemplo",
+     "Ojo"
+    ],
+    "rows": [
+     [
+      "yesterday (morning / afternoon)",
+      "I called her **yesterday afternoon**.",
+      "sin *the*"
+     ],
+     [
+      "last + night / week / month / year / Monday",
+      "We met **last Monday**.",
+      "sin preposición: no *on last Monday*"
+     ],
+     [
+      "cantidad + **ago**",
+      "I moved here **two years ago**.",
+      "*ago* va **después**"
+     ],
+     [
+      "in + año / mes",
+      "**in** 2019, **in** May",
+      ""
+     ],
+     [
+      "on + día / fecha",
+      "**on** Friday, **on** May 3rd",
+      ""
+     ],
+     [
+      "when I was + edad",
+      "**when I was ten**",
+      ""
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "Before two days",
+     "good": "two days **ago**"
+    },
+    {
+     "bad": "the last week",
+     "good": "last week",
+     "note": "Sin artículo cuando es la semana pasada."
+    },
+    {
+     "bad": "yesterday night",
+     "good": "last night"
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "I saw her three days ago.",
+     "es": "La vi hace tres días."
+    },
+    {
+     "en": "Last night I went to bed late.",
+     "es": "Anoche me dormí tarde."
+    },
+    {
+     "en": "My sister got married in 2022.",
+     "es": "Mi hermana se casó en 2022."
+    },
+    {
+     "en": "The concert was on Saturday.",
+     "es": "El concierto fue el sábado."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa con ago, last, in, on o yesterday",
+   "items": [
+    {
+     "t": "I started university two years ___.",
+     "a": [
+      "ago"
+     ]
+    },
+    {
+     "t": "We had an exam ___ Friday.",
+     "a": [
+      "on"
+     ]
+    },
+    {
+     "t": "She was born ___ 2004.",
+     "a": [
+      "in"
+     ]
+    },
+    {
+     "t": "Where were you ___ night?",
+     "a": [
+      "last"
+     ]
+    },
+    {
+     "t": "I called you ___ morning.",
+     "a": [
+      "yesterday"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige la opción correcta",
+   "items": [
+    {
+     "q": "¿Cómo se dice *anoche*?",
+     "options": [
+      "yesterday night",
+      "last night",
+      "the last night"
+     ],
+     "a": 1
+    },
+    {
+     "q": "¿Cómo se dice *hace una semana*?",
+     "options": [
+      "a week ago",
+      "ago a week",
+      "before a week"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I visited Oaxaca ___ month.",
+     "options": [
+      "the last",
+      "last",
+      "in last"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "I finished school three years ago.",
+     "es": "Terminé la prepa hace tres años."
+    },
+    {
+     "a": "What did you do last weekend?",
+     "es": "¿Qué hiciste el fin de semana pasado?"
+    }
+   ]
+  }
+ ]
+}

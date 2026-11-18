@@ -1,0 +1,106 @@
+{
+ "id": "a2-v10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Environment and nature",
+   "subtitle": "Medio ambiente y naturaleza",
+   "goals": [
+    "Nombrar elementos de la naturaleza.",
+    "Hablar de problemas ambientales.",
+    "Proponer acciones: *We should recycle.*"
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Naturaleza y ambiente",
+   "items": [
+    {
+     "en": "mountain, river, lake, forest, desert",
+     "es": "montaña, río, lago, bosque, desierto"
+    },
+    {
+     "en": "pollution, climate change, waste",
+     "es": "contaminación, cambio climático, desechos"
+    },
+    {
+     "en": "recycle, reuse, reduce",
+     "es": "reciclar, reutilizar, reducir"
+    },
+    {
+     "en": "save water / energy",
+     "es": "ahorrar agua / energía"
+    },
+    {
+     "en": "We should use less plastic.",
+     "es": "Deberíamos usar menos plástico."
+    },
+    {
+     "en": "There is a lot of air pollution in big cities.",
+     "es": "Hay mucha contaminación del aire en las ciudades grandes."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "pollution",
+     "contaminación"
+    ],
+    [
+     "waste",
+     "desechos, basura"
+    ],
+    [
+     "recycle",
+     "reciclar"
+    ],
+    [
+     "forest",
+     "bosque"
+    ],
+    [
+     "drought",
+     "sequía"
+    ],
+    [
+     "species",
+     "especie"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "*Turn off the lights* helps to…",
+     "options": [
+      "save energy",
+      "waste water"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A place with very little rain and sand:",
+     "options": [
+      "forest",
+      "desert"
+     ],
+     "a": 1
+    },
+    {
+     "q": "¿Cómo se dice *basura* (en general)?",
+     "options": [
+      "trash / garbage",
+      "trush"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

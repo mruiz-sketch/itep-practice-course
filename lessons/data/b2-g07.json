@@ -1,0 +1,86 @@
+{
+ "id": "b2-g07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Impersonal passive",
+   "subtitle": "It is said that… / He is believed to…",
+   "goals": [
+    "Report beliefs and rumors formally.",
+    "Use **It is said / believed / thought that…**",
+    "Use **subject + is said to + infinitive**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Two structures",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "It is + participle + that",
+      "**It is believed that** the pyramid is 2,000 years old."
+     ],
+     [
+      "Subject + is + participle + to",
+      "The pyramid **is believed to be** 2,000 years old."
+     ],
+     [
+      "Past reference",
+      "He **is thought to have left** the country."
+     ]
+    ]
+   },
+   "tip": "Common verbs: *say, believe, think, know, report, expect, consider*."
+  },
+  {
+   "type": "fill",
+   "title": "Rewrite",
+   "items": [
+    {
+     "t": "People say that he is a genius. → He is said ___ be a genius.",
+     "a": [
+      "to"
+     ]
+    },
+    {
+     "t": "People think the thief escaped. → The thief is thought to ___ escaped.",
+     "a": [
+      "have"
+     ]
+    },
+    {
+     "t": "They expect prices to rise. → It is ___ that prices will rise.",
+     "a": [
+      "expected"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "The painting ___ worth millions.",
+     "options": [
+      "is said to be",
+      "says to be"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ that the company will close.",
+     "options": [
+      "It is reported",
+      "It reports"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "a1-p01",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Alphabet sounds and spelling",
+      "subtitle": "Sonidos del alfabeto y deletreo",
+      "goals": [
+        "Pronunciar las 26 letras sin confundir **E/I**, **G/J**, **A/E**.",
+        "Deletrear nombres y correos con fluidez.",
+        "Entender un deletreo a velocidad normal."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Las letras más difíciles para hispanohablantes",
+      "table": {
+        "head": ["Letra", "Suena como…", "Escucha"],
+        "rows": [
+          ["**A**", "\"ei\" /eɪ/", "A"],
+          ["**E**", "\"i\" /iː/", "E"],
+          ["**I**", "\"ai\" /aɪ/", "I"],
+          ["**G**", "\"yi\" /dʒiː/", "G"],
+          ["**J**", "\"yei\" /dʒeɪ/", "J"],
+          ["**H**", "\"eich\" /eɪtʃ/", "H"],
+          ["**R**", "\"ar\" /ɑːr/", "R"],
+          ["**W**", "\"dábol-iu\" /ˈdʌbəl.juː/", "W"],
+          ["**Y**", "\"uai\" /waɪ/", "Y"],
+          ["**Z**", "\"zi\" (EE. UU.) / \"zed\" (RU)", "Z"]
+        ],
+        "speak": 2
+      },
+      "tip": "Practica con siglas conocidas: *USA, BBC, FBI, UPSRJ, OK, DJ, PDF, HTML*."
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué letra escuchas?",
+      "items": [
+        { "say": "J", "options": ["G", "J", "H"], "a": 1 },
+        { "say": "E", "options": ["A", "E", "I"], "a": 1 },
+        { "say": "Y", "options": ["Y", "I", "W"], "a": 0 },
+        { "say": "H", "options": ["A", "H", "K"], "a": 1 },
+        { "say": "I", "options": ["E", "Y", "I"], "a": 2 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué sigla escuchas?",
+      "items": [
+        { "say": "P, D, F", "options": ["PDF", "BDF", "PTF"], "a": 0 },
+        { "say": "G, P, S", "options": ["JPS", "GPS", "GBS"], "a": 1 },
+        { "say": "U, P, S, R, J", "options": ["UPSRG", "UPSRJ", "YPSRJ"], "a": 1 },
+        { "say": "H, T, M, L", "options": ["HTML", "ATML", "HTNL"], "a": 0 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué nombre deletrearon?",
+      "items": [
+        { "say": "G, E, R, A, R, D, O", "options": ["Gerardo", "Jerardo", "Gelardo"], "a": 0 },
+        { "say": "J, I, M, E, N, A", "options": ["Gimena", "Jimena", "Ximena"], "a": 1 },
+        { "say": "I, R, E, N, E", "options": ["Erene", "Irene", "Airin"], "a": 1 }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Deletrea tu nombre",
+      "items": [
+        { "en": "How do you spell your name? — R, U, I, Z.", "es": "¿Cómo se escribe tu apellido? — R-U-I-Z." },
+        { "en": "Is that with a G or a J? — With a J.", "es": "¿Es con G o con J? — Con J." },
+        { "en": "Double S, double L.", "es": "Doble S, doble L." }
+      ]
+    }
+  ]
+}

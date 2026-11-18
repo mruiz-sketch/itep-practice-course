@@ -1,0 +1,69 @@
+{
+ "id": "c2-g05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Ellipsis and reference in long texts",
+   "subtitle": "Cohesion at text level",
+   "goals": [
+    "Track reference across paragraphs.",
+    "Use *the former / the latter, such, this*.",
+    "Avoid ambiguity."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Device",
+     "Example"
+    ],
+    "rows": [
+     [
+      "the former / the latter",
+      "Oaxaca and Puebla are famous for food; **the latter** is known for mole poblano."
+     ],
+     [
+      "this / these + summary noun",
+      "**This trend** is worrying."
+     ],
+     [
+      "such + noun",
+      "**Such measures** are rarely effective."
+     ],
+     [
+      "respectively",
+      "Ana and Luis are 20 and 25, **respectively**."
+     ],
+     [
+      "the same / likewise",
+      "He apologized, and she did **likewise**."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Tea and coffee are popular; ___ is more common in Mexico.",
+     "options": [
+      "the latter",
+      "the respective"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The rise in rents and the fall in wages. ___ is alarming.",
+     "options": [
+      "This situation",
+      "The respectively"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "c1-g15",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Hedging",
+   "subtitle": "Being cautious in academic and professional English",
+   "goals": [
+    "Soften claims with modals and verbs.",
+    "Use approximators and distancing.",
+    "Avoid overgeneralization."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Device",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Modal verbs",
+      "This **may / might / could** indicate…"
+     ],
+     [
+      "Lexical verbs",
+      "The data **suggests / indicates / appears to show**…"
+     ],
+     [
+      "Adverbs",
+      "**possibly, arguably, relatively, to some extent**"
+     ],
+     [
+      "Approximators",
+      "**approximately, roughly, around** 40 %"
+     ],
+     [
+      "Impersonal phrases",
+      "**It could be argued that**…"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Which is more cautious?",
+     "options": [
+      "This proves that AI is dangerous.",
+      "This may suggest that AI poses certain risks."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Which is more cautious?",
+     "options": [
+      "Everyone agrees.",
+      "It is widely accepted that…"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "a1-g09",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Have got",
+      "subtitle": "Tener: posesión, familia y características",
+      "goals": [
+        "Usar **have got / has got** para hablar de lo que tienes.",
+        "Formar negativas y preguntas: **haven't got**, **Have you got…?**",
+        "Saber cuándo usar *have* o *have got*."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Formas de have got",
+      "table": {
+        "head": ["", "I / you / we / they", "he / she / it"],
+        "rows": [
+          ["Afirmativa", "I **have got** / I**'ve got** a car.", "She **has got** / She**'s got** a car."],
+          ["Negativa", "I **haven't got** a car.", "She **hasn't got** a car."],
+          ["Pregunta", "**Have** you **got** a car?", "**Has** she **got** a car?"],
+          ["Respuesta corta", "Yes, I have. / No, I haven't.", "Yes, she has. / No, she hasn't."]
+        ]
+      },
+      "list": [
+        "Posesiones: *I've got a new laptop.*",
+        "Familia y mascotas: *She's got two brothers.*",
+        "Rasgos físicos: *He's got brown eyes.*",
+        "Enfermedades leves: *I've got a headache.*"
+      ],
+      "watch": "*She's got* = *She **has** got* (no *she is*). En respuestas cortas no se dice *got*: **Yes, I have.**",
+      "tip": "*Have got* es más común en inglés británico. En inglés estadounidense se dice más *I have a car / Do you have a car?* Ambas son correctas."
+    },
+    {
+      "type": "examples",
+      "title": "Have got en contexto",
+      "items": [
+        { "en": "I've got two sisters.", "es": "Tengo dos hermanas." },
+        { "en": "Mel's got a cat called Pixel.", "es": "Mel tiene un gato llamado Pixel." },
+        { "en": "We haven't got class today.", "es": "No tenemos clase hoy." },
+        { "en": "Have you got a pen? — Yes, I have.", "es": "¿Tienes una pluma? — Sí." },
+        { "en": "He's got short black hair.", "es": "Tiene el pelo negro y corto." },
+        { "en": "Has she got a car? — No, she hasn't.", "es": "¿Tiene coche? — No." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con have o has",
+      "items": [
+        { "t": "My brother ___ got a motorcycle.", "a": ["has"] },
+        { "t": "I ___ got a lot of homework.", "a": ["have"] },
+        { "t": "___ your parents got a big house?", "a": ["Have"] },
+        { "t": "She ___ got any pets. (negativa)", "a": ["hasn't", "has not"] },
+        { "t": "We ___ got an exam tomorrow.", "a": ["have", "'ve"] }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona pregunta y respuesta",
+      "pairs": [
+        ["Have you got a laptop?", "Yes, I have."],
+        ["Has Luis got a car?", "No, he hasn't."],
+        ["Have they got children?", "Yes, they have."],
+        ["Has your cat got a name?", "Yes, it has."],
+        ["Have we got class on Friday?", "No, we haven't."]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "Elige la opción correcta",
+      "items": [
+        { "q": "In *She's got blue eyes*, *'s* significa…", "options": ["is", "has", "was"], "a": 1 },
+        { "q": "Have you got a brother? — Yes, ___", "options": ["I have got.", "I have.", "I've."], "a": 1 },
+        { "q": "My dad ___ a beard.", "options": ["have got", "has got", "is got"], "a": 1 },
+        { "q": "___ she got a phone?", "options": ["Has", "Have", "Does"], "a": 0 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "Have you got any brothers or sisters?", "es": "¿Tienes hermanos?" },
+        { "a": "She hasn't got a car.", "es": "Ella no tiene coche." },
+        { "a": "My dog has got big ears.", "es": "Mi perro tiene orejas grandes." }
+      ]
+    }
+  ]
+}

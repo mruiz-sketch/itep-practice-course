@@ -1,0 +1,78 @@
+{
+ "id": "a2-h03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Writing emails and short stories",
+   "subtitle": "Escritura: correos y narración breve",
+   "goals": [
+    "Escribir un correo informal de 60–100 palabras.",
+    "Narrar una historia corta en pasado.",
+    "Usar conectores y párrafos."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Estructura de un correo informal",
+   "table": {
+    "head": [
+     "Parte",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Saludo",
+      "Hi Carla, / Dear Carla,"
+     ],
+     [
+      "Apertura",
+      "How are you? Thanks for your email."
+     ],
+     [
+      "Contenido",
+      "I'm writing to tell you about…"
+     ],
+     [
+      "Cierre",
+      "Write back soon! / See you soon!"
+     ],
+     [
+      "Despedida",
+      "Love, / Best wishes, / Take care,"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "order",
+   "title": "Ordena el correo",
+   "items": [
+    {
+     "a": "Hi Diego, how are you?"
+    },
+    {
+     "a": "I'm writing to tell you about my new job."
+    },
+    {
+     "a": "I started last Monday and I love it."
+    },
+    {
+     "a": "Write back soon!"
+    }
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Tu turno",
+   "body": [
+    "Escribe un correo de 60–100 palabras a un amigo contando **algo que hiciste el fin de semana pasado**."
+   ],
+   "list": [
+    "☐ Saludo, apertura, contenido, cierre y despedida",
+    "☐ Verbos en pasado (regulares e irregulares)",
+    "☐ Al menos 3 conectores: *first, then, after that, although*",
+    "☐ Una pregunta para tu amigo"
+   ]
+  }
+ ]
+}

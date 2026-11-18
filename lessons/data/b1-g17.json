@@ -1,0 +1,86 @@
+{
+ "id": "b1-g17",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Gerund vs infinitive: stop, remember, try",
+   "subtitle": "Verbs that change meaning",
+   "goals": [
+    "Know that some verbs change meaning with **-ing** or **to**.",
+    "Master **stop, remember, forget, try, regret**.",
+    "Avoid common mistakes."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Meaning changes",
+   "table": {
+    "head": [
+     "Verb",
+     "+ -ing",
+     "+ to"
+    ],
+    "rows": [
+     [
+      "stop",
+      "quit an activity: *I stopped **smoking**.*",
+      "stop in order to: *I stopped **to buy** gas.*"
+     ],
+     [
+      "remember",
+      "memory of the past: *I remember **meeting** her.*",
+      "don't forget a duty: *Remember **to call** her.*"
+     ],
+     [
+      "forget",
+      "*I'll never forget **seeing** the ocean.*",
+      "*I forgot **to lock** the door.*"
+     ],
+     [
+      "try",
+      "experiment: *Try **adding** salt.*",
+      "make an effort: *I tried **to open** it, but I couldn't.*"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I stopped ___ a coffee on the way. (in order to)",
+     "options": [
+      "having",
+      "to have"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Please remember ___ the lights.",
+     "options": [
+      "turning off",
+      "to turn off"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I remember ___ to Disneyland as a child.",
+     "options": [
+      "going",
+      "to go"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The door is stuck. I'm trying ___ it.",
+     "options": [
+      "opening",
+      "to open"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

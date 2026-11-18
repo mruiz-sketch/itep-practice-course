@@ -1,0 +1,111 @@
+{
+ "id": "c1-g01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Negative and restrictive inversion",
+   "subtitle": "Not only, hardly, no sooner, little, under no circumstances",
+   "goals": [
+    "Use inversion after negative and restrictive adverbials.",
+    "Add emphasis and formality.",
+    "Form it accurately in all tenses."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Adverbial",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Not only… but (also)",
+      "**Not only did** she win, but she also broke the record."
+     ],
+     [
+      "Hardly / Scarcely… when",
+      "**Hardly had** I sat down **when** the phone rang."
+     ],
+     [
+      "No sooner… than",
+      "**No sooner had** we arrived **than** it began to snow."
+     ],
+     [
+      "Little",
+      "**Little did** they know what awaited them."
+     ],
+     [
+      "Only then / Only when",
+      "**Only when** I read it **did I** understand."
+     ],
+     [
+      "Under no circumstances / On no account",
+      "**On no account should you** share your password."
+     ],
+     [
+      "Not until",
+      "**Not until** the end **did** we realize the truth."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "No sooner ___ than the alarm went off.",
+     "options": [
+      "had I left",
+      "I had left"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Little ___ that he was being watched.",
+     "options": [
+      "he knew",
+      "did he know"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Only after the meeting ___ the problem.",
+     "options": [
+      "did they understand",
+      "they understood"
+     ],
+     "a": 0
+    },
+    {
+     "q": "On no account ___ the door.",
+     "options": [
+      "you should open",
+      "should you open"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "Not only ___ he late, but he also forgot the documents.",
+     "a": [
+      "was"
+     ]
+    },
+    {
+     "t": "Hardly ___ we started when the power went out.",
+     "a": [
+      "had"
+     ]
+    }
+   ]
+  }
+ ]
+}

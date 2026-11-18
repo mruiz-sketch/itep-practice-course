@@ -1,0 +1,97 @@
+{
+ "id": "c1-v07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Multi-meaning phrasal verbs",
+   "subtitle": "Phrasal verbs and formal equivalents",
+   "goals": [
+    "Understand phrasal verbs with several meanings.",
+    "Know their formal equivalents.",
+    "Choose the right register."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "put off = postpone; discourage"
+    },
+    {
+     "en": "bring up = raise a topic; raise a child"
+    },
+    {
+     "en": "pick up = collect; learn informally; improve"
+    },
+    {
+     "en": "turn down = reject; lower volume"
+    },
+    {
+     "en": "carry out = conduct; look into = investigate; come across = encounter"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "put off",
+     "postpone"
+    ],
+    [
+     "turn down",
+     "reject"
+    ],
+    [
+     "look into",
+     "investigate"
+    ],
+    [
+     "carry out",
+     "conduct"
+    ],
+    [
+     "come across",
+     "encounter"
+    ],
+    [
+     "bring up",
+     "raise (a topic)"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Formal for *look into*:",
+     "options": [
+      "investigate",
+      "inspect closely"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*She picked up Italian in Rome* means…",
+     "options": [
+      "she learned it informally",
+      "she collected it"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*They turned down the offer* means…",
+     "options": [
+      "rejected",
+      "lowered"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

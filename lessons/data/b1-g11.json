@@ -1,0 +1,124 @@
+{
+ "id": "b1-g11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Modals of deduction",
+   "subtitle": "must, might, can't (present) + should have / might have",
+   "goals": [
+    "Make deductions about the present: **must, might, could, can't**.",
+    "Introduce past modals: **should have, might have**.",
+    "Express how sure you are."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "How sure are you?",
+   "table": {
+    "head": [
+     "Modal",
+     "Certainty",
+     "Example"
+    ],
+    "rows": [
+     [
+      "must",
+      "≈ 95 % yes",
+      "She's not answering. She **must** be asleep."
+     ],
+     [
+      "might / may / could",
+      "≈ 50 %",
+      "He **might** be in the library."
+     ],
+     [
+      "can't",
+      "≈ 95 % no",
+      "That **can't** be Juan. He's in Spain."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "First steps with past modals",
+   "table": {
+    "head": [
+     "Modal",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "should have + participle",
+      "criticism / regret",
+      "You **should have told** me."
+     ],
+     [
+      "might have + participle",
+      "possibility in the past",
+      "She **might have missed** the bus."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "He's been running for an hour. He ___ be tired.",
+     "options": [
+      "must",
+      "can't"
+     ],
+     "a": 0
+    },
+    {
+     "q": "That ___ be your bag. Yours is red and this is blue.",
+     "options": [
+      "can't",
+      "must"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I don't know where Ana is. She ___ be at home.",
+     "options": [
+      "might",
+      "can't"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I failed. I ___ studied more.",
+     "options": [
+      "should have",
+      "might have"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "Someone's at the door. It ___ be the pizza. (95 %)",
+     "a": [
+      "must"
+     ]
+    },
+    {
+     "t": "He ___ have forgotten. He's usually on time. (posible)",
+     "a": [
+      "might",
+      "may",
+      "could"
+     ]
+    }
+   ]
+  }
+ ]
+}

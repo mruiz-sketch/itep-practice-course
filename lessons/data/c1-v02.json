@@ -1,0 +1,94 @@
+{
+ "id": "c1-v02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Professional English",
+   "subtitle": "Finance, marketing, projects and HR",
+   "goals": [
+    "Use business vocabulary accurately.",
+    "Discuss projects and strategy.",
+    "Understand professional documents."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "revenue, profit margin, cash flow, ROI"
+    },
+    {
+     "en": "target audience, brand awareness, campaign"
+    },
+    {
+     "en": "milestone, scope, stakeholder, deliverable"
+    },
+    {
+     "en": "onboarding, appraisal, retention"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "revenue",
+     "total income of a business"
+    ],
+    [
+     "milestone",
+     "important point in a project"
+    ],
+    [
+     "stakeholder",
+     "person with an interest in a project"
+    ],
+    [
+     "appraisal",
+     "evaluation of an employee"
+    ],
+    [
+     "deliverable",
+     "product or result to be delivered"
+    ],
+    [
+     "retention",
+     "keeping employees or clients"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Money a company earns from sales:",
+     "options": [
+      "revenue",
+      "expense"
+     ],
+     "a": 0
+    },
+    {
+     "q": "An important stage in a project:",
+     "options": [
+      "milestone",
+      "millstone"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Keeping customers for a long time:",
+     "options": [
+      "retention",
+      "detention"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

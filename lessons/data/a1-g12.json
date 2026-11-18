@@ -1,0 +1,93 @@
+{
+  "id": "a1-g12",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Question words",
+      "subtitle": "Pronombres interrogativos: what, where, when, who…",
+      "goals": [
+        "Elegir la palabra interrogativa correcta.",
+        "Distinguir **how much** y **how many**.",
+        "Ordenar preguntas: **wh- + verbo auxiliar + sujeto**."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Las palabras para preguntar",
+      "table": {
+        "head": ["Palabra", "Pregunta por…", "Ejemplo"],
+        "rows": [
+          ["**What**", "cosas, información", "What's your name?"],
+          ["**Where**", "lugar", "Where do you live?"],
+          ["**When**", "momento", "When is your birthday?"],
+          ["**What time**", "la hora exacta", "What time is it?"],
+          ["**Who**", "personas", "Who is your teacher?"],
+          ["**Why**", "razón (respuesta con *because*)", "Why are you tired?"],
+          ["**Which**", "elección entre opciones", "Which color do you prefer, red or blue?"],
+          ["**How**", "modo, estado", "How are you? How do you get to school?"],
+          ["**How old**", "edad", "How old are you?"],
+          ["**How many**", "cantidad contable", "How many brothers have you got?"],
+          ["**How much**", "cantidad incontable, precio", "How much water? How much is it?"]
+        ],
+        "speak": 2
+      },
+      "tip": "Orden: **Wh- + am/is/are + sujeto** (*Where **are you** from?*) o **Wh- + do/does + sujeto + verbo** (*Where **do you live**?*)."
+    },
+    {
+      "type": "examples",
+      "title": "Preguntas y respuestas",
+      "items": [
+        { "en": "Where are you from? — I'm from Querétaro.", "es": "¿De dónde eres? — De Querétaro." },
+        { "en": "Who is that man? — He's my uncle.", "es": "¿Quién es ese señor? — Es mi tío." },
+        { "en": "Why do you study English? — Because I want to travel.", "es": "¿Por qué estudias inglés? — Porque quiero viajar." },
+        { "en": "How much is this T-shirt? — It's 200 pesos.", "es": "¿Cuánto cuesta esta playera? — 200 pesos." },
+        { "en": "How many students are there? — Twenty-eight.", "es": "¿Cuántos alumnos hay? — Veintiocho." },
+        { "en": "What time does the class finish? — At two.", "es": "¿A qué hora termina la clase? — A las dos." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la pregunta con la respuesta",
+      "pairs": [
+        ["Where do you live?", "In Santa Rosa."],
+        ["When is your exam?", "On Friday."],
+        ["Who is your best friend?", "Daniela."],
+        ["Why are you late?", "Because the bus was late."],
+        ["How old is your sister?", "She's fifteen."],
+        ["How much is the ticket?", "Fifty pesos."]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "Elige la palabra interrogativa",
+      "items": [
+        { "q": "___ is your favorite singer?", "options": ["What", "Who", "Where"], "a": 1 },
+        { "q": "___ apples do you need?", "options": ["How much", "How many", "How old"], "a": 1, "why": "*Apples* es contable → **how many**." },
+        { "q": "___ milk is there?", "options": ["How many", "How much", "Which"], "a": 1 },
+        { "q": "___ do you go to school? — By bus.", "options": ["How", "What", "Why"], "a": 0 },
+        { "q": "___ bag is yours, the black one or the green one?", "options": ["What", "Who", "Which"], "a": 2 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escribe la palabra interrogativa",
+      "items": [
+        { "t": "___ is your birthday? — In May.", "a": ["When"] },
+        { "t": "___ do you work? — In a hotel.", "a": ["Where"] },
+        { "t": "___ is it? — It's half past three.", "a": ["What time"] },
+        { "t": "___ are you sad? — Because my team lost.", "a": ["Why"] },
+        { "t": "___ are you? — I'm fine, thanks.", "a": ["How"] }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las preguntas",
+      "items": [
+        { "a": "Where does your father work?", "es": "¿Dónde trabaja tu papá?" },
+        { "a": "How many languages do you speak?", "es": "¿Cuántos idiomas hablas?" },
+        { "a": "What is your favorite food?", "es": "¿Cuál es tu comida favorita?" }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { createBackend, DEMO, toSchoolId, AppError } from "./backend.js";
 import { firebaseConfig, EMAIL_DOMAIN } from "./firebase-config.js";
 import { createTeacherArea } from "./teacher.js";
 import { createDiagnostic } from "./diagnostic.js";
+import { pathStats, passed } from "./pathway.js";
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -30,6 +31,59 @@ const exam = createDiagnostic({
     Object.assign(currentProfile, result, { diagnosticCompleted: true, isNew: false });
   },
   onExit: () => openDiagnostic(currentProfile),
+  getProgress: () => currentProfile?.pathProgress || {},
+  onLesson: (id, path) => openLesson(id, path),
+});
+
+// ------------------------------------------------------------
+//  Lesson player (English Practice Lessons, inside the path)
+// ------------------------------------------------------------
+const player = $("#lessonPlayer");
+const playerFrame = $("#lessonFrame");
+let playing = null; // { id, path }
+function openLesson(id, path) {
+  if (!path) return;
+  const i = path.lessons.findIndex((l) => l.id === id);
+  if (i < 0) return;
+  const prog = currentProfile?.pathProgress || {};
+  if (i > 0 && !prog[id] && !passed(prog, path.lessons[i - 1].id)) { toast("Pass the previous lesson (at least 1 ★) to unlock this one.", "error"); return; }
+  playing = { id, path };
+  const next = path.lessons[i + 1]?.id || "";
+  playerFrame.src = `lessons/index.html?embed=1&next=${encodeURIComponent(next)}#${id}`;
+  player.hidden = false;
+  document.body.classList.add("is-lesson");
+  playerFrame.focus();
+}
+function closeLesson() {
+  player.hidden = true;
+  playerFrame.src = "about:blank";
+  document.body.classList.remove("is-lesson");
+  playing = null;
+  exam.showPath(currentProfile);
+}
+addEventListener("message", async (e) => {
+  if (e.origin !== location.origin || e.data?.source !== "itep-lessons" || !playing) return;
+  const msg = e.data;
+  if (msg.type === "close") return closeLesson();
+  if (msg.type === "next") return openLesson(msg.id, playing.path);
+  if (msg.type === "done" && msg.stars < 1 && msg.id === playing.id) toast("Score at least 50% (1 ★) to unlock the next lesson. You can repeat it as many times as you want.", "error", 6000);
+  if (msg.type === "done" && msg.id === playing.id && currentProfile) {
+    const prog = (currentProfile.pathProgress ||= {});
+    const before = pathStats(playing.path, prog);
+    const old = prog[msg.id];
+    if (old && old.pct >= msg.pct) return; // keep the best result
+    prog[msg.id] = { pct: msg.pct, stars: msg.stars };
+    const after = pathStats(playing.path, prog);
+    try { await backend.saveLessonProgress(msg.id, msg, after.done, playing.path.total); }
+    catch (err) { toast(err.message || "Your progress could not be saved. Check your connection.", "error", 6000); }
+    if ((old?.stars || 0) < 1 && msg.stars >= 1) { // just passed
+      const wk = playing.path.lessons.find((l) => l.id === msg.id).week;
+      const wItems = playing.path.weeks[wk].items;
+      if (after.done === playing.path.total) toast("🏆 Learning path complete! Amazing work.", "success", 6000);
+      else if (wItems.every((l) => passed(prog, l.id))) toast(`★ Week ${wk + 1} complete! The next week is unlocked.`, "success", 5000);
+      else if (after.done > before.done) toast(`Lesson passed! ${after.done} of ${playing.path.total} done · next lesson unlocked`, "success", 3500);
+    }
+  }
 });
 const backendReady = createBackend().then((b) => {
   backend = b;
@@ -382,7 +436,8 @@ function openDiagnostic(profile) {
   currentProfile = profile;
   $("#diagHello").textContent = profile.firstName ? `Welcome, ${profile.firstName}!` : "Welcome!";
   $("#diagUser").textContent = `School ID: ${profile.schoolId || ""}`;
-  $(".btn-diag").innerHTML = profile.diagnosticCompleted ? "MY DIAGNOSTIC<br>RESULT" : "TAKE<br>DIAGNOSTIC TEST";
+  $(".btn-diag").innerHTML = profile.diagnosticCompleted ? "MY LEARNING<br>PATH" : "TAKE<br>DIAGNOSTIC TEST";
+  $("#diagResult").hidden = !profile.diagnosticCompleted;
   document.body.classList.add("is-diag");
   diag.classList.add("show");
   diag.setAttribute("aria-hidden", "false");
@@ -392,6 +447,7 @@ async function logout() {
   diag.classList.remove("show");
   diag.setAttribute("aria-hidden", "true");
   teacherArea?.close();
+  if (playing) { player.hidden = true; playerFrame.src = "about:blank"; playing = null; document.body.classList.remove("is-lesson"); }
   exam.close();
   currentProfile = null;
   document.body.classList.remove("is-diag");
@@ -442,8 +498,11 @@ document.addEventListener("click", async (e) => {
     case "close-demo": $("#demoInbox").hidden = true; break;
     case "start-diagnostic":
       if (!currentProfile) break;
-      if (currentProfile.diagnosticCompleted) exam.showResult(currentProfile);
+      if (currentProfile.diagnosticCompleted) exam.showPath(currentProfile);
       else exam.start(currentProfile);
+      break;
+    case "diag-result":
+      if (currentProfile?.diagnosticCompleted) exam.showResult(currentProfile);
       break;
     case "forgot": {
       const id = toSchoolId(loginForm.elements.schoolId.value);

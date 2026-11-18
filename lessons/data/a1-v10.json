@@ -1,0 +1,74 @@
+{
+  "id": "a1-v10",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Clothes",
+      "subtitle": "Ropa básica",
+      "goals": [
+        "Nombrar prendas y accesorios.",
+        "Decir qué traes puesto: *I'm wearing…*",
+        "Recordar que **pants, jeans, shorts, glasses** son plurales."
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Prendas comunes",
+      "items": [
+        { "en": "T-shirt / shirt", "es": "playera / camisa" },
+        { "en": "sweater / hoodie", "es": "suéter / sudadera con gorro" },
+        { "en": "jacket / coat", "es": "chamarra / abrigo" },
+        { "en": "pants (US) / trousers (UK)", "es": "pantalón" },
+        { "en": "jeans / shorts", "es": "jeans / shorts" },
+        { "en": "skirt / dress", "es": "falda / vestido" },
+        { "en": "shoes / sneakers / boots", "es": "zapatos / tenis / botas" },
+        { "en": "cap / hat / glasses", "es": "gorra / sombrero / lentes" }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Siempre en plural",
+      "body": ["Las prendas con **dos piernas** o **dos partes** son plurales en inglés: van con **are** y **these / those**."],
+      "errors": [
+        { "bad": "My pant is black.", "good": "My **pants are** black." },
+        { "bad": "This jeans is new.", "good": "**These jeans are** new." }
+      ],
+      "tip": "Para contar: ***a pair of** jeans, two **pairs of** shoes*."
+    },
+    {
+      "type": "examples",
+      "title": "¿Qué traes puesto?",
+      "items": [
+        { "en": "I'm wearing a gray hoodie and black jeans.", "es": "Traigo una sudadera gris y jeans negros." },
+        { "en": "She's wearing a red dress.", "es": "Trae un vestido rojo." },
+        { "en": "Put on your jacket. It's cold!", "es": "Ponte la chamarra. ¡Hace frío!" },
+        { "en": "Take off your shoes, please.", "es": "Quítate los zapatos, por favor." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["sneakers", "tenis"], ["skirt", "falda"], ["coat", "abrigo"], ["socks", "calcetines"], ["belt", "cinturón"], ["scarf", "bufanda"]],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "My new jeans ___ blue.", "options": ["is", "are", "am"], "a": 1 },
+        { "q": "I need ___ shoes.", "options": ["a pair of", "a", "an"], "a": 0 },
+        { "q": "¿Cómo se dice *Ponte el suéter*?", "options": ["Put on your sweater.", "Take off your sweater.", "Wear on your sweater."], "a": 0 },
+        { "q": "In winter you wear…", "options": ["shorts and sandals", "a coat and boots", "a swimsuit"], "a": 1 }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Clima frío o calor?",
+      "buckets": ["cold weather", "hot weather"],
+      "items": [
+        { "w": "scarf", "b": 0 }, { "w": "coat", "b": 0 }, { "w": "gloves", "b": 0 }, { "w": "boots", "b": 0 },
+        { "w": "shorts", "b": 1 }, { "w": "sandals", "b": 1 }, { "w": "sunglasses", "b": 1 }, { "w": "tank top", "b": 1 }
+      ]
+    }
+  ]
+}

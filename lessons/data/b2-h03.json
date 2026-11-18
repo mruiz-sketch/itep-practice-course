@@ -1,0 +1,80 @@
+{
+ "id": "b2-h03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Writing essays, reports and reviews",
+   "subtitle": "B2 writing genres",
+   "goals": [
+    "Write a for-and-against essay.",
+    "Structure reports with headings.",
+    "Write persuasive reviews."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Essay structure (180–260 words)",
+   "table": {
+    "head": [
+     "Paragraph",
+     "Content"
+    ],
+    "rows": [
+     [
+      "Introduction",
+      "Present the topic; paraphrase the question."
+     ],
+     [
+      "Body 1",
+      "Arguments for + examples."
+     ],
+     [
+      "Body 2",
+      "Arguments against + examples."
+     ],
+     [
+      "Conclusion",
+      "Your balanced opinion."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Report vs essay",
+   "table": {
+    "head": [
+     "Report",
+     "Essay"
+    ],
+    "rows": [
+     [
+      "headings",
+      "no headings"
+     ],
+     [
+      "factual, recommendations",
+      "argument, opinion"
+     ],
+     [
+      "for a specific reader (boss, school)",
+      "for a general reader"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Write an essay: *\"Students should be allowed to use AI tools for homework.\" Discuss.*"
+   ],
+   "list": [
+    "☐ Four paragraphs",
+    "☐ Linkers: *moreover, however, on balance*",
+    "☐ At least one example per argument",
+    "☐ Formal register, no contractions"
+   ]
+  }
+ ]
+}

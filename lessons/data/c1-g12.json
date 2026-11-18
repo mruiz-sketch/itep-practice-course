@@ -1,0 +1,77 @@
+{
+ "id": "c1-g12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Complex verb complementation",
+   "subtitle": "object to doing, be accused of, be thought to have",
+   "goals": [
+    "Master verb + preposition + -ing patterns.",
+    "Use passive reporting with perfect infinitives.",
+    "Avoid common errors."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Pattern",
+     "Example"
+    ],
+    "rows": [
+     [
+      "verb + to (preposition) + -ing",
+      "I **object to being** treated like this. I'm **looking forward to hearing**…"
+     ],
+     [
+      "be + participle + of / for + -ing",
+      "He **was accused of lying**."
+     ],
+     [
+      "passive + perfect infinitive",
+      "She **is thought to have left** early."
+     ],
+     [
+      "verb + object + from + -ing",
+      "The rain **prevented us from leaving**."
+     ],
+     [
+      "verb + -ing (with possessive)",
+      "I **appreciate your helping** me."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "I object to ___ so late.",
+     "options": [
+      "work",
+      "working"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The noise prevented me ___ sleeping.",
+     "options": [
+      "to",
+      "from"
+     ],
+     "a": 1
+    },
+    {
+     "q": "He is believed ___ the country last year.",
+     "options": [
+      "to leave",
+      "to have left"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

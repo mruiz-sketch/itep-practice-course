@@ -1,0 +1,38 @@
+{
+ "id": "c2-p01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Prosody for rhetorical effect",
+   "subtitle": "Using voice to persuade",
+   "goals": [
+    "Use pausing, pace and pitch strategically.",
+    "Analyze great speeches.",
+    "Apply prosody in presentations."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Techniques",
+   "list": [
+    "**Pause** before and after key ideas.",
+    "**Slow down** for emphasis; speed up for lists.",
+    "**Drop pitch** at the end of strong statements.",
+    "**Stress contrast**: *Not THIS, but THAT.*",
+    "Rule of three with rising-rising-falling tone."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Practice",
+   "items": [
+    {
+     "en": "We will not stop. We will not rest. We will not give up."
+    },
+    {
+     "en": "This is not the end. It is the beginning."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "id": "b1-v02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Work, interviews and CVs",
+   "subtitle": "Work, job interviews and CVs",
+   "goals": [
+    "Talk about job applications.",
+    "Describe skills and experience.",
+    "Understand typical interview questions."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "apply for a job / a position",
+     "es": "postularse a un empleo"
+    },
+    {
+     "en": "CV / résumé, cover letter",
+     "es": "currículum, carta de presentación"
+    },
+    {
+     "en": "job interview, candidate, employer",
+     "es": "entrevista, candidato, empleador"
+    },
+    {
+     "en": "skills: teamwork, leadership, problem-solving",
+     "es": "habilidades: trabajo en equipo, liderazgo, resolución de problemas"
+    },
+    {
+     "en": "Why do you want to work here?",
+     "es": "¿Por qué quieres trabajar aquí?"
+    },
+    {
+     "en": "What are your strengths and weaknesses?",
+     "es": "¿Cuáles son tus fortalezas y debilidades?"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "employer",
+     "empleador"
+    ],
+    [
+     "employee",
+     "empleado"
+    ],
+    [
+     "skills",
+     "habilidades"
+    ],
+    [
+     "strength",
+     "fortaleza"
+    ],
+    [
+     "internship",
+     "prácticas profesionales"
+    ],
+    [
+     "deadline",
+     "fecha límite"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "A document with your education and experience:",
+     "options": [
+      "CV",
+      "payslip"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Temporary work to get experience as a student:",
+     "options": [
+      "internship",
+      "overtime"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Employee* means…",
+     "options": [
+      "the person who works",
+      "the company"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

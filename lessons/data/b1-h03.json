@@ -1,0 +1,96 @@
+{
+ "id": "b1-h03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Writing emails, articles, stories and reviews",
+   "subtitle": "Text types at B1",
+   "goals": [
+    "Write 120–180 words with paragraphs.",
+    "Adapt register: formal vs informal.",
+    "Use topic sentences."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Formal vs informal email",
+   "table": {
+    "head": [
+     "",
+     "Informal",
+     "Formal"
+    ],
+    "rows": [
+     [
+      "Greeting",
+      "Hi Ana,",
+      "Dear Ms. López,"
+     ],
+     [
+      "Reason",
+      "I'm writing to tell you…",
+      "I am writing to inquire about…"
+     ],
+     [
+      "Request",
+      "Can you…?",
+      "I would be grateful if you could…"
+     ],
+     [
+      "Closing",
+      "See you soon!",
+      "I look forward to hearing from you."
+     ],
+     [
+      "Sign off",
+      "Love, / Cheers,",
+      "Yours sincerely, / Kind regards,"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Formal or informal?",
+   "items": [
+    {
+     "q": "I am writing to apply for the position of assistant.",
+     "options": [
+      "formal",
+      "informal"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Guess what? I've got some news!",
+     "options": [
+      "formal",
+      "informal"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I look forward to hearing from you.",
+     "options": [
+      "formal",
+      "informal"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Write a **formal email (120–150 words)** to a language school asking about courses, prices and accommodation."
+   ],
+   "list": [
+    "☐ Formal greeting and sign-off",
+    "☐ One paragraph per topic",
+    "☐ Indirect questions (*Could you tell me…?*)",
+    "☐ No contractions"
+   ]
+  }
+ ]
+}

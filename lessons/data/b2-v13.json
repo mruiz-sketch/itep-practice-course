@@ -1,0 +1,97 @@
+{
+ "id": "b2-v13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Describing trends and data",
+   "subtitle": "Language for graphs and statistics",
+   "goals": [
+    "Describe changes in graphs.",
+    "Use adverbs of degree and speed.",
+    "Compare figures."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "rise / increase / go up, fall / decrease / drop"
+    },
+    {
+     "en": "peak, reach a low, level off, fluctuate"
+    },
+    {
+     "en": "sharply, dramatically, steadily, slightly, gradually"
+    },
+    {
+     "en": "Sales rose sharply in 2024 and then leveled off."
+    },
+    {
+     "en": "There was a slight decrease of 3 %."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "peak",
+     "highest point"
+    ],
+    [
+     "level off",
+     "stop changing"
+    ],
+    [
+     "fluctuate",
+     "go up and down"
+    ],
+    [
+     "sharply",
+     "quickly and a lot"
+    ],
+    [
+     "gradually",
+     "slowly over time"
+    ],
+    [
+     "slightly",
+     "a little"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Changed a lot and quickly:",
+     "options": [
+      "sharply",
+      "slightly"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Went up and down irregularly:",
+     "options": [
+      "fluctuated",
+      "leveled off"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The highest point:",
+     "options": [
+      "peak",
+      "bottom"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "a2-g12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Must, have to, should, could",
+   "subtitle": "Modales de obligación, consejo y habilidad pasada",
+   "goals": [
+    "Expresar obligación con **must / have to**.",
+    "Expresar prohibición con **mustn't** y falta de obligación con **don't have to**.",
+    "Dar consejos con **should** y hablar de habilidad pasada con **could**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Significados",
+   "table": {
+    "head": [
+     "Modal",
+     "Significado",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "**must**",
+      "obligación (regla o decisión personal)",
+      "You **must** wear a helmet."
+     ],
+     [
+      "**have to / has to**",
+      "obligación externa",
+      "I **have to** work on Saturdays."
+     ],
+     [
+      "**mustn't**",
+      "prohibido",
+      "You **mustn't** smoke here."
+     ],
+     [
+      "**don't have to**",
+      "no es necesario",
+      "You **don't have to** come. It's optional."
+     ],
+     [
+      "**should / shouldn't**",
+      "consejo",
+      "You **should** sleep more."
+     ],
+     [
+      "**could / couldn't**",
+      "habilidad en el pasado",
+      "I **could** swim when I was five."
+     ]
+    ]
+   },
+   "watch": "**mustn't** ≠ **don't have to**. *You mustn't go* = está prohibido; *You don't have to go* = no estás obligado."
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "Students must show their ID.",
+     "es": "Los alumnos deben mostrar su credencial."
+    },
+    {
+     "en": "She has to take the bus at 6.",
+     "es": "Tiene que tomar el camión a las 6."
+    },
+    {
+     "en": "You don't have to pay. It's free.",
+     "es": "No tienes que pagar. Es gratis."
+    },
+    {
+     "en": "You should see a doctor.",
+     "es": "Deberías ir al médico."
+    },
+    {
+     "en": "I couldn't sleep last night.",
+     "es": "No pude dormir anoche."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige el modal",
+   "items": [
+    {
+     "q": "It's a secret. You ___ tell anyone.",
+     "options": [
+      "mustn't",
+      "don't have to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Tomorrow is a holiday. We ___ get up early.",
+     "options": [
+      "mustn't",
+      "don't have to"
+     ],
+     "a": 1
+    },
+    {
+     "q": "You look tired. You ___ go to bed.",
+     "options": [
+      "should",
+      "must not"
+     ],
+     "a": 0
+    },
+    {
+     "q": "When I was a child I ___ ride a bike.",
+     "options": [
+      "can",
+      "could"
+     ],
+     "a": 1
+    },
+    {
+     "q": "My dad ___ work at night.",
+     "options": [
+      "have to",
+      "has to"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "You ___ study for the exam. It's important. (consejo)",
+     "a": [
+      "should"
+     ]
+    },
+    {
+     "t": "I ___ go. My boss says so. (obligación)",
+     "a": [
+      "have to",
+      "must"
+     ]
+    },
+    {
+     "t": "She ___ speak English when she was 10. (negativa, pasado)",
+     "a": [
+      "couldn't",
+      "could not"
+     ]
+    }
+   ]
+  }
+ ]
+}

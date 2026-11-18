@@ -1,0 +1,98 @@
+{
+ "id": "b1-v09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Crime and justice",
+   "subtitle": "Crime and justice (basics)",
+   "goals": [
+    "Name common crimes and criminals.",
+    "Describe what happens after a crime.",
+    "Use verbs: *steal, rob, arrest*."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "theft / thief, robbery / robber, burglary / burglar"
+    },
+    {
+     "en": "steal something, rob someone / a place"
+    },
+    {
+     "en": "arrest, charge, sentence, fine"
+    },
+    {
+     "en": "witness, victim, suspect"
+    },
+    {
+     "en": "My phone was stolen on the bus."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "thief",
+     "ladrón"
+    ],
+    [
+     "witness",
+     "testigo"
+    ],
+    [
+     "fine",
+     "multa"
+    ],
+    [
+     "suspect",
+     "sospechoso"
+    ],
+    [
+     "arrest",
+     "arrestar"
+    ],
+    [
+     "court",
+     "tribunal"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Someone ___ my wallet.",
+     "options": [
+      "stole",
+      "robbed"
+     ],
+     "a": 0
+    },
+    {
+     "q": "They ___ the bank.",
+     "options": [
+      "stole",
+      "robbed"
+     ],
+     "a": 1,
+     "why": "*rob* a place or person; *steal* a thing."
+    },
+    {
+     "q": "Money you pay as a punishment:",
+     "options": [
+      "fine",
+      "fee"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

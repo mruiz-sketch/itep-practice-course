@@ -1,0 +1,143 @@
+{
+ "id": "a2-p04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Th sounds",
+   "subtitle": "Sonidos /θ/ y /ð/",
+   "goals": [
+    "Pronunciar **th** sorda /θ/ (*think*) y sonora /ð/ (*this*).",
+    "No cambiarla por *t, d, s* o *f*.",
+    "Distinguir pares como *thank / tank*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Cómo se hace",
+   "body": [
+    "Pon la punta de la lengua **entre los dientes** y sopla."
+   ],
+   "table": {
+    "head": [
+     "Sonido",
+     "Cuerdas vocales",
+     "Ejemplos",
+     "Escucha"
+    ],
+    "rows": [
+     [
+      "/θ/",
+      "no vibran",
+      "think, three, thank, month, birthday",
+      "think, three, thank"
+     ],
+     [
+      "/ð/",
+      "vibran",
+      "this, that, mother, the, together",
+      "this, mother, together"
+     ]
+    ],
+    "speak": 3
+   },
+   "tip": "/ð/ se parece a la *d* suave de *nada* en español."
+  },
+  {
+   "type": "examples",
+   "title": "Pares mínimos",
+   "items": [
+    {
+     "en": "three — tree",
+     "note": "/θ/ vs /t/",
+     "say": "three. tree."
+    },
+    {
+     "en": "think — sink",
+     "note": "/θ/ vs /s/",
+     "say": "think. sink."
+    },
+    {
+     "en": "they — day",
+     "note": "/ð/ vs /d/",
+     "say": "they. day."
+    },
+    {
+     "en": "thank — tank",
+     "say": "thank. tank."
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Escucha y elige",
+   "items": [
+    {
+     "say": "three",
+     "options": [
+      "three",
+      "tree"
+     ],
+     "a": 0
+    },
+    {
+     "say": "day",
+     "options": [
+      "they",
+      "day"
+     ],
+     "a": 1
+    },
+    {
+     "say": "think",
+     "options": [
+      "think",
+      "sink"
+     ],
+     "a": 0
+    },
+    {
+     "say": "thought",
+     "options": [
+      "thought",
+      "taught"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "¿/θ/ o /ð/?",
+   "buckets": [
+    "/θ/ think",
+    "/ð/ this"
+   ],
+   "items": [
+    {
+     "w": "thumb",
+     "b": 0
+    },
+    {
+     "w": "math",
+     "b": 0
+    },
+    {
+     "w": "thirty",
+     "b": 0
+    },
+    {
+     "w": "brother",
+     "b": 1
+    },
+    {
+     "w": "those",
+     "b": 1
+    },
+    {
+     "w": "weather",
+     "b": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "id": "b1-g20",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Wish + past simple",
+   "subtitle": "Wishes about the present",
+   "goals": [
+    "Express wishes about **present situations** with **wish + past simple**.",
+    "Use **were** for all persons.",
+    "Use **if only** for stronger feelings."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form",
+   "table": {
+    "head": [
+     "Reality",
+     "Wish"
+    ],
+    "rows": [
+     [
+      "I don't have a car.",
+      "I **wish** I **had** a car."
+     ],
+     [
+      "I'm not tall.",
+      "I **wish** I **were** taller."
+     ],
+     [
+      "I can't sing.",
+      "I **wish** I **could** sing."
+     ],
+     [
+      "It's raining.",
+      "**If only** it **wasn't** raining!"
+     ]
+    ]
+   },
+   "tip": "The past form here refers to the **present**: it shows the situation is unreal."
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "I live far from school. I wish I ___ (live) closer.",
+     "a": [
+      "lived"
+     ]
+    },
+    {
+     "t": "I can't drive. I wish I ___ drive.",
+     "a": [
+      "could"
+     ]
+    },
+    {
+     "t": "I'm so busy. I wish I ___ (not / be) so busy.",
+     "a": [
+      "wasn't",
+      "weren't",
+      "were not",
+      "was not"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I wish I ___ the answer. (no la sé)",
+     "options": [
+      "know",
+      "knew"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I wish it ___ Friday!",
+     "options": [
+      "is",
+      "were"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

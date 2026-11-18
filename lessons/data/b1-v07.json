@@ -1,0 +1,102 @@
+{
+ "id": "b1-v07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Health and lifestyle",
+   "subtitle": "Health and lifestyle",
+   "goals": [
+    "Talk about healthy and unhealthy habits.",
+    "Describe illnesses and treatments.",
+    "Give health advice."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "balanced diet, junk food, processed food"
+    },
+    {
+     "en": "get enough sleep, work out, keep fit"
+    },
+    {
+     "en": "stress, anxiety, burnout"
+    },
+    {
+     "en": "injury, treatment, recovery"
+    },
+    {
+     "en": "cut down on sugar",
+     "es": "reducir el azúcar"
+    },
+    {
+     "en": "take up a sport",
+     "es": "empezar un deporte"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "cut down on",
+     "reducir"
+    ],
+    [
+     "take up",
+     "empezar (un hábito)"
+    ],
+    [
+     "work out",
+     "hacer ejercicio"
+    ],
+    [
+     "junk food",
+     "comida chatarra"
+    ],
+    [
+     "injury",
+     "lesión"
+    ],
+    [
+     "recovery",
+     "recuperación"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "You should ___ on fizzy drinks.",
+     "options": [
+      "cut down",
+      "take up"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Physical damage from an accident:",
+     "options": [
+      "injury",
+      "symptom"
+     ],
+     "a": 0
+    },
+    {
+     "q": "To stay healthy and strong:",
+     "options": [
+      "keep fit",
+      "keep fat"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

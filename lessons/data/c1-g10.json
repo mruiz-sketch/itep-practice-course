@@ -1,0 +1,77 @@
+{
+ "id": "c1-g10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Participle and absolute clauses",
+   "subtitle": "Weather permitting… / All things considered…",
+   "goals": [
+    "Use advanced participle clauses.",
+    "Use absolute constructions with their own subject.",
+    "Recognize fixed expressions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Type",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Absolute (own subject)",
+      "**The work done**, we went home."
+     ],
+     [
+      "Absolute with *with*",
+      "**With prices rising**, people spend less."
+     ],
+     [
+      "Fixed expressions",
+      "**Weather permitting**, we'll eat outside."
+     ],
+     [
+      "Fixed expressions",
+      "**All things considered**, it was a success."
+     ],
+     [
+      "Fixed expressions",
+      "**Generally speaking** / **Judging by** his face…"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ permitting, the match will go ahead.",
+     "options": [
+      "Weather",
+      "Whether"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ all the evidence, the jury reached a verdict.",
+     "options": [
+      "Having considered",
+      "Considered"
+     ],
+     "a": 0
+    },
+    {
+     "q": "With the deadline ___, everyone was stressed.",
+     "options": [
+      "approaching",
+      "approached"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

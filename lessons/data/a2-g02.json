@@ -1,0 +1,260 @@
+{
+ "id": "a2-g02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Past simple",
+   "subtitle": "Pasado simple: verbos regulares e irregulares",
+   "goals": [
+    "Formar el pasado de verbos **regulares** (-ed).",
+    "Usar los **irregulares** más frecuentes.",
+    "Hacer negativas y preguntas con **did**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Regulares: -ed",
+   "table": {
+    "head": [
+     "Regla",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "La mayoría: **+ ed**",
+      "work → worked, play → played"
+     ],
+     [
+      "Termina en -e: **+ d**",
+      "live → lived, dance → danced"
+     ],
+     [
+      "Consonante + y: **y → ied**",
+      "study → studied, try → tried"
+     ],
+     [
+      "C-V-C corta: **dobla**",
+      "stop → stopped, plan → planned"
+     ]
+    ]
+   },
+   "tip": "El pasado es igual para todas las personas: *I worked, she worked, they worked*."
+  },
+  {
+   "type": "explain",
+   "title": "Irregulares frecuentes",
+   "table": {
+    "head": [
+     "Base",
+     "Pasado",
+     "Escucha"
+    ],
+    "rows": [
+     [
+      "go",
+      "**went**",
+      "go, went"
+     ],
+     [
+      "have",
+      "**had**",
+      "have, had"
+     ],
+     [
+      "get",
+      "**got**",
+      "get, got"
+     ],
+     [
+      "make",
+      "**made**",
+      "make, made"
+     ],
+     [
+      "see",
+      "**saw**",
+      "see, saw"
+     ],
+     [
+      "come",
+      "**came**",
+      "come, came"
+     ],
+     [
+      "take",
+      "**took**",
+      "take, took"
+     ],
+     [
+      "buy",
+      "**bought**",
+      "buy, bought"
+     ],
+     [
+      "eat",
+      "**ate**",
+      "eat, ate"
+     ],
+     [
+      "write",
+      "**wrote**",
+      "write, wrote"
+     ]
+    ],
+    "speak": 2
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Negativa y preguntas con did",
+   "table": {
+    "head": [
+     "",
+     "Forma",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Negativa",
+      "**didn't** + base",
+      "I **didn't go** to class."
+     ],
+     [
+      "Pregunta",
+      "**Did** + sujeto + base?",
+      "**Did** you **see** it?"
+     ],
+     [
+      "Respuesta corta",
+      "Yes, I did. / No, I didn't.",
+      ""
+     ],
+     [
+      "Wh-",
+      "Wh- + did + sujeto + base?",
+      "What **did** you **do**?"
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "She didn't went.",
+     "good": "She didn't **go**."
+    },
+    {
+     "bad": "Did you saw it?",
+     "good": "Did you **see** it?"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Escribe el pasado",
+   "items": [
+    {
+     "t": "I ___ (watch) a movie last night.",
+     "a": [
+      "watched"
+     ]
+    },
+    {
+     "t": "We ___ (go) to the beach in July.",
+     "a": [
+      "went"
+     ]
+    },
+    {
+     "t": "She ___ (study) all weekend.",
+     "a": [
+      "studied"
+     ]
+    },
+    {
+     "t": "They ___ (buy) a new car.",
+     "a": [
+      "bought"
+     ]
+    },
+    {
+     "t": "He ___ (stop) the car.",
+     "a": [
+      "stopped"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona base y pasado",
+   "pairs": [
+    [
+     "take",
+     "took"
+    ],
+    [
+     "write",
+     "wrote"
+    ],
+    [
+     "come",
+     "came"
+    ],
+    [
+     "make",
+     "made"
+    ],
+    [
+     "get",
+     "got"
+    ],
+    [
+     "eat",
+     "ate"
+    ]
+   ],
+   "speak": "right"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la forma correcta",
+   "items": [
+    {
+     "q": "I didn't ___ breakfast.",
+     "options": [
+      "had",
+      "have",
+      "has"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Where ___ you go last summer?",
+     "options": [
+      "did",
+      "were",
+      "do"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She ___ a letter to her grandma.",
+     "options": [
+      "writed",
+      "wrote",
+      "write"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Did they win? — No, they ___",
+     "options": [
+      "didn't.",
+      "weren't.",
+      "don't."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

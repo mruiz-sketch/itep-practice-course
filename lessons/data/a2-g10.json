@@ -1,0 +1,180 @@
+{
+ "id": "a2-g10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Adverbs of manner and degree",
+   "subtitle": "Adverbios de modo y de grado",
+   "goals": [
+    "Formar adverbios con **-ly**.",
+    "Conocer los irregulares: **well, fast, hard**.",
+    "Graduar adjetivos: **very, really, quite, a bit, too**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Adverbios de modo",
+   "table": {
+    "head": [
+     "Adjetivo",
+     "Adverbio",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "quick",
+      "quick**ly**",
+      "He eats **quickly**."
+     ],
+     [
+      "careful",
+      "careful**ly**",
+      "Drive **carefully**."
+     ],
+     [
+      "easy",
+      "eas**ily**",
+      "She passed **easily**."
+     ],
+     [
+      "good",
+      "**well**",
+      "You speak English **well**."
+     ],
+     [
+      "fast / hard",
+      "**fast / hard**",
+      "He works **hard**."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "She sings very good.",
+     "good": "She sings very **well**.",
+     "note": "Con verbos → adverbio."
+    },
+    {
+     "bad": "He works hardly.",
+     "good": "He works **hard**.",
+     "note": "*Hardly* significa *casi no*."
+    }
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Adverbios de grado",
+   "table": {
+    "head": [
+     "Adverbio",
+     "Fuerza",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "a bit / a little",
+      "poco",
+      "I'm **a bit** tired."
+     ],
+     [
+      "quite / pretty",
+      "bastante",
+      "It's **quite** expensive."
+     ],
+     [
+      "very / really",
+      "muy",
+      "She's **really** nice."
+     ],
+     [
+      "too",
+      "demasiado (negativo)",
+      "It's **too** hot. I can't sleep."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "¿Adjetivo o adverbio?",
+   "items": [
+    {
+     "q": "She is a ___ driver.",
+     "options": [
+      "careful",
+      "carefully"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She drives ___.",
+     "options": [
+      "careful",
+      "carefully"
+     ],
+     "a": 1
+    },
+    {
+     "q": "You did the test ___.",
+     "options": [
+      "good",
+      "well"
+     ],
+     "a": 1
+    },
+    {
+     "q": "This coffee is ___ hot. I can't drink it.",
+     "options": [
+      "too",
+      "very"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Forma el adverbio",
+   "items": [
+    {
+     "t": "slow → ___",
+     "a": [
+      "slowly"
+     ]
+    },
+    {
+     "t": "happy → ___",
+     "a": [
+      "happily"
+     ]
+    },
+    {
+     "t": "good → ___",
+     "a": [
+      "well"
+     ]
+    },
+    {
+     "t": "loud → ___",
+     "a": [
+      "loudly"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "Please speak more slowly.",
+     "es": "Por favor habla más despacio."
+    },
+    {
+     "a": "The exam was quite easy.",
+     "es": "El examen estuvo bastante fácil."
+    }
+   ]
+  }
+ ]
+}

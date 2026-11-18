@@ -1,0 +1,71 @@
+{
+  "id": "a1-f07",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Sorry, can you repeat that?",
+      "subtitle": "Pedir que repitan o hablen más despacio",
+      "goals": [
+        "Pedir que repitan, que hablen más despacio o que deletreen.",
+        "Preguntar qué significa una palabra.",
+        "Usar estas frases en clase y en el examen oral."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Frases de supervivencia",
+      "table": {
+        "head": ["Para…", "Frase", "Escucha"],
+        "rows": [
+          ["No entendiste", "Sorry? / Pardon?", "Sorry? Pardon?"],
+          ["Que repitan", "Can you repeat that, please?", "Can you repeat that, please?"],
+          ["Que hablen despacio", "Can you speak more slowly, please?", "Can you speak more slowly, please?"],
+          ["Que deletreen", "How do you spell that?", "How do you spell that?"],
+          ["Significado", "What does *awesome* mean?", "What does awesome mean?"],
+          ["Cómo se dice", "How do you say *mochila* in English?", "How do you say mochila in English?"],
+          ["Admitir que no sabes", "I don't understand. / I don't know.", "I don't understand. I don't know."]
+        ],
+        "speak": 2
+      },
+      "watch": "Se dice **What does it mean?**, no *What means it?*. Y **How do you say…?**, no *How is said…?*"
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la situación con la frase",
+      "pairs": [
+        ["Hablan muy rápido.", "Can you speak more slowly?"],
+        ["No escuchaste bien.", "Can you repeat that, please?"],
+        ["No conoces una palabra.", "What does it mean?"],
+        ["No sabes escribir un nombre.", "How do you spell it?"],
+        ["Quieres una palabra en inglés.", "How do you say it in English?"]
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la frase correcta",
+      "items": [
+        { "q": "¿Cuál es correcta?", "options": ["What means *shy*?", "What does *shy* mean?", "What is mean *shy*?"], "a": 1 },
+        { "q": "¿Cuál es correcta?", "options": ["How do you say *lápiz* in English?", "How is say *lápiz* in English?", "How you say *lápiz* English?"], "a": 0 },
+        { "q": "¿Cuál es más cortés?", "options": ["Repeat!", "What?", "Sorry, can you repeat that, please?"], "a": 2 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las frases",
+      "items": [
+        { "a": "Can you speak more slowly, please?", "es": "¿Puede hablar más despacio, por favor?" },
+        { "a": "What does this word mean?", "es": "¿Qué significa esta palabra?" },
+        { "a": "How do you spell your name?", "es": "¿Cómo se escribe tu nombre?" }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige",
+      "items": [
+        { "say": "Pardon?", "options": ["Pardon?", "Garden?", "Partner?"], "a": 0 },
+        { "say": "I don't understand.", "options": ["I don't understand.", "I don't stand.", "I understand."], "a": 0 },
+        { "say": "Can you repeat that, please?", "options": ["Can you read that, please?", "Can you repeat that, please?", "Can you write that, please?"], "a": 1 }
+      ]
+    }
+  ]
+}

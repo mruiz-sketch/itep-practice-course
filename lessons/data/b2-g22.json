@@ -1,0 +1,126 @@
+{
+ "id": "b2-g22",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Gradable and absolute adjectives",
+   "subtitle": "very cold vs absolutely freezing",
+   "goals": [
+    "Distinguish gradable and extreme adjectives.",
+    "Use the right intensifier.",
+    "Sound more natural and expressive."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Matching intensifiers",
+   "table": {
+    "head": [
+     "Gradable",
+     "Intensifier",
+     "Extreme",
+     "Intensifier"
+    ],
+    "rows": [
+     [
+      "cold",
+      "very / extremely",
+      "freezing",
+      "absolutely / totally"
+     ],
+     [
+      "tired",
+      "very / really",
+      "exhausted",
+      "absolutely / completely"
+     ],
+     [
+      "big",
+      "very",
+      "huge / enormous",
+      "absolutely"
+     ],
+     [
+      "good",
+      "very",
+      "fantastic / amazing",
+      "absolutely"
+     ],
+     [
+      "hungry",
+      "very",
+      "starving",
+      "absolutely"
+     ],
+     [
+      "funny",
+      "very",
+      "hilarious",
+      "absolutely"
+     ]
+    ]
+   },
+   "watch": "Not *very exhausted* or *absolutely tired*. **really** works with both."
+  },
+  {
+   "type": "match",
+   "title": "Match the extreme adjective",
+   "pairs": [
+    [
+     "very tired",
+     "exhausted"
+    ],
+    [
+     "very hungry",
+     "starving"
+    ],
+    [
+     "very big",
+     "enormous"
+    ],
+    [
+     "very bad",
+     "awful"
+    ],
+    [
+     "very small",
+     "tiny"
+    ],
+    [
+     "very scared",
+     "terrified"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "The film was ___ hilarious.",
+     "options": [
+      "very",
+      "absolutely"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I'm ___ hungry.",
+     "options": [
+      "very",
+      "absolutely"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's ___ freezing outside!",
+     "options": [
+      "absolutely",
+      "very"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

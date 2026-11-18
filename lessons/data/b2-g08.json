@@ -1,0 +1,89 @@
+{
+ "id": "b2-g08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Causatives: have, get, make, let",
+   "subtitle": "Getting others to do things",
+   "goals": [
+    "**have / get something done**: services.",
+    "**have someone do / get someone to do**: arranging.",
+    "**make someone do** (force) / **let someone do** (allow)."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Patterns",
+   "table": {
+    "head": [
+     "Verb",
+     "Pattern",
+     "Example"
+    ],
+    "rows": [
+     [
+      "have",
+      "have + person + base verb",
+      "I had the mechanic **check** the brakes."
+     ],
+     [
+      "get",
+      "get + person + to + verb",
+      "I got my brother **to help** me."
+     ],
+     [
+      "make",
+      "make + person + base verb",
+      "My parents made me **study**."
+     ],
+     [
+      "let",
+      "let + person + base verb",
+      "They let us **leave** early."
+     ],
+     [
+      "have / get",
+      "+ object + participle",
+      "I had my car **washed**."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "She made me to apologize.",
+     "good": "She made me **apologize**."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "My boss made me ___ late.",
+     "options": [
+      "work",
+      "to work"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I finally got my sister ___ me her car.",
+     "options": [
+      "lend",
+      "to lend"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Will your parents let you ___ to the party?",
+     "options": [
+      "go",
+      "to go"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

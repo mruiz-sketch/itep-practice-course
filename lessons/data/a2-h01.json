@@ -1,0 +1,129 @@
+{
+ "id": "a2-h01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reading emails, ads and timetables",
+   "subtitle": "Lectura: correos, anuncios y horarios",
+   "goals": [
+    "Encontrar información específica rápidamente (*scanning*).",
+    "Entender la idea general (*skimming*).",
+    "Leer horarios y anuncios."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Texto: correo de Sam",
+   "body": [
+    "**From:** Sam · **To:** Andrea · **Subject:** Weekend plans",
+    "Hi Andrea! Are you free on Saturday? My cousin is visiting from Canada and we're going to the Peña de Bernal. We're leaving at 8 a.m. by car, so there's space for you. We're going to climb a bit and have lunch in the town. We'll be back around 6. Let me know by Thursday! Sam"
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Preguntas",
+   "items": [
+    {
+     "q": "Why is Sam writing?",
+     "options": [
+      "To invite Andrea on a trip",
+      "To ask for help with homework"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Who is visiting Sam?",
+     "options": [
+      "His cousin",
+      "His teacher"
+     ],
+     "a": 0
+    },
+    {
+     "q": "How are they traveling?",
+     "options": [
+      "By bus",
+      "By car"
+     ],
+     "a": 1
+    },
+    {
+     "q": "When does Andrea have to answer?",
+     "options": [
+      "By Thursday",
+      "On Saturday"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Texto: horario de camiones",
+   "table": {
+    "head": [
+     "Route",
+     "Departs",
+     "Arrives",
+     "Days"
+    ],
+    "rows": [
+     [
+      "Santa Rosa → Centro",
+      "6:15",
+      "6:55",
+      "Mon–Sat"
+     ],
+     [
+      "Santa Rosa → Centro",
+      "7:40",
+      "8:20",
+      "Every day"
+     ],
+     [
+      "Centro → Santa Rosa",
+      "14:30",
+      "15:15",
+      "Mon–Fri"
+     ],
+     [
+      "Centro → Santa Rosa",
+      "19:00",
+      "19:45",
+      "Every day"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Preguntas sobre el horario",
+   "items": [
+    {
+     "q": "It's Sunday. What's the first bus to Centro?",
+     "options": [
+      "6:15",
+      "7:40"
+     ],
+     "a": 1
+    },
+    {
+     "q": "How long is the trip from Santa Rosa to Centro?",
+     "options": [
+      "40 minutes",
+      "1 hour"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Is there a 14:30 bus on Saturday?",
+     "options": [
+      "Yes",
+      "No"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

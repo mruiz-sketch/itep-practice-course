@@ -1,0 +1,85 @@
+{
+ "id": "b1-p02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Linking between words",
+   "subtitle": "Connected speech",
+   "goals": [
+    "Link consonant + vowel.",
+    "Hear how words join in fast speech.",
+    "Sound more fluent."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Types of linking",
+   "table": {
+    "head": [
+     "Type",
+     "Example",
+     "Sounds like",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "Consonant + vowel",
+      "turn it off",
+      "tur-ni-toff",
+      "turn it off"
+     ],
+     [
+      "Same consonant",
+      "black cat",
+      "bla-cat",
+      "black cat"
+     ],
+     [
+      "/w/ between vowels",
+      "go out",
+      "go-wout",
+      "go out"
+     ],
+     [
+      "/j/ between vowels",
+      "I agree",
+      "I-yagree",
+      "I agree"
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "listen",
+   "title": "Listen and choose",
+   "items": [
+    {
+     "say": "Pick it up.",
+     "options": [
+      "Pick it up.",
+      "Pick up."
+     ],
+     "a": 0
+    },
+    {
+     "say": "Check it out.",
+     "options": [
+      "Check it out.",
+      "Check out."
+     ],
+     "a": 0
+    },
+    {
+     "say": "An apple a day.",
+     "options": [
+      "An apple a day.",
+      "A napple a day."
+     ],
+     "a": 0,
+     "why": "It sounds like *a napple* because of linking."
+    }
+   ]
+  }
+ ]
+}

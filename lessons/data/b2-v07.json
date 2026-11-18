@@ -1,0 +1,89 @@
+{
+ "id": "b2-v07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Public health and medicine",
+   "subtitle": "Public health and medicine",
+   "goals": [
+    "Discuss health systems and prevention.",
+    "Describe treatments.",
+    "Understand health news."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "vaccine, outbreak, epidemic, pandemic"
+    },
+    {
+     "en": "diagnosis, treatment, side effects"
+    },
+    {
+     "en": "prevention, healthy habits, life expectancy"
+    },
+    {
+     "en": "mental health awareness"
+    },
+    {
+     "en": "The vaccine proved effective against the virus."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "outbreak",
+     "sudden start of a disease"
+    ],
+    [
+     "diagnosis",
+     "identification of an illness"
+    ],
+    [
+     "side effect",
+     "unwanted effect of a medicine"
+    ],
+    [
+     "life expectancy",
+     "average age people live to"
+    ],
+    [
+     "prevention",
+     "stopping something before it happens"
+    ],
+    [
+     "symptom",
+     "sign of an illness"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "A disease spreading across the world:",
+     "options": [
+      "pandemic",
+      "epidemic"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Unwanted reactions to a medicine:",
+     "options": [
+      "side effects",
+      "after effects"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

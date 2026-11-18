@@ -1,0 +1,92 @@
+{
+ "id": "b1-g08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Unless, as long as, in case",
+   "subtitle": "Other conditional linkers",
+   "goals": [
+    "Use **unless** = if not.",
+    "Use **as long as / provided that** = only if.",
+    "Use **in case** = as a precaution."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Meanings",
+   "table": {
+    "head": [
+     "Linker",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "unless",
+      "if…not",
+      "I won't go **unless** you come with me."
+     ],
+     [
+      "as long as / provided (that)",
+      "only if, on condition that",
+      "You can borrow it **as long as** you return it."
+     ],
+     [
+      "in case",
+      "because something might happen",
+      "Take an umbrella **in case** it rains."
+     ]
+    ]
+   },
+   "watch": "*In case* ≠ *if*. *Take an umbrella **if** it rains* = only when it rains. *Take an umbrella **in case** it rains* = take it now, just in case."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "You'll fail ___ you study.",
+     "options": [
+      "unless",
+      "in case"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I'll lend you my car ___ you drive carefully.",
+     "options": [
+      "as long as",
+      "unless"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Write down my number ___ you get lost.",
+     "options": [
+      "in case",
+      "as long as"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Rewrite with unless",
+   "items": [
+    {
+     "t": "If you don't hurry, you'll miss the bus. → You'll miss the bus ___ you hurry.",
+     "a": [
+      "unless"
+     ]
+    },
+    {
+     "t": "I'll take some snacks ___ we get hungry. (por si acaso)",
+     "a": [
+      "in case"
+     ]
+    }
+   ]
+  }
+ ]
+}

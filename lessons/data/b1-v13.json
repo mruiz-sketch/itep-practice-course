@@ -1,0 +1,118 @@
+{
+ "id": "b1-v13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Collocations and fixed expressions",
+   "subtitle": "Words that go together",
+   "goals": [
+    "Learn common collocations.",
+    "Avoid literal translations.",
+    "Sound more natural."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "heavy rain / heavy traffic",
+     "es": "lluvia fuerte / mucho tráfico"
+    },
+    {
+     "en": "strong coffee",
+     "es": "café cargado"
+    },
+    {
+     "en": "pay attention",
+     "es": "poner atención"
+    },
+    {
+     "en": "make progress",
+     "es": "progresar"
+    },
+    {
+     "en": "take part in",
+     "es": "participar en"
+    },
+    {
+     "en": "keep in touch",
+     "es": "mantenerse en contacto"
+    },
+    {
+     "en": "by the way / on purpose / in a hurry",
+     "es": "por cierto / a propósito / con prisa"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "pay attention",
+     "poner atención"
+    ],
+    [
+     "take part",
+     "participar"
+    ],
+    [
+     "keep in touch",
+     "seguir en contacto"
+    ],
+    [
+     "on purpose",
+     "a propósito"
+    ],
+    [
+     "in a hurry",
+     "con prisa"
+    ],
+    [
+     "make progress",
+     "progresar"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "There was ___ traffic this morning.",
+     "options": [
+      "heavy",
+      "strong"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I like my coffee ___.",
+     "options": [
+      "strong",
+      "heavy"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Please ___ attention.",
+     "options": [
+      "pay",
+      "put"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Let's keep in ___!",
+     "options": [
+      "touch",
+      "contact"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

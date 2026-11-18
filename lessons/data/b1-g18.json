@@ -1,0 +1,110 @@
+{
+ "id": "b1-g18",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "So / such, too / enough",
+   "subtitle": "Intensifying and expressing degree",
+   "goals": [
+    "Use **so + adjective** and **such (a) + noun**.",
+    "Express excess with **too** and sufficiency with **enough**.",
+    "Add results with **that**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Rules",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "so + adjective / adverb",
+      "It was **so cold** that we stayed in."
+     ],
+     [
+      "such (a) + (adj) + noun",
+      "It was **such a cold day**. / They are **such nice people**."
+     ],
+     [
+      "too + adjective (+ to)",
+      "He's **too young to** drive."
+     ],
+     [
+      "adjective + enough (+ to)",
+      "She's **old enough to** vote."
+     ],
+     [
+      "enough + noun",
+      "We don't have **enough time**."
+     ]
+    ]
+   },
+   "watch": "**enough** goes *after* adjectives but *before* nouns."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "It was ___ a good movie!",
+     "options": [
+      "so",
+      "such"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The coffee is ___ hot to drink.",
+     "options": [
+      "too",
+      "enough"
+     ],
+     "a": 0
+    },
+    {
+     "q": "He isn't tall ___ to reach it.",
+     "options": [
+      "enough",
+      "too"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I was ___ tired that I fell asleep.",
+     "options": [
+      "so",
+      "such"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "We don't have ___ chairs for everyone.",
+     "a": [
+      "enough"
+     ]
+    },
+    {
+     "t": "She speaks ___ fast that I can't understand.",
+     "a": [
+      "so"
+     ]
+    },
+    {
+     "t": "This bag is ___ heavy for me to carry.",
+     "a": [
+      "too"
+     ]
+    }
+   ]
+  }
+ ]
+}

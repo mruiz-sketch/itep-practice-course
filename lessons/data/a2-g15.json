@@ -1,0 +1,122 @@
+{
+ "id": "a2-g15",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Infinitive of purpose",
+   "subtitle": "Infinitivo de propósito: para…",
+   "goals": [
+    "Explicar **para qué** haces algo con **to + verbo**.",
+    "Evitar el error *for + verbo*.",
+    "Responder preguntas con *why*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Para = to",
+   "body": [
+    "Para explicar el propósito se usa **to + verbo**. Con sustantivo se usa **for**."
+   ],
+   "table": {
+    "head": [
+     "Estructura",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "to + verbo",
+      "I went to the store **to buy** milk."
+     ],
+     [
+      "for + sustantivo",
+      "I went to the store **for** milk."
+     ],
+     [
+      "Respuesta a *why*",
+      "Why do you study English? — **To get** a better job."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "I came for to see you.",
+     "good": "I came **to see** you."
+    },
+    {
+     "bad": "I study for learn.",
+     "good": "I study **to learn**."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "I use my phone to take photos.",
+     "es": "Uso mi celular para tomar fotos."
+    },
+    {
+     "en": "She saved money to buy a laptop.",
+     "es": "Ahorró para comprar una laptop."
+    },
+    {
+     "en": "We went to the park for a walk.",
+     "es": "Fuimos al parque a dar un paseo."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Une las ideas",
+   "pairs": [
+    [
+     "I went to the bank",
+     "to get some money."
+    ],
+    [
+     "She called the doctor",
+     "to make an appointment."
+    ],
+    [
+     "We turned on the TV",
+     "to watch the game."
+    ],
+    [
+     "He goes to the gym",
+     "to get fit."
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "¿To o for?",
+   "items": [
+    {
+     "q": "I went to the shop ___ some bread.",
+     "options": [
+      "to",
+      "for"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I went to the shop ___ buy bread.",
+     "options": [
+      "to",
+      "for"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why are you saving money? — ___ travel.",
+     "options": [
+      "For",
+      "To"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

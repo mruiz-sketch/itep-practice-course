@@ -1,0 +1,83 @@
+{
+ "id": "b1-f03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Hypothetical situations",
+   "subtitle": "Talking about imaginary situations",
+   "goals": [
+    "Use the second conditional to imagine.",
+    "Ask *What would you do if…?*",
+    "Give reasons for your choices."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "What would you do?",
+   "items": [
+    {
+     "en": "If you could live anywhere, where would you live?"
+    },
+    {
+     "en": "I'd live in Vancouver because I love nature."
+    },
+    {
+     "en": "If you found a wallet, what would you do?"
+    },
+    {
+     "en": "I'd take it to the police."
+    },
+    {
+     "en": "Imagine you were the president for a day…"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "If I ___ a superpower, I would fly. (have)",
+     "a": [
+      "had"
+     ]
+    },
+    {
+     "t": "What would you do if you ___ a million pesos? (win)",
+     "a": [
+      "won"
+     ]
+    },
+    {
+     "t": "I ___ travel around Asia. (would)",
+     "a": [
+      "'d",
+      "would"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "If I ___ you, I would accept the offer.",
+     "options": [
+      "was",
+      "were"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Where ___ you go if you had a free ticket?",
+     "options": [
+      "will",
+      "would"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

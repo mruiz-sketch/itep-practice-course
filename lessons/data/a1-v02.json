@@ -1,0 +1,77 @@
+{
+  "id": "a1-v02",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Countries and nationalities",
+      "subtitle": "Países, nacionalidades e idiomas",
+      "goals": [
+        "Decir de dónde eres: *I'm from Mexico. I'm Mexican.*",
+        "Conocer las terminaciones **-an, -ish, -ese**.",
+        "Escribir nacionalidades e idiomas **con mayúscula**."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "País → nacionalidad",
+      "table": {
+        "head": ["Terminación", "País → nacionalidad", "Escucha"],
+        "rows": [
+          ["**-an / -ian**", "Mexico → Mexican, the USA → American, Canada → Canadian, Brazil → Brazilian, Italy → Italian", "Mexican, American, Canadian, Brazilian, Italian"],
+          ["**-ish**", "Spain → Spanish, England → English, Ireland → Irish, Turkey → Turkish", "Spanish, English, Irish, Turkish"],
+          ["**-ese**", "China → Chinese, Japan → Japanese, Portugal → Portuguese", "Chinese, Japanese, Portuguese"],
+          ["Otras", "France → French, Germany → German, Greece → Greek, Peru → Peruvian", "French, German, Greek, Peruvian"]
+        ],
+        "speak": 2
+      },
+      "tip": "Muchas veces la nacionalidad es también el idioma: *Spanish, French, Japanese*. Pero en EE. UU., México y Brasil no: allá se habla *English, Spanish, Portuguese*.",
+      "watch": "En inglés países, nacionalidades e idiomas van **con mayúscula**: *I speak English*, nunca *english*."
+    },
+    {
+      "type": "examples",
+      "title": "¿De dónde eres?",
+      "items": [
+        { "en": "Where are you from? — I'm from Mexico.", "es": "¿De dónde eres? — Soy de México." },
+        { "en": "I'm Mexican. I speak Spanish and a little English.", "es": "Soy mexicana. Hablo español y un poco de inglés." },
+        { "en": "My teacher is Canadian.", "es": "Mi maestro es canadiense." },
+        { "en": "Do you speak Japanese?", "es": "¿Hablas japonés?" },
+        { "en": "What's your nationality? — I'm Peruvian.", "es": "¿Cuál es tu nacionalidad? — Soy peruano." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona país y nacionalidad",
+      "pairs": [["Mexico", "Mexican"], ["Spain", "Spanish"], ["Japan", "Japanese"], ["France", "French"], ["Germany", "German"], ["Brazil", "Brazilian"]],
+      "speak": "right"
+    },
+    {
+      "type": "sort",
+      "title": "Clasifica por terminación",
+      "buckets": ["-an / -ian", "-ish", "-ese"],
+      "items": [
+        { "w": "Colombian", "b": 0 }, { "w": "Italian", "b": 0 }, { "w": "Korean", "b": 0 },
+        { "w": "British", "b": 1 }, { "w": "Polish", "b": 1 }, { "w": "Swedish", "b": 1 },
+        { "w": "Vietnamese", "b": 2 }, { "w": "Lebanese", "b": 2 }, { "w": "Chinese", "b": 2 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escribe la nacionalidad",
+      "items": [
+        { "t": "Pedro is from Argentina. He's ___.", "a": ["Argentinian", "Argentine"] },
+        { "t": "Yuki is from Japan. She's ___.", "a": ["Japanese"] },
+        { "t": "We're from the USA. We're ___.", "a": ["American"] },
+        { "t": "Marie is from France. She speaks ___.", "a": ["French"] }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*I speak english* está bien escrito.", "a": false, "why": "Se escribe con mayúscula: **English**." },
+        { "s": "La nacionalidad de alguien de Brasil es **Brazilian**.", "a": true },
+        { "s": "En México se habla *Mexican*.", "a": false, "why": "El idioma es **Spanish**." }
+      ]
+    }
+  ]
+}

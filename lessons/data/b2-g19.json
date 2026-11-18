@@ -1,0 +1,97 @@
+{
+ "id": "b2-g19",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Determiners: all, both, each, every, either, neither",
+   "subtitle": "Talking about groups",
+   "goals": [
+    "Use **both / either / neither** for two.",
+    "Use **all / every / each** for groups.",
+    "Use **of** before pronouns and determiners."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Rules",
+   "table": {
+    "head": [
+     "Word",
+     "Use",
+     "Example"
+    ],
+    "rows": [
+     [
+      "both",
+      "2, positive",
+      "**Both** answers are correct."
+     ],
+     [
+      "either",
+      "2, one or the other",
+      "You can take **either** bus."
+     ],
+     [
+      "neither",
+      "2, not one nor the other",
+      "**Neither** option is good."
+     ],
+     [
+      "all",
+      "3+, the whole group",
+      "**All** students passed."
+     ],
+     [
+      "every",
+      "3+, singular verb",
+      "**Every** student has a laptop."
+     ],
+     [
+      "each",
+      "2+, individually",
+      "**Each** room has a bathroom."
+     ]
+    ]
+   },
+   "tip": "With pronouns use **of**: *both of them, neither of us, each of you*."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I have two sisters. ___ of them live in Mexico City.",
+     "options": [
+      "Both",
+      "Every"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ of my parents speaks English.",
+     "options": [
+      "Neither",
+      "Both"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ student received a certificate.",
+     "options": [
+      "Every",
+      "All"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You can sit at ___ end of the table.",
+     "options": [
+      "either",
+      "both"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

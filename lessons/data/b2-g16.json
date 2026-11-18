@@ -1,0 +1,73 @@
+{
+ "id": "b2-g16",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Future in the past",
+   "subtitle": "was going to, would, was about to",
+   "goals": [
+    "Talk about past plans that didn't happen.",
+    "Report predictions with **would**.",
+    "Use **was about to** for imminent actions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Forms",
+   "table": {
+    "head": [
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "was / were going to",
+      "I **was going to** call you, but I forgot."
+     ],
+     [
+      "would",
+      "I knew she **would** win."
+     ],
+     [
+      "was about to",
+      "I **was about to** leave when the phone rang."
+     ],
+     [
+      "was supposed to",
+      "We **were supposed to** meet at 6."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I ___ tell you, but you already knew.",
+     "options": [
+      "was going to",
+      "will"
+     ],
+     "a": 0
+    },
+    {
+     "q": "They promised they ___ help.",
+     "options": [
+      "would",
+      "will"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I ___ go to bed when you called.",
+     "options": [
+      "was about to",
+      "am about to"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

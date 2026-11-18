@@ -1,0 +1,147 @@
+{
+ "id": "b1-g10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reported speech",
+   "subtitle": "Statements, questions and commands",
+   "goals": [
+    "Report what people said with **said / told**.",
+    "Backshift tenses and change pronouns and time words.",
+    "Report questions and commands."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Tense changes",
+   "table": {
+    "head": [
+     "Direct speech",
+     "Reported speech"
+    ],
+    "rows": [
+     [
+      "\"I **am** tired.\"",
+      "She said (that) she **was** tired."
+     ],
+     [
+      "\"I **live** in Puebla.\"",
+      "He said he **lived** in Puebla."
+     ],
+     [
+      "\"I **saw** it.\"",
+      "She said she **had seen** it."
+     ],
+     [
+      "\"I **will** call.\"",
+      "He said he **would** call."
+     ],
+     [
+      "\"I **can** help.\"",
+      "She said she **could** help."
+     ]
+    ]
+   },
+   "list": [
+    "**say** something / **tell** someone something: *He **told me** he was busy.*",
+    "Time words: *today → that day, tomorrow → the next day, yesterday → the day before*"
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Questions and commands",
+   "table": {
+    "head": [
+     "Type",
+     "Direct",
+     "Reported"
+    ],
+    "rows": [
+     [
+      "Yes/no",
+      "\"Are you OK?\"",
+      "She asked **if** I was OK."
+     ],
+     [
+      "Wh-",
+      "\"Where do you live?\"",
+      "He asked me where **I lived**."
+     ],
+     [
+      "Command",
+      "\"Sit down.\"",
+      "The teacher told us **to sit** down."
+     ],
+     [
+      "Negative command",
+      "\"Don't talk.\"",
+      "She told us **not to talk**."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "He asked me where did I live.",
+     "good": "He asked me where **I lived**.",
+     "note": "No question word order in reported questions."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "She ___ me she was busy.",
+     "options": [
+      "said",
+      "told"
+     ],
+     "a": 1
+    },
+    {
+     "q": "\"I'm hungry.\" → He said he ___ hungry.",
+     "options": [
+      "is",
+      "was"
+     ],
+     "a": 1
+    },
+    {
+     "q": "\"Close the door.\" → She told me ___ the door.",
+     "options": [
+      "close",
+      "to close"
+     ],
+     "a": 1
+    },
+    {
+     "q": "\"Do you like jazz?\" → He asked me ___ I liked jazz.",
+     "options": [
+      "if",
+      "that"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Report",
+   "items": [
+    {
+     "t": "\"I will help you.\" → He said he ___ help me.",
+     "a": [
+      "would"
+     ]
+    },
+    {
+     "t": "\"Where is the station?\" → She asked where the station ___.",
+     "a": [
+      "was"
+     ]
+    }
+   ]
+  }
+ ]
+}

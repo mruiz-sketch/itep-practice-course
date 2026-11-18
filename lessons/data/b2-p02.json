@@ -1,0 +1,61 @@
+{
+ "id": "b2-p02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Intonation and attitude",
+   "subtitle": "Sounding interested, bored or surprised",
+   "goals": [
+    "Recognize attitude from intonation.",
+    "Avoid sounding rude or bored.",
+    "Use wide pitch range for interest."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Attitude",
+   "table": {
+    "head": [
+     "Attitude",
+     "Intonation"
+    ],
+    "rows": [
+     [
+      "Interested / enthusiastic",
+      "wide pitch range, rising-falling"
+     ],
+     [
+      "Bored / uninterested",
+      "flat, low"
+     ],
+     [
+      "Surprised",
+      "high rise"
+     ],
+     [
+      "Sarcastic",
+      "exaggerated, slow fall"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "tf",
+   "title": "True or false?",
+   "items": [
+    {
+     "s": "A flat intonation can sound rude in English.",
+     "a": true
+    },
+    {
+     "s": "Spanish speakers sometimes sound bored because their pitch range is narrower in English.",
+     "a": true
+    },
+    {
+     "s": "Intonation never changes meaning.",
+     "a": false
+    }
+   ]
+  }
+ ]
+}

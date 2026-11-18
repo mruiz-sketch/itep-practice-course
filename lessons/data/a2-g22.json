@@ -1,0 +1,109 @@
+{
+ "id": "a2-g22",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Used to",
+   "subtitle": "Used to: hábitos y estados del pasado",
+   "goals": [
+    "Hablar de cosas que **ya no** pasan.",
+    "Formar negativas y preguntas con **didn't use to / Did you use to…?**",
+    "Comparar el pasado con el presente."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Forma",
+   "table": {
+    "head": [
+     "",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Afirmativa",
+      "I **used to** play football."
+     ],
+     [
+      "Negativa",
+      "I **didn't use to** like vegetables."
+     ],
+     [
+      "Pregunta",
+      "**Did** you **use to** live here?"
+     ]
+    ]
+   },
+   "list": [
+    "Hábitos pasados: *We used to go to the beach every summer.*",
+    "Estados pasados: *She used to have long hair.*"
+   ],
+   "watch": "Solo para el **pasado**. Para el presente se usa *usually*: *I usually walk* (no *I use to walk*)."
+  },
+  {
+   "type": "examples",
+   "title": "Antes y ahora",
+   "items": [
+    {
+     "en": "I used to be shy, but now I'm outgoing.",
+     "es": "Antes era tímido, pero ahora soy sociable."
+    },
+    {
+     "en": "There used to be a cinema here.",
+     "es": "Antes había un cine aquí."
+    },
+    {
+     "en": "Did you use to watch cartoons? — Yes, every day!",
+     "es": "¿Veías caricaturas? — ¡Sí, diario!"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa con used to",
+   "items": [
+    {
+     "t": "My dad ___ smoke, but he stopped. (used to)",
+     "a": [
+      "used to"
+     ]
+    },
+    {
+     "t": "I ___ like coffee, but now I love it. (negativa)",
+     "a": [
+      "didn't use to",
+      "did not use to"
+     ]
+    },
+    {
+     "t": "Where ___ you use to live? (pregunta)",
+     "a": [
+      "did"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "¿Cómo se dice *De niño jugaba en la calle*?",
+     "options": [
+      "When I was a child, I used to play in the street.",
+      "When I was a child, I use to play in the street."
+     ],
+     "a": 0
+    },
+    {
+     "q": "¿Cómo se dice *Normalmente me levanto a las 7*?",
+     "options": [
+      "I use to get up at 7.",
+      "I usually get up at 7."
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

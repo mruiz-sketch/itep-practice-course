@@ -1,0 +1,66 @@
+{
+ "id": "c1-f07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Diplomacy and indirect politeness",
+   "subtitle": "Softening messages",
+   "goals": [
+    "Soften requests and criticism.",
+    "Use past forms and modals for distance.",
+    "Disagree diplomatically."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Soften requests",
+      "I was wondering if you could… / Would it be possible to…?"
+     ],
+     [
+      "Soften criticism",
+      "It might be worth reconsidering… / Perhaps we could look at…"
+     ],
+     [
+      "Disagree",
+      "I'm not entirely convinced that… / I see your point, but…"
+     ],
+     [
+      "Bad news",
+      "I'm afraid that… / Unfortunately, we're unable to…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Most diplomatic:",
+     "options": [
+      "I was wondering if you could send it today.",
+      "Send it today."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Diplomatic criticism:",
+     "options": [
+      "It might be worth revising this section.",
+      "This section is bad."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

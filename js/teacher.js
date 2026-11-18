@@ -187,10 +187,10 @@ export function createTeacherArea({ backend, toast, onLogout }) {
       }
       box.innerHTML = `
         <table class="roster">
-          <thead><tr><th>#</th><th>Last name</th><th>First name</th><th>School ID</th><th class="hide-sm">E-mail</th><th>Diagnostic test</th></tr></thead>
+          <thead><tr><th>#</th><th>Last name</th><th>First name</th><th>School ID</th><th class="hide-sm">E-mail</th><th>Diagnostic test</th><th>Learning path</th></tr></thead>
           <tbody>${list.map((s, i) => `
             <tr><td class="num">${i + 1}</td><td>${esc(s.lastName)}</td><td>${esc(s.firstName)}</td>
-            <td>${esc(s.schoolId)}</td><td class="hide-sm">${esc(s.email)}</td><td>${diagnostic(s)}</td></tr>`).join("")}
+            <td>${esc(s.schoolId)}</td><td class="hide-sm">${esc(s.email)}</td><td>${diagnostic(s)}</td><td>${pathCell(s)}</td></tr>`).join("")}
           </tbody>
         </table>`;
     } catch (err) {
@@ -205,6 +205,14 @@ export function createTeacherArea({ backend, toast, onLogout }) {
       return `<span class="pill done" title="${esc(secs)}">${esc(parts.join(" · "))}</span>`;
     }
     return `<span class="pill">Not taken yet</span>`;
+  }
+
+  function pathCell(s) {
+    if (!s.diagnosticCompleted) return `<span class="pill">—</span>`;
+    const done = s.pathDone || 0, total = s.pathTotal || 0;
+    if (!total) return `<span class="pill">Not started</span>`;
+    const stars = Object.values(s.pathProgress || {}).reduce((a, x) => a + (x.stars || 0), 0);
+    return `<span class="pill${done >= total ? " done" : ""}" title="${stars} stars">${done} / ${total} lessons · ★ ${stars}</span>`;
   }
 
   // ---------- Open / close ----------

@@ -1,0 +1,97 @@
+{
+ "id": "b2-v03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Science, innovation and ethics",
+   "subtitle": "Science, innovation and tech ethics",
+   "goals": [
+    "Discuss new technologies.",
+    "Evaluate pros and cons.",
+    "Use vocabulary of ethics."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "artificial intelligence, automation, genetic engineering"
+    },
+    {
+     "en": "data privacy, surveillance, cybersecurity"
+    },
+    {
+     "en": "cutting-edge, groundbreaking, obsolete"
+    },
+    {
+     "en": "benefits and drawbacks"
+    },
+    {
+     "en": "AI raises serious ethical concerns."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "cutting-edge",
+     "most advanced"
+    ],
+    [
+     "obsolete",
+     "no longer used"
+    ],
+    [
+     "drawback",
+     "disadvantage"
+    ],
+    [
+     "privacy",
+     "freedom from being observed"
+    ],
+    [
+     "breakthrough",
+     "important discovery"
+    ],
+    [
+     "automation",
+     "machines doing human work"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Very new and advanced technology is…",
+     "options": [
+      "cutting-edge",
+      "obsolete"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A disadvantage:",
+     "options": [
+      "drawback",
+      "feedback"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Old technology nobody uses anymore is…",
+     "options": [
+      "obsolete",
+      "groundbreaking"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

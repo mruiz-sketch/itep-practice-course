@@ -1,0 +1,97 @@
+{
+ "id": "b1-v08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Science and technology",
+   "subtitle": "Science and technology",
+   "goals": [
+    "Talk about inventions and discoveries.",
+    "Discuss technology in daily life.",
+    "Use verbs: *invent, discover, develop*."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "invent / invention, discover / discovery"
+    },
+    {
+     "en": "develop new software"
+    },
+    {
+     "en": "artificial intelligence, robot, app, device"
+    },
+    {
+     "en": "research, experiment, scientist, laboratory"
+    },
+    {
+     "en": "Technology has changed the way we communicate."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "invent",
+     "inventar"
+    ],
+    [
+     "discover",
+     "descubrir"
+    ],
+    [
+     "research",
+     "investigación"
+    ],
+    [
+     "device",
+     "dispositivo"
+    ],
+    [
+     "breakthrough",
+     "avance importante"
+    ],
+    [
+     "update",
+     "actualización"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Alexander Fleming ___ penicillin.",
+     "options": [
+      "discovered",
+      "invented"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Edison ___ the light bulb.",
+     "options": [
+      "invented",
+      "discovered"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A big important advance in science:",
+     "options": [
+      "breakthrough",
+      "drawback"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

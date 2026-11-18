@@ -1,0 +1,102 @@
+{
+  "id": "a1-g06",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "My, your, his… and 's",
+      "subtitle": "Adjetivos posesivos y genitivo sajón",
+      "goals": [
+        "Usar **my, your, his, her, its, our, their**.",
+        "Expresar posesión con **'s**: *Ana's book*.",
+        "No confundir **his / her** ni **its / it's**."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Adjetivos posesivos",
+      "body": ["Van **antes** del sustantivo y **no cambian** en plural: *my book, my books*."],
+      "table": {
+        "head": ["Pronombre", "Posesivo", "Ejemplo"],
+        "rows": [
+          ["I", "**my**", "my phone"],
+          ["you", "**your**", "your class"],
+          ["he", "**his**", "his car (de él)"],
+          ["she", "**her**", "her car (de ella)"],
+          ["it", "**its**", "its tail (de un animal o cosa)"],
+          ["we", "**our**", "our school"],
+          ["they", "**their**", "their house"]
+        ]
+      },
+      "watch": "En español *su* puede ser de él, de ella o de ellos. En inglés depende del **dueño**: *Luis and **his** mother* (la mamá de Luis), *Ana and **her** father* (el papá de Ana)."
+    },
+    {
+      "type": "explain",
+      "title": "El genitivo sajón: 's",
+      "table": {
+        "head": ["Dueño", "Forma", "Ejemplo"],
+        "rows": [
+          ["Una persona", "nombre + **'s**", "**Ana's** book = el libro de Ana"],
+          ["Plural regular", "plural + **'**", "my **parents'** house = la casa de mis papás"],
+          ["Plural irregular", "plural + **'s**", "the **children's** room"],
+          ["Dos dueños juntos", "'s en el último", "**Luis and Ana's** dog"]
+        ]
+      },
+      "errors": [
+        { "bad": "the book of María", "good": "**María's** book", "note": "Con personas se usa **'s**." },
+        { "bad": "The dog is happy with it's toy.", "good": "The dog is happy with **its** toy.", "note": "**it's** = *it is*. El posesivo es **its**, sin apóstrofo." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Posesivos en contexto",
+      "items": [
+        { "en": "This is **my** sister. **Her** name is Sofía.", "es": "Ella es mi hermana. Se llama Sofía." },
+        { "en": "Pedro is with **his** girlfriend.", "es": "Pedro está con su novia." },
+        { "en": "What's **your** email?", "es": "¿Cuál es tu correo?" },
+        { "en": "**Mel's** class is on Monday.", "es": "La clase de Mel es el lunes." },
+        { "en": "**Our** teachers are great.", "es": "Nuestros maestros son geniales." },
+        { "en": "My **parents'** car is blue.", "es": "El coche de mis papás es azul." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige el posesivo",
+      "items": [
+        { "q": "Carlos lives with ___ grandmother.", "options": ["her", "his", "their"], "a": 1, "why": "El dueño es Carlos (él) → **his**." },
+        { "q": "Ana loves ___ dog.", "options": ["his", "its", "her"], "a": 2 },
+        { "q": "We are proud of ___ team.", "options": ["our", "their", "your"], "a": 0 },
+        { "q": "The cat is eating. ___ food is on the floor.", "options": ["It's", "Its", "His"], "a": 1 },
+        { "q": "My friends are here with ___ parents.", "options": ["their", "there", "they're"], "a": 0 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escríbelo con 's o '",
+      "items": [
+        { "t": "the phone of Luis → ___ phone", "a": ["Luis's", "Luis'"] },
+        { "t": "the house of my parents → my ___ house", "a": ["parents'"] },
+        { "t": "the toys of the children → the ___ toys", "a": ["children's"] },
+        { "t": "the car of my sister → my ___ car", "a": ["sister's"] }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "Her brother is a doctor.", "es": "Su hermano (de ella) es doctor." },
+        { "a": "This is my teacher's office.", "es": "Esta es la oficina de mi maestra." },
+        { "a": "Their house is very big.", "es": "Su casa (de ellos) es muy grande." }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*Its* y *it's* significan lo mismo.", "a": false, "why": "**its** = su (de una cosa o animal); **it's** = *it is*." },
+        { "s": "Los posesivos no cambian en plural: *my books*.", "a": true },
+        { "s": "Para *el coche de Ana* se dice **Ana's car**.", "a": true },
+        { "s": "Para un hombre se usa **her**.", "a": false, "why": "Para un hombre: **his**." }
+      ]
+    }
+  ]
+}

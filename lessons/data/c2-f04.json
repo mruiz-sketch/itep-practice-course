@@ -1,0 +1,50 @@
+{
+ "id": "c2-f04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Mediating between people and cultures",
+   "subtitle": "Mediation (CEFR Companion Volume)",
+   "goals": [
+    "Explain ideas to people with different backgrounds.",
+    "Bridge misunderstandings.",
+    "Simplify and adapt content."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Clarify cultural differences",
+      "In Mexico, it's common to… whereas in…"
+     ],
+     [
+      "Simplify",
+      "Basically, what this means is…"
+     ],
+     [
+      "Facilitate",
+      "I think what Ana is trying to say is…"
+     ],
+     [
+      "Check",
+      "Does that make sense to everyone?"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Explain the Day of the Dead to someone who has never heard of it, in 90 seconds, avoiding stereotypes."
+   ]
+  }
+ ]
+}

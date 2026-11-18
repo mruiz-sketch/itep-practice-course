@@ -1,0 +1,73 @@
+{
+ "id": "c1-p03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Understanding regional accents",
+   "subtitle": "Accents around the English-speaking world",
+   "goals": [
+    "Recognize major accent features.",
+    "Adapt your listening.",
+    "Value accent diversity."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Features",
+   "table": {
+    "head": [
+     "Accent",
+     "Typical features"
+    ],
+    "rows": [
+     [
+      "General American",
+      "rhotic /r/, flapped t (*water* ≈ wader)"
+     ],
+     [
+      "Southern British (RP)",
+      "non-rhotic, long /ɑː/ in *bath*"
+     ],
+     [
+      "Australian",
+      "rising intonation, /eɪ/ sounds like /aɪ/"
+     ],
+     [
+      "Irish",
+      "th → t/d, melodic intonation"
+     ],
+     [
+      "Indian English",
+      "syllable-timed rhythm, retroflex consonants"
+     ],
+     [
+      "Scottish",
+      "rolled /r/, short vowels"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Which accent?",
+   "items": [
+    {
+     "q": "Doesn't pronounce the /r/ in *car*:",
+     "options": [
+      "Southern British",
+      "General American"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Water* sounds like *wader*:",
+     "options": [
+      "General American",
+      "Scottish"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

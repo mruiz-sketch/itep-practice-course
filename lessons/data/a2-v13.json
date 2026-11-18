@@ -1,0 +1,153 @@
+{
+ "id": "a2-v13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Make, do, have, take",
+   "subtitle": "Colocaciones con make, do, have, take",
+   "goals": [
+    "Saber qué verbo va con cada sustantivo.",
+    "Evitar *make homework* o *do a mistake*.",
+    "Usar colocaciones frecuentes."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Colocaciones",
+   "items": [
+    {
+     "en": "make: a mistake, a decision, a phone call, friends, noise, money",
+     "es": "cometer un error, decidir, llamar, hacer amigos, hacer ruido, ganar dinero"
+    },
+    {
+     "en": "do: homework, exercise, the dishes, your best, a favor",
+     "es": "tarea, ejercicio, lavar los trastes, dar lo mejor, un favor"
+    },
+    {
+     "en": "have: breakfast, a shower, a party, fun, a good time",
+     "es": "desayunar, bañarse, hacer fiesta, divertirse"
+    },
+    {
+     "en": "take: a photo, a break, the bus, an exam, a seat",
+     "es": "tomar una foto, un descanso, el camión, presentar examen, sentarse"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Clasifica",
+   "buckets": [
+    "make",
+    "do",
+    "take"
+   ],
+   "items": [
+    {
+     "w": "a decision",
+     "b": 0
+    },
+    {
+     "w": "noise",
+     "b": 0
+    },
+    {
+     "w": "money",
+     "b": 0
+    },
+    {
+     "w": "exercise",
+     "b": 1
+    },
+    {
+     "w": "the shopping",
+     "b": 1
+    },
+    {
+     "w": "your best",
+     "b": 1
+    },
+    {
+     "w": "a photo",
+     "b": 2
+    },
+    {
+     "w": "a shower",
+     "b": 2
+    },
+    {
+     "w": "a taxi",
+     "b": 2
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "make a mistake",
+     "cometer un error"
+    ],
+    [
+     "do the dishes",
+     "lavar los trastes"
+    ],
+    [
+     "have fun",
+     "divertirse"
+    ],
+    [
+     "take a break",
+     "tomar un descanso"
+    ],
+    [
+     "make friends",
+     "hacer amigos"
+    ],
+    [
+     "do me a favor",
+     "hazme un favor"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "I always ___ my homework after dinner.",
+     "options": [
+      "make",
+      "do"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Don't worry. Everybody ___ mistakes.",
+     "options": [
+      "makes",
+      "does"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Let's ___ a break.",
+     "options": [
+      "take",
+      "make"
+     ],
+     "a": 0
+    },
+    {
+     "q": "We ___ a great time at the party.",
+     "options": [
+      "had",
+      "did"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

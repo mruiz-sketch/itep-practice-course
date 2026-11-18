@@ -1,0 +1,86 @@
+{
+ "id": "c1-v03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Politics, law and international relations",
+   "subtitle": "Formal political and legal language",
+   "goals": [
+    "Discuss politics and law at an advanced level.",
+    "Read quality press.",
+    "Use neutral, precise terms."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "legislation, enact, repeal, amend"
+    },
+    {
+     "en": "sovereignty, treaty, sanctions, diplomacy"
+    },
+    {
+     "en": "jurisdiction, verdict, appeal, precedent"
+    },
+    {
+     "en": "The bill was passed by a narrow majority."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "repeal",
+     "officially cancel a law"
+    ],
+    [
+     "amend",
+     "make changes to a law"
+    ],
+    [
+     "treaty",
+     "formal agreement between countries"
+    ],
+    [
+     "verdict",
+     "decision in a trial"
+    ],
+    [
+     "precedent",
+     "earlier case used as an example"
+    ],
+    [
+     "sanctions",
+     "penalties against a country"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "To officially cancel a law:",
+     "options": [
+      "repeal",
+      "appeal"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A formal agreement between nations:",
+     "options": [
+      "treaty",
+      "treatment"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

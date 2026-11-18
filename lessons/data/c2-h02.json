@@ -1,0 +1,45 @@
+{
+ "id": "c2-h02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Listening to any kind of discourse",
+   "subtitle": "Full listening mastery",
+   "goals": [
+    "Understand implicit meaning, humor and overlap.",
+    "Follow conversations with interruptions.",
+    "Identify attitude instantly."
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "What does the speaker really mean?",
+   "items": [
+    {
+     "say": "Well, that went well, didn't it?",
+     "options": [
+      "It went badly.",
+      "It went well."
+     ],
+     "a": 0
+    },
+    {
+     "say": "I'm not saying it's a bad idea, I'm just saying I wouldn't do it.",
+     "options": [
+      "The speaker disapproves politely.",
+      "The speaker strongly supports it."
+     ],
+     "a": 0
+    },
+    {
+     "say": "He's not the sharpest tool in the shed.",
+     "options": [
+      "He is not very intelligent.",
+      "He is very practical."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

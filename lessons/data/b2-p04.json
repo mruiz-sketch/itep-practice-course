@@ -1,0 +1,72 @@
+{
+ "id": "b2-p04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Weak forms in past modals",
+   "subtitle": "should've, could've, might've",
+   "goals": [
+    "Pronounce past modals naturally.",
+    "Recognize them in fast speech.",
+    "Avoid writing *should of*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Weak forms",
+   "table": {
+    "head": [
+     "Written",
+     "Spoken",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "should have",
+      "/ˈʃʊdəv/ should've",
+      "should have"
+     ],
+     [
+      "could have",
+      "/ˈkʊdəv/ could've",
+      "could have"
+     ],
+     [
+      "might have",
+      "/ˈmaɪtəv/ might've",
+      "might have"
+     ],
+     [
+      "shouldn't have",
+      "/ˈʃʊdntəv/",
+      "shouldn't have"
+     ]
+    ],
+    "speak": 2
+   },
+   "watch": "Never write *should of / could of*: always *should have*."
+  },
+  {
+   "type": "listen",
+   "title": "Listen and choose",
+   "items": [
+    {
+     "say": "You should have told me.",
+     "options": [
+      "You should have told me.",
+      "You should tell me."
+     ],
+     "a": 0
+    },
+    {
+     "say": "I could have won.",
+     "options": [
+      "I could have won.",
+      "I could win."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "a2-g20",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Relative clauses: who, which, that, where",
+   "subtitle": "Oraciones de relativo especificativas",
+   "goals": [
+    "Unir dos ideas con **who** (personas), **which** (cosas) y **where** (lugares).",
+    "Usar **that** para personas y cosas.",
+    "Definir palabras en inglés."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Pronombres relativos",
+   "table": {
+    "head": [
+     "Relativo",
+     "Para",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "**who**",
+      "personas",
+      "A nurse is a person **who** takes care of patients."
+     ],
+     [
+      "**which**",
+      "cosas, animales",
+      "This is the phone **which** I bought."
+     ],
+     [
+      "**that**",
+      "personas o cosas",
+      "The man **that** called you is here."
+     ],
+     [
+      "**where**",
+      "lugares",
+      "This is the café **where** we met."
+     ]
+    ]
+   },
+   "tip": "Muy útil para definir: *A chef is someone **who** cooks in a restaurant.*"
+  },
+  {
+   "type": "match",
+   "title": "Une las definiciones",
+   "pairs": [
+    [
+     "A librarian is a person",
+     "who works in a library."
+    ],
+    [
+     "A fridge is a machine",
+     "which keeps food cold."
+    ],
+    [
+     "A gym is a place",
+     "where you do exercise."
+    ],
+    [
+     "A pilot is someone",
+     "who flies planes."
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige el relativo",
+   "items": [
+    {
+     "q": "The girl ___ lives next door is my friend.",
+     "options": [
+      "who",
+      "which",
+      "where"
+     ],
+     "a": 0
+    },
+    {
+     "q": "That's the restaurant ___ we had dinner.",
+     "options": [
+      "which",
+      "where",
+      "who"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I lost the book ___ you gave me.",
+     "options": [
+      "who",
+      "which",
+      "where"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "This is the town ___ I was born.",
+     "a": [
+      "where"
+     ]
+    },
+    {
+     "t": "Do you know the man ___ is talking to Ana?",
+     "a": [
+      "who",
+      "that"
+     ]
+    },
+    {
+     "t": "A key is a thing ___ opens doors.",
+     "a": [
+      "which",
+      "that"
+     ]
+    }
+   ]
+  }
+ ]
+}

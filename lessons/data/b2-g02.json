@@ -1,0 +1,85 @@
+{
+ "id": "b2-g02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Past perfect continuous",
+   "subtitle": "Duration before a past moment",
+   "goals": [
+    "Form **had been + -ing**.",
+    "Explain causes of past situations.",
+    "Contrast with past perfect simple."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Use",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Duration before a past point",
+      "She **had been working** there for 10 years when she quit."
+     ],
+     [
+      "Cause of a past result",
+      "His eyes were red. He **had been crying**."
+     ]
+    ]
+   },
+   "tip": "Simple = completed result (*I had written 3 pages*). Continuous = activity / duration (*I had been writing for hours*)."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "The ground was wet. It ___.",
+     "options": [
+      "had been raining",
+      "has been raining"
+     ],
+     "a": 0
+    },
+    {
+     "q": "By 2020, they ___ married for 30 years.",
+     "options": [
+      "had been",
+      "had been being"
+     ],
+     "a": 0,
+     "why": "State verb *be* → simple."
+    },
+    {
+     "q": "I was exhausted because I ___ all night.",
+     "options": [
+      "had been driving",
+      "had driven"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "How long ___ you been waiting when the bus finally came?",
+     "a": [
+      "had"
+     ]
+    },
+    {
+     "t": "We ___ (play) for an hour when it started to rain.",
+     "a": [
+      "had been playing"
+     ]
+    }
+   ]
+  }
+ ]
+}

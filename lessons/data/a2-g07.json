@@ -1,0 +1,176 @@
+{
+ "id": "a2-g07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Present perfect",
+   "subtitle": "Presente perfecto: ever, never, just, already, yet",
+   "goals": [
+    "Formar **have / has + participio**.",
+    "Hablar de **experiencias** sin decir cuándo.",
+    "Usar **just, already, yet** con acciones recientes."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Forma",
+   "table": {
+    "head": [
+     "",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Afirmativa",
+      "I**'ve visited** Mexico City. She**'s finished**."
+     ],
+     [
+      "Negativa",
+      "I **haven't seen** that movie."
+     ],
+     [
+      "Pregunta",
+      "**Have** you **ever eaten** sushi?"
+     ]
+    ]
+   },
+   "list": [
+    "Regulares: participio = pasado: *worked, played*",
+    "Irregulares frecuentes: *be → **been**, go → **gone**, see → **seen**, eat → **eaten**, do → **done**, write → **written**, have → **had**, make → **made**, take → **taken***"
+   ],
+   "tip": "No se usa con tiempo terminado (*yesterday, in 2020*): ahí va el pasado simple."
+  },
+  {
+   "type": "explain",
+   "title": "Ever, never, just, already, yet",
+   "table": {
+    "head": [
+     "Palabra",
+     "Uso",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "**ever**",
+      "preguntas de experiencia (alguna vez)",
+      "Have you **ever** been to Cancún?"
+     ],
+     [
+      "**never**",
+      "nunca",
+      "I've **never** flown."
+     ],
+     [
+      "**just**",
+      "hace muy poco",
+      "She's **just** arrived."
+     ],
+     [
+      "**already**",
+      "ya (antes de lo esperado)",
+      "I've **already** done it."
+     ],
+     [
+      "**yet**",
+      "ya / todavía (preguntas y negativas, al final)",
+      "Have you finished **yet**? I haven't finished **yet**."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "Have you ever been to the beach? — Yes, I have.",
+     "es": "¿Has ido a la playa? — Sí."
+    },
+    {
+     "en": "I've never tried chapulines.",
+     "es": "Nunca he probado chapulines."
+    },
+    {
+     "en": "We've just had lunch.",
+     "es": "Acabamos de comer."
+    },
+    {
+     "en": "Has the class started yet? — No, it hasn't.",
+     "es": "¿Ya empezó la clase? — No."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Escribe el participio",
+   "items": [
+    {
+     "t": "I have ___ (see) that movie three times.",
+     "a": [
+      "seen"
+     ]
+    },
+    {
+     "t": "Have you ever ___ (be) to Monterrey?",
+     "a": [
+      "been"
+     ]
+    },
+    {
+     "t": "She hasn't ___ (do) her homework yet.",
+     "a": [
+      "done"
+     ]
+    },
+    {
+     "t": "We've ___ (eat) here before.",
+     "a": [
+      "eaten"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige la palabra",
+   "items": [
+    {
+     "q": "I haven't finished ___.",
+     "options": [
+      "already",
+      "yet",
+      "just"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Have you ___ seen a ghost?",
+     "options": [
+      "ever",
+      "yet",
+      "never"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I've ___ seen him. He left a minute ago.",
+     "options": [
+      "just",
+      "yet",
+      "ever"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I ___ Paris in 2019.",
+     "options": [
+      "have visited",
+      "visited"
+     ],
+     "a": 1,
+     "why": "Con año terminado → pasado simple."
+    }
+   ]
+  }
+ ]
+}

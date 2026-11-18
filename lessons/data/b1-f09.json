@@ -1,0 +1,55 @@
+{
+ "id": "b1-f09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Simple job interviews",
+   "subtitle": "Answering common interview questions",
+   "goals": [
+    "Answer common interview questions.",
+    "Talk about strengths and experience.",
+    "Ask questions at the end."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Model answers",
+   "items": [
+    {
+     "en": "Tell me about yourself. — I'm an animation student in my final year…"
+    },
+    {
+     "en": "What are your strengths? — I'm organized and I work well in a team."
+    },
+    {
+     "en": "What's your main weakness? — I'm a perfectionist, but I'm learning to manage my time."
+    },
+    {
+     "en": "Why do you want this job? — Because I want to grow in a creative company."
+    },
+    {
+     "en": "Do you have any questions? — Yes, what does a typical day look like?"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Question and best answer",
+   "pairs": [
+    [
+     "Why should we hire you?",
+     "Because I have the skills and the motivation you need."
+    ],
+    [
+     "Where do you see yourself in five years?",
+     "Leading a small team of designers."
+    ],
+    [
+     "Can you work under pressure?",
+     "Yes, I met tight deadlines in my last project."
+    ]
+   ],
+   "speak": "left"
+  }
+ ]
+}

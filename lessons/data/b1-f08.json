@@ -1,0 +1,66 @@
+{
+ "id": "b1-f08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Clarifying and rephrasing",
+   "subtitle": "Checking understanding",
+   "goals": [
+    "Ask for clarification.",
+    "Check that you understood.",
+    "Rephrase when someone doesn't understand you."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful phrases",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Ask for clarification",
+      "What do you mean by…? / Could you explain that?"
+     ],
+     [
+      "Check understanding",
+      "So you mean that…? / If I understand correctly…"
+     ],
+     [
+      "Rephrase",
+      "What I mean is… / In other words… / Let me put it another way."
+     ],
+     [
+      "Gain time",
+      "Let me think… / That's a good question."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "You don't understand a word:",
+     "options": [
+      "What do you mean by 'deadline'?",
+      "Repeat."
+     ],
+     "a": 0
+    },
+    {
+     "q": "You want to explain again more clearly:",
+     "options": [
+      "In other words…",
+      "By the way…"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

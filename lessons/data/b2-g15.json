@@ -1,0 +1,85 @@
+{
+ "id": "b2-g15",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "It's time, I'd rather, I'd prefer",
+   "subtitle": "Unreal past for preferences",
+   "goals": [
+    "Use **It's (high) time + past simple**.",
+    "Use **I'd rather + base verb** and **I'd rather someone + past**.",
+    "Use **I'd prefer to / I'd prefer it if**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Patterns",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "It's time + subject + past",
+      "It's time we **left**."
+     ],
+     [
+      "It's time + to + verb",
+      "It's time **to go**."
+     ],
+     [
+      "I'd rather + verb (than)",
+      "I'd rather **stay** home **than** go out."
+     ],
+     [
+      "I'd rather + person + past",
+      "I'd rather you **didn't smoke** here."
+     ],
+     [
+      "I'd prefer + to + verb",
+      "I'd prefer **to walk**."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "It's high time you ___ a job.",
+     "options": [
+      "get",
+      "got"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I'd rather you ___ tell anyone.",
+     "options": [
+      "don't",
+      "didn't"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I'd rather ___ by train.",
+     "options": [
+      "travel",
+      "to travel"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I'd prefer ___ at home tonight.",
+     "options": [
+      "stay",
+      "to stay"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

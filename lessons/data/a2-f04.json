@@ -1,0 +1,83 @@
+{
+ "id": "a2-f04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Asking for and giving directions",
+   "subtitle": "Pedir y dar direcciones",
+   "goals": [
+    "Pedir direcciones con cortesía.",
+    "Dar instrucciones claras paso a paso.",
+    "Confirmar que entendiste."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Diálogo",
+   "items": [
+    {
+     "en": "Excuse me, is there a pharmacy near here?",
+     "es": "Disculpe, ¿hay una farmacia cerca?"
+    },
+    {
+     "en": "Yes. Go straight on and take the first left.",
+     "es": "Sí. Siga derecho y tome la primera a la izquierda."
+    },
+    {
+     "en": "Then go past the church. It's next to the bakery.",
+     "es": "Luego pase la iglesia. Está junto a la panadería."
+    },
+    {
+     "en": "So, first left, past the church… Thanks!",
+     "es": "Entonces, primera a la izquierda, pasando la iglesia… ¡Gracias!"
+    },
+    {
+     "en": "Is it far? — No, it's a five-minute walk.",
+     "es": "¿Está lejos? — No, a cinco minutos caminando."
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Escucha y elige",
+   "items": [
+    {
+     "say": "Take the second right and it's on your left.",
+     "options": [
+      "2nd right, on the left",
+      "2nd left, on the right"
+     ],
+     "a": 0
+    },
+    {
+     "say": "Go straight on for three blocks.",
+     "options": [
+      "3 blocks",
+      "2 blocks"
+     ],
+     "a": 0
+    },
+    {
+     "say": "It's opposite the post office.",
+     "options": [
+      "Frente al correo",
+      "Junto al correo"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "How do I get to the train station?"
+    },
+    {
+     "a": "Is it far from here?"
+    }
+   ]
+  }
+ ]
+}

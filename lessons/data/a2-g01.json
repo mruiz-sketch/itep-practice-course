@@ -1,0 +1,181 @@
+{
+ "id": "a2-g01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Was and were",
+   "subtitle": "Pasado de *to be* (consolidación)",
+   "goals": [
+    "Usar **was / were** en afirmativa, negativa y preguntas.",
+    "Hablar de dónde estabas y cómo estabas.",
+    "Usar **there was / there were**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Repaso completo",
+   "table": {
+    "head": [
+     "",
+     "I / he / she / it",
+     "you / we / they"
+    ],
+    "rows": [
+     [
+      "Afirmativa",
+      "I **was** at home.",
+      "We **were** tired."
+     ],
+     [
+      "Negativa",
+      "It **wasn't** easy.",
+      "They **weren't** there."
+     ],
+     [
+      "Pregunta",
+      "**Was** he late?",
+      "**Were** you happy?"
+     ],
+     [
+      "Respuesta corta",
+      "Yes, he was. / No, he wasn't.",
+      "Yes, we were. / No, we weren't."
+     ],
+     [
+      "Hay (pasado)",
+      "**There was** a party.",
+      "**There were** many people."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "I was born on 2005.",
+     "good": "I was born **in** 2005.",
+     "note": "Año → **in**; fecha completa → **on**."
+    },
+    {
+     "bad": "Where you were?",
+     "good": "Where **were you**?"
+    }
+   ],
+   "tip": "Expresiones: *yesterday, last night, last year, two hours ago, in 2019, when I was a child*."
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "Where were you last night? — I was at the cinema.",
+     "es": "¿Dónde estabas anoche? — En el cine."
+    },
+    {
+     "en": "The test wasn't difficult.",
+     "es": "El examen no estuvo difícil."
+    },
+    {
+     "en": "There were thirty people at the meeting.",
+     "es": "Había treinta personas en la junta."
+    },
+    {
+     "en": "When I was a child, I was very shy.",
+     "es": "De niño era muy tímido."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa con was, were, wasn't o weren't",
+   "items": [
+    {
+     "t": "My grandparents ___ farmers.",
+     "a": [
+      "were"
+     ]
+    },
+    {
+     "t": "___ the movie good? — Yes, it was.",
+     "a": [
+      "Was"
+     ]
+    },
+    {
+     "t": "I called you, but you ___ at home. (negativa)",
+     "a": [
+      "weren't",
+      "were not"
+     ]
+    },
+    {
+     "t": "There ___ a big storm yesterday.",
+     "a": [
+      "was"
+     ]
+    },
+    {
+     "t": "We ___ late. We were early! (negativa)",
+     "a": [
+      "weren't",
+      "were not"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige la forma correcta",
+   "items": [
+    {
+     "q": "Where ___ you born?",
+     "options": [
+      "was",
+      "were",
+      "did"
+     ],
+     "a": 1
+    },
+    {
+     "q": "There ___ two cats in the garden.",
+     "options": [
+      "was",
+      "were",
+      "are"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Was it cold? — No, it ___",
+     "options": [
+      "wasn't.",
+      "weren't.",
+      "didn't."
+     ],
+     "a": 0
+    },
+    {
+     "q": "I was born ___ 2006.",
+     "options": [
+      "on",
+      "in",
+      "at"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena las oraciones",
+   "items": [
+    {
+     "a": "Were you at the party on Saturday?",
+     "es": "¿Estuviste en la fiesta el sábado?"
+    },
+    {
+     "a": "There was a problem with the internet.",
+     "es": "Hubo un problema con el internet."
+    }
+   ]
+  }
+ ]
+}

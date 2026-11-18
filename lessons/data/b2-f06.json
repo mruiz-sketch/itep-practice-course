@@ -1,0 +1,66 @@
+{
+ "id": "b2-f06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Summarising texts and talks",
+   "subtitle": "Reporting main ideas briefly",
+   "goals": [
+    "Identify key points.",
+    "Paraphrase instead of copying.",
+    "Use summary language."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Summary language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Introduce",
+      "The article discusses… / The speaker argues that…"
+     ],
+     [
+      "Main point",
+      "The main point is that…"
+     ],
+     [
+      "Supporting idea",
+      "She also mentions… / He gives the example of…"
+     ],
+     [
+      "Conclude",
+      "In short… / To sum up…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "A good summary…",
+   "items": [
+    {
+     "q": "",
+     "options": [
+      "copies whole sentences",
+      "uses your own words"
+     ],
+     "a": 1
+    },
+    {
+     "q": "",
+     "options": [
+      "includes every detail",
+      "focuses on main ideas"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

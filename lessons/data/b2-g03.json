@@ -1,0 +1,81 @@
+{
+ "id": "b2-g03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Future perfect simple and continuous",
+   "subtitle": "Looking back from the future",
+   "goals": [
+    "Use **will have + participle** for completion by a future time.",
+    "Use **will have been + -ing** for duration up to a future time.",
+    "Use time markers: *by, by the time, in…time*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Forms",
+   "table": {
+    "head": [
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Future perfect",
+      "By 2030, I**'ll have finished** my PhD."
+     ],
+     [
+      "Future perfect continuous",
+      "In June, I**'ll have been teaching** for 15 years."
+     ],
+     [
+      "Negative",
+      "They **won't have arrived** by then."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "By Friday, I ___ the report.",
+     "options": [
+      "will finish",
+      "will have finished"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Next year we ___ here for a decade.",
+     "options": [
+      "'ll have been living",
+      "'ll be living"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "By the time you read this, I ___ (leave).",
+     "a": [
+      "'ll have left",
+      "will have left"
+     ]
+    },
+    {
+     "t": "By midnight, she ___ (work) for 16 hours.",
+     "a": [
+      "'ll have been working",
+      "will have been working"
+     ]
+    }
+   ]
+  }
+ ]
+}

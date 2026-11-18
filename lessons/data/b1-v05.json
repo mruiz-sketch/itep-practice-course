@@ -1,0 +1,102 @@
+{
+ "id": "b1-v05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Environment and social issues",
+   "subtitle": "Environment and social issues",
+   "goals": [
+    "Discuss environmental problems.",
+    "Talk about social issues.",
+    "Suggest solutions."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "global warming, greenhouse gases, deforestation"
+    },
+    {
+     "en": "renewable energy: solar, wind"
+    },
+    {
+     "en": "poverty, unemployment, inequality",
+     "es": "pobreza, desempleo, desigualdad"
+    },
+    {
+     "en": "homelessness, crime, discrimination"
+    },
+    {
+     "en": "The government should invest in public transport."
+    },
+    {
+     "en": "We need to reduce our carbon footprint.",
+     "es": "Necesitamos reducir nuestra huella de carbono."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "poverty",
+     "pobreza"
+    ],
+    [
+     "unemployment",
+     "desempleo"
+    ],
+    [
+     "renewable",
+     "renovable"
+    ],
+    [
+     "footprint",
+     "huella"
+    ],
+    [
+     "shortage",
+     "escasez"
+    ],
+    [
+     "endangered species",
+     "especie en peligro"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Energy from the sun is…",
+     "options": [
+      "renewable",
+      "fossil"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Not having a job:",
+     "options": [
+      "unemployment",
+      "retirement"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Cutting down forests:",
+     "options": [
+      "deforestation",
+      "pollution"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

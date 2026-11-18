@@ -1,0 +1,66 @@
+{
+ "id": "c1-f01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Building and rebutting arguments",
+   "subtitle": "Complex argumentation",
+   "goals": [
+    "Construct layered arguments.",
+    "Anticipate and rebut counterarguments.",
+    "Concede strategically."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Concede",
+      "Granted, … / While it is true that…"
+     ],
+     [
+      "Rebut",
+      "However, this overlooks… / This argument fails to take into account…"
+     ],
+     [
+      "Strengthen",
+      "What is more… / This is further supported by…"
+     ],
+     [
+      "Conclude",
+      "It therefore follows that…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "To concede before rebutting:",
+     "options": [
+      "Granted, the cost is high, but…",
+      "The cost is high and…"
+     ],
+     "a": 0
+    },
+    {
+     "q": "To show a flaw in an argument:",
+     "options": [
+      "This overlooks the fact that…",
+      "This is true because…"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

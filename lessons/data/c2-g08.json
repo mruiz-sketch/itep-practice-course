@@ -1,0 +1,73 @@
+{
+ "id": "c2-g08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Spoken vs written grammar",
+   "subtitle": "Natural conversation features",
+   "goals": [
+    "Recognize grammar of spoken English.",
+    "Understand vague language and tails.",
+    "Choose register consciously."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Feature",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Heads (fronting)",
+      "**That guy**, he's my neighbor."
+     ],
+     [
+      "Tails",
+      "He's really clever, **Luis**."
+     ],
+     [
+      "Vague language",
+      "**sort of, kind of, and stuff, or something**"
+     ],
+     [
+      "Ellipsis",
+      "(Do you) Want a coffee? (I) Dunno."
+     ],
+     [
+      "Informal forms",
+      "gonna, wanna, ain't (very informal)"
+     ],
+     [
+      "Discourse markers",
+      "**Anyway**, … / **So**, … / **I mean**, …"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Which is a *tail*?",
+     "options": [
+      "It's lovely, this place.",
+      "This place is lovely."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which is vague language?",
+     "options": [
+      "We had pizza and stuff.",
+      "We had pizza and salad."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "id": "a2-h04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Speaking: photos and role plays",
+   "subtitle": "Expresión oral: describir fotos y juegos de rol",
+   "goals": [
+    "Describir una foto con estructura.",
+    "Especular: *They might be…*",
+    "Resolver situaciones de servicio."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Describir una foto",
+   "table": {
+    "head": [
+     "Paso",
+     "Frases"
+    ],
+    "rows": [
+     [
+      "General",
+      "In this photo I can see… / This is a picture of…"
+     ],
+     [
+      "Posición",
+      "In the foreground / background… On the left / right…"
+     ],
+     [
+      "Personas y acciones",
+      "A man is… They are wearing…"
+     ],
+     [
+      "Especular",
+      "They might be friends. It looks like a party."
+     ],
+     [
+      "Opinión",
+      "I think they are happy because…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Modelo",
+   "items": [
+    {
+     "en": "In this photo I can see a family in a park."
+    },
+    {
+     "en": "On the left, a man is cooking on a grill."
+    },
+    {
+     "en": "In the background, two children are playing football."
+    },
+    {
+     "en": "It looks like a sunny day. I think they are having a good time."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Situación y frase",
+   "pairs": [
+    [
+     "En la farmacia",
+     "Do you have something for a headache?"
+    ],
+    [
+     "En el hotel",
+     "I have a reservation under the name Ruiz."
+    ],
+    [
+     "En la estación",
+     "A return ticket to León, please."
+    ],
+    [
+     "En un restaurante",
+     "Could we see the menu, please?"
+    ]
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Tu turno",
+   "body": [
+    "Busca una foto en tu celular y descríbela en voz alta durante 1 minuto usando los 5 pasos. Grábate y revisa:"
+   ],
+   "list": [
+    "☐ ¿Usé *there is / there are* y presente continuo?",
+    "☐ ¿Especulé con *might be / looks like*?",
+    "☐ ¿Di una opinión con razón?"
+   ]
+  }
+ ]
+}

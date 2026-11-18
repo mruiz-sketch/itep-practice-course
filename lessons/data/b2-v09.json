@@ -1,0 +1,106 @@
+{
+ "id": "b2-v09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced word formation: prefixes",
+   "subtitle": "Prefixes that change meaning",
+   "goals": [
+    "Use prefixes: **mis-, over-, under-, re-, inter-, pre-, post-, co-**.",
+    "Guess meaning from prefixes.",
+    "Expand your vocabulary."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "mis-: misunderstand, misspell",
+     "es": "wrongly"
+    },
+    {
+     "en": "over- / under-: overestimate, underpaid",
+     "es": "too much / too little"
+    },
+    {
+     "en": "re-: rewrite, rebuild",
+     "es": "again"
+    },
+    {
+     "en": "inter-: international, interact",
+     "es": "between"
+    },
+    {
+     "en": "pre- / post-: preview, postgraduate",
+     "es": "before / after"
+    },
+    {
+     "en": "co-: coworker, cooperate",
+     "es": "together"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "misunderstand",
+     "understand wrongly"
+    ],
+    [
+     "overcook",
+     "cook too much"
+    ],
+    [
+     "underpaid",
+     "paid too little"
+    ],
+    [
+     "rewrite",
+     "write again"
+    ],
+    [
+     "postpone",
+     "move to a later time"
+    ],
+    [
+     "co-author",
+     "write together"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Paid too little:",
+     "options": [
+      "underpaid",
+      "overpaid"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Read again:",
+     "options": [
+      "reread",
+      "misread"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Between nations:",
+     "options": [
+      "international",
+      "postnational"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

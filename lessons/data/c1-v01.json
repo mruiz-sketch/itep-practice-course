@@ -1,0 +1,94 @@
+{
+ "id": "c1-v01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Academic Word List",
+   "subtitle": "Academic vocabulary across disciplines",
+   "goals": [
+    "Use high-frequency academic words.",
+    "Read research articles more easily.",
+    "Write more precisely."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "hypothesis, methodology, framework, criteria"
+    },
+    {
+     "en": "derive, constitute, implement, attribute"
+    },
+    {
+     "en": "inherent, subsequent, comprehensive, empirical"
+    },
+    {
+     "en": "The findings are consistent with previous research."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "hypothesis",
+     "proposed explanation to be tested"
+    ],
+    [
+     "empirical",
+     "based on observation or experiment"
+    ],
+    [
+     "implement",
+     "put into action"
+    ],
+    [
+     "subsequent",
+     "coming after"
+    ],
+    [
+     "criteria",
+     "standards for judging"
+    ],
+    [
+     "inherent",
+     "existing as a natural part"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Based on data and observation:",
+     "options": [
+      "empirical",
+      "theoretical"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The plural of *criterion*:",
+     "options": [
+      "criteria",
+      "criterions"
+     ],
+     "a": 0
+    },
+    {
+     "q": "To put a plan into action:",
+     "options": [
+      "implement",
+      "imply"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

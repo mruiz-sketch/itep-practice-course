@@ -1,0 +1,62 @@
+{
+ "id": "b1-h01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reading articles and reviews",
+   "subtitle": "Understanding opinions in texts",
+   "goals": [
+    "Identify the main idea of each paragraph.",
+    "Distinguish fact from opinion.",
+    "Understand vocabulary from context."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Text: a film review",
+   "body": [
+    "**Coco (2017)** — ★★★★★",
+    "Pixar's *Coco* follows Miguel, a 12-year-old boy who dreams of becoming a musician, even though his family has banned music for generations. On Day of the Dead, he accidentally enters the Land of the Dead.",
+    "The animation is breathtaking: the colorful bridges of marigold petals and the glowing city are unforgettable. However, the real strength of the film is its emotional story about memory and family. Some viewers may find the plot predictable, but the ending is genuinely moving. A must-see for all ages."
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Questions",
+   "items": [
+    {
+     "q": "What is the main problem for Miguel?",
+     "options": [
+      "His family has banned music.",
+      "He is lost in a city."
+     ],
+     "a": 0
+    },
+    {
+     "q": "According to the writer, what is the film's biggest strength?",
+     "options": [
+      "The animation",
+      "The emotional story"
+     ],
+     "a": 1
+    },
+    {
+     "q": "*Breathtaking* probably means…",
+     "options": [
+      "very impressive",
+      "very boring"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Which sentence is an opinion?",
+     "options": [
+      "Miguel is 12 years old.",
+      "The ending is genuinely moving."
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

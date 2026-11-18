@@ -1,0 +1,41 @@
+{
+ "id": "c2-p03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Natural international intelligibility",
+   "subtitle": "Pronunciation for global communication",
+   "goals": [
+    "Prioritize intelligibility over native-likeness.",
+    "Self-assess your pronunciation.",
+    "Set personal goals."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Self-assessment",
+   "list": [
+    "☐ My vowel length contrasts are clear (*ship / sheep*).",
+    "☐ I don't add vowels to clusters (*school*, not *eschool*).",
+    "☐ I put main stress on the key word of each idea.",
+    "☐ My rhythm reduces function words.",
+    "☐ I am understood by speakers of other languages."
+   ]
+  },
+  {
+   "type": "tf",
+   "title": "True or false?",
+   "items": [
+    {
+     "s": "A native-like accent is necessary at C2.",
+     "a": false,
+     "why": "Intelligibility matters more than accent."
+    },
+    {
+     "s": "Word and sentence stress strongly affect intelligibility.",
+     "a": true
+    }
+   ]
+  }
+ ]
+}

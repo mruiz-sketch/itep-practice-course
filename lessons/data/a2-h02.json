@@ -1,0 +1,84 @@
+{
+ "id": "a2-h02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Listening to announcements and voicemails",
+   "subtitle": "Escucha: anuncios y mensajes de voz",
+   "goals": [
+    "Entender anuncios en estaciones, tiendas y aeropuertos.",
+    "Captar cambios y correcciones.",
+    "Tomar nota de datos clave."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Estrategia",
+   "list": [
+    "Lee las preguntas antes de escuchar.",
+    "Atento a palabras de cambio: **delayed, cancelled, instead, not…but**.",
+    "Escribe números en cuanto los oigas."
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Anuncios",
+   "items": [
+    {
+     "say": "Passengers on flight AM four-one-two to Monterrey: your flight is delayed by forty minutes.",
+     "options": [
+      "Delayed 40 min",
+      "Cancelled"
+     ],
+     "a": 0
+    },
+    {
+     "say": "The museum is closed today. It will open again tomorrow at ten.",
+     "options": [
+      "Opens today at 10",
+      "Opens tomorrow at 10"
+     ],
+     "a": 1
+    },
+    {
+     "say": "Attention shoppers: all shoes are thirty percent off until Sunday.",
+     "options": [
+      "30% off shoes",
+      "13% off shoes"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Mensajes de voz",
+   "items": [
+    {
+     "say": "Hi, it's Marta. The party isn't on Friday anymore. It's on Saturday at the same time.",
+     "options": [
+      "Friday",
+      "Saturday"
+     ],
+     "a": 1
+    },
+    {
+     "say": "Hello, this is the dentist's office. We need to change your appointment from Tuesday to Wednesday at four fifteen.",
+     "options": [
+      "Wednesday 4:15",
+      "Tuesday 4:50"
+     ],
+     "a": 0
+    },
+    {
+     "say": "Hey, it's Tom. Can you buy some bread and two liters of milk on your way home?",
+     "options": [
+      "Bread and milk",
+      "Bread and eggs"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "a1-v06",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Colors, shapes and sizes",
+      "subtitle": "Colores, formas y tamaños",
+      "goals": [
+        "Nombrar colores, formas y tamaños.",
+        "Poner el adjetivo **antes** del sustantivo: *a red car*.",
+        "Preguntar *What color is it?*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "El adjetivo va antes y no cambia",
+      "body": [
+        "En inglés el adjetivo va **antes** del sustantivo y **no tiene plural**: *a **red** car, two **red** cars*."
+      ],
+      "table": {
+        "head": ["Colores", "Formas", "Tamaños"],
+        "rows": [
+          ["red, blue, yellow, green", "circle (round)", "big / large"],
+          ["black, white, gray", "square", "small / little"],
+          ["orange, purple, pink, brown", "triangle", "long / short"],
+          ["light blue, dark green", "rectangle", "tall / short (personas)"]
+        ]
+      },
+      "errors": [
+        { "bad": "a car red", "good": "a **red car**" },
+        { "bad": "two reds cars", "good": "two **red** cars", "note": "Los adjetivos no llevan -s." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Describe objetos",
+      "items": [
+        { "en": "What color is your backpack? — It's dark blue.", "es": "¿De qué color es tu mochila? — Azul marino." },
+        { "en": "I've got a big black dog.", "es": "Tengo un perro negro y grande." },
+        { "en": "The table is round.", "es": "La mesa es redonda." },
+        { "en": "She's wearing a long purple dress.", "es": "Trae un vestido largo morado." },
+        { "en": "My favorite color is green.", "es": "Mi color favorito es el verde.", "note": "En EE. UU. **color**; en RU **colour**." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["purple", "morado"], ["brown", "café"], ["gray", "gris"], ["pink", "rosa"], ["square", "cuadrado"], ["round", "redondo"]],
+      "speak": "left"
+    },
+    {
+      "type": "order",
+      "title": "Ordena las palabras",
+      "items": [
+        { "a": "I have a small white cat.", "es": "Tengo un gato blanco pequeño." },
+        { "a": "She has got long black hair.", "es": "Tiene el pelo largo y negro." },
+        { "a": "Look at that big red bus!", "es": "¡Mira ese camión rojo grande!" }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Colores combinados",
+      "items": [
+        { "q": "red + white =", "options": ["pink", "purple", "orange"], "a": 0 },
+        { "q": "blue + yellow =", "options": ["brown", "green", "gray"], "a": 1 },
+        { "q": "red + yellow =", "options": ["orange", "pink", "green"], "a": 0 },
+        { "q": "black + white =", "options": ["gray", "brown", "blue"], "a": 0 }
+      ]
+    }
+  ]
+}

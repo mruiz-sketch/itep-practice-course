@@ -1,0 +1,35 @@
+{
+ "id": "c1-p04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "International intelligibility and persuasive prosody",
+   "subtitle": "Being understood globally",
+   "goals": [
+    "Prioritize features that matter for intelligibility.",
+    "Use pausing and stress to persuade.",
+    "Accept your accent."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Priorities for intelligibility (Lingua Franca Core)",
+   "list": [
+    "Consonant sounds (especially /θ/ alternatives are acceptable)",
+    "Vowel length contrasts (*ship / sheep*)",
+    "Consonant clusters at the start of words",
+    "Nuclear (main) stress placement",
+    "Native-like accent is **not** necessary"
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Persuasive prosody",
+   "list": [
+    "Pause before key words.",
+    "Slow down for important points.",
+    "Use the rule of three with rising, rising, falling tone."
+   ]
+  }
+ ]
+}

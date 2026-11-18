@@ -1,0 +1,61 @@
+{
+  "id": "a1-v15",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Animals",
+      "subtitle": "Animales comunes",
+      "goals": [
+        "Nombrar mascotas, animales de granja y animales salvajes.",
+        "Describir animales con adjetivos sencillos.",
+        "Recordar plurales especiales: *mice, sheep, fish*."
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Tres grupos de animales",
+      "items": [
+        { "en": "Pets: dog, cat, fish, bird, rabbit, hamster", "es": "Mascotas: perro, gato, pez, pájaro, conejo, hámster" },
+        { "en": "Farm animals: cow, horse, pig, chicken, sheep, goat", "es": "Granja: vaca, caballo, cerdo, gallina, oveja, cabra" },
+        { "en": "Wild animals: lion, elephant, monkey, bear, snake, coyote", "es": "Salvajes: león, elefante, mono, oso, serpiente, coyote" },
+        { "en": "My dog is small and friendly.", "es": "Mi perro es pequeño y amigable." },
+        { "en": "Elephants are big and strong.", "es": "Los elefantes son grandes y fuertes." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Clasifica los animales",
+      "buckets": ["pets", "farm", "wild"],
+      "items": [
+        { "w": "hamster", "b": 0 }, { "w": "parrot", "b": 0 }, { "w": "goldfish", "b": 0 },
+        { "w": "cow", "b": 1 }, { "w": "pig", "b": 1 }, { "w": "goat", "b": 1 },
+        { "w": "tiger", "b": 2 }, { "w": "giraffe", "b": 2 }, { "w": "bear", "b": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["rabbit", "conejo"], ["sheep", "oveja"], ["horse", "caballo"], ["snake", "serpiente"], ["monkey", "mono"], ["mouse", "ratón"]],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "¿Qué animal es?",
+      "items": [
+        { "q": "It gives us milk.", "options": ["cow", "lion", "snake"], "a": 0 },
+        { "q": "It's the king of the jungle.", "options": ["monkey", "lion", "rabbit"], "a": 1 },
+        { "q": "It has got a very long neck.", "options": ["giraffe", "pig", "bear"], "a": 0 },
+        { "q": "The plural of *mouse* is…", "options": ["mouses", "mice", "mices"], "a": 1 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige",
+      "items": [
+        { "say": "sheep", "options": ["ship", "sheep", "cheap"], "a": 1 },
+        { "say": "bear", "options": ["beer", "bird", "bear"], "a": 2 },
+        { "say": "horse", "options": ["house", "horse", "hose"], "a": 1 }
+      ]
+    }
+  ]
+}

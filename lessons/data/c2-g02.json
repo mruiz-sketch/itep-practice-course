@@ -1,0 +1,73 @@
+{
+ "id": "c2-g02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Full inversion and emphasis",
+   "subtitle": "Inversion after adverbials of place and so / such",
+   "goals": [
+    "Use full inversion after place adverbials.",
+    "Use **So + adjective + was…** and **Such was…**",
+    "Recognize literary style."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Pattern",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Place adverbial + verb + subject",
+      "**Down came** the rain. **Here comes** the bus."
+     ],
+     [
+      "So + adj + aux + subject + that",
+      "**So great was** the demand **that** tickets sold out."
+     ],
+     [
+      "Such + be + noun + that",
+      "**Such was** his anger **that** he left."
+     ],
+     [
+      "Comparative inversion",
+      "She sings beautifully, **as does** her sister."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ the noise that nobody could sleep.",
+     "options": [
+      "Such was",
+      "So was"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Into the room ___.",
+     "options": [
+      "ran the children",
+      "the children ran it"
+     ],
+     "a": 0
+    },
+    {
+     "q": "So popular ___ that it was translated into 40 languages.",
+     "options": [
+      "was the book",
+      "the book was"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

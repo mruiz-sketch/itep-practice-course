@@ -1,0 +1,107 @@
+{
+ "id": "a2-v11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Feelings and moods",
+   "subtitle": "Sentimientos y estados de ánimo",
+   "goals": [
+    "Describir cómo te sientes.",
+    "Preguntar *How do you feel?*",
+    "Usar **because** para explicar."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Emociones",
+   "items": [
+    {
+     "en": "happy, excited, proud",
+     "es": "feliz, emocionado, orgulloso"
+    },
+    {
+     "en": "sad, upset, disappointed",
+     "es": "triste, molesto, decepcionado"
+    },
+    {
+     "en": "angry, annoyed",
+     "es": "enojado, fastidiado"
+    },
+    {
+     "en": "nervous, worried, scared",
+     "es": "nervioso, preocupado, asustado"
+    },
+    {
+     "en": "bored, tired, relaxed",
+     "es": "aburrido, cansado, relajado"
+    },
+    {
+     "en": "I'm nervous because I have an exam.",
+     "es": "Estoy nervioso porque tengo examen."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "proud",
+     "orgulloso"
+    ],
+    [
+     "worried",
+     "preocupado"
+    ],
+    [
+     "upset",
+     "molesto, afectado"
+    ],
+    [
+     "scared",
+     "asustado"
+    ],
+    [
+     "disappointed",
+     "decepcionado"
+    ],
+    [
+     "embarrassed",
+     "avergonzado"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "You won a prize. You feel…",
+     "options": [
+      "proud",
+      "bored"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Embarrassed* means…",
+     "options": [
+      "embarazada",
+      "avergonzado"
+     ],
+     "a": 1,
+     "why": "*Embarazada* = *pregnant*."
+    },
+    {
+     "q": "Your friend didn't come to your party. You feel…",
+     "options": [
+      "disappointed",
+      "relaxed"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

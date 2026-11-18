@@ -1,0 +1,128 @@
+{
+ "id": "a2-g17",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Somebody, anything, nowhere…",
+   "subtitle": "Pronombres indefinidos some-, any-, no-, every-",
+   "goals": [
+    "Usar **someone / something / somewhere**.",
+    "Usar **any-** en preguntas y negativas y **no-** con verbo afirmativo.",
+    "Usar **everyone / everything / everywhere**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "La tabla",
+   "table": {
+    "head": [
+     "",
+     "personas",
+     "cosas",
+     "lugares"
+    ],
+    "rows": [
+     [
+      "some-",
+      "someone / somebody",
+      "something",
+      "somewhere"
+     ],
+     [
+      "any-",
+      "anyone / anybody",
+      "anything",
+      "anywhere"
+     ],
+     [
+      "no-",
+      "no one / nobody",
+      "nothing",
+      "nowhere"
+     ],
+     [
+      "every-",
+      "everyone / everybody",
+      "everything",
+      "everywhere"
+     ]
+    ]
+   },
+   "list": [
+    "Afirmativa: *I saw **someone**.*",
+    "Negativa con not: *I didn't see **anyone**.*",
+    "Negativa sin not: *I saw **no one**.*",
+    "Pregunta: *Did you see **anything**?*"
+   ],
+   "watch": "No se usan dos negativos: *I didn't see nothing* ✗ → *I didn't see **anything*** o *I saw **nothing***. Y *everybody* va con verbo singular: ***Everybody is** here.*"
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "There's ___ at the door. Can you open it? (alguien)",
+     "a": [
+      "someone",
+      "somebody"
+     ]
+    },
+    {
+     "t": "I don't know ___ about cars. (nada)",
+     "a": [
+      "anything"
+     ]
+    },
+    {
+     "t": "___ is happy today. (todos)",
+     "a": [
+      "Everyone",
+      "Everybody"
+     ]
+    },
+    {
+     "t": "I looked for my keys, but they were ___. (en ningún lado)",
+     "a": [
+      "nowhere"
+     ]
+    },
+    {
+     "t": "Is there ___ to eat? (algo)",
+     "a": [
+      "anything"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "I didn't do ___ last weekend.",
+     "options": [
+      "nothing",
+      "anything"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ called you. I don't know who.",
+     "options": [
+      "Someone",
+      "Anyone"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Everybody ___ tired.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

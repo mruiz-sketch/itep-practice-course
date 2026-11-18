@@ -1,0 +1,71 @@
+{
+ "id": "b1-f07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Expressing feelings and reactions",
+   "subtitle": "Showing interest, surprise and sympathy",
+   "goals": [
+    "React with appropriate expressions.",
+    "Show interest in conversations.",
+    "Express sympathy."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Reactions",
+   "table": {
+    "head": [
+     "Feeling",
+     "Expressions"
+    ],
+    "rows": [
+     [
+      "Surprise",
+      "Really? / No way! / You're kidding!"
+     ],
+     [
+      "Happiness for someone",
+      "That's great news! / Congratulations!"
+     ],
+     [
+      "Sympathy",
+      "I'm sorry to hear that. / That must be hard."
+     ],
+     [
+      "Interest",
+      "How interesting! / Tell me more."
+     ],
+     [
+      "Relief",
+      "Thank goodness! / What a relief!"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "match",
+   "title": "Match the news and the reaction",
+   "pairs": [
+    [
+     "I failed my driving test.",
+     "I'm sorry to hear that."
+    ],
+    [
+     "I'm getting married!",
+     "Congratulations!"
+    ],
+    [
+     "They found my lost dog.",
+     "What a relief!"
+    ],
+    [
+     "I met Bad Bunny yesterday.",
+     "No way! You're kidding!"
+    ]
+   ],
+   "speak": "left"
+  }
+ ]
+}

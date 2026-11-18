@@ -1,0 +1,84 @@
+{
+ "id": "b1-g05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Future continuous",
+   "subtitle": "Actions in progress in the future",
+   "goals": [
+    "Form **will be + -ing**.",
+    "Describe what will be happening at a future time.",
+    "Ask politely about plans: *Will you be using the car?*"
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Positive",
+      "This time tomorrow I**'ll be flying** to Cancún."
+     ],
+     [
+      "Negative",
+      "I **won't be working** next week."
+     ],
+     [
+      "Question",
+      "**Will** you **be using** the laptop tonight?"
+     ]
+    ]
+   },
+   "list": [
+    "Action in progress at a future moment: *At 8 p.m. I'll be having dinner.*",
+    "Polite questions about plans: *Will you be coming to the party?*"
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Examples",
+   "items": [
+    {
+     "en": "Don't call at 7. I'll be driving."
+    },
+    {
+     "en": "In ten years, people will be using flying cars. (prediction)"
+    },
+    {
+     "en": "Will you be passing the supermarket? Could you buy some milk?"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "At midnight I ___ (sleep).",
+     "a": [
+      "'ll be sleeping",
+      "will be sleeping"
+     ]
+    },
+    {
+     "t": "This time next week we ___ (lie) on a beach.",
+     "a": [
+      "'ll be lying",
+      "will be lying"
+     ]
+    },
+    {
+     "t": "___ you be using the printer later?",
+     "a": [
+      "Will"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "b2-g20",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Compound nouns and possessives",
+   "subtitle": "car keys, a week's holiday, the end of the film",
+   "goals": [
+    "Form compound nouns (noun + noun).",
+    "Choose between **'s** and **of**.",
+    "Use time expressions with **'s**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Patterns",
+   "table": {
+    "head": [
+     "Pattern",
+     "Example",
+     "Note"
+    ],
+    "rows": [
+     [
+      "noun + noun",
+      "a **coffee cup**, **car keys**, a **bus stop**",
+      "first noun = type / purpose"
+     ],
+     [
+      "person's + noun",
+      "**Ana's** phone",
+      "people and animals"
+     ],
+     [
+      "the + noun + of",
+      "**the end of** the movie",
+      "things, ideas"
+     ],
+     [
+      "time + 's",
+      "**a week's** holiday, **today's** news",
+      "time expressions"
+     ],
+     [
+      "number + noun (no -s)",
+      "a **ten-minute** walk",
+      "compound adjective"
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "a cup of coffee (= the object)",
+     "good": "a **coffee cup**",
+     "note": "A *cup of coffee* has coffee in it."
+    },
+    {
+     "bad": "a ten-minutes walk",
+     "good": "a **ten-minute** walk"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "",
+     "options": [
+      "the leg of the table",
+      "the table's leg"
+     ],
+     "a": 0
+    },
+    {
+     "q": "",
+     "options": [
+      "a two-week's course",
+      "a two-week course"
+     ],
+     "a": 1
+    },
+    {
+     "q": "",
+     "options": [
+      "my mother's car",
+      "the car of my mother"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

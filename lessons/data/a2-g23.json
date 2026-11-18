@@ -1,0 +1,125 @@
+{
+ "id": "a2-g23",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Sequencing and although",
+   "subtitle": "Conectores de secuencia y although",
+   "goals": [
+    "Contar historias con **first, then, after that, later, finally**.",
+    "Expresar contraste con **although** y **but**.",
+    "Escribir un relato corto ordenado."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Ordenar una historia",
+   "table": {
+    "head": [
+     "Conector",
+     "Uso"
+    ],
+    "rows": [
+     [
+      "First / At first",
+      "inicio"
+     ],
+     [
+      "Then / Next / After that",
+      "continuación"
+     ],
+     [
+      "Later / A few minutes later",
+      "tiempo después"
+     ],
+     [
+      "Suddenly",
+      "algo inesperado"
+     ],
+     [
+      "Finally / In the end",
+      "final"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Contraste con although",
+   "table": {
+    "head": [
+     "Conector",
+     "Posición",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "but",
+      "en medio",
+      "It was cold, **but** we went out."
+     ],
+     [
+      "although",
+      "al inicio o en medio",
+      "**Although** it was cold, we went out."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "Although it was cold, but we went out.",
+     "good": "**Although** it was cold, we went out.",
+     "note": "No se usan juntos *although* y *but*."
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena la historia",
+   "items": [
+    {
+     "a": "First, we took a bus to the center."
+    },
+    {
+     "a": "Then we had lunch in a small restaurant."
+    },
+    {
+     "a": "Suddenly, it started to rain."
+    },
+    {
+     "a": "In the end, we went home early."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "___ I was tired, I finished my homework.",
+     "options": [
+      "Although",
+      "But"
+     ],
+     "a": 0
+    },
+    {
+     "q": "We waited for an hour. ___, the bus arrived.",
+     "options": [
+      "First",
+      "Finally"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I was reading. ___, the lights went out.",
+     "options": [
+      "Suddenly",
+      "At first"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

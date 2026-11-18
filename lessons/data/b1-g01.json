@@ -1,0 +1,173 @@
+{
+ "id": "b1-g01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Present perfect: experience, result, for / since",
+   "subtitle": "Linking the past and the present",
+   "goals": [
+    "Use the present perfect for **experiences**, **results** and **unfinished time**.",
+    "Choose **for** (duration) or **since** (starting point).",
+    "Contrast it with the past simple."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Three main uses",
+   "table": {
+    "head": [
+     "Use",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Life experience (no time given)",
+      "I've **been** to Canada twice."
+     ],
+     [
+      "Present result of a past action",
+      "I've **lost** my keys. (I can't open the door now.)"
+     ],
+     [
+      "Situation that started in the past and continues",
+      "She's **lived** here **for** ten years / **since** 2015."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "I live here since 2020.",
+     "good": "I**'ve lived** here since 2020."
+    },
+    {
+     "bad": "I've seen him yesterday.",
+     "good": "I **saw** him yesterday.",
+     "note": "Finished time → past simple."
+    }
+   ],
+   "tip": "**for** + a period (*for two hours, for a long time*) · **since** + a point (*since Monday, since I was a child*)."
+  },
+  {
+   "type": "examples",
+   "title": "Examples",
+   "items": [
+    {
+     "en": "How long have you known Ana? — Since primary school."
+    },
+    {
+     "en": "I've never eaten sushi."
+    },
+    {
+     "en": "He's broken his arm, so he can't play."
+    },
+    {
+     "en": "We've had this car for six years."
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "For or since?",
+   "buckets": [
+    "for",
+    "since"
+   ],
+   "items": [
+    {
+     "w": "three weeks",
+     "b": 0
+    },
+    {
+     "w": "ages",
+     "b": 0
+    },
+    {
+     "w": "a long time",
+     "b": 0
+    },
+    {
+     "w": "two days",
+     "b": 0
+    },
+    {
+     "w": "2019",
+     "b": 1
+    },
+    {
+     "w": "last Monday",
+     "b": 1
+    },
+    {
+     "w": "I was born",
+     "b": 1
+    },
+    {
+     "w": "8 a.m.",
+     "b": 1
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Present perfect or past simple?",
+   "items": [
+    {
+     "q": "I ___ to Oaxaca last year.",
+     "options": [
+      "have been",
+      "went"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I ___ to Oaxaca three times.",
+     "options": [
+      "have been",
+      "went"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She ___ here since January.",
+     "options": [
+      "has worked",
+      "worked"
+     ],
+     "a": 0
+    },
+    {
+     "q": "When ___ you arrive?",
+     "options": [
+      "have",
+      "did"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "They've been married ___ 2010.",
+     "a": [
+      "since"
+     ]
+    },
+    {
+     "t": "I haven't seen her ___ months.",
+     "a": [
+      "for"
+     ]
+    },
+    {
+     "t": "How long ___ you studied English?",
+     "a": [
+      "have"
+     ]
+    }
+   ]
+  }
+ ]
+}

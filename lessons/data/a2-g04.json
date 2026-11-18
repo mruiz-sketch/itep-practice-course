@@ -1,0 +1,141 @@
+{
+ "id": "a2-g04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Past continuous",
+   "subtitle": "Pasado continuo y while / when",
+   "goals": [
+    "Formar **was / were + -ing**.",
+    "Describir una acción en progreso en el pasado.",
+    "Combinarlo con el pasado simple usando **when** y **while**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Forma y uso",
+   "table": {
+    "head": [
+     "",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Afirmativa",
+      "I **was studying** at 9 p.m."
+     ],
+     [
+      "Negativa",
+      "They **weren't listening**."
+     ],
+     [
+      "Pregunta",
+      "**Were** you **sleeping**?"
+     ]
+    ]
+   },
+   "list": [
+    "Acción en progreso en un momento del pasado: *At 8 o'clock I was having dinner.*",
+    "Acción larga interrumpida por una corta: *I **was cooking** when the phone **rang**.*",
+    "Dos acciones largas al mismo tiempo: ***While** I was studying, my brother was playing.*"
+   ],
+   "tip": "**when** + acción corta (pasado simple) · **while** + acción larga (pasado continuo)."
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "I was walking home when it started to rain.",
+     "es": "Iba caminando a casa cuando empezó a llover."
+    },
+    {
+     "en": "What were you doing at 10 last night?",
+     "es": "¿Qué estabas haciendo anoche a las 10?"
+    },
+    {
+     "en": "While she was driving, she was listening to music.",
+     "es": "Mientras manejaba, escuchaba música."
+    },
+    {
+     "en": "We weren't watching TV. We were talking.",
+     "es": "No veíamos la tele. Estábamos platicando."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Pasado continuo o simple",
+   "items": [
+    {
+     "t": "I ___ (sleep) when you called.",
+     "a": [
+      "was sleeping"
+     ]
+    },
+    {
+     "t": "She ___ (fall) while she was running.",
+     "a": [
+      "fell"
+     ]
+    },
+    {
+     "t": "They ___ (play) football at 5 p.m. yesterday.",
+     "a": [
+      "were playing"
+     ]
+    },
+    {
+     "t": "What ___ you doing when the lights went out?",
+     "a": [
+      "were"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "When o while",
+   "items": [
+    {
+     "q": "I saw a friend ___ I was waiting for the bus.",
+     "options": [
+      "when",
+      "while"
+     ],
+     "a": 1
+    },
+    {
+     "q": "He was taking a shower ___ the water stopped.",
+     "options": [
+      "when",
+      "while"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ we were eating, it started to rain.",
+     "options": [
+      "While",
+      "When"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "I was reading when you arrived.",
+     "es": "Estaba leyendo cuando llegaste."
+    },
+    {
+     "a": "What were you doing at midnight?",
+     "es": "¿Qué estabas haciendo a medianoche?"
+    }
+   ]
+  }
+ ]
+}

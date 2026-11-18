@@ -1,0 +1,129 @@
+{
+  "id": "a1-g02",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "I, you, he, she, it, we, they",
+      "subtitle": "Pronombres personales sujeto",
+      "goals": [
+        "Elegir el pronombre correcto para personas, animales y cosas.",
+        "Recordar que en inglés **el sujeto nunca se omite**.",
+        "Usar **it** para el clima, la hora y las cosas."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Los siete pronombres sujeto",
+      "body": [
+        "El pronombre sujeto indica **quién** hace la acción. Va siempre antes del verbo."
+      ],
+      "table": {
+        "head": ["Inglés", "Español", "Se usa para"],
+        "rows": [
+          ["**I**", "yo", "Siempre con mayúscula, incluso a mitad de oración."],
+          ["**you**", "tú / usted / ustedes", "Singular y plural, formal e informal."],
+          ["**he**", "él", "Un hombre o un niño."],
+          ["**she**", "ella", "Una mujer o una niña."],
+          ["**it**", "(no se traduce)", "Cosas, animales, el clima y la hora."],
+          ["**we**", "nosotros / nosotras", "Yo + otras personas."],
+          ["**they**", "ellos / ellas", "Varias personas o cosas. También una persona cuyo género no se especifica."]
+        ],
+        "speak": 0,
+        "say": ["I", "you", "he", "she", "it", "we", "they"]
+      },
+      "errors": [
+        { "bad": "Is a student.", "good": "**She** is a student.", "note": "En español decimos *Es estudiante*, pero en inglés el sujeto es obligatorio." },
+        { "bad": "Is raining.", "good": "**It** is raining.", "note": "Para el clima y la hora se usa **it**: *It's 3 o'clock*." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Pronombres en contexto",
+      "items": [
+        { "en": "**I** am from Querétaro.", "es": "Soy de Querétaro." },
+        { "en": "**You** are my friends.", "es": "Ustedes son mis amigos.", "note": "*You* también es plural." },
+        { "en": "This is Luis. **He** is a teacher.", "es": "Él es Luis. Es maestro." },
+        { "en": "My mom is 50. **She** is a nurse.", "es": "Mi mamá tiene 50. Es enfermera." },
+        { "en": "Look at the dog. **It** is very big.", "es": "Mira al perro. Es muy grande." },
+        { "en": "**It** is cold today.", "es": "Hace frío hoy.", "note": "Clima → **it**." },
+        { "en": "Ana and I are classmates. **We** are in 1A.", "es": "Ana y yo somos compañeras. Estamos en 1A." },
+        { "en": "The students are here. **They** are early.", "es": "Los alumnos están aquí. Llegaron temprano." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Cambia el sustantivo por un pronombre",
+      "items": [
+        { "q": "**María** is a designer.", "options": ["He", "She", "It"], "a": 1 },
+        { "q": "**The book** is on the table.", "options": ["It", "He", "They"], "a": 0, "why": "Para cosas se usa **it**." },
+        { "q": "**Carlos and I** are brothers.", "options": ["They", "You", "We"], "a": 2, "why": "*Carlos and I* incluye a quien habla → **we**." },
+        { "q": "**My parents** are at home.", "options": ["They", "We", "He"], "a": 0 },
+        { "q": "**You and Juan** are late.", "options": ["They", "You", "We"], "a": 1, "why": "*You and Juan* = ustedes → **you**." },
+        { "q": "**The computers** are new.", "options": ["It", "They", "She"], "a": 1, "why": "Varias cosas → **they**." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿He, she, it o they?",
+      "buckets": ["he", "she", "it", "they"],
+      "items": [
+        { "w": "my brother", "b": 0 },
+        { "w": "Mr. Smith", "b": 0 },
+        { "w": "Ana", "b": 1 },
+        { "w": "my grandmother", "b": 1 },
+        { "w": "the computer", "b": 2 },
+        { "w": "the weather", "b": 2 },
+        { "w": "the students", "b": 3 },
+        { "w": "Luis and Sofía", "b": 3 },
+        { "w": "my shoes", "b": 3, "clue": "Son dos zapatos: plural." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con el pronombre",
+      "items": [
+        { "t": "___ am from Mexico.", "a": ["I"], "es": "Soy de México." },
+        { "t": "Ana is my friend. ___ is twenty.", "a": ["She"] },
+        { "t": "The pizza is good. ___ is hot.", "a": ["It"] },
+        { "t": "Pedro and I are students. ___ are in class.", "a": ["We"] },
+        { "t": "Where are Tom and Lucy? ___ are at home.", "a": ["They"] },
+        { "t": "Look outside! ___ is sunny.", "a": ["It"], "why": "Clima → **it**." }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "She is my sister.", "es": "Ella es mi hermana." },
+        { "a": "They are from Monterrey.", "es": "Ellos son de Monterrey." },
+        { "a": "It is cold today.", "es": "Hoy hace frío." },
+        { "a": "We are in the same class.", "es": "Estamos en el mismo grupo." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona español e inglés",
+      "pairs": [
+        ["yo", "I"],
+        ["él", "he"],
+        ["ella", "she"],
+        ["nosotros", "we"],
+        ["ellos / ellas", "they"],
+        ["tú / ustedes", "you"],
+        ["(una cosa)", "it"]
+      ],
+      "speak": "right"
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*Am tired* es una oración correcta en inglés.", "a": false, "why": "Falta el sujeto: **I am tired**." },
+        { "s": "**I** siempre se escribe con mayúscula.", "a": true },
+        { "s": "**You** puede ser singular o plural.", "a": true },
+        { "s": "Para hablar de una mesa se usa **she**.", "a": false, "why": "Para cosas se usa **it**." },
+        { "s": "*It's 8 o'clock* usa **it** para decir la hora.", "a": true }
+      ]
+    }
+  ]
+}

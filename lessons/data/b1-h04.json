@@ -1,0 +1,81 @@
+{
+ "id": "b1-h04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Speaking: conversation, photos and pair tasks",
+   "subtitle": "B1 speaking exam skills",
+   "goals": [
+    "Keep a conversation going for 2–3 minutes.",
+    "Compare two photos.",
+    "Negotiate with a partner."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Comparing photos",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Similarity",
+      "Both photos show… / In both pictures…"
+     ],
+     [
+      "Difference",
+      "In the first photo…, whereas in the second…"
+     ],
+     [
+      "Speculation",
+      "It looks as if… / They might be…"
+     ],
+     [
+      "Preference",
+      "I'd prefer to… because…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Negotiating in pairs",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Suggest",
+      "Shall we start with…? / What about…?"
+     ],
+     [
+      "Ask opinion",
+      "What do you think? / Do you agree?"
+     ],
+     [
+      "Agree / decide",
+      "OK, let's go for… / So we've decided on…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Find two photos of different holidays (beach vs city). Compare them aloud for one minute and say which you'd prefer. Record yourself."
+   ],
+   "list": [
+    "☐ Used *both / whereas / while*",
+    "☐ Speculated with *might / looks as if*",
+    "☐ Gave a preference with a reason"
+   ]
+  }
+ ]
+}

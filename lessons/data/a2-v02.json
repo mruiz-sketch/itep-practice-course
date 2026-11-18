@@ -1,0 +1,135 @@
+{
+ "id": "a2-v02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Shopping and money",
+   "subtitle": "Compras, tiendas y dinero",
+   "goals": [
+    "Pedir tallas, colores y precios.",
+    "Probarse ropa y pagar.",
+    "Hablar de ofertas y devoluciones."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Frases de tienda",
+   "items": [
+    {
+     "en": "Can I try it on?",
+     "es": "¿Me lo puedo probar?"
+    },
+    {
+     "en": "What size are you? — Medium.",
+     "es": "¿Qué talla eres? — Mediana."
+    },
+    {
+     "en": "Where are the fitting rooms?",
+     "es": "¿Dónde están los probadores?"
+    },
+    {
+     "en": "Do you have it in black?",
+     "es": "¿Lo tiene en negro?"
+    },
+    {
+     "en": "It's on sale. — 30% off!",
+     "es": "Está en oferta. — ¡30 % de descuento!"
+    },
+    {
+     "en": "Can I pay by card / in cash?",
+     "es": "¿Puedo pagar con tarjeta / en efectivo?"
+    },
+    {
+     "en": "I'd like to return this. Here's the receipt.",
+     "es": "Quiero devolver esto. Aquí está el ticket."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "Can I ___ it on?",
+     "a": [
+      "try"
+     ]
+    },
+    {
+     "t": "Do you have this in a smaller ___?",
+     "a": [
+      "size"
+     ]
+    },
+    {
+     "t": "Can I pay ___ card?",
+     "a": [
+      "by"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "receipt",
+     "ticket, recibo"
+    ],
+    [
+     "change",
+     "cambio"
+    ],
+    [
+     "cash",
+     "efectivo"
+    ],
+    [
+     "discount",
+     "descuento"
+    ],
+    [
+     "refund",
+     "reembolso"
+    ],
+    [
+     "fitting room",
+     "probador"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "The money you get back when you pay too much:",
+     "options": [
+      "change",
+      "refund",
+      "receipt"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*It doesn't fit* means…",
+     "options": [
+      "no me queda",
+      "no me gusta"
+     ],
+     "a": 0
+    },
+    {
+     "q": "¿Cómo se dice *¿Cuánto cuesta?*",
+     "options": [
+      "How much does it cost?",
+      "How much it costs?"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

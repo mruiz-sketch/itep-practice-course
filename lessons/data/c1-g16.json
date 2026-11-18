@@ -1,0 +1,81 @@
+{
+ "id": "c1-g16",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced comparisons",
+   "subtitle": "the more… the more, nowhere near, far and away",
+   "goals": [
+    "Use double comparatives.",
+    "Modify comparisons precisely.",
+    "Express large and small differences."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "the + comparative, the + comparative",
+      "**The more** you practice, **the better** you get."
+     ],
+     [
+      "nowhere near as… as",
+      "It's **nowhere near as** difficult **as** I thought."
+     ],
+     [
+      "by far / far and away",
+      "She's **by far** the best candidate."
+     ],
+     [
+      "considerably / marginally + comparative",
+      "Prices are **marginally** higher."
+     ],
+     [
+      "twice / three times as… as",
+      "It's **twice as** expensive **as** before."
+     ],
+     [
+      "no + comparative + than",
+      "It's **no better than** the old one."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ you sleep, the more tired you feel.",
+     "options": [
+      "The more",
+      "More"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's nowhere ___ as cold as last winter.",
+     "options": [
+      "near",
+      "close"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She's ___ the most talented player.",
+     "options": [
+      "by far",
+      "far by"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

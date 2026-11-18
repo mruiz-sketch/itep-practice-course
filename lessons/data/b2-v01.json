@@ -1,0 +1,97 @@
+{
+ "id": "b2-v01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Globalisation and the economy",
+   "subtitle": "Globalisation, economy and consumption",
+   "goals": [
+    "Discuss economic trends.",
+    "Talk about consumer habits.",
+    "Use precise economic vocabulary."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "supply and demand, inflation, recession"
+    },
+    {
+     "en": "multinational company, outsourcing, trade"
+    },
+    {
+     "en": "consumerism, fast fashion, sustainable brands"
+    },
+    {
+     "en": "The cost of living has risen sharply."
+    },
+    {
+     "en": "Local businesses struggle to compete with big chains."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "inflation",
+     "rise in prices over time"
+    ],
+    [
+     "recession",
+     "period of economic decline"
+    ],
+    [
+     "outsourcing",
+     "using external companies"
+    ],
+    [
+     "consumer",
+     "person who buys goods"
+    ],
+    [
+     "trade",
+     "buying and selling between countries"
+    ],
+    [
+     "income",
+     "money you receive"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "When prices rise continuously, there is…",
+     "options": [
+      "inflation",
+      "recession"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Clothes made cheaply and quickly:",
+     "options": [
+      "fast fashion",
+      "slow fashion"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Money a person earns:",
+     "options": [
+      "income",
+      "outcome"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

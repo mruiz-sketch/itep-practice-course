@@ -1,0 +1,78 @@
+{
+ "id": "b2-f02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Speculating about past and future",
+   "subtitle": "Making predictions and deductions",
+   "goals": [
+    "Speculate about the past with modal perfects.",
+    "Predict with **likely, bound to, probably**.",
+    "Express degrees of certainty."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Certainty scale",
+   "table": {
+    "head": [
+     "Certainty",
+     "Future",
+     "Past"
+    ],
+    "rows": [
+     [
+      "very sure",
+      "It's bound to happen.",
+      "It must have happened."
+     ],
+     [
+      "probable",
+      "It'll probably / It's likely to happen.",
+      "It probably happened."
+     ],
+     [
+      "possible",
+      "It might / could happen.",
+      "It might have happened."
+     ],
+     [
+      "unlikely",
+      "It's unlikely to happen.",
+      "It can't have happened."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "She's very talented. She's ___ to succeed.",
+     "options": [
+      "bound",
+      "likely not"
+     ],
+     "a": 0
+    },
+    {
+     "q": "He ___ have taken the wrong bus.",
+     "options": [
+      "might",
+      "is bound"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's ___ that prices will fall.",
+     "options": [
+      "unlikely",
+      "bound"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

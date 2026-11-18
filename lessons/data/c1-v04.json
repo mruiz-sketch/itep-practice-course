@@ -1,0 +1,86 @@
+{
+ "id": "c1-v04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Philosophy and critical thinking",
+   "subtitle": "Ethics, logic and argument",
+   "goals": [
+    "Discuss abstract ideas.",
+    "Identify logical fallacies.",
+    "Evaluate arguments."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "premise, conclusion, assumption, bias"
+    },
+    {
+     "en": "ethical dilemma, moral, objective, subjective"
+    },
+    {
+     "en": "fallacy: straw man, false dilemma, ad hominem"
+    },
+    {
+     "en": "That argument rests on a false assumption."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "premise",
+     "statement an argument is based on"
+    ],
+    [
+     "bias",
+     "unfair preference"
+    ],
+    [
+     "fallacy",
+     "error in reasoning"
+    ],
+    [
+     "subjective",
+     "based on personal feelings"
+    ],
+    [
+     "dilemma",
+     "difficult choice"
+    ],
+    [
+     "straw man",
+     "misrepresenting an argument"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Attacking the person instead of the argument:",
+     "options": [
+      "ad hominem",
+      "straw man"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Presenting only two options when more exist:",
+     "options": [
+      "false dilemma",
+      "premise"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

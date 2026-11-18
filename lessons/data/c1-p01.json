@@ -1,0 +1,43 @@
+{
+ "id": "c1-p01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Intonation in extended discourse",
+   "subtitle": "Tone units and information focus",
+   "goals": [
+    "Divide speech into tone units.",
+    "Highlight new information.",
+    "Signal finished and unfinished ideas."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Key ideas",
+   "list": [
+    "Each **tone unit** has one main stressed word (the focus).",
+    "New information gets the main stress; given information is reduced.",
+    "Rising tone = more to come; falling tone = complete.",
+    "Lists: rise, rise, rise… fall on the last item."
+   ]
+  },
+  {
+   "type": "tf",
+   "title": "True or false?",
+   "items": [
+    {
+     "s": "In a list, the last item usually has a falling tone.",
+     "a": true
+    },
+    {
+     "s": "Given information is usually stressed more than new information.",
+     "a": false
+    },
+    {
+     "s": "A rising tone can signal that you haven't finished.",
+     "a": true
+    }
+   ]
+  }
+ ]
+}

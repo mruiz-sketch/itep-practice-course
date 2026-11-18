@@ -1,0 +1,97 @@
+{
+ "id": "c2-v07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Fine distinctions between synonyms",
+   "subtitle": "Choosing the exact word",
+   "goals": [
+    "Distinguish near-synonyms.",
+    "Use precise vocabulary.",
+    "Avoid subtle errors."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "ostensible (apparent but perhaps not real) / apparent (seeming) / evident (clearly true)"
+    },
+    {
+     "en": "imply (speaker suggests) / infer (listener deduces)"
+    },
+    {
+     "en": "continual (repeated) / continuous (without stopping)"
+    },
+    {
+     "en": "affect (verb) / effect (noun)"
+    },
+    {
+     "en": "disinterested (impartial) / uninterested (bored)"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "imply",
+     "suggest indirectly"
+    ],
+    [
+     "infer",
+     "deduce"
+    ],
+    [
+     "continuous",
+     "without interruption"
+    ],
+    [
+     "continual",
+     "repeated frequently"
+    ],
+    [
+     "disinterested",
+     "impartial"
+    ],
+    [
+     "uninterested",
+     "not interested"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "From his tone, I ___ that he was angry.",
+     "options": [
+      "inferred",
+      "implied"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A judge should be ___.",
+     "options": [
+      "disinterested",
+      "uninterested"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The ___ hum of the fridge.",
+     "options": [
+      "continuous",
+      "continual"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

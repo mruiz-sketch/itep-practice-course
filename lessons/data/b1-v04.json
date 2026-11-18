@@ -1,0 +1,102 @@
+{
+ "id": "b1-v04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Film, music and the arts",
+   "subtitle": "Film, music and the arts",
+   "goals": [
+    "Describe films and genres.",
+    "Talk about music and art.",
+    "Give opinions: *It was gripping / overrated*."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "genres: thriller, horror, comedy, documentary, animated film"
+    },
+    {
+     "en": "plot, character, ending, special effects"
+    },
+    {
+     "en": "director, cast, soundtrack, scene"
+    },
+    {
+     "en": "It was gripping / moving / hilarious.",
+     "es": "Atrapante / conmovedora / muy graciosa."
+    },
+    {
+     "en": "It was overrated. The plot was predictable.",
+     "es": "Sobrevalorada. La trama era predecible."
+    },
+    {
+     "en": "exhibition, gallery, sculpture, portrait"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "plot",
+     "trama"
+    ],
+    [
+     "cast",
+     "reparto"
+    ],
+    [
+     "soundtrack",
+     "banda sonora"
+    ],
+    [
+     "scene",
+     "escena"
+    ],
+    [
+     "exhibition",
+     "exposición"
+    ],
+    [
+     "sequel",
+     "secuela"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "A film that is a continuation of another:",
+     "options": [
+      "sequel",
+      "trailer"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Hilarious* means…",
+     "options": [
+      "very funny",
+      "very sad"
+     ],
+     "a": 0
+    },
+    {
+     "q": "All the actors in a film are the…",
+     "options": [
+      "cast",
+      "crew"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "a1-v11",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "The body",
+      "subtitle": "Partes del cuerpo",
+      "goals": [
+        "Nombrar las partes del cuerpo.",
+        "Recordar los plurales irregulares: **feet, teeth**.",
+        "Decir qué te duele: *My head hurts. I've got a headache.*"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "De la cabeza a los pies",
+      "items": [
+        { "en": "head, hair, face", "es": "cabeza, pelo, cara" },
+        { "en": "eyes, ears, nose, mouth", "es": "ojos, orejas, nariz, boca" },
+        { "en": "teeth (tooth), neck", "es": "dientes (diente), cuello" },
+        { "en": "shoulders, arms, hands, fingers", "es": "hombros, brazos, manos, dedos" },
+        { "en": "back, stomach", "es": "espalda, estómago" },
+        { "en": "legs, knees, feet (foot), toes", "es": "piernas, rodillas, pies (pie), dedos del pie" }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "¿Qué te duele?",
+      "table": {
+        "head": ["Forma", "Ejemplo", "Español"],
+        "rows": [
+          ["My + parte + **hurts / hurt**", "My back **hurts**. My feet **hurt**.", "Me duele la espalda. Me duelen los pies."],
+          ["I've got a + **-ache**", "I've got a **headache** / **stomachache** / **toothache**.", "Me duele la cabeza / el estómago / una muela."],
+          ["I've got a **sore** + parte", "I've got a **sore throat**.", "Me duele la garganta."]
+        ]
+      },
+      "watch": "En inglés se usa el posesivo: ***My** head hurts*, no *The head hurts me*."
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["knee", "rodilla"], ["shoulder", "hombro"], ["neck", "cuello"], ["toe", "dedo del pie"], ["throat", "garganta"], ["back", "espalda"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Completa",
+      "items": [
+        { "t": "You see with your ___.", "a": ["eyes"] },
+        { "t": "You hear with your ___.", "a": ["ears"] },
+        { "t": "One foot, two ___.", "a": ["feet"] },
+        { "t": "One tooth, thirty-two ___.", "a": ["teeth"] },
+        { "t": "I ate too much. I've got a ___.", "a": ["stomachache", "stomach ache"] }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige",
+      "items": [
+        { "say": "My head hurts.", "options": ["My hand hurts.", "My head hurts.", "My heart hurts."], "a": 1 },
+        { "say": "I've got a sore throat.", "options": ["I've got a sore throat.", "I've got a toothache.", "I've got a sore foot."], "a": 0 },
+        { "say": "knee", "options": ["knee", "nice", "neck"], "a": 0, "why": "La **k** de *knee* no se pronuncia." }
+      ]
+    }
+  ]
+}

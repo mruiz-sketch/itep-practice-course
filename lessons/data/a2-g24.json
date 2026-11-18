@@ -1,0 +1,161 @@
+{
+ "id": "a2-g24",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Prepositions of movement",
+   "subtitle": "Preposiciones de movimiento",
+   "goals": [
+    "Describir movimiento: **into, out of, across, through, along, up, down, past**.",
+    "Dar direcciones más precisas.",
+    "Diferenciar **in** (lugar) e **into** (movimiento)."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Hacia dónde",
+   "table": {
+    "head": [
+     "Preposición",
+     "Significado",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "into / out of",
+      "hacia dentro / fuera",
+      "She went **into** the room."
+     ],
+     [
+      "across",
+      "de un lado a otro",
+      "Walk **across** the street."
+     ],
+     [
+      "through",
+      "a través de",
+      "We drove **through** the tunnel."
+     ],
+     [
+      "along",
+      "a lo largo de",
+      "Go **along** this road."
+     ],
+     [
+      "up / down",
+      "subir / bajar",
+      "Go **up** the stairs."
+     ],
+     [
+      "past",
+      "pasar junto a",
+      "Go **past** the bank."
+     ],
+     [
+      "towards",
+      "hacia",
+      "He ran **towards** me."
+     ],
+     [
+      "over / under",
+      "por encima / por debajo",
+      "Jump **over** the wall."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "match",
+   "title": "Relaciona",
+   "pairs": [
+    [
+     "into",
+     "hacia dentro"
+    ],
+    [
+     "out of",
+     "hacia fuera"
+    ],
+    [
+     "across",
+     "de un lado a otro"
+    ],
+    [
+     "through",
+     "a través de"
+    ],
+    [
+     "along",
+     "a lo largo de"
+    ],
+    [
+     "past",
+     "pasar junto a"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la preposición",
+   "items": [
+    {
+     "q": "The cat jumped ___ the window and ran away.",
+     "options": [
+      "out of",
+      "into"
+     ],
+     "a": 0
+    },
+    {
+     "q": "We walked ___ the forest for hours.",
+     "options": [
+      "through",
+      "over"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Go ___ the bridge and turn left.",
+     "options": [
+      "across",
+      "into"
+     ],
+     "a": 0
+    },
+    {
+     "q": "He ran ___ the stairs to the 3rd floor.",
+     "options": [
+      "down",
+      "up"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "Get ___ the car, please. We're leaving. (entra)",
+     "a": [
+      "into"
+     ]
+    },
+    {
+     "t": "Walk ___ the river until you see the bridge. (a lo largo)",
+     "a": [
+      "along"
+     ]
+    },
+    {
+     "t": "Go ___ the supermarket and the school is on your right. (pasa junto)",
+     "a": [
+      "past"
+     ]
+    }
+   ]
+  }
+ ]
+}

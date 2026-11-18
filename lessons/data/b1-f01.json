@@ -1,0 +1,99 @@
+{
+ "id": "b1-f01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Telling stories and anecdotes",
+   "subtitle": "Narrative tenses and storytelling phrases",
+   "goals": [
+    "Structure a story: set the scene, the problem, the end.",
+    "Combine past simple, continuous and perfect.",
+    "Keep listeners engaged."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Story structure",
+   "table": {
+    "head": [
+     "Stage",
+     "Useful language"
+    ],
+    "rows": [
+     [
+      "Opening",
+      "This happened a few years ago… / You won't believe what happened…"
+     ],
+     [
+      "Background",
+      "It was raining and we were walking home…"
+     ],
+     [
+      "Main event",
+      "Suddenly… / All of a sudden… / Out of nowhere…"
+     ],
+     [
+      "Earlier events",
+      "I'd forgotten my keys, so…"
+     ],
+     [
+      "Ending",
+      "In the end… / Luckily… / Since then…"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Model",
+   "items": [
+    {
+     "en": "Last year I was traveling to Monterrey by bus."
+    },
+    {
+     "en": "I was reading when suddenly the bus stopped."
+    },
+    {
+     "en": "A tire had exploded, so we waited for two hours."
+    },
+    {
+     "en": "In the end, I made a new friend on that bus!"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Listener reactions",
+   "pairs": [
+    [
+     "Suddenly the lights went out.",
+     "No way! What did you do?"
+    ],
+    [
+     "In the end, I got the job.",
+     "That's fantastic!"
+    ],
+    [
+     "I'd left my passport at home.",
+     "Oh no! Seriously?"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "order",
+   "title": "Put in order",
+   "items": [
+    {
+     "a": "It was a cold night and we were walking home."
+    },
+    {
+     "a": "All of a sudden, we heard a strange noise."
+    },
+    {
+     "a": "Luckily, it was just a cat."
+    }
+   ]
+  }
+ ]
+}

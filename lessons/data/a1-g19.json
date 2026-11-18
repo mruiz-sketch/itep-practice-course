@@ -1,0 +1,85 @@
+{
+  "id": "a1-g19",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Like, love, hate + -ing",
+      "subtitle": "Hablar de gustos",
+      "goals": [
+        "Expresar gustos con **love, like, don't mind, don't like, hate**.",
+        "Usar el verbo con **-ing** después de estos verbos.",
+        "Preguntar *Do you like…?* y responder."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "La escala de los gustos",
+      "table": {
+        "head": ["Verbo", "Significado", "Ejemplo"],
+        "rows": [
+          ["**love**", "me encanta", "I **love** dancing."],
+          ["**really like**", "me gusta mucho", "I **really like** pizza."],
+          ["**like**", "me gusta", "She **likes** reading."],
+          ["**don't mind**", "no me molesta", "I **don't mind** waiting."],
+          ["**don't like**", "no me gusta", "He **doesn't like** cooking."],
+          ["**hate**", "odio", "We **hate** getting up early."]
+        ]
+      },
+      "list": [
+        "+ sustantivo: *I like **music**.*",
+        "+ verbo -ing: *I like **listening** to music.*"
+      ],
+      "errors": [
+        { "bad": "Me like the movies.", "good": "**I like** movies.", "note": "En inglés la persona es el sujeto: *I like*, no *me like*." },
+        { "bad": "She like swimming.", "good": "She **likes** swimming." },
+        { "bad": "I like the music.", "good": "I like music.", "note": "Gustos en general → sin **the**." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "¿Qué te gusta?",
+      "items": [
+        { "en": "I love playing video games.", "es": "Me encanta jugar videojuegos." },
+        { "en": "My dad likes watching football.", "es": "A mi papá le gusta ver futbol." },
+        { "en": "I don't mind doing homework.", "es": "No me molesta hacer la tarea." },
+        { "en": "Do you like drawing? — Yes, I do!", "es": "¿Te gusta dibujar? — ¡Sí!" },
+        { "en": "Ana hates waiting for the bus.", "es": "Ana odia esperar el camión." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con el verbo en -ing",
+      "items": [
+        { "t": "I love ___ (sing) in the shower.", "a": ["singing"] },
+        { "t": "He hates ___ (run).", "a": ["running"] },
+        { "t": "Do you like ___ (cook)?", "a": ["cooking"] },
+        { "t": "We don't mind ___ (walk) to school.", "a": ["walking"] },
+        { "t": "My sister ___ (like) taking photos.", "a": ["likes"] }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["I love it.", "Me encanta."], ["I like it.", "Me gusta."], ["I don't mind it.", "No me molesta."], ["I don't like it.", "No me gusta."], ["I hate it.", "Lo odio."]],
+      "speak": "left"
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "Does your brother like playing football?", "es": "¿A tu hermano le gusta jugar futbol?" },
+        { "a": "I really like listening to music.", "es": "Me gusta mucho escuchar música." },
+        { "a": "They don't like getting up early.", "es": "No les gusta levantarse temprano." }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*I don't mind* significa *no me importa / no me molesta*.", "a": true },
+        { "s": "Después de *love* y *hate* puede ir un verbo con **-ing**.", "a": true },
+        { "s": "*She like dancing* es correcto.", "a": false, "why": "Tercera persona: **She likes dancing**." }
+      ]
+    }
+  ]
+}

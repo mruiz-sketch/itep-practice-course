@@ -1,0 +1,70 @@
+{
+ "id": "b2-f07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Structured presentations",
+   "subtitle": "Signposting a talk",
+   "goals": [
+    "Open, structure and close a presentation.",
+    "Use signposting language.",
+    "Handle questions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Signposting",
+   "table": {
+    "head": [
+     "Stage",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Opening",
+      "Good morning. Today I'm going to talk about…"
+     ],
+     [
+      "Structure",
+      "I'll divide my talk into three parts."
+     ],
+     [
+      "Moving on",
+      "Let's move on to… / Turning now to…"
+     ],
+     [
+      "Example",
+      "Let me give you an example."
+     ],
+     [
+      "Closing",
+      "To conclude… / Thank you for listening."
+     ],
+     [
+      "Questions",
+      "Are there any questions? / That's a great question."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "order",
+   "title": "Put the presentation in order",
+   "items": [
+    {
+     "a": "Good morning. Today I'm going to talk about animation careers."
+    },
+    {
+     "a": "First, I'll describe the main jobs."
+    },
+    {
+     "a": "Let's move on to salaries."
+    },
+    {
+     "a": "To conclude, it is a growing industry."
+    }
+   ]
+  }
+ ]
+}

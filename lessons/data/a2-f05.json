@@ -1,0 +1,85 @@
+{
+ "id": "a2-f05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Invitations",
+   "subtitle": "Invitar, aceptar y rechazar",
+   "goals": [
+    "Invitar de forma informal y formal.",
+    "Aceptar con entusiasmo.",
+    "Rechazar con cortesía y dar una razón."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Frases",
+   "table": {
+    "head": [
+     "Invitar",
+     "Aceptar",
+     "Rechazar"
+    ],
+    "rows": [
+     [
+      "Do you want to come to…?",
+      "Sure! I'd love to.",
+      "Sorry, I can't. I have to…"
+     ],
+     [
+      "Would you like to have dinner?",
+      "That sounds great!",
+      "I'd love to, but I'm busy."
+     ],
+     [
+      "Let's go to the movies!",
+      "Good idea!",
+      "Maybe another time?"
+     ]
+    ]
+   },
+   "tip": "Al rechazar, da una **razón** y propone otra opción: *Sorry, I can't on Friday. How about Saturday?*"
+  },
+  {
+   "type": "match",
+   "title": "Relaciona",
+   "pairs": [
+    [
+     "Would you like to come to my party?",
+     "I'd love to! What time?"
+    ],
+    [
+     "Let's play football on Sunday.",
+     "Good idea!"
+    ],
+    [
+     "Do you want to have lunch?",
+     "Sorry, I can't. I have class."
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "¿Cuál es más cortés para rechazar?",
+   "items": [
+    {
+     "q": "Tu jefe te invita a cenar y no puedes:",
+     "options": [
+      "No.",
+      "I'd love to, but I already have plans. Thank you!"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Tu amigo te invita al cine:",
+     "options": [
+      "Sorry, I can't tonight. How about tomorrow?",
+      "I don't want."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

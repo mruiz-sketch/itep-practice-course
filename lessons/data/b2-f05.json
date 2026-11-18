@@ -1,0 +1,70 @@
+{
+ "id": "b2-f05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Negotiating and persuading",
+   "subtitle": "Reaching agreements",
+   "goals": [
+    "Make proposals and counter-proposals.",
+    "Persuade with reasons.",
+    "Reach a compromise."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Negotiation language",
+   "table": {
+    "head": [
+     "Stage",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Propose",
+      "What if we…? / How about…?"
+     ],
+     [
+      "Conditional offer",
+      "If you can…, we'd be willing to…"
+     ],
+     [
+      "Reject politely",
+      "I'm afraid that's not possible."
+     ],
+     [
+      "Persuade",
+      "Think about the benefits… / You won't regret it."
+     ],
+     [
+      "Agree",
+      "That sounds fair. / It's a deal."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "Conditional offer:",
+     "options": [
+      "If you sign today, we'll give you a 10 % discount.",
+      "Sign today."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Polite rejection:",
+     "options": [
+      "I'm afraid we can't accept that.",
+      "No way."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

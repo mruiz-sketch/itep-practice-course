@@ -1,0 +1,110 @@
+{
+ "id": "a2-v03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Health and the doctor",
+   "subtitle": "Salud y visita al médico",
+   "goals": [
+    "Describir síntomas.",
+    "Entender consejos del médico.",
+    "Usar **I've got a…** y **I feel…**"
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Síntomas y consejos",
+   "items": [
+    {
+     "en": "I've got a cold / a fever / a cough.",
+     "es": "Tengo gripa / fiebre / tos."
+    },
+    {
+     "en": "I've got a sore throat.",
+     "es": "Me duele la garganta."
+    },
+    {
+     "en": "I feel dizzy / sick.",
+     "es": "Me siento mareado / con náuseas."
+    },
+    {
+     "en": "I hurt my ankle.",
+     "es": "Me lastimé el tobillo."
+    },
+    {
+     "en": "You should rest and drink water.",
+     "es": "Debe descansar y tomar agua."
+    },
+    {
+     "en": "Take this medicine twice a day.",
+     "es": "Tome esta medicina dos veces al día."
+    },
+    {
+     "en": "I need to make an appointment.",
+     "es": "Necesito hacer una cita."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "cough",
+     "tos"
+    ],
+    [
+     "fever",
+     "fiebre"
+    ],
+    [
+     "dizzy",
+     "mareado"
+    ],
+    [
+     "prescription",
+     "receta"
+    ],
+    [
+     "appointment",
+     "cita"
+    ],
+    [
+     "ankle",
+     "tobillo"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "Your nose is running and you sneeze. You've got…",
+     "options": [
+      "a cold",
+      "a broken arm"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The doctor gives you a paper for medicine. It's a…",
+     "options": [
+      "receipt",
+      "prescription"
+     ],
+     "a": 1
+    },
+    {
+     "q": "¿Cómo se dice *Me duele el estómago*?",
+     "options": [
+      "I've got a stomachache.",
+      "I have pain of stomach."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

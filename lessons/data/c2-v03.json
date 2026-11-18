@@ -1,0 +1,87 @@
+{
+ "id": "c2-v03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Wordplay, irony and humour",
+   "subtitle": "Understanding and using humour",
+   "goals": [
+    "Recognize puns and irony.",
+    "Understand British understatement.",
+    "Use humour appropriately."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "Pun: I used to be a banker, but I lost interest.",
+     "note": "Double meaning of *interest*."
+    },
+    {
+     "en": "Irony: What lovely weather! (in a storm)"
+    },
+    {
+     "en": "Understatement: It's a bit chilly. (at −10 °C)"
+    },
+    {
+     "en": "Deadpan: telling a joke with a serious face"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "pun",
+     "joke with double meaning"
+    ],
+    [
+     "irony",
+     "saying the opposite of what you mean"
+    ],
+    [
+     "understatement",
+     "presenting something as smaller"
+    ],
+    [
+     "deadpan",
+     "humor with an expressionless face"
+    ],
+    [
+     "sarcasm",
+     "mocking irony"
+    ],
+    [
+     "punchline",
+     "final line of a joke"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "*Not bad at all* about something excellent is…",
+     "options": [
+      "understatement",
+      "exaggeration"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*I lost interest* (banker) is a…",
+     "options": [
+      "pun",
+      "proverb"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "b2-p03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Elision and assimilation",
+   "subtitle": "How sounds disappear and change",
+   "goals": [
+    "Recognize elided /t/ and /d/.",
+    "Hear assimilation in fast speech.",
+    "Understand native speakers better."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Common changes",
+   "table": {
+    "head": [
+     "Process",
+     "Example",
+     "Sounds like",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "/t/ elision",
+      "next door",
+      "nex door",
+      "next door"
+     ],
+     [
+      "/d/ elision",
+      "handbag",
+      "hanbag",
+      "handbag"
+     ],
+     [
+      "/n/ → /m/",
+      "ten boys",
+      "tem boys",
+      "ten boys"
+     ],
+     [
+      "/t/ + /j/ → /tʃ/",
+      "don't you",
+      "donchu",
+      "don't you"
+     ],
+     [
+      "/d/ + /j/ → /dʒ/",
+      "did you",
+      "didju",
+      "did you"
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "listen",
+   "title": "Listen and choose",
+   "items": [
+    {
+     "say": "Did you eat?",
+     "options": [
+      "Did you eat?",
+      "Do you eat?"
+     ],
+     "a": 0
+    },
+    {
+     "say": "Don't you know?",
+     "options": [
+      "Don't you know?",
+      "Do you know?"
+     ],
+     "a": 0
+    },
+    {
+     "say": "Last night",
+     "options": [
+      "Last night",
+      "Lass night"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "c2-f03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Humour, irony and cultural allusion",
+   "subtitle": "Using humour naturally",
+   "goals": [
+    "Use irony and understatement.",
+    "Refer to shared cultural knowledge.",
+    "Read the audience."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Understatement",
+      "It wasn't exactly my finest hour."
+     ],
+     [
+      "Irony",
+      "Oh, perfect timing, as always."
+     ],
+     [
+      "Allusion",
+      "It's a bit of a Catch-22."
+     ],
+     [
+      "Self-deprecation",
+      "Cooking isn't really my forte."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Tell a short anecdote about a small disaster in your life using at least two understatements."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "c1-g13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced determiners and quantifiers",
+   "subtitle": "a great deal of, the vast majority of, hardly any",
+   "goals": [
+    "Use formal quantifiers.",
+    "Combine them with countable / uncountable nouns.",
+    "Express precise quantities."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Quantifier",
+     "With",
+     "Example"
+    ],
+    "rows": [
+     [
+      "a great deal of",
+      "uncountable",
+      "a great deal of **effort**"
+     ],
+     [
+      "a large number of",
+      "countable plural",
+      "a large number of **students**"
+     ],
+     [
+      "the vast majority of",
+      "both",
+      "the vast majority of **people**"
+     ],
+     [
+      "a handful of",
+      "countable",
+      "a handful of **cases**"
+     ],
+     [
+      "hardly any / scarcely any",
+      "both",
+      "hardly any **time**"
+     ],
+     [
+      "a fraction of",
+      "both",
+      "a fraction of **the cost**"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "A great deal of ___ was required.",
+     "options": [
+      "work",
+      "works"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A large number of ___ attended.",
+     "options": [
+      "person",
+      "people"
+     ],
+     "a": 1
+    },
+    {
+     "q": "There is ___ evidence to support it.",
+     "options": [
+      "hardly any",
+      "hardly no"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

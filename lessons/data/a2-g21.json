@@ -1,0 +1,106 @@
+{
+ "id": "a2-g21",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Questions ending in prepositions",
+   "subtitle": "Preguntas con preposición final",
+   "goals": [
+    "Formar preguntas como *Who are you talking **to**?*",
+    "Conocer verbos con preposición: *listen to, look for, think about*.",
+    "Responder con naturalidad."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "La preposición se queda al final",
+   "body": [
+    "En inglés hablado, la preposición del verbo va **al final** de la pregunta."
+   ],
+   "table": {
+    "head": [
+     "Verbo + preposición",
+     "Pregunta"
+    ],
+    "rows": [
+     [
+      "talk **to**",
+      "Who are you talking **to**?"
+     ],
+     [
+      "listen **to**",
+      "What are you listening **to**?"
+     ],
+     [
+      "look **for**",
+      "What are you looking **for**?"
+     ],
+     [
+      "come **from**",
+      "Where do you come **from**?"
+     ],
+     [
+      "think **about**",
+      "What are you thinking **about**?"
+     ],
+     [
+      "wait **for**",
+      "Who are you waiting **for**?"
+     ]
+    ]
+   },
+   "tip": "En español la preposición va al inicio (*¿Con quién hablas?*); en inglés, al final."
+  },
+  {
+   "type": "order",
+   "title": "Ordena las preguntas",
+   "items": [
+    {
+     "a": "Who are you waiting for?",
+     "es": "¿A quién esperas?"
+    },
+    {
+     "a": "What are you talking about?",
+     "es": "¿De qué hablas?"
+    },
+    {
+     "a": "Where does your family come from?",
+     "es": "¿De dónde es tu familia?"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige la preposición",
+   "items": [
+    {
+     "q": "What are you looking ___?",
+     "options": [
+      "for",
+      "at",
+      "to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Who did you go ___?",
+     "options": [
+      "to",
+      "with",
+      "about"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What kind of music do you listen ___?",
+     "options": [
+      "for",
+      "to",
+      "at"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

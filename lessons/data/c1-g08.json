@@ -1,0 +1,99 @@
+{
+ "id": "c1-g08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Nominalisation",
+   "subtitle": "Turning verbs into nouns",
+   "goals": [
+    "Turn verbs and adjectives into nouns.",
+    "Write in a more formal, academic style.",
+    "Pack more information into fewer words."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Verbal style",
+     "Nominal style"
+    ],
+    "rows": [
+     [
+      "The government decided to…",
+      "The government's **decision** to…"
+     ],
+     [
+      "Prices increased rapidly.",
+      "There was a rapid **increase** in prices."
+     ],
+     [
+      "Because the company failed…",
+      "Due to the **failure** of the company…"
+     ],
+     [
+      "When they arrived…",
+      "On their **arrival**…"
+     ],
+     [
+      "It is important that…",
+      "The **importance** of…"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Nominalise: *They investigated the case.*",
+     "options": [
+      "The investigation of the case…",
+      "Investigating case…"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Nominalise: *Unemployment rose.*",
+     "options": [
+      "A rise in unemployment",
+      "Unemployment rising up"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "analyse → ___",
+     "a": [
+      "analysis"
+     ]
+    },
+    {
+     "t": "reduce → ___",
+     "a": [
+      "reduction"
+     ]
+    },
+    {
+     "t": "fail → ___",
+     "a": [
+      "failure"
+     ]
+    },
+    {
+     "t": "develop → ___",
+     "a": [
+      "development"
+     ]
+    }
+   ]
+  }
+ ]
+}

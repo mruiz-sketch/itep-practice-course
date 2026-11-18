@@ -1,0 +1,105 @@
+{
+ "id": "a2-g19",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "First conditional",
+   "subtitle": "Primer condicional",
+   "goals": [
+    "Hablar de situaciones **reales y posibles** en el futuro.",
+    "Usar **if + presente, will + verbo**.",
+    "Usar **unless** = si no."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Estructura",
+   "table": {
+    "head": [
+     "Condición",
+     "Resultado"
+    ],
+    "rows": [
+     [
+      "**If** it rains,",
+      "we**'ll** stay home."
+     ],
+     [
+      "**If** you study,",
+      "you**'ll** pass."
+     ],
+     [
+      "**If** I don't hurry,",
+      "I**'ll** miss the bus."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "If it will rain, we will stay.",
+     "good": "If it **rains**, we will stay.",
+     "note": "Después de *if* va presente, no *will*."
+    }
+   ],
+   "tip": "Se puede invertir el orden sin coma: *We'll stay home **if** it rains.*"
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "If you're hungry, I'll make a sandwich.",
+     "es": "Si tienes hambre, te hago un sándwich."
+    },
+    {
+     "en": "If I get the job, I'll buy a car.",
+     "es": "Si consigo el trabajo, me compraré un coche."
+    },
+    {
+     "en": "You won't pass unless you study.",
+     "es": "No aprobarás si no estudias."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "If you ___ (call) me, I will answer.",
+     "a": [
+      "call"
+     ]
+    },
+    {
+     "t": "If it is sunny, we ___ (go) to the park.",
+     "a": [
+      "'ll go",
+      "will go"
+     ]
+    },
+    {
+     "t": "If she ___ (not / come), I'll be sad.",
+     "a": [
+      "doesn't come",
+      "does not come"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "If I have time, I'll call you.",
+     "es": "Si tengo tiempo, te llamo."
+    },
+    {
+     "a": "What will you do if you win?",
+     "es": "¿Qué harás si ganas?"
+    }
+   ]
+  }
+ ]
+}

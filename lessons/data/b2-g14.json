@@ -1,0 +1,88 @@
+{
+ "id": "b2-g14",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced linkers of contrast and purpose",
+   "subtitle": "whereas, nevertheless, so as to, in order not to",
+   "goals": [
+    "Use formal contrast linkers.",
+    "Express purpose formally and negatively.",
+    "Punctuate linkers correctly."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Linkers",
+   "table": {
+    "head": [
+     "Function",
+     "Linker",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Contrast (two facts)",
+      "whereas / while",
+      "I love tea, **whereas** my sister prefers coffee."
+     ],
+     [
+      "Contrast (formal, new sentence)",
+      "Nevertheless, / Nonetheless,",
+      "It was risky. **Nevertheless**, they continued."
+     ],
+     [
+      "Concession + noun / -ing",
+      "in spite of / despite",
+      "**Despite having** little money, they traveled."
+     ],
+     [
+      "Purpose",
+      "so as to / in order to",
+      "I left early **so as to** avoid traffic."
+     ],
+     [
+      "Negative purpose",
+      "so as not to / in order not to",
+      "He whispered **so as not to** wake the baby."
+     ],
+     [
+      "Purpose + clause",
+      "so that",
+      "I saved money **so that** I could travel."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "She spoke slowly ___ everyone could understand.",
+     "options": [
+      "so that",
+      "in order to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I took notes ___ forget anything.",
+     "options": [
+      "so as not to",
+      "so that not"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ the bad weather, the event was a success.",
+     "options": [
+      "Despite",
+      "Although"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

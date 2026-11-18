@@ -1,0 +1,109 @@
+{
+  "id": "a1-g04",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "A, an and the",
+      "subtitle": "Artículos indefinidos y definido",
+      "goals": [
+        "Elegir entre **a** y **an** según el **sonido** de la palabra siguiente.",
+        "Usar **the** cuando ya sabemos de qué cosa hablamos.",
+        "Saber cuándo **no** se usa artículo."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "A / an: uno, una",
+      "body": [
+        "**A** y **an** significan *un / una*. Solo se usan con sustantivos **contables en singular**.",
+        "La regla depende del **sonido**, no de la letra: **a** antes de sonido consonante y **an** antes de sonido vocal."
+      ],
+      "table": {
+        "head": ["Artículo", "Antes de…", "Ejemplos"],
+        "rows": [
+          ["**a**", "sonido consonante", "a book, a car, a **u**niversity (/juː/), a **o**ne-way ticket (/w/)"],
+          ["**an**", "sonido vocal", "an apple, an egg, an umbrella, an **h**our (la h no suena)"]
+        ]
+      },
+      "errors": [
+        { "bad": "She is engineer.", "good": "She is **an** engineer.", "note": "Las profesiones en singular llevan **a / an**." },
+        { "bad": "an university", "good": "**a** university", "note": "*University* empieza con sonido /j/, que es consonante." }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "The: el, la, los, las",
+      "body": [
+        "**The** sirve para singular y plural, masculino y femenino. Se usa cuando la cosa es **específica** o ya se mencionó."
+      ],
+      "list": [
+        "Algo ya mencionado: *I have **a** cat. **The** cat is black.*",
+        "Algo único: ***the** sun, **the** moon, **the** internet*.",
+        "Algo que todos conocen en el contexto: *Close **the** door, please.*"
+      ],
+      "tip": "Sin artículo: para hablar en general con plurales o incontables (*I like dogs. Water is important.*), con nombres de personas, ciudades y la mayoría de países (*Mexico, Querétaro*), y en *at home, at school, at work*."
+    },
+    {
+      "type": "examples",
+      "title": "Artículos en contexto",
+      "items": [
+        { "en": "I have **a** brother and **an** uncle.", "es": "Tengo un hermano y un tío." },
+        { "en": "It's **an** hour from here.", "es": "Está a una hora de aquí.", "note": "La **h** de *hour* no se pronuncia." },
+        { "en": "There's **a** dog in the park. **The** dog is big.", "es": "Hay un perro en el parque. El perro es grande." },
+        { "en": "**The** sun is very hot today.", "es": "El sol está muy fuerte hoy." },
+        { "en": "I love music.", "es": "Me encanta la música.", "note": "En general → **sin** artículo." },
+        { "en": "She is at home.", "es": "Está en casa." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿A o an?",
+      "buckets": ["a", "an"],
+      "items": [
+        { "w": "book", "b": 0 },
+        { "w": "university", "b": 0, "clue": "Suena /juː/: sonido consonante." },
+        { "w": "teacher", "b": 0 },
+        { "w": "one-dollar coin", "b": 0, "clue": "*One* suena /w/." },
+        { "w": "apple", "b": 1 },
+        { "w": "hour", "b": 1, "clue": "La h no se pronuncia: /aʊ/." },
+        { "w": "orange", "b": 1 },
+        { "w": "engineer", "b": 1 },
+        { "w": "umbrella", "b": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con a, an, the o nada (–)",
+      "instr": "Escribe a, an o the. Si no lleva artículo, escribe un guion (-).",
+      "items": [
+        { "t": "My mom is ___ nurse.", "a": ["a"] },
+        { "t": "I eat ___ egg every morning.", "a": ["an"] },
+        { "t": "I have a car. ___ car is red.", "a": ["The"], "why": "Ya lo mencionamos → **the**." },
+        { "t": "Look at ___ moon!", "a": ["the"], "why": "Algo único → **the**." },
+        { "t": "I like ___ pizza.", "a": ["-", "–"], "why": "Hablamos en general → sin artículo." },
+        { "t": "He is ___ honest man.", "a": ["an"], "clue": "¿Se pronuncia la **h** de *honest*?" }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la opción correcta",
+      "items": [
+        { "q": "She works at ___ university in Querétaro.", "options": ["a", "an", "–"], "a": 0 },
+        { "q": "We are at ___ school now.", "options": ["the", "a", "–"], "a": 2, "why": "*at school, at home, at work* van sin artículo." },
+        { "q": "Can you open ___ window, please?", "options": ["a", "the", "an"], "a": 1, "why": "Ambos saben de qué ventana se habla." },
+        { "q": "___ dogs are friendly animals.", "options": ["The", "A", "–"], "a": 2, "why": "En general con plural → sin artículo." },
+        { "q": "It's ___ interesting book.", "options": ["a", "an", "the"], "a": 1, "why": "*Interesting* empieza con sonido vocal." }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "Se dice **an hour** porque la h no se pronuncia.", "a": true },
+        { "s": "**A** y **an** se pueden usar con plurales: *a books*.", "a": false, "why": "Solo con singulares: **a book**, *books*." },
+        { "s": "**The** sirve para masculino, femenino, singular y plural.", "a": true },
+        { "s": "Se dice *I live in **the** Mexico*.", "a": false, "why": "Con la mayoría de países no se usa artículo: **in Mexico**." }
+      ]
+    }
+  ]
+}

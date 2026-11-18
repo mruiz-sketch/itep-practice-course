@@ -1,0 +1,116 @@
+{
+ "id": "b1-g09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Passive voice: present and past simple",
+   "subtitle": "When the action matters more than who does it",
+   "goals": [
+    "Form **am / is / are + participle** and **was / were + participle**.",
+    "Use **by** to say who did it.",
+    "Choose active or passive."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form",
+   "table": {
+    "head": [
+     "Tense",
+     "Active",
+     "Passive"
+    ],
+    "rows": [
+     [
+      "Present simple",
+      "They make cars here.",
+      "Cars **are made** here."
+     ],
+     [
+      "Past simple",
+      "Someone stole my bike.",
+      "My bike **was stolen**."
+     ],
+     [
+      "With agent",
+      "Frida Kahlo painted it.",
+      "It **was painted by** Frida Kahlo."
+     ]
+    ]
+   },
+   "tip": "Use the passive when the doer is unknown, obvious or unimportant: *English **is spoken** all over the world.*"
+  },
+  {
+   "type": "examples",
+   "title": "Examples",
+   "items": [
+    {
+     "en": "Tequila is produced in Jalisco."
+    },
+    {
+     "en": "The Pyramid of the Sun was built around 200 AD."
+    },
+    {
+     "en": "Our exams are checked by two teachers."
+    },
+    {
+     "en": "Was the email sent? — Yes, it was."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Make it passive",
+   "items": [
+    {
+     "t": "People speak Spanish in Mexico. → Spanish ___ spoken in Mexico.",
+     "a": [
+      "is"
+     ]
+    },
+    {
+     "t": "They cancelled the flight. → The flight was ___.",
+     "a": [
+      "cancelled"
+     ]
+    },
+    {
+     "t": "Who wrote this song? → Who was this song written ___?",
+     "a": [
+      "by"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Active or passive?",
+   "items": [
+    {
+     "q": "The thief ___ by the police yesterday.",
+     "options": [
+      "caught",
+      "was caught"
+     ],
+     "a": 1
+    },
+    {
+     "q": "My mom ___ dinner every night.",
+     "options": [
+      "cooks",
+      "is cooked"
+     ],
+     "a": 0
+    },
+    {
+     "q": "These phones ___ in China.",
+     "options": [
+      "make",
+      "are made"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "b2-p05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "/æ/ /ʌ/ /ɑː/",
+   "subtitle": "cat, cut, cart",
+   "goals": [
+    "Distinguish three \"a\"-like vowels.",
+    "Pronounce minimal pairs.",
+    "Avoid confusion in key words."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Three vowels",
+   "table": {
+    "head": [
+     "Sound",
+     "Mouth",
+     "Examples",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "/æ/",
+      "open, spread",
+      "cat, hat, bad, man",
+      "cat, hat, bad"
+     ],
+     [
+      "/ʌ/",
+      "short, relaxed",
+      "cut, hut, bud, money",
+      "cut, hut, bud"
+     ],
+     [
+      "/ɑː/",
+      "long, open, back",
+      "cart, heart, bard, father",
+      "cart, heart, father"
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "listen",
+   "title": "Which word?",
+   "items": [
+    {
+     "say": "cat",
+     "options": [
+      "cat",
+      "cut",
+      "cart"
+     ],
+     "a": 0
+    },
+    {
+     "say": "cut",
+     "options": [
+      "cat",
+      "cut",
+      "cart"
+     ],
+     "a": 1
+    },
+    {
+     "say": "heart",
+     "options": [
+      "hat",
+      "hut",
+      "heart"
+     ],
+     "a": 2
+    },
+    {
+     "say": "bun",
+     "options": [
+      "ban",
+      "bun",
+      "barn"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

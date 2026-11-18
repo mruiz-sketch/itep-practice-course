@@ -1,0 +1,65 @@
+{
+  "id": "a1-f05",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "What time is it?",
+      "subtitle": "Preguntar y decir la hora",
+      "goals": [
+        "Preguntar la hora con cortesía.",
+        "Decir la hora en forma tradicional y digital.",
+        "Preguntar a qué hora empieza o termina algo."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Preguntar la hora",
+      "table": {
+        "head": ["Pregunta", "Respuesta", "Escucha"],
+        "rows": [
+          ["What time is it?", "It's ten past nine.", "What time is it? It's ten past nine."],
+          ["Excuse me, do you have the time?", "Sure, it's quarter to four.", "Excuse me, do you have the time? Sure, it's quarter to four."],
+          ["What time does the class start?", "It starts at eight thirty.", "What time does the class start? It starts at eight thirty."],
+          ["When does the store close?", "It closes at nine p.m.", "When does the store close? It closes at nine p.m."]
+        ],
+        "speak": 2
+      },
+      "watch": "*Do you have **the** time?* = ¿Tienes la hora? Pero *Do you have time?* (sin *the*) = ¿Tienes tiempo?",
+      "tip": "Para aproximar: *It's **about** five.* · *It's **almost** six.* · *noon* (mediodía) · *midnight* (medianoche)."
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué hora escuchas?",
+      "items": [
+        { "say": "It's five past eight.", "options": ["8:05", "7:55", "8:50"], "a": 0 },
+        { "say": "It's twenty to six.", "options": ["6:20", "5:40", "5:20"], "a": 1 },
+        { "say": "It's eleven fifteen.", "options": ["11:50", "11:15", "10:45"], "a": 1 },
+        { "say": "It's half past twelve.", "options": ["12:30", "11:30", "12:00"], "a": 0 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona las dos formas",
+      "pairs": [["quarter past two", "two fifteen"], ["half past seven", "seven thirty"], ["quarter to ten", "nine forty-five"], ["ten to one", "twelve fifty"], ["twenty past four", "four twenty"]],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "Elige la pregunta o respuesta",
+      "items": [
+        { "q": "Quieres saber la hora y le hablas a un desconocido.", "options": ["Excuse me, do you have the time?", "Hey, what hour is it?", "Do you have time?"], "a": 0 },
+        { "q": "What time does the movie start?", "options": ["At 7:30.", "On 7:30.", "In 7:30."], "a": 0 },
+        { "q": "12:00 at night =", "options": ["noon", "midnight", "midday"], "a": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escribe la hora",
+      "items": [
+        { "t": "4:30 = It's half ___ four.", "a": ["past"] },
+        { "t": "6:45 = It's quarter ___ seven.", "a": ["to"] },
+        { "t": "9:00 = It's nine ___.", "a": ["o'clock", "oclock"] }
+      ]
+    }
+  ]
+}

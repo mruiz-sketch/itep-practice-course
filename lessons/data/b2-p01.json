@@ -1,0 +1,60 @@
+{
+ "id": "b2-p01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Contrastive and emphatic stress",
+   "subtitle": "Changing meaning with stress",
+   "goals": [
+    "Stress words to contrast or correct.",
+    "Understand how stress changes meaning.",
+    "Use emphasis naturally."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "One sentence, different meanings",
+   "items": [
+    {
+     "en": "**I** didn't say she stole it.",
+     "note": "Someone else said it.",
+     "say": "I didn't say she stole it."
+    },
+    {
+     "en": "I didn't **say** she stole it.",
+     "note": "I implied it."
+    },
+    {
+     "en": "I didn't say **she** stole it.",
+     "note": "Someone else stole it."
+    },
+    {
+     "en": "I didn't say she **stole** it.",
+     "note": "She borrowed it."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Which word is stressed?",
+   "items": [
+    {
+     "q": "A: Is it a red car? B: No, it's a BLUE car.",
+     "options": [
+      "BLUE",
+      "car"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A: Did Ana call? B: No, LUIS called.",
+     "options": [
+      "LUIS",
+      "called"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

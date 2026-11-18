@@ -1,0 +1,112 @@
+{
+ "id": "b2-g01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Tense and aspect review",
+   "subtitle": "Simple, continuous and perfect in all times",
+   "goals": [
+    "Review the 12 tense forms.",
+    "Understand **aspect**: completed, in progress, connected.",
+    "Choose tenses for precise meaning."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Aspect at a glance",
+   "table": {
+    "head": [
+     "Aspect",
+     "Focus",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Simple",
+      "fact, habit, complete action",
+      "She **writes** / **wrote** / **will write** reports."
+     ],
+     [
+      "Continuous",
+      "in progress, temporary, background",
+      "She **is** / **was** / **will be writing**."
+     ],
+     [
+      "Perfect",
+      "before another time, connection",
+      "She **has** / **had** / **will have written** it."
+     ],
+     [
+      "Perfect continuous",
+      "duration up to a time",
+      "She **has** / **had been writing** for hours."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best tense",
+   "items": [
+    {
+     "q": "By the time you arrive, I ___ dinner.",
+     "options": [
+      "will cook",
+      "will have cooked"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I ___ here for five years next month.",
+     "options": [
+      "'ll have worked",
+      "'ll work"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She was tired because she ___ all day.",
+     "options": [
+      "had been studying",
+      "has been studying"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Every time I see him, he ___ about money. (annoying habit)",
+     "options": [
+      "complains",
+      "is always complaining"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "When I got home, my parents ___ (already / eat).",
+     "a": [
+      "had already eaten"
+     ]
+    },
+    {
+     "t": "This time next year, I ___ (live) in Canada.",
+     "a": [
+      "'ll be living",
+      "will be living"
+     ]
+    },
+    {
+     "t": "I ___ (never / see) such a beautiful place.",
+     "a": [
+      "'ve never seen",
+      "have never seen"
+     ]
+    }
+   ]
+  }
+ ]
+}

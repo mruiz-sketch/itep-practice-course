@@ -1,0 +1,117 @@
+{
+ "id": "b1-g21",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Linkers of contrast, cause and result",
+   "subtitle": "Connecting ideas clearly",
+   "goals": [
+    "Express contrast: **however, although, even though, despite**.",
+    "Express cause: **because, because of, since, as**.",
+    "Express result: **so, therefore, as a result**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Linkers",
+   "table": {
+    "head": [
+     "Function",
+     "Linker + clause",
+     "Linker + noun / -ing"
+    ],
+    "rows": [
+     [
+      "Contrast",
+      "although / even though",
+      "despite / in spite of"
+     ],
+     [
+      "Contrast (new sentence)",
+      "However, …",
+      ""
+     ],
+     [
+      "Cause",
+      "because / since / as",
+      "because of / due to"
+     ],
+     [
+      "Result",
+      "so / therefore / as a result",
+      ""
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "Despite it was raining, we went out.",
+     "good": "**Although** it was raining, we went out. / **Despite the rain**, we went out."
+    },
+    {
+     "bad": "Because of it was late…",
+     "good": "**Because** it was late… / **Because of** the time…"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "___ the traffic, we arrived on time.",
+     "options": [
+      "Although",
+      "Despite"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The shop was closed, ___ we went home.",
+     "options": [
+      "so",
+      "because"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The flight was cancelled ___ the storm.",
+     "options": [
+      "because",
+      "because of"
+     ],
+     "a": 1
+    },
+    {
+     "q": "He's rich. ___, he isn't happy.",
+     "options": [
+      "However",
+      "Despite"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "___ she was tired, she kept working.",
+     "a": [
+      "Although",
+      "Even though",
+      "Though"
+     ]
+    },
+    {
+     "t": "Prices went up. ___, sales fell. (resultado, formal)",
+     "a": [
+      "Therefore",
+      "As a result"
+     ]
+    }
+   ]
+  }
+ ]
+}

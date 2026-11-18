@@ -1,0 +1,94 @@
+{
+ "id": "b2-g18",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Cleft sentences",
+   "subtitle": "What I need is… / It was Ana who…",
+   "goals": [
+    "Emphasize information with **It is/was…that/who**.",
+    "Use **What…is/was** clauses.",
+    "Correct misunderstandings."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Two types",
+   "table": {
+    "head": [
+     "Type",
+     "Neutral",
+     "Cleft"
+    ],
+    "rows": [
+     [
+      "It-cleft",
+      "Ana broke the vase.",
+      "**It was Ana who** broke the vase."
+     ],
+     [
+      "It-cleft (time)",
+      "I met him in 2019.",
+      "**It was in 2019 that** I met him."
+     ],
+     [
+      "Wh-cleft",
+      "I need a holiday.",
+      "**What I need is** a holiday."
+     ],
+     [
+      "All-cleft",
+      "I want some peace.",
+      "**All I want is** some peace."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "fill",
+   "title": "Make it emphatic",
+   "items": [
+    {
+     "t": "I love her smile. → What I ___ is her smile.",
+     "a": [
+      "love"
+     ]
+    },
+    {
+     "t": "Luis called, not Pedro. → It ___ Luis who called.",
+     "a": [
+      "was"
+     ]
+    },
+    {
+     "t": "I only want to sleep. → All I ___ is to sleep.",
+     "a": [
+      "want"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "___ annoys me is his attitude.",
+     "options": [
+      "What",
+      "That"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It was my brother ___ told me.",
+     "options": [
+      "who",
+      "what"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

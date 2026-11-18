@@ -1,0 +1,106 @@
+{
+ "id": "b1-g23",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Adjective order",
+   "subtitle": "Opinion before fact",
+   "goals": [
+    "Order several adjectives naturally.",
+    "Remember **OSASCOMP**.",
+    "Avoid unnatural lists."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "The usual order",
+   "table": {
+    "head": [
+     "Order",
+     "Category",
+     "Example"
+    ],
+    "rows": [
+     [
+      "1",
+      "Opinion",
+      "beautiful, ugly, nice"
+     ],
+     [
+      "2",
+      "Size",
+      "big, small, tall"
+     ],
+     [
+      "3",
+      "Age",
+      "old, new, young"
+     ],
+     [
+      "4",
+      "Shape",
+      "round, square"
+     ],
+     [
+      "5",
+      "Color",
+      "red, black"
+     ],
+     [
+      "6",
+      "Origin",
+      "Mexican, Italian"
+     ],
+     [
+      "7",
+      "Material",
+      "wooden, cotton, leather"
+     ],
+     [
+      "8",
+      "Purpose",
+      "running (shoes), sleeping (bag)"
+     ]
+    ]
+   },
+   "tip": "Example: *a **lovely small old round red Mexican clay** pot*. In practice, two or three adjectives is enough."
+  },
+  {
+   "type": "order",
+   "title": "Put the adjectives in order",
+   "items": [
+    {
+     "a": "She bought a beautiful long black dress."
+    },
+    {
+     "a": "We have a big old wooden table."
+    },
+    {
+     "a": "He gave me a small Italian leather bag."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "",
+     "options": [
+      "a red big car",
+      "a big red car"
+     ],
+     "a": 1
+    },
+    {
+     "q": "",
+     "options": [
+      "a new beautiful house",
+      "a beautiful new house"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

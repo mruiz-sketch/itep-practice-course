@@ -1,0 +1,77 @@
+{
+ "id": "c1-g03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced cleft sentences",
+   "subtitle": "The reason why… / All I want… / It was not until…",
+   "goals": [
+    "Use a range of cleft structures.",
+    "Focus attention on key information.",
+    "Improve cohesion in writing."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "The reason (why)… is that",
+      "**The reason why** I left **is that** I needed a change."
+     ],
+     [
+      "The thing that… is",
+      "**The thing that** surprised me **was** his honesty."
+     ],
+     [
+      "What happened was (that)",
+      "**What happened was that** the server crashed."
+     ],
+     [
+      "It was not until… that",
+      "**It was not until** 2020 **that** I started teaching."
+     ],
+     [
+      "The place / person / time where / who / when",
+      "**The person who** helped me most **was** my aunt."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ I find most annoying is the noise.",
+     "options": [
+      "What",
+      "That"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It wasn't until I moved abroad ___ I appreciated my country.",
+     "options": [
+      "that",
+      "when"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The reason ___ she resigned is still unclear.",
+     "options": [
+      "why",
+      "because"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

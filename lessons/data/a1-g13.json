@@ -1,0 +1,90 @@
+{
+  "id": "a1-g13",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Can / can't",
+      "subtitle": "Habilidad, posibilidad y permiso",
+      "goals": [
+        "Decir lo que **puedes** y **no puedes** hacer.",
+        "Pedir y dar **permiso**: *Can I…?*",
+        "Distinguir al oído **can** y **can't**."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Can es igual para todos",
+      "body": ["**Can** no cambia con *he, she, it* y siempre va seguido del verbo **sin to**."],
+      "table": {
+        "head": ["", "Forma", "Ejemplo"],
+        "rows": [
+          ["Afirmativa", "sujeto + **can** + verbo", "She **can** swim."],
+          ["Negativa", "sujeto + **can't / cannot** + verbo", "I **can't** drive."],
+          ["Pregunta", "**Can** + sujeto + verbo?", "**Can** you speak English?"],
+          ["Respuesta corta", "Yes, I can. / No, I can't.", "Can he cook? — Yes, he can."]
+        ]
+      },
+      "list": [
+        "Habilidad: *I can play the guitar.*",
+        "Posibilidad: *You can take the bus from here.*",
+        "Permiso: *Can I open the window?*",
+        "Peticiones: *Can you help me, please?*"
+      ],
+      "errors": [
+        { "bad": "She cans swim.", "good": "She **can** swim." },
+        { "bad": "I can to drive.", "good": "I can **drive**.", "note": "Después de *can* el verbo va sin **to**." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Escucha la diferencia",
+      "items": [
+        { "en": "I can swim.", "es": "Sé nadar.", "note": "En afirmativa, *can* suena débil: /kən/." },
+        { "en": "I can't swim.", "es": "No sé nadar.", "note": "*Can't* suena fuerte y largo: /kænt/ (EE. UU.) o /kɑːnt/ (RU)." },
+        { "en": "Can I go to the bathroom, please?", "es": "¿Puedo ir al baño, por favor?" },
+        { "en": "Can you repeat that, please?", "es": "¿Puede repetir, por favor?" },
+        { "en": "You can't use your phone in the exam.", "es": "No puedes usar el celular en el examen." }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Can o can't?",
+      "items": [
+        { "say": "I can dance.", "options": ["I can dance.", "I can't dance."], "a": 0 },
+        { "say": "She can't cook.", "options": ["She can cook.", "She can't cook."], "a": 1 },
+        { "say": "We can't come tomorrow.", "options": ["We can come tomorrow.", "We can't come tomorrow."], "a": 1 },
+        { "say": "He can speak three languages.", "options": ["He can speak three languages.", "He can't speak three languages."], "a": 0 }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "My brother ___ play the piano.", "options": ["cans", "can", "can to"], "a": 1 },
+        { "q": "___ I borrow your pen?", "options": ["Can", "Do", "Am"], "a": 0 },
+        { "q": "Can you ride a bike? — No, I ___", "options": ["don't.", "can't.", "can."], "a": 1 },
+        { "q": "Students ___ eat in the lab. It's not allowed.", "options": ["can", "can't", "cans"], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "Can you help me with my homework?", "es": "¿Me puedes ayudar con mi tarea?" },
+        { "a": "My grandmother can't use a computer.", "es": "Mi abuela no sabe usar una computadora." },
+        { "a": "We can meet at the library.", "es": "Podemos vernos en la biblioteca." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la petición con la respuesta",
+      "pairs": [
+        ["Can I sit here?", "Sure, go ahead."],
+        ["Can you speak slowly, please?", "Of course."],
+        ["Can you come to my party?", "Sorry, I can't. I work on Saturday."],
+        ["Can she drive?", "Yes, she can."]
+      ],
+      "speak": "left"
+    }
+  ]
+}

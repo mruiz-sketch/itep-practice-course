@@ -1,0 +1,103 @@
+{
+ "id": "b2-v12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Synonyms and register",
+   "subtitle": "Formal vs informal vocabulary",
+   "goals": [
+    "Choose words according to register.",
+    "Recognize synonyms with different tones.",
+    "Adapt emails and speech."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "ask → request / inquire"
+    },
+    {
+     "en": "need → require"
+    },
+    {
+     "en": "help → assist"
+    },
+    {
+     "en": "buy → purchase"
+    },
+    {
+     "en": "start → commence"
+    },
+    {
+     "en": "enough → sufficient"
+    },
+    {
+     "en": "tell → inform"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "require",
+     "need"
+    ],
+    [
+     "purchase",
+     "buy"
+    ],
+    [
+     "assist",
+     "help"
+    ],
+    [
+     "inquire",
+     "ask"
+    ],
+    [
+     "sufficient",
+     "enough"
+    ],
+    [
+     "inform",
+     "tell"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Formal email: *Please ___ me of any changes.*",
+     "options": [
+      "inform",
+      "tell"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Formal: *Applicants ___ a valid passport.*",
+     "options": [
+      "require",
+      "need"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Chat with a friend: *Can you ___ me?*",
+     "options": [
+      "help",
+      "assist"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

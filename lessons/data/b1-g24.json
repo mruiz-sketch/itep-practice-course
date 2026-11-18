@@ -1,0 +1,115 @@
+{
+ "id": "b1-g24",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Articles: special uses",
+   "subtitle": "a / an / the / zero article",
+   "goals": [
+    "Use **the** with unique things, rivers, oceans and some countries.",
+    "Use **zero article** with most countries, cities and general plurals.",
+    "Know fixed expressions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Common rules",
+   "table": {
+    "head": [
+     "Use **the**",
+     "No article"
+    ],
+    "rows": [
+     [
+      "the USA, the UK, the Philippines",
+      "Mexico, Canada, France"
+     ],
+     [
+      "the Pacific, the Amazon, the Andes",
+      "Lake Chapala, Mount Everest"
+     ],
+     [
+      "the sun, the internet, the environment",
+      "general plurals: *Dogs are loyal.*"
+     ],
+     [
+      "superlatives: the best, the first",
+      "meals: *have lunch*"
+     ],
+     [
+      "play **the** guitar (instruments)",
+      "play football (sports)"
+     ],
+     [
+      "the cinema, the theater",
+      "at home, at work, go to bed, by bus"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I want to visit ___ United States.",
+     "options": [
+      "the",
+      "–"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She lives in ___ Spain.",
+     "options": [
+      "the",
+      "–"
+     ],
+     "a": 1
+    },
+    {
+     "q": "He plays ___ piano very well.",
+     "options": [
+      "the",
+      "–"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ life is beautiful.",
+     "options": [
+      "The",
+      "–"
+     ],
+     "a": 1,
+     "why": "Abstract idea in general → no article."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete with the or – (dash)",
+   "items": [
+    {
+     "t": "We swam in ___ Pacific Ocean.",
+     "a": [
+      "the"
+     ]
+    },
+    {
+     "t": "I usually go to work by ___ bus.",
+     "a": [
+      "-",
+      "–"
+     ]
+    },
+    {
+     "t": "She's ___ best student in the class.",
+     "a": [
+      "the"
+     ]
+    }
+   ]
+  }
+ ]
+}

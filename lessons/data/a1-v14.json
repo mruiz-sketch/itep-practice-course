@@ -1,0 +1,70 @@
+{
+  "id": "a1-v14",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Transportation",
+      "subtitle": "Medios de transporte",
+      "goals": [
+        "Nombrar medios de transporte.",
+        "Usar **by** + transporte y **on foot**.",
+        "Preguntar *How do you get to school?*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "By bus, on foot",
+      "table": {
+        "head": ["Expresión", "Ejemplo", "Español"],
+        "rows": [
+          ["**by** + transporte (sin artículo)", "I go to school **by bus**.", "Voy a la escuela en camión."],
+          ["**on foot**", "She goes to work **on foot**.", "Ella va al trabajo a pie."],
+          ["**walk / drive / ride**", "I **walk** to school. He **drives** to work. I **ride** my bike.", "Camino / maneja / ando en bici."],
+          ["**take** + the + transporte", "We **take the subway**.", "Tomamos el metro."],
+          ["**get on / get off**", "**Get off** at the next stop.", "Bájate en la siguiente parada."]
+        ]
+      },
+      "errors": [
+        { "bad": "I go in bus.", "good": "I go **by** bus." },
+        { "bad": "by foot", "good": "**on** foot" }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "¿Cómo llegas?",
+      "items": [
+        { "en": "How do you get to school? — By bus.", "es": "¿Cómo llegas a la escuela? — En camión." },
+        { "en": "It takes forty minutes by car.", "es": "Son 40 minutos en coche." },
+        { "en": "I ride my motorcycle to work.", "es": "Voy en moto al trabajo." },
+        { "en": "Let's take a taxi.", "es": "Tomemos un taxi." },
+        { "en": "We flew to Cancún by plane.", "es": "Volamos a Cancún en avión." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["subway (US) / underground (UK)", "metro"], ["truck", "camión de carga"], ["bike", "bicicleta"], ["plane", "avión"], ["ship", "barco"], ["bus", "camión, autobús"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Completa con by, on, ride o take",
+      "items": [
+        { "t": "I go to the university ___ bus.", "a": ["by"] },
+        { "t": "She lives near, so she goes ___ foot.", "a": ["on"] },
+        { "t": "Do you ___ your bike to work?", "a": ["ride"] },
+        { "t": "Let's ___ the train. It's faster.", "a": ["take"] }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Por tierra, agua o aire?",
+      "buckets": ["land", "water", "air"],
+      "items": [
+        { "w": "car", "b": 0 }, { "w": "train", "b": 0 }, { "w": "bus", "b": 0 },
+        { "w": "boat", "b": 1 }, { "w": "ship", "b": 1 }, { "w": "ferry", "b": 1 },
+        { "w": "plane", "b": 2 }, { "w": "helicopter", "b": 2 }, { "w": "hot-air balloon", "b": 2 }
+      ]
+    }
+  ]
+}

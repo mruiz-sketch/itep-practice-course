@@ -1,0 +1,94 @@
+{
+ "id": "b2-v08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Basic academic vocabulary",
+   "subtitle": "Academic vocabulary for study",
+   "goals": [
+    "Use academic verbs and nouns.",
+    "Read and write more formally.",
+    "Replace informal words."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "analyse, assess, evaluate, interpret"
+    },
+    {
+     "en": "evidence, data, approach, factor, significant"
+    },
+    {
+     "en": "According to the data… / The evidence suggests…"
+    },
+    {
+     "en": "get → obtain, show → demonstrate, find out → discover"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "analyse",
+     "examine in detail"
+    ],
+    [
+     "evidence",
+     "facts that prove something"
+    ],
+    [
+     "significant",
+     "important, large"
+    ],
+    [
+     "approach",
+     "way of dealing with something"
+    ],
+    [
+     "assess",
+     "judge the value of"
+    ],
+    [
+     "factor",
+     "something that influences a result"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Formal word for *show*:",
+     "options": [
+      "demonstrate",
+      "display"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Formal word for *get*:",
+     "options": [
+      "obtain",
+      "catch"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The results showed a ___ increase.",
+     "options": [
+      "significant",
+      "signified"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

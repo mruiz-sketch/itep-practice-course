@@ -1,0 +1,67 @@
+{
+  "id": "a1-p03",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "The -s ending",
+      "subtitle": "Terminación -s: /s/, /z/, /ɪz/",
+      "goals": [
+        "Pronunciar la -s de plurales, tercera persona y posesivos.",
+        "Saber cuándo agrega una **sílaba extra** /ɪz/.",
+        "No olvidar pronunciar la -s final."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Tres formas de sonar",
+      "table": {
+        "head": ["Sonido", "Cuándo", "Ejemplos", "Escucha"],
+        "rows": [
+          ["**/s/**", "después de sonidos sordos: /p, t, k, f, θ/", "cups, cats, books, laughs, months", "cups, cats, books"],
+          ["**/z/**", "después de vocales y sonidos sonoros: /b, d, g, v, m, n, l, r/", "jobs, dogs, plays, lives, phones", "jobs, dogs, phones"],
+          ["**/ɪz/** (sílaba extra)", "después de /s, z, ʃ, tʃ, dʒ/", "buses, roses, dishes, watches, pages", "buses, dishes, watches"]
+        ],
+        "speak": 3
+      },
+      "watch": "Muchos hispanohablantes no pronuncian la -s final: *He work*, *two book*. Esa -s es gramática: si no suena, el mensaje cambia."
+    },
+    {
+      "type": "sort",
+      "title": "Clasifica por sonido final",
+      "buckets": ["/s/", "/z/", "/ɪz/"],
+      "items": [
+        { "w": "hats", "b": 0 }, { "w": "walks", "b": 0 }, { "w": "shops", "b": 0 },
+        { "w": "cars", "b": 1 }, { "w": "pens", "b": 1 }, { "w": "goes", "b": 1 },
+        { "w": "boxes", "b": 2 }, { "w": "oranges", "b": 2 }, { "w": "Luis's", "b": 2 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Cuántas sílabas oyes?",
+      "items": [
+        { "say": "watches", "options": ["1 sílaba", "2 sílabas"], "a": 1 },
+        { "say": "plays", "options": ["1 sílaba", "2 sílabas"], "a": 0 },
+        { "say": "dances", "options": ["2 sílabas", "3 sílabas"], "a": 0 },
+        { "say": "books", "options": ["1 sílaba", "2 sílabas"], "a": 0 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Singular o plural?",
+      "items": [
+        { "say": "I need the books.", "options": ["the book", "the books"], "a": 1 },
+        { "say": "She works here.", "options": ["She work here.", "She works here."], "a": 1 },
+        { "say": "Where's the bus?", "options": ["the bus", "the buses"], "a": 0 }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*Watches* tiene dos sílabas.", "a": true },
+        { "s": "*Cats* termina con sonido /z/.", "a": false, "why": "Después de /t/ suena **/s/**." },
+        { "s": "*Dogs* termina con sonido /z/.", "a": true }
+      ]
+    }
+  ]
+}

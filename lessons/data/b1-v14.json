@@ -1,0 +1,111 @@
+{
+ "id": "b1-v14",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "False friends",
+   "subtitle": "False friends (falsos cognados)",
+   "goals": [
+    "Recognize false friends between English and Spanish.",
+    "Avoid embarrassing mistakes.",
+    "Use the right word."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "actually = en realidad (≠ actualmente = currently)"
+    },
+    {
+     "en": "embarrassed = avergonzado (≠ embarazada = pregnant)"
+    },
+    {
+     "en": "library = biblioteca (≠ librería = bookstore)"
+    },
+    {
+     "en": "assist = ayudar (≠ asistir = attend)"
+    },
+    {
+     "en": "realize = darse cuenta (≠ realizar = carry out)"
+    },
+    {
+     "en": "carpet = alfombra (≠ carpeta = folder)"
+    },
+    {
+     "en": "exit = salida (≠ éxito = success)"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "actually",
+     "en realidad"
+    ],
+    [
+     "currently",
+     "actualmente"
+    ],
+    [
+     "attend",
+     "asistir"
+    ],
+    [
+     "realize",
+     "darse cuenta"
+    ],
+    [
+     "success",
+     "éxito"
+    ],
+    [
+     "folder",
+     "carpeta"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "*Asistí a la clase* =",
+     "options": [
+      "I assisted the class.",
+      "I attended the class."
+     ],
+     "a": 1
+    },
+    {
+     "q": "*Actualmente vivo en Querétaro* =",
+     "options": [
+      "Actually, I live in Querétaro.",
+      "I currently live in Querétaro."
+     ],
+     "a": 1
+    },
+    {
+     "q": "*Me di cuenta del error* =",
+     "options": [
+      "I realized the mistake.",
+      "I realized of the mistake."
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Estoy embarazada* =",
+     "options": [
+      "I'm embarrassed.",
+      "I'm pregnant."
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "a1-h03",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Writing forms and short messages",
+      "subtitle": "Escritura: formularios y mensajes cortos",
+      "goals": [
+        "Llenar un formulario con datos correctos.",
+        "Escribir un mensaje corto (25–50 palabras) con saludo, mensaje y despedida.",
+        "Revisar mayúsculas, puntuación y la -s de tercera persona."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Formularios: qué escribir en cada campo",
+      "table": {
+        "head": ["Campo", "Qué escribir", "Ejemplo"],
+        "rows": [
+          ["First name", "nombre(s)", "Melanie"],
+          ["Last name / Surname", "apellido(s)", "Ruiz Juárez"],
+          ["Date of birth (DOB)", "fecha de nacimiento", "03/15/2004 (EE. UU.: mes/día/año)"],
+          ["Marital status", "estado civil", "single / married"],
+          ["Occupation", "ocupación", "student"],
+          ["Signature", "firma", "(tu firma)"]
+        ]
+      },
+      "watch": "En EE. UU. las fechas van **mes/día/año**: *03/04/2026* = 4 de marzo. En RU y México, día/mes/año."
+    },
+    {
+      "type": "mc",
+      "title": "¿Qué va en el campo?",
+      "items": [
+        { "q": "Surname:", "options": ["Daniela", "López", "Mexican"], "a": 1 },
+        { "q": "Occupation:", "options": ["single", "engineer", "Querétaro"], "a": 1 },
+        { "q": "DOB (formato EE. UU.) para el 9 de diciembre de 2005:", "options": ["09/12/2005", "12/09/2005", "2005/09/12"], "a": 1 }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Modelo de mensaje",
+      "items": [
+        { "en": "Hi Laura,", "es": "Saludo" },
+        { "en": "I'm sorry, I can't go to the library today. I've got a headache.", "es": "Mensaje: qué pasa y por qué" },
+        { "en": "Can we meet tomorrow at 10 a.m.?", "es": "Propuesta o pregunta" },
+        { "en": "See you, Marco", "es": "Despedida y nombre" }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena el mensaje",
+      "items": [
+        { "a": "Hi Mom, I'm at school.", "es": "Saludo" },
+        { "a": "My class finishes at three.", "es": "Información" },
+        { "a": "Can you pick me up, please?", "es": "Petición" },
+        { "a": "Love, Paty", "es": "Despedida" }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Encuentra el error",
+      "items": [
+        { "q": "¿Qué oración está bien escrita?", "options": ["i live in mexico.", "I live in Mexico.", "I live in mexico."], "a": 1 },
+        { "q": "¿Qué oración está bien escrita?", "options": ["My brother work in a bank.", "My brother works in a bank.", "My brother working in a bank."], "a": 1 },
+        { "q": "¿Qué oración está bien escrita?", "options": ["I'm 18 years old.", "I have 18 years.", "I'm 18 years."], "a": 0 },
+        { "q": "¿Qué oración está bien escrita?", "options": ["See you on monday!", "See you on Monday!", "See you in Monday!"], "a": 1 }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Tu turno: escribe un mensaje",
+      "body": [
+        "Escribe en tu cuaderno un mensaje de **25 a 50 palabras** a un compañero: no puedes ir a la reunión del equipo. Explica por qué y propone otro día y hora."
+      ],
+      "list": [
+        "☐ ¿Tiene saludo y despedida?",
+        "☐ ¿Explica **por qué** (*because…*)?",
+        "☐ ¿Propone **día y hora** (*on Friday at 5*)?",
+        "☐ ¿Empiezan con mayúscula las oraciones, los días y los nombres?",
+        "☐ ¿Tienen **-s** los verbos con *he / she / it*?"
+      ],
+      "tip": "Revisa tu mensaje con esta lista antes de entregarlo o enviarlo."
+    }
+  ]
+}

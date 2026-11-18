@@ -1,0 +1,132 @@
+{
+ "id": "a2-g16",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Possessive pronouns and whose",
+   "subtitle": "Pronombres posesivos y whose",
+   "goals": [
+    "Usar **mine, yours, his, hers, ours, theirs**.",
+    "Preguntar de quién es algo con **Whose…?**",
+    "No repetir el sustantivo."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Adjetivo vs pronombre",
+   "table": {
+    "head": [
+     "Adjetivo (+ sustantivo)",
+     "Pronombre (solo)"
+    ],
+    "rows": [
+     [
+      "my bag",
+      "It's **mine**."
+     ],
+     [
+      "your bag",
+      "It's **yours**."
+     ],
+     [
+      "his bag",
+      "It's **his**."
+     ],
+     [
+      "her bag",
+      "It's **hers**."
+     ],
+     [
+      "our bag",
+      "It's **ours**."
+     ],
+     [
+      "their bag",
+      "It's **theirs**."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "It's mine phone.",
+     "good": "It's **my** phone. / It's **mine**."
+    },
+    {
+     "bad": "Who's bag is this?",
+     "good": "**Whose** bag is this?",
+     "note": "*Who's* = *who is*."
+    }
+   ],
+   "tip": "**Whose** + sustantivo + is this? → *Whose phone is this? — It's Ana's / It's mine.*"
+  },
+  {
+   "type": "fill",
+   "title": "Completa con el pronombre",
+   "items": [
+    {
+     "t": "That's my pen. It's ___.",
+     "a": [
+      "mine"
+     ]
+    },
+    {
+     "t": "This is Ana's room. It's ___.",
+     "a": [
+      "hers"
+     ]
+    },
+    {
+     "t": "These are our books. They're ___.",
+     "a": [
+      "ours"
+     ]
+    },
+    {
+     "t": "Is this your jacket? Is it ___?",
+     "a": [
+      "yours"
+     ]
+    },
+    {
+     "t": "The car belongs to my parents. It's ___.",
+     "a": [
+      "theirs"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "___ keys are these?",
+     "options": [
+      "Who",
+      "Whose",
+      "Who's"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Is this Pedro's? — Yes, it's ___.",
+     "options": [
+      "his",
+      "him",
+      "he"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Your house is bigger than ___.",
+     "options": [
+      "our",
+      "ours",
+      "us"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

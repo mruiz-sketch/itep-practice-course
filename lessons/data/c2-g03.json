@@ -1,0 +1,85 @@
+{
+ "id": "c2-g03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Formulaic subjunctive",
+   "subtitle": "Be that as it may, come what may, suffice it to say",
+   "goals": [
+    "Recognize fixed subjunctive expressions.",
+    "Use them appropriately in formal speech and writing.",
+    "Understand their meaning."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Expression",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "Be that as it may",
+      "even so, nevertheless"
+     ],
+     [
+      "Come what may",
+      "whatever happens"
+     ],
+     [
+      "Suffice it to say",
+      "it's enough to say"
+     ],
+     [
+      "God forbid",
+      "I hope this never happens"
+     ],
+     [
+      "Far be it from me to…",
+      "I don't want to (criticize), but…"
+     ],
+     [
+      "So be it",
+      "I accept it"
+     ],
+     [
+      "Long live…",
+      "may it last"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "The plan has flaws. ___, it's our best option.",
+     "options": [
+      "Be that as it may",
+      "Come what may"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___, I'll support you.",
+     "options": [
+      "Come what may",
+      "So be it"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ the meeting didn't go well.",
+     "options": [
+      "Suffice it to say",
+      "Far be it"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "a1-v05",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "In the classroom and at home",
+      "subtitle": "Objetos del aula y de la casa",
+      "goals": [
+        "Nombrar objetos del salón y de la casa.",
+        "Nombrar las partes de la casa.",
+        "Preguntar *What's this in English?*"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "En el salón",
+      "items": [
+        { "en": "desk", "es": "escritorio, pupitre" },
+        { "en": "chair", "es": "silla" },
+        { "en": "board", "es": "pizarrón" },
+        { "en": "pen / pencil", "es": "pluma / lápiz" },
+        { "en": "eraser", "es": "borrador, goma" },
+        { "en": "notebook", "es": "cuaderno" },
+        { "en": "backpack", "es": "mochila" },
+        { "en": "laptop", "es": "laptop" },
+        { "en": "What's this in English? — It's a ruler.", "es": "¿Cómo se dice esto en inglés? — Es una regla." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "En la casa",
+      "items": [
+        { "en": "living room", "es": "sala", "note": "sofa, TV, armchair" },
+        { "en": "kitchen", "es": "cocina", "note": "fridge, stove, sink" },
+        { "en": "bedroom", "es": "recámara", "note": "bed, wardrobe, lamp" },
+        { "en": "bathroom", "es": "baño", "note": "shower, toilet, mirror" },
+        { "en": "dining room", "es": "comedor", "note": "table, chairs" },
+        { "en": "garden / yard", "es": "jardín / patio" }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿En qué cuarto está?",
+      "buckets": ["kitchen", "bedroom", "bathroom"],
+      "items": [
+        { "w": "fridge", "b": 0 }, { "w": "stove", "b": 0 }, { "w": "microwave", "b": 0 },
+        { "w": "bed", "b": 1 }, { "w": "pillow", "b": 1 }, { "w": "wardrobe", "b": 1 },
+        { "w": "shower", "b": 2 }, { "w": "toothbrush", "b": 2 }, { "w": "towel", "b": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["eraser", "borrador"], ["ruler", "regla"], ["scissors", "tijeras"], ["sink", "fregadero, lavabo"], ["mirror", "espejo"], ["stairs", "escaleras"]],
+      "speak": "left"
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige",
+      "items": [
+        { "say": "kitchen", "options": ["chicken", "kitchen", "kitten"], "a": 1, "why": "**kitchen** /ˈkɪtʃɪn/ = cocina; **chicken** /ˈtʃɪkɪn/ = pollo." },
+        { "say": "sheet", "options": ["sheet", "seat", "sit"], "a": 0 },
+        { "say": "chair", "options": ["share", "chair", "cheer"], "a": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "¿Qué es?",
+      "items": [
+        { "t": "You sleep in a ___.", "a": ["bed"] },
+        { "t": "You write with a ___ or a pencil.", "a": ["pen"] },
+        { "t": "You keep food cold in the ___.", "a": ["fridge", "refrigerator"] },
+        { "t": "You carry your books in a ___.", "a": ["backpack", "bag", "schoolbag"] }
+      ]
+    }
+  ]
+}

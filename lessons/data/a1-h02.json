@@ -1,0 +1,62 @@
+{
+  "id": "a1-h02",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Listening: numbers, prices and times",
+      "subtitle": "Escucha: números, precios y horas",
+      "goals": [
+        "Captar números, precios y horas en mensajes cortos.",
+        "Escuchar buscando **un dato específico**.",
+        "Usar la versión lenta solo si la necesitas."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Estrategia: escucha con un objetivo",
+      "list": [
+        "**Antes** de escuchar, lee las opciones: ¿buscas una hora, un precio, un número?",
+        "**Mientras** escuchas, ignora lo demás y espera ese dato.",
+        "Primero escucha a velocidad normal. Usa **Slow** solo para comprobar.",
+        "Cuidado con los pares *-teen / -ty* y con las correcciones: *It's 30… sorry, 13.*"
+      ],
+      "tip": "En el examen iTEP los audios se escuchan una sola vez. Practica sin repetir."
+    },
+    {
+      "type": "listen",
+      "title": "Anuncios",
+      "items": [
+        { "say": "Attention, please. The train to Mexico City leaves from platform six at ten forty-five.", "options": ["Platform 6, 10:45", "Platform 16, 10:15", "Platform 6, 11:45"], "a": 0 },
+        { "say": "The store closes in fifteen minutes. Please take your purchases to the cashier.", "options": ["In 15 minutes", "In 50 minutes", "At 5 o'clock"], "a": 0 },
+        { "say": "Flight two-seventy to Cancún is now boarding at gate nineteen.", "options": ["Flight 217, gate 90", "Flight 270, gate 19", "Flight 207, gate 9"], "a": 1 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Precios",
+      "items": [
+        { "say": "Two coffees and a muffin. That's seventy-eight pesos, please.", "options": ["$68", "$78", "$87"], "a": 1 },
+        { "say": "These sneakers are on sale. They were nine hundred, now they're six hundred and fifty.", "options": ["Now $650", "Now $900", "Now $560"], "a": 0 },
+        { "say": "The ticket costs forty dollars for adults and fifteen for children.", "options": ["Child: $50", "Child: $15", "Adult: $14"], "a": 1 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Mensajes de voz",
+      "items": [
+        { "say": "Hi Ana, it's Carla. The meeting is on Thursday at half past three, not at four. See you!", "options": ["Thursday 3:30", "Thursday 4:00", "Tuesday 3:30"], "a": 0, "why": "*half past three*, y la corrige: *not at four*." },
+        { "say": "Hello, this is Dr. Ruiz's office. Your appointment is on May twelfth at nine a.m. Please call us at four four two, two one eight, zero zero three five.", "options": ["May 12th, 9 a.m.", "May 20th, 9 p.m.", "March 12th, 9 a.m."], "a": 0 },
+        { "say": "Hey, it's Luis. I'm at the bus stop on Juárez Street. The bus is late. I think I'll be there at ten to eight.", "options": ["7:50", "8:10", "10:08"], "a": 0, "why": "*ten to eight* = faltan 10 para las 8." }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Datos personales",
+      "items": [
+        { "say": "My name's Sofía Herrera. That's H, E, double R, E, R, A.", "options": ["Herera", "Herrera", "Errera"], "a": 1 },
+        { "say": "I'm twenty-three and my sister is thirteen.", "options": ["23 and 30", "23 and 13", "33 and 13"], "a": 1 },
+        { "say": "My room number is four-oh-eight.", "options": ["408", "480", "48"], "a": 0 }
+      ]
+    }
+  ]
+}

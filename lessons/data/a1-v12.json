@@ -1,0 +1,69 @@
+{
+  "id": "a1-v12",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "The weather",
+      "subtitle": "El clima",
+      "goals": [
+        "Describir el clima con **It's + adjetivo**.",
+        "Distinguir sustantivo y adjetivo: *sun → sunny*.",
+        "Preguntar *What's the weather like?*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Sustantivo → adjetivo",
+      "table": {
+        "head": ["Sustantivo", "Adjetivo", "Ejemplo"],
+        "rows": [
+          ["sun", "**sunny**", "It's sunny today."],
+          ["cloud", "**cloudy**", "It's cloudy."],
+          ["rain", "**rainy**", "It's a rainy day. / It's raining."],
+          ["wind", "**windy**", "It's very windy."],
+          ["snow", "**snowy**", "It's snowing in the mountains."],
+          ["fog", "**foggy**", "It's foggy this morning."]
+        ],
+        "speak": 2
+      },
+      "tip": "Temperatura: **hot** (calor) · **warm** (templado) · **cool** (fresco) · **cold** (frío) · **freezing** (helado).",
+      "watch": "El clima siempre lleva sujeto **it**: ***It's** cold*, no *Is cold* ni *Makes cold*."
+    },
+    {
+      "type": "examples",
+      "title": "Hablar del clima",
+      "items": [
+        { "en": "What's the weather like today? — It's sunny and hot.", "es": "¿Cómo está el clima hoy? — Soleado y caluroso." },
+        { "en": "It's raining. Take an umbrella!", "es": "Está lloviendo. ¡Lleva paraguas!" },
+        { "en": "It's cold in the morning, but warm in the afternoon.", "es": "Hace frío en la mañana, pero calorcito en la tarde." },
+        { "en": "It's twenty-five degrees.", "es": "Hace 25 grados." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Forma el adjetivo",
+      "items": [
+        { "t": "sun → It's ___.", "a": ["sunny"], "clue": "Se dobla la n." },
+        { "t": "cloud → It's ___.", "a": ["cloudy"] },
+        { "t": "wind → It's ___.", "a": ["windy"] },
+        { "t": "fog → It's ___.", "a": ["foggy"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "¿Cómo se dice *Hace frío*?", "options": ["Makes cold.", "It's cold.", "Is cold."], "a": 1 },
+        { "q": "Look outside! It's ___.", "options": ["rain", "raining", "rains"], "a": 1 },
+        { "q": "___ the weather like in Querétaro?", "options": ["What's", "How's it", "Which"], "a": 0 },
+        { "q": "35 °C is…", "options": ["freezing", "cool", "hot"], "a": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona",
+      "pairs": [["freezing", "helado"], ["warm", "templado"], ["cool", "fresco"], ["storm", "tormenta"], ["umbrella", "paraguas"]],
+      "speak": "left"
+    }
+  ]
+}

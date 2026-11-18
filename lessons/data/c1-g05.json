@@ -1,0 +1,93 @@
+{
+ "id": "c1-g05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Alternatives to if",
+   "subtitle": "provided that, supposing, otherwise, but for, assuming",
+   "goals": [
+    "Use a range of conditional linkers.",
+    "Express conditions precisely.",
+    "Vary your writing style."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Linker",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "provided / providing (that)",
+      "only if",
+      "You can go, **provided that** you're back by 10."
+     ],
+     [
+      "as long as",
+      "only if (informal)",
+      "**As long as** you're careful, it's safe."
+     ],
+     [
+      "supposing / suppose",
+      "imagine if",
+      "**Supposing** you lost your job, what would you do?"
+     ],
+     [
+      "otherwise",
+      "if not",
+      "Hurry, **otherwise** we'll be late."
+     ],
+     [
+      "but for",
+      "if it weren't for (+ noun)",
+      "**But for** his help, we would have failed."
+     ],
+     [
+      "assuming (that)",
+      "if we accept that",
+      "**Assuming** the train is on time, we'll arrive at 6."
+     ],
+     [
+      "even if",
+      "whether or not",
+      "I'll go **even if** it rains."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ you won the lottery, what would you buy?",
+     "options": [
+      "Supposing",
+      "Provided"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Take a jacket, ___ you'll get cold.",
+     "options": [
+      "otherwise",
+      "unless"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ the storm, the flight would have left on time.",
+     "options": [
+      "But for",
+      "Even if"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

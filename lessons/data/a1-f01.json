@@ -1,0 +1,72 @@
+{
+  "id": "a1-f01",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Introducing yourself and others",
+      "subtitle": "Presentarse y presentar a otros",
+      "goals": [
+        "Presentarte: nombre, origen, ocupación.",
+        "Presentar a otra persona con **This is…**",
+        "Responder con *Nice to meet you.*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Frases clave",
+      "table": {
+        "head": ["Para…", "Frase", "Escucha"],
+        "rows": [
+          ["Decir tu nombre", "Hi, I'm Daniela. / My name's Daniela.", "Hi, I'm Daniela."],
+          ["Decir de dónde eres", "I'm from Santa Rosa Jáuregui.", "I'm from Santa Rosa."],
+          ["Decir qué haces", "I'm a student. I study animation.", "I'm a student. I study animation."],
+          ["Presentar a alguien", "**This is** my friend Omar.", "This is my friend Omar."],
+          ["Responder", "**Nice to meet you.** — Nice to meet you **too**.", "Nice to meet you. Nice to meet you too."],
+          ["Preguntar el nombre", "What's your name?", "What's your name?"]
+        ],
+        "speak": 2
+      },
+      "watch": "Para presentar a alguien no se dice *He is my friend*, sino **This is my friend**."
+    },
+    {
+      "type": "examples",
+      "title": "Diálogo modelo",
+      "items": [
+        { "en": "Hi! I'm Ana. What's your name?", "es": "¡Hola! Soy Ana. ¿Cómo te llamas?" },
+        { "en": "Hi, Ana. I'm Luis. Nice to meet you.", "es": "Hola, Ana. Soy Luis. Mucho gusto." },
+        { "en": "Nice to meet you too. Where are you from?", "es": "Igualmente. ¿De dónde eres?" },
+        { "en": "I'm from Querétaro. And this is my cousin, Sofía.", "es": "Soy de Querétaro. Y ella es mi prima Sofía." },
+        { "en": "Hi, Sofía!", "es": "¡Hola, Sofía!" }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las frases",
+      "items": [
+        { "a": "This is my teacher, Ms. López.", "es": "Le presento a mi maestra, la Mtra. López." },
+        { "a": "My name is Carlos and I am nineteen.", "es": "Me llamo Carlos y tengo 19 años." },
+        { "a": "Nice to meet you too.", "es": "Igualmente." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "¿Qué respondes?",
+      "items": [
+        { "q": "Nice to meet you.", "options": ["Nice to meet you too.", "Yes, I am.", "Fine, thanks."], "a": 0 },
+        { "q": "What's your name?", "options": ["I'm fine.", "My name's Pablo.", "I'm from Mexico."], "a": 1 },
+        { "q": "Quieres presentar a tu hermano.", "options": ["He is my brother, Juan.", "This is my brother, Juan.", "Is my brother Juan."], "a": 1 },
+        { "q": "What do you do?", "options": ["I'm a nurse.", "I do fine.", "I'm from Puebla."], "a": 0 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa la presentación",
+      "items": [
+        { "t": "Hello, my ___ is Mariana.", "a": ["name"] },
+        { "t": "I ___ from Mexico.", "a": ["am", "'m"] },
+        { "t": "___ is my classmate, Jorge.", "a": ["This"] },
+        { "t": "Nice to ___ you.", "a": ["meet"] }
+      ]
+    }
+  ]
+}

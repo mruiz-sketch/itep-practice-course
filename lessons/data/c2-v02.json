@@ -1,0 +1,93 @@
+{
+ "id": "c2-v02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Idioms, proverbs and cultural expressions",
+   "subtitle": "Cultural fluency",
+   "goals": [
+    "Understand proverbs and their use.",
+    "Recognize cultural references.",
+    "Use idioms naturally."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "Don't count your chickens before they hatch.",
+     "es": "No vendas la piel del oso antes de cazarlo."
+    },
+    {
+     "en": "When in Rome, do as the Romans do.",
+     "es": "A donde fueres, haz lo que vieres."
+    },
+    {
+     "en": "The early bird catches the worm.",
+     "es": "Al que madruga, Dios lo ayuda."
+    },
+    {
+     "en": "Every cloud has a silver lining.",
+     "es": "No hay mal que por bien no venga."
+    },
+    {
+     "en": "Too many cooks spoil the broth."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "every cloud has a silver lining",
+     "something good comes from bad"
+    ],
+    [
+     "the early bird catches the worm",
+     "acting early brings success"
+    ],
+    [
+     "too many cooks spoil the broth",
+     "too many people ruin a task"
+    ],
+    [
+     "the ball is in your court",
+     "it's your decision now"
+    ],
+    [
+     "a storm in a teacup",
+     "big fuss about nothing"
+    ],
+    [
+     "jump on the bandwagon",
+     "follow a trend"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "It's your decision now. The ball is in your ___.",
+     "options": [
+      "court",
+      "field"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Big fuss about nothing:",
+     "options": [
+      "a storm in a teacup",
+      "a piece of cake"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

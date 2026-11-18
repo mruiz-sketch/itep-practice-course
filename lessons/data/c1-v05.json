@@ -1,0 +1,86 @@
+{
+ "id": "c1-v05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Media, advertising and persuasion",
+   "subtitle": "Persuasive language",
+   "goals": [
+    "Analyze persuasive techniques.",
+    "Discuss media influence.",
+    "Recognize manipulation."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "target market, slogan, endorsement, sponsorship"
+    },
+    {
+     "en": "clickbait, echo chamber, algorithm"
+    },
+    {
+     "en": "emotional appeal, loaded language, testimonial"
+    },
+    {
+     "en": "The ad plays on people's insecurities."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "clickbait",
+     "sensational headline to get clicks"
+    ],
+    [
+     "echo chamber",
+     "space where only similar views are heard"
+    ],
+    [
+     "endorsement",
+     "public support from a famous person"
+    ],
+    [
+     "slogan",
+     "short memorable phrase"
+    ],
+    [
+     "loaded language",
+     "words with strong emotional meaning"
+    ],
+    [
+     "sponsorship",
+     "financial support in exchange for publicity"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "A headline designed only to get clicks:",
+     "options": [
+      "clickbait",
+      "deadline"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Only seeing opinions similar to yours:",
+     "options": [
+      "echo chamber",
+      "chamber music"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

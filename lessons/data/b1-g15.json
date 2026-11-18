@@ -1,0 +1,115 @@
+{
+ "id": "b1-g15",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Question tags",
+   "subtitle": "Checking and confirming",
+   "goals": [
+    "Form question tags with the **auxiliary + pronoun**.",
+    "Positive sentence → negative tag, and vice versa.",
+    "Use intonation to check or confirm."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Rules",
+   "table": {
+    "head": [
+     "Sentence",
+     "Tag"
+    ],
+    "rows": [
+     [
+      "You're tired,",
+      "**aren't you**?"
+     ],
+     [
+      "She doesn't smoke,",
+      "**does she**?"
+     ],
+     [
+      "They went home,",
+      "**didn't they**?"
+     ],
+     [
+      "You've finished,",
+      "**haven't you**?"
+     ],
+     [
+      "He can swim,",
+      "**can't he**?"
+     ],
+     [
+      "I'm late,",
+      "**aren't I**?"
+     ],
+     [
+      "Let's go,",
+      "**shall we**?"
+     ]
+    ]
+   },
+   "tip": "Falling intonation ↘ = you expect agreement. Rising ↗ = a real question."
+  },
+  {
+   "type": "fill",
+   "title": "Add the tag",
+   "items": [
+    {
+     "t": "It's cold today, ___ it?",
+     "a": [
+      "isn't"
+     ]
+    },
+    {
+     "t": "You don't eat meat, ___ you?",
+     "a": [
+      "do"
+     ]
+    },
+    {
+     "t": "They were at the party, ___ they?",
+     "a": [
+      "weren't"
+     ]
+    },
+    {
+     "t": "She'll come, ___ she?",
+     "a": [
+      "won't"
+     ]
+    },
+    {
+     "t": "He hasn't called, ___ he?",
+     "a": [
+      "has"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I'm right, ___?",
+     "options": [
+      "aren't I",
+      "amn't I"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Nobody called, ___?",
+     "options": [
+      "did they",
+      "didn't they"
+     ],
+     "a": 0,
+     "why": "*Nobody* is negative → positive tag."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "a1-g22",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "First steps: was, did, going to, bigger",
+      "subtitle": "Primer contacto con el pasado, el futuro y la comparación",
+      "goals": [
+        "Hablar del pasado con **was / were** y algunos verbos en **pasado simple**.",
+        "Hablar de planes con **going to**.",
+        "Comparar dos cosas con **-er than**."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "El pasado de to be: was / were",
+      "table": {
+        "head": ["", "I / he / she / it", "you / we / they"],
+        "rows": [
+          ["Afirmativa", "I **was** at home.", "They **were** tired."],
+          ["Negativa", "She **wasn't** happy.", "We **weren't** late."],
+          ["Pregunta", "**Was** it good?", "**Were** you there?"]
+        ]
+      },
+      "tip": "Palabras de pasado: **yesterday, last night, last week, in 2020, two days ago**."
+    },
+    {
+      "type": "explain",
+      "title": "Pasado simple: lo básico",
+      "body": [
+        "Los verbos **regulares** terminan en **-ed**: *work → worked, play → played, study → studied*.",
+        "Los **irregulares** se memorizan. Los más frecuentes: *go → **went**, have → **had**, see → **saw**, eat → **ate**, get → **got**, do → **did**, make → **made**.*",
+        "La forma es la **misma para todas las personas**: *I went, she went, they went*."
+      ],
+      "table": {
+        "head": ["", "Forma", "Ejemplo"],
+        "rows": [
+          ["Negativa", "**didn't** + verbo base", "I **didn't go** to class."],
+          ["Pregunta", "**Did** + sujeto + verbo base?", "**Did** you **see** the game?"]
+        ]
+      },
+      "errors": [
+        { "bad": "I didn't went.", "good": "I didn't **go**.", "note": "Con *didn't* y *did* el verbo vuelve a su forma base." }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Going to y comparativos",
+      "table": {
+        "head": ["Estructura", "Uso", "Ejemplo"],
+        "rows": [
+          ["am / is / are + **going to** + verbo", "planes e intenciones", "I'm **going to** visit my grandma on Sunday."],
+          ["adjetivo corto + **-er than**", "comparar (1 sílaba)", "My brother is **taller than** me."],
+          ["**more** + adjetivo largo + **than**", "comparar (2+ sílabas)", "English is **more interesting than** math."],
+          ["Irregulares", "good → **better**, bad → **worse**", "This app is **better than** that one."]
+        ]
+      },
+      "tip": "Adjetivos en consonante + y: **y → ier** (*easy → easier, happy → happier*)."
+    },
+    {
+      "type": "examples",
+      "title": "Ejemplos",
+      "items": [
+        { "en": "I **was** at the cinema last night.", "es": "Anoche estuve en el cine." },
+        { "en": "We **went** to Mexico City in May.", "es": "Fuimos a la Ciudad de México en mayo." },
+        { "en": "**Did** you **have** breakfast? — No, I **didn't**.", "es": "¿Desayunaste? — No." },
+        { "en": "She's **going to** study medicine.", "es": "Va a estudiar medicina." },
+        { "en": "Querétaro is **bigger than** Santa Rosa.", "es": "Querétaro es más grande que Santa Rosa.", "note": "*big → bigger*: se dobla la consonante." },
+        { "en": "This exam is **easier than** the last one.", "es": "Este examen es más fácil que el anterior." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Was o were",
+      "items": [
+        { "t": "I ___ sick yesterday.", "a": ["was"] },
+        { "t": "My friends ___ at the party.", "a": ["were"] },
+        { "t": "___ the test difficult?", "a": ["Was"] },
+        { "t": "We ___ late. We were on time. (negativa)", "a": ["weren't", "were not"] }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona el verbo con su pasado",
+      "pairs": [["go", "went"], ["have", "had"], ["see", "saw"], ["eat", "ate"], ["play", "played"], ["study", "studied"]],
+      "speak": "right"
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "I ___ my homework last night.", "options": ["do", "did", "doing"], "a": 1 },
+        { "q": "Did you ___ the news?", "options": ["saw", "see", "seeing"], "a": 1 },
+        { "q": "Tomorrow we're ___ play football.", "options": ["go", "going to", "going"], "a": 1 },
+        { "q": "My phone is ___ than yours.", "options": ["newer", "more new", "newest"], "a": 0 },
+        { "q": "Today is ___ than yesterday.", "options": ["more hot", "hoter", "hotter"], "a": 2 },
+        { "q": "This movie is ___ than the book.", "options": ["gooder", "better", "more good"], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "Where were you last weekend?", "es": "¿Dónde estuviste el fin de semana pasado?" },
+        { "a": "I am going to buy a new laptop.", "es": "Voy a comprar una laptop nueva." },
+        { "a": "Dogs are friendlier than cats.", "es": "Los perros son más amistosos que los gatos." }
+      ]
+    }
+  ]
+}

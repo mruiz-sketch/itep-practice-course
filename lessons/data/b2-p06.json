@@ -1,0 +1,103 @@
+{
+ "id": "b2-p06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Silent letters",
+   "subtitle": "Letters you see but don't say",
+   "goals": [
+    "Recognize common silent letters.",
+    "Pronounce frequent words correctly.",
+    "Spell them correctly."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Common silent letters",
+   "table": {
+    "head": [
+     "Letter",
+     "Examples",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "k (before n)",
+      "know, knife, knee",
+      "know, knife, knee"
+     ],
+     [
+      "w",
+      "write, wrong, answer",
+      "write, wrong, answer"
+     ],
+     [
+      "b (after m)",
+      "climb, comb, thumb",
+      "climb, comb, thumb"
+     ],
+     [
+      "l",
+      "walk, talk, could, half",
+      "walk, talk, could"
+     ],
+     [
+      "h",
+      "hour, honest, honor",
+      "hour, honest"
+     ],
+     [
+      "gh",
+      "night, daughter, though",
+      "night, daughter"
+     ]
+    ],
+    "speak": 2
+   }
+  },
+  {
+   "type": "sort",
+   "title": "Which letter is silent?",
+   "buckets": [
+    "k",
+    "w",
+    "b",
+    "l"
+   ],
+   "items": [
+    {
+     "w": "knock",
+     "b": 0
+    },
+    {
+     "w": "knowledge",
+     "b": 0
+    },
+    {
+     "w": "wrist",
+     "b": 1
+    },
+    {
+     "w": "sword",
+     "b": 1
+    },
+    {
+     "w": "lamb",
+     "b": 2
+    },
+    {
+     "w": "debt",
+     "b": 2
+    },
+    {
+     "w": "calm",
+     "b": 3
+    },
+    {
+     "w": "salmon",
+     "b": 3
+    }
+   ]
+  }
+ ]
+}

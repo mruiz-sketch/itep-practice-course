@@ -1,0 +1,94 @@
+{
+ "id": "b2-v10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Collocations",
+   "subtitle": "Strong collocations at B2",
+   "goals": [
+    "Use verb + noun and adjective + noun collocations.",
+    "Sound more natural.",
+    "Avoid literal translation."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "raise awareness, meet a need, reach a decision"
+    },
+    {
+     "en": "take advantage of, play a role in"
+    },
+    {
+     "en": "deeply concerned, highly unlikely, bitterly disappointed"
+    },
+    {
+     "en": "a heavy smoker, a strong accent, a high standard"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "raise awareness",
+     "make people know about"
+    ],
+    [
+     "take advantage of",
+     "use an opportunity"
+    ],
+    [
+     "play a role",
+     "have a part in"
+    ],
+    [
+     "highly unlikely",
+     "very improbable"
+    ],
+    [
+     "reach a decision",
+     "decide"
+    ],
+    [
+     "bitterly disappointed",
+     "extremely disappointed"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "The campaign aims to ___ awareness.",
+     "options": [
+      "raise",
+      "rise"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's ___ unlikely to rain.",
+     "options": [
+      "highly",
+      "strongly"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She has a strong ___.",
+     "options": [
+      "accent",
+      "voice tone"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

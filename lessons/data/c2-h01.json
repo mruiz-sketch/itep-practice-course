@@ -1,0 +1,52 @@
+{
+ "id": "c2-h01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reading literature and complex texts",
+   "subtitle": "Analysis of style",
+   "goals": [
+    "Analyze style, tone and rhetoric.",
+    "Read legal and philosophical texts.",
+    "Interpret implicit meaning."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Text",
+   "body": [
+    "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. — Jane Austen, *Pride and Prejudice* (1813)"
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Analysis",
+   "items": [
+    {
+     "q": "The tone of this opening line is…",
+     "options": [
+      "ironic",
+      "tragic"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Universally acknowledged* suggests…",
+     "options": [
+      "the narrator mocks a social belief",
+      "it is scientifically proven"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Who really \"wants\" the marriage, according to the irony?",
+     "options": [
+      "society and families",
+      "the single man"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

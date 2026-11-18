@@ -1,0 +1,80 @@
+{
+  "id": "a1-g21",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "And, but, or, because",
+      "subtitle": "Conectores básicos",
+      "goals": [
+        "Unir ideas con **and** (suma), **but** (contraste), **or** (opción) y **because** (razón).",
+        "Responder preguntas con *why* usando **because**.",
+        "Escribir oraciones más largas y naturales."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Cuatro conectores, cuatro funciones",
+      "table": {
+        "head": ["Conector", "Función", "Ejemplo"],
+        "rows": [
+          ["**and**", "agregar información", "I like pizza **and** tacos."],
+          ["**but**", "contrastar", "I like pizza, **but** I don't like pasta."],
+          ["**or**", "dar opciones", "Do you want tea **or** coffee?"],
+          ["**because**", "explicar la razón", "I'm tired **because** I work at night."]
+        ]
+      },
+      "tip": "Antes de **but** se suele poner coma. **Because** responde a *why*: *Why are you happy? — Because it's Friday!*",
+      "watch": "En negativas, *or* reemplaza a *and*: *I don't like tea **or** coffee* (no me gusta ni el té ni el café)."
+    },
+    {
+      "type": "examples",
+      "title": "Conectores en contexto",
+      "items": [
+        { "en": "My brother is tall **and** thin.", "es": "Mi hermano es alto y delgado." },
+        { "en": "The house is small, **but** it's very nice.", "es": "La casa es pequeña, pero es muy bonita." },
+        { "en": "We can go by bus **or** by taxi.", "es": "Podemos ir en camión o en taxi." },
+        { "en": "I study English **because** I want a good job.", "es": "Estudio inglés porque quiero un buen trabajo." },
+        { "en": "I don't eat meat **or** fish.", "es": "No como ni carne ni pescado." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige el conector",
+      "items": [
+        { "q": "I can swim, ___ I can't dive.", "options": ["and", "but", "because"], "a": 1 },
+        { "q": "Do you prefer cats ___ dogs?", "options": ["or", "and", "but"], "a": 0 },
+        { "q": "She's happy ___ she passed the exam.", "options": ["but", "or", "because"], "a": 2 },
+        { "q": "I have a laptop ___ a tablet.", "options": ["and", "or", "because"], "a": 0 },
+        { "q": "He doesn't like football ___ basketball.", "options": ["and", "or", "but"], "a": 1, "why": "En negativa, **or**." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Completa cada idea",
+      "pairs": [
+        ["I'm hungry because", "I didn't have breakfast."],
+        ["The movie is long, but", "it's very good."],
+        ["You can call me or", "send me a message."],
+        ["I live in Querétaro and", "I study at UPSRJ."]
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con and, but, or o because",
+      "items": [
+        { "t": "It's cold, ___ I'm not wearing a jacket.", "a": ["but"] },
+        { "t": "I'm late ___ the bus didn't come.", "a": ["because"] },
+        { "t": "Would you like juice ___ water?", "a": ["or"] },
+        { "t": "We have English on Monday ___ Wednesday.", "a": ["and"] }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "I like my job because my coworkers are friendly.", "es": "Me gusta mi trabajo porque mis compañeros son amables." },
+        { "a": "Do you want to stay or go?", "es": "¿Quieres quedarte o irte?" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "c1-v09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Connotation",
+   "subtitle": "Positive, neutral and negative words",
+   "goals": [
+    "Choose words with the right connotation.",
+    "Recognize bias in language.",
+    "Describe people diplomatically."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "slim (+) / thin (neutral) / skinny (−)"
+    },
+    {
+     "en": "confident (+) / arrogant (−)"
+    },
+    {
+     "en": "thrifty (+) / economical / stingy (−)"
+    },
+    {
+     "en": "curious (+) / nosy (−)"
+    },
+    {
+     "en": "determined (+) / stubborn (−)"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "thrifty",
+     "careful with money (+)"
+    ],
+    [
+     "stingy",
+     "unwilling to spend (−)"
+    ],
+    [
+     "nosy",
+     "too interested in others (−)"
+    ],
+    [
+     "assertive",
+     "confidently direct (+)"
+    ],
+    [
+     "pushy",
+     "too forceful (−)"
+    ],
+    [
+     "frank",
+     "honest and direct"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Positive word for *stubborn*:",
+     "options": [
+      "determined",
+      "obstinate"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Negative word for *curious*:",
+     "options": [
+      "nosy",
+      "inquisitive"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

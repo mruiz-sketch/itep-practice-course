@@ -1,0 +1,83 @@
+{
+ "id": "b2-g10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Past modals of criticism and regret",
+   "subtitle": "should have, needn't have, could have",
+   "goals": [
+    "Criticize past actions.",
+    "Express regret.",
+    "Distinguish **needn't have** and **didn't need to**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Meanings",
+   "table": {
+    "head": [
+     "Modal",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "should have / ought to have",
+      "it was a good idea but didn't happen",
+      "You **should have called** me."
+     ],
+     [
+      "shouldn't have",
+      "it happened but it wasn't a good idea",
+      "I **shouldn't have eaten** so much."
+     ],
+     [
+      "could have",
+      "possibility not taken",
+      "You **could have asked** for help."
+     ],
+     [
+      "needn't have",
+      "did it, but it was unnecessary",
+      "I **needn't have brought** an umbrella. It didn't rain."
+     ],
+     [
+      "didn't need to",
+      "wasn't necessary (so probably didn't)",
+      "I **didn't need to** wait."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I failed. I ___ studied more.",
+     "options": [
+      "should have",
+      "must have"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You ___ bought flowers, but thank you!",
+     "options": [
+      "needn't have",
+      "shouldn't"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You ___ told me! I would have helped.",
+     "options": [
+      "could have",
+      "can't have"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

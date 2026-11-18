@@ -1,0 +1,78 @@
+{
+  "id": "a1-v09",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Daily routine and free time",
+      "subtitle": "Rutina diaria y tiempo libre",
+      "goals": [
+        "Describir tu rutina con verbos frecuentes.",
+        "Hablar de actividades de tiempo libre.",
+        "Usar **go + -ing** y **play / do** con deportes y actividades."
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Un día normal",
+      "items": [
+        { "en": "wake up", "es": "despertarse" },
+        { "en": "get up", "es": "levantarse" },
+        { "en": "take a shower", "es": "bañarse" },
+        { "en": "get dressed", "es": "vestirse" },
+        { "en": "have breakfast", "es": "desayunar" },
+        { "en": "go to school / work", "es": "ir a la escuela / al trabajo" },
+        { "en": "get home", "es": "llegar a casa" },
+        { "en": "do homework", "es": "hacer la tarea" },
+        { "en": "go to bed", "es": "acostarse" }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Tiempo libre: go, play, do",
+      "table": {
+        "head": ["Verbo", "Se usa con…", "Ejemplos"],
+        "rows": [
+          ["**go** + -ing", "actividades que terminan en -ing", "go swimming, go shopping, go running, go dancing"],
+          ["**play**", "juegos y deportes con pelota, instrumentos", "play football, play video games, play the guitar"],
+          ["**do**", "actividades individuales, sin pelota", "do yoga, do exercise, do karate"]
+        ]
+      },
+      "tip": "Otras actividades: *watch series, listen to music, hang out with friends, read, draw*."
+    },
+    {
+      "type": "order",
+      "title": "Ordena la rutina de Luis",
+      "items": [
+        { "a": "Luis gets up at six thirty.", "es": "Luis se levanta a las 6:30." },
+        { "a": "He takes a shower and gets dressed.", "es": "Se baña y se viste." },
+        { "a": "In the evening he plays video games.", "es": "En la noche juega videojuegos." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Go, play o do?",
+      "buckets": ["go", "play", "do"],
+      "items": [
+        { "w": "swimming", "b": 0 }, { "w": "shopping", "b": 0 }, { "w": "camping", "b": 0 },
+        { "w": "basketball", "b": 1 }, { "w": "chess", "b": 1 }, { "w": "the piano", "b": 1 },
+        { "w": "yoga", "b": 2 }, { "w": "exercise", "b": 2 }, { "w": "homework", "b": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["wake up", "despertarse"], ["get up", "levantarse"], ["get dressed", "vestirse"], ["hang out", "salir, pasar el rato"], ["go to bed", "acostarse"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Completa la rutina",
+      "items": [
+        { "t": "I ___ breakfast at seven.", "a": ["have", "eat"] },
+        { "t": "She ___ to bed at eleven.", "a": ["goes"] },
+        { "t": "We ___ football on Saturdays.", "a": ["play"] },
+        { "t": "They ___ shopping on Sundays.", "a": ["go"] }
+      ]
+    }
+  ]
+}

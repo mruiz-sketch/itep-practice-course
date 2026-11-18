@@ -1,0 +1,45 @@
+{
+ "id": "c1-h02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Listening to lectures and films",
+   "subtitle": "Advanced listening",
+   "goals": [
+    "Follow fast, natural speech.",
+    "Infer attitude and implicit meaning.",
+    "Understand humor and references."
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Infer meaning",
+   "items": [
+    {
+     "say": "Oh, brilliant. Another meeting that could have been an email.",
+     "options": [
+      "The speaker is sarcastic.",
+      "The speaker is happy."
+     ],
+     "a": 0
+    },
+    {
+     "say": "Well, it's not exactly what I had in mind, but I suppose it'll do.",
+     "options": [
+      "The speaker is reluctantly accepting.",
+      "The speaker is delighted."
+     ],
+     "a": 0
+    },
+    {
+     "say": "If you think that's expensive, wait till you see the bill for repairs.",
+     "options": [
+      "The repairs will be even more expensive.",
+      "The repairs are cheap."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

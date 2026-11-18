@@ -1,0 +1,130 @@
+{
+ "id": "a2-v12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Common phrasal verbs",
+   "subtitle": "Verbos frasales frecuentes",
+   "goals": [
+    "Reconocer 12 verbos frasales básicos.",
+    "Usarlos en tu rutina.",
+    "Entender que el significado cambia con la partícula."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Verbos frasales",
+   "items": [
+    {
+     "en": "get up",
+     "es": "levantarse"
+    },
+    {
+     "en": "wake up",
+     "es": "despertarse"
+    },
+    {
+     "en": "turn on / turn off",
+     "es": "prender / apagar"
+    },
+    {
+     "en": "put on / take off",
+     "es": "ponerse / quitarse (ropa)"
+    },
+    {
+     "en": "look for",
+     "es": "buscar"
+    },
+    {
+     "en": "look after",
+     "es": "cuidar"
+    },
+    {
+     "en": "give up",
+     "es": "rendirse, dejar (un hábito)"
+    },
+    {
+     "en": "find out",
+     "es": "averiguar, enterarse"
+    },
+    {
+     "en": "go out",
+     "es": "salir (a divertirse)"
+    },
+    {
+     "en": "come back",
+     "es": "regresar"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "look for",
+     "buscar"
+    ],
+    [
+     "look after",
+     "cuidar"
+    ],
+    [
+     "give up",
+     "dejar de, rendirse"
+    ],
+    [
+     "find out",
+     "enterarse"
+    ],
+    [
+     "turn off",
+     "apagar"
+    ],
+    [
+     "take off",
+     "quitarse"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "I'm ___ my keys. Have you seen them?",
+     "options": [
+      "looking for",
+      "looking after"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's cold. ___ your jacket.",
+     "options": [
+      "Put on",
+      "Take off"
+     ],
+     "a": 0
+    },
+    {
+     "q": "My dad ___ smoking last year.",
+     "options": [
+      "gave up",
+      "found out"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Please ___ the lights when you leave.",
+     "options": [
+      "turn off",
+      "turn on"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

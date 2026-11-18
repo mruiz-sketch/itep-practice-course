@@ -1,0 +1,134 @@
+{
+ "id": "a2-p01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "The -ed ending",
+   "subtitle": "Terminación -ed: /t/, /d/, /ɪd/",
+   "goals": [
+    "Pronunciar el pasado regular correctamente.",
+    "Saber cuándo se agrega una **sílaba extra**.",
+    "No pronunciar *-ed* como \"ed\" en todos los verbos."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Tres sonidos",
+   "table": {
+    "head": [
+     "Sonido",
+     "Cuándo",
+     "Ejemplos",
+     "Escucha"
+    ],
+    "rows": [
+     [
+      "/t/",
+      "después de sonidos sordos /p, k, s, ʃ, tʃ, f/",
+      "stopped, worked, watched",
+      "stopped, worked, watched"
+     ],
+     [
+      "/d/",
+      "después de vocales y sonidos sonoros",
+      "played, lived, cleaned",
+      "played, lived, cleaned"
+     ],
+     [
+      "/ɪd/ (sílaba extra)",
+      "después de /t/ y /d/",
+      "wanted, needed, decided",
+      "wanted, needed, decided"
+     ]
+    ],
+    "speak": 3
+   },
+   "watch": "*Worked* tiene **una** sílaba (/wɜːkt/), no *wor-ked*."
+  },
+  {
+   "type": "sort",
+   "title": "Clasifica",
+   "buckets": [
+    "/t/",
+    "/d/",
+    "/ɪd/"
+   ],
+   "items": [
+    {
+     "w": "helped",
+     "b": 0
+    },
+    {
+     "w": "looked",
+     "b": 0
+    },
+    {
+     "w": "danced",
+     "b": 0
+    },
+    {
+     "w": "opened",
+     "b": 1
+    },
+    {
+     "w": "called",
+     "b": 1
+    },
+    {
+     "w": "tried",
+     "b": 1
+    },
+    {
+     "w": "started",
+     "b": 2
+    },
+    {
+     "w": "visited",
+     "b": 2
+    },
+    {
+     "w": "ended",
+     "b": 2
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "¿Cuántas sílabas?",
+   "items": [
+    {
+     "say": "walked",
+     "options": [
+      "1",
+      "2"
+     ],
+     "a": 0
+    },
+    {
+     "say": "waited",
+     "options": [
+      "1",
+      "2"
+     ],
+     "a": 1
+    },
+    {
+     "say": "loved",
+     "options": [
+      "1",
+      "2"
+     ],
+     "a": 0
+    },
+    {
+     "say": "decided",
+     "options": [
+      "2",
+      "3"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

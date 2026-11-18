@@ -4,6 +4,7 @@
 //  estimated level up or down; the next question is taken
 //  from that level. Result: CEFR level + iTEP-style band (1–6).
 // ============================================================
+import { buildPathway, renderPathway } from "./pathway.js";
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -205,7 +206,7 @@ export function buildPlan(r) {
 // ------------------------------------------------------------
 //  Test controller
 // ------------------------------------------------------------
-export function createDiagnostic({ root, toast, onSave, onExit }) {
+export function createDiagnostic({ root, toast, onSave, onExit, getProgress = () => ({}), onLesson = () => {} }) {
   const body = $("#xBody", root);
   let bank = [];
   let state = null;
@@ -421,16 +422,19 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
         ${r.diagnosticTotal ? `<p class="x-small">${r.diagnosticCorrect} of ${r.diagnosticTotal} correct</p>` : ""}</div>
       <div class="x-detail"><h3>By section</h3>${secs}
         ${practice ? `<h3>What to practice next</h3><ul class="x-practice">${practice}</ul>` : `<h3>Excellent work!</h3><p class="x-small">You answered every question correctly.</p>`}
-        <div class="t-actions left"><button type="button" class="btn-blue" data-x="plan">See my study plan</button>
+        <div class="t-actions left"><button type="button" class="btn-blue" data-x="path">My learning path</button>
+        <button type="button" class="btn-blue ghost" data-x="plan">See my study plan</button>
         <button type="button" class="btn-blue ghost" data-x="exit">Done</button></div></div></div>`);
   }
 
   function showPlan(r) {
     const plan = buildPlan(r);
+    const path = buildPathway(r);
     const split = plan.minutes.map((m) => `<li><span>${esc(m.name)}</span><strong>${m.min} min</strong><em>${esc(m.level)}</em></li>`).join("");
     const weeks = plan.weeks.map((w, i) => `<section class="p-week">
         <p class="p-num">${i + 1}</p><h3>${esc(w.title)}</h3><p class="p-focus">${esc(w.focus)}</p>
-        <ul>${w.items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>`).join("");
+        <ul>${w.items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
+        ${path?.weeks[i]?.items.length ? `<button type="button" class="p-lessons" data-x="path">${path.weeks[i].items.length} interactive lessons in your path →</button>` : ""}</section>`).join("");
     render(`<div class="p-plan">
       <div class="p-head">
         <div><p class="t-kicker">PERSONALIZED STUDY PLAN · 4 WEEKS</p>
@@ -440,11 +444,23 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
       </div>
       <div class="p-weeks">${weeks}</div>
       <div class="t-actions"><button type="button" class="btn-blue ghost" data-x="back-result">Back to my result</button>
-        <button type="button" class="btn-blue" data-x="exit">Done</button></div></div>`);
+        <button type="button" class="btn-blue" data-x="path">Start my lessons</button>
+        <button type="button" class="btn-blue ghost" data-x="exit">Done</button></div></div>`);
     body.scrollTop = 0;
   }
 
+  function showPath(r) {
+    if (r) lastResult = r;
+    open();
+    state = null; progress();
+    const path = buildPathway(lastResult);
+    if (!path) return showResult(lastResult);
+    render(renderPathway(path, getProgress() || {}, lastResult));
+  }
+
   root.addEventListener("click", (e) => {
+    const les = e.target.closest("[data-lesson]");
+    if (les && !les.disabled) { const path = buildPathway(lastResult); return onLesson(les.dataset.lesson, path); }
     const opt = e.target.closest("[data-opt]");
     if (opt && !opt.disabled) return choose(Number(opt.dataset.opt));
     const a = e.target.closest("[data-x]"); if (!a || a.disabled) return;
@@ -454,6 +470,7 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
       case "play": play(a); break;
       case "next": answer(); break;
       case "plan": showPlan(lastResult); break;
+      case "path": showPath(lastResult); break;
       case "back-result": showResult(lastResult); break;
       case "exit": close(); onExit(); break;
     }
@@ -468,5 +485,5 @@ export function createDiagnostic({ root, toast, onSave, onExit }) {
     else if (e.key === "Enter" && e.target.tagName !== "BUTTON" && state.current.choice != null) { e.preventDefault(); answer(); }
   });
 
-  return { start, showResult, close };
+  return { start, showResult, showPath, close };
 }

@@ -1,0 +1,66 @@
+{
+ "id": "c1-f02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Synthesising multiple sources",
+   "subtitle": "Combining information",
+   "goals": [
+    "Compare and combine sources.",
+    "Attribute ideas correctly.",
+    "Highlight agreement and disagreement."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Agreement",
+      "Both X and Y argue that… / This view is echoed by…"
+     ],
+     [
+      "Disagreement",
+      "In contrast to X, Y claims… / X challenges this view."
+     ],
+     [
+      "Attribution",
+      "According to… / As X points out…"
+     ],
+     [
+      "Synthesis",
+      "Taken together, these studies suggest…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Two authors agree:",
+     "options": [
+      "This view is echoed by Smith (2020).",
+      "Smith (2020) challenges this view."
+     ],
+     "a": 0
+    },
+    {
+     "q": "To combine findings:",
+     "options": [
+      "Taken together, these studies suggest…",
+      "Firstly, these studies…"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

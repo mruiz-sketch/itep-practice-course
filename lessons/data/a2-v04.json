@@ -1,0 +1,154 @@
+{
+ "id": "a2-v04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Sports and leisure",
+   "subtitle": "Deportes y ocio",
+   "goals": [
+    "Nombrar deportes y lugares donde se practican.",
+    "Usar **play / go / do** con deportes.",
+    "Hablar de ganar, perder y entrenar."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Deportes y verbos",
+   "items": [
+    {
+     "en": "play football / basketball / tennis",
+     "es": "jugar futbol / básquet / tenis"
+    },
+    {
+     "en": "go swimming / cycling / running",
+     "es": "nadar / andar en bici / correr"
+    },
+    {
+     "en": "do yoga / karate / gymnastics",
+     "es": "hacer yoga / karate / gimnasia"
+    },
+    {
+     "en": "win / lose / draw",
+     "es": "ganar / perder / empatar"
+    },
+    {
+     "en": "a pitch / a court / a pool",
+     "es": "cancha (pasto) / cancha / alberca"
+    },
+    {
+     "en": "Who won the match? — It was a draw.",
+     "es": "¿Quién ganó? — Empataron."
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "¿Play, go o do?",
+   "buckets": [
+    "play",
+    "go",
+    "do"
+   ],
+   "items": [
+    {
+     "w": "volleyball",
+     "b": 0
+    },
+    {
+     "w": "golf",
+     "b": 0
+    },
+    {
+     "w": "baseball",
+     "b": 0
+    },
+    {
+     "w": "skiing",
+     "b": 1
+    },
+    {
+     "w": "hiking",
+     "b": 1
+    },
+    {
+     "w": "surfing",
+     "b": 1
+    },
+    {
+     "w": "judo",
+     "b": 2
+    },
+    {
+     "w": "pilates",
+     "b": 2
+    },
+    {
+     "w": "athletics",
+     "b": 2
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "win",
+     "ganar"
+    ],
+    [
+     "lose",
+     "perder"
+    ],
+    [
+     "draw",
+     "empate"
+    ],
+    [
+     "referee",
+     "árbitro"
+    ],
+    [
+     "team",
+     "equipo"
+    ],
+    [
+     "coach",
+     "entrenador"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "You play tennis on a…",
+     "options": [
+      "pitch",
+      "court",
+      "pool"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Pasado de *win*:",
+     "options": [
+      "winned",
+      "won"
+     ],
+     "a": 1
+    },
+    {
+     "q": "*I go ___ every morning.*",
+     "options": [
+      "run",
+      "running"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

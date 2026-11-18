@@ -1,0 +1,97 @@
+{
+ "id": "b2-v02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Politics and society",
+   "subtitle": "Politics and society",
+   "goals": [
+    "Discuss government and citizenship neutrally.",
+    "Describe social changes.",
+    "Use formal vocabulary."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "government, policy, law, election, vote"
+    },
+    {
+     "en": "citizen, rights, freedom of speech"
+    },
+    {
+     "en": "campaign, candidate, majority"
+    },
+    {
+     "en": "public services: healthcare, education, transport"
+    },
+    {
+     "en": "The new policy aims to reduce inequality."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "policy",
+     "plan of action by a government"
+    ],
+    [
+     "citizen",
+     "member of a country"
+    ],
+    [
+     "election",
+     "process of choosing leaders"
+    ],
+    [
+     "majority",
+     "more than half"
+    ],
+    [
+     "rights",
+     "legal entitlements"
+    ],
+    [
+     "ban",
+     "officially prohibit"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "The government decided to ___ plastic bags.",
+     "options": [
+      "ban",
+      "band"
+     ],
+     "a": 0
+    },
+    {
+     "q": "More than 50 % of the votes:",
+     "options": [
+      "majority",
+      "minority"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A plan of action adopted by a government:",
+     "options": [
+      "policy",
+      "police"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

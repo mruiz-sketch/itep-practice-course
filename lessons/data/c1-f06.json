@@ -1,0 +1,62 @@
+{
+ "id": "c1-f06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Adapting register",
+   "subtitle": "Formal, neutral and informal",
+   "goals": [
+    "Recognize register features.",
+    "Rewrite messages for different audiences.",
+    "Avoid inappropriate informality."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Formal",
+      "I would be grateful if you could… / Please do not hesitate to contact me."
+     ],
+     [
+      "Neutral",
+      "Could you…? / Let me know if you have questions."
+     ],
+     [
+      "Informal",
+      "Can you…? / Give me a shout if you need anything."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Email to a dean:",
+     "options": [
+      "I would be grateful if you could review my application.",
+      "Can you check my application?"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Message to a close friend:",
+     "options": [
+      "Give me a shout later!",
+      "Please do not hesitate to contact me."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

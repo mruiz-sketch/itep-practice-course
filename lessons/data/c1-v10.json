@@ -1,0 +1,86 @@
+{
+ "id": "c1-v10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Figurative language and metaphor",
+   "subtitle": "Everyday metaphors",
+   "goals": [
+    "Recognize conceptual metaphors.",
+    "Use figurative expressions.",
+    "Understand journalistic language."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "Time is money: spend, save, waste time"
+    },
+    {
+     "en": "Argument is war: defend a position, attack an idea"
+    },
+    {
+     "en": "Ideas are food: food for thought, half-baked idea, digest information"
+    },
+    {
+     "en": "a flood of complaints, a wave of protests"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "food for thought",
+     "something to consider"
+    ],
+    [
+     "half-baked idea",
+     "poorly planned idea"
+    ],
+    [
+     "a flood of",
+     "a large number of"
+    ],
+    [
+     "shoot down an idea",
+     "reject an idea strongly"
+    ],
+    [
+     "digest information",
+     "understand fully"
+    ],
+    [
+     "spill the beans",
+     "reveal a secret"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "A poorly thought-out plan is…",
+     "options": [
+      "half-baked",
+      "well-done"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The company received a ___ of complaints.",
+     "options": [
+      "flood",
+      "river"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

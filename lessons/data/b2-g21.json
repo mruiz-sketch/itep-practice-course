@@ -1,0 +1,91 @@
+{
+ "id": "b2-g21",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Three-part phrasal verbs",
+   "subtitle": "look forward to, come up with, get away with",
+   "goals": [
+    "Learn common three-part phrasal verbs.",
+    "Know that they are inseparable.",
+    "Use **-ing** after the final preposition."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Common three-part phrasal verbs",
+   "items": [
+    {
+     "en": "look forward to",
+     "es": "esperar con ansias",
+     "note": "I look forward to hearing from you."
+    },
+    {
+     "en": "come up with",
+     "es": "ocurrírsele",
+     "note": "She came up with a brilliant idea."
+    },
+    {
+     "en": "put up with",
+     "es": "tolerar",
+     "note": "I can't put up with the noise."
+    },
+    {
+     "en": "get away with",
+     "es": "salirse con la suya",
+     "note": "He cheated and got away with it."
+    },
+    {
+     "en": "run out of",
+     "es": "quedarse sin",
+     "note": "We've run out of time."
+    },
+    {
+     "en": "catch up with",
+     "es": "ponerse al día",
+     "note": "I need to catch up with my work."
+    },
+    {
+     "en": "cut down on",
+     "es": "reducir",
+     "note": "I'm cutting down on sugar."
+    },
+    {
+     "en": "get on with",
+     "es": "llevarse bien / continuar",
+     "note": "Get on with your work!"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I look forward to ___ you.",
+     "options": [
+      "see",
+      "seeing"
+     ],
+     "a": 1
+    },
+    {
+     "q": "We need to come ___ a solution.",
+     "options": [
+      "up with",
+      "out of"
+     ],
+     "a": 0
+    },
+    {
+     "q": "He always gets ___ with breaking the rules.",
+     "options": [
+      "away",
+      "on"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

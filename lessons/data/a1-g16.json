@@ -1,0 +1,75 @@
+{
+  "id": "a1-g16",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "At, on, in for time",
+      "subtitle": "Preposiciones de tiempo",
+      "goals": [
+        "Usar **at** con horas, **on** con días y **in** con meses y años.",
+        "Recordar las expresiones fijas: *at night, in the morning*.",
+        "Saber cuándo **no** se usa preposición."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "De lo más preciso a lo más amplio",
+      "table": {
+        "head": ["Preposición", "Se usa con…", "Ejemplos"],
+        "rows": [
+          ["**at**", "horas y momentos exactos", "at 7 o'clock, at noon, at midnight, **at night**, at the weekend (RU)"],
+          ["**on**", "días y fechas", "on Monday, on May 5th, on my birthday, on the weekend (EE. UU.)"],
+          ["**in**", "partes del día, meses, estaciones, años", "**in the morning**, in the afternoon, in July, in summer, in 2026"]
+        ]
+      },
+      "errors": [
+        { "bad": "in Monday", "good": "**on** Monday" },
+        { "bad": "in the night", "good": "**at** night", "note": "Pero: *in the morning, in the afternoon, in the evening*." },
+        { "bad": "on next Friday", "good": "next Friday", "note": "Sin preposición con **next, last, this, every, today, tomorrow**." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Tu semana",
+      "items": [
+        { "en": "My class starts **at** eight.", "es": "Mi clase empieza a las ocho." },
+        { "en": "I have English **on** Tuesdays and Thursdays.", "es": "Tengo inglés los martes y jueves." },
+        { "en": "My birthday is **in** October.", "es": "Mi cumpleaños es en octubre." },
+        { "en": "I study **in** the evening and sleep **at** night.", "es": "Estudio por la tarde-noche y duermo de noche." },
+        { "en": "See you next week!", "es": "¡Nos vemos la próxima semana!", "note": "*next week*: sin preposición." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿At, on o in?",
+      "buckets": ["at", "on", "in"],
+      "items": [
+        { "w": "6:30", "b": 0 }, { "w": "night", "b": 0 }, { "w": "noon", "b": 0 },
+        { "w": "Friday", "b": 1 }, { "w": "July 4th", "b": 1 }, { "w": "my birthday", "b": 1 },
+        { "w": "2026", "b": 2 }, { "w": "the morning", "b": 2 }, { "w": "winter", "b": 2 }, { "w": "March", "b": 2 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con at, on o in",
+      "items": [
+        { "t": "The exam is ___ Wednesday.", "a": ["on"] },
+        { "t": "I was born ___ 2007.", "a": ["in"] },
+        { "t": "The movie starts ___ 9:15.", "a": ["at"] },
+        { "t": "We go to the beach ___ summer.", "a": ["in"] },
+        { "t": "I don't work ___ night.", "a": ["at"] },
+        { "t": "Mexican Independence Day is ___ September 16th.", "a": ["on"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "¿Lleva preposición?",
+      "items": [
+        { "q": "I'll see you ___ tomorrow.", "options": ["on", "in", "–"], "a": 2 },
+        { "q": "She goes to the gym ___ every day.", "options": ["–", "on", "at"], "a": 0 },
+        { "q": "We have a meeting ___ Monday morning.", "options": ["in", "on", "at"], "a": 1, "why": "Con día + parte del día → **on**: *on Monday morning*." },
+        { "q": "They visited us ___ last month.", "options": ["–", "in", "on"], "a": 0 }
+      ]
+    }
+  ]
+}

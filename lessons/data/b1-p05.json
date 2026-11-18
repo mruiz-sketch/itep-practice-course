@@ -1,0 +1,73 @@
+{
+ "id": "b1-p05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Initial consonant clusters",
+   "subtitle": "No extra \"e\" before s + consonant",
+   "goals": [
+    "Pronounce **sp, st, sk, sm, sn, sl** without adding *e*.",
+    "Practice common words.",
+    "Sound clearer."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Avoid the extra vowel",
+   "body": [
+    "Spanish speakers often say *e-school, e-Spain, e-student*. In English the word starts directly with /s/."
+   ],
+   "table": {
+    "head": [
+     "Wrong",
+     "Right",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "e-school",
+      "school",
+      "school"
+     ],
+     [
+      "e-Spain",
+      "Spain",
+      "Spain"
+     ],
+     [
+      "e-student",
+      "student",
+      "student"
+     ],
+     [
+      "e-street",
+      "street",
+      "street"
+     ],
+     [
+      "e-smile",
+      "smile",
+      "smile"
+     ]
+    ],
+    "speak": 2
+   },
+   "tip": "Trick: hiss first — *sssss-chool*, *sssss-pain*."
+  },
+  {
+   "type": "examples",
+   "title": "Practice phrases",
+   "items": [
+    {
+     "en": "Stop studying in the street!"
+    },
+    {
+     "en": "Spanish students speak slowly."
+    },
+    {
+     "en": "Smile, it's a special day!"
+    }
+   ]
+  }
+ ]
+}

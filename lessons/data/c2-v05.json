@@ -1,0 +1,89 @@
+{
+ "id": "c2-v05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Literary and rhetorical language",
+   "subtitle": "Rhetorical devices",
+   "goals": [
+    "Identify rhetorical devices.",
+    "Analyze speeches and literature.",
+    "Use devices in your own writing."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "alliteration: *Peter Piper picked…*"
+    },
+    {
+     "en": "chiasmus: *Ask not what your country can do for you…*"
+    },
+    {
+     "en": "anaphora: repetition at the start of clauses"
+    },
+    {
+     "en": "litotes: *not bad* = good"
+    },
+    {
+     "en": "euphemism: *passed away* = died"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "alliteration",
+     "repetition of initial sounds"
+    ],
+    [
+     "euphemism",
+     "mild word for something unpleasant"
+    ],
+    [
+     "litotes",
+     "understatement using a negative"
+    ],
+    [
+     "anaphora",
+     "repetition at the start of phrases"
+    ],
+    [
+     "hyperbole",
+     "deliberate exaggeration"
+    ],
+    [
+     "oxymoron",
+     "contradictory terms together"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "*Deafening silence* is an…",
+     "options": [
+      "oxymoron",
+      "alliteration"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*I've told you a million times* is…",
+     "options": [
+      "hyperbole",
+      "litotes"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

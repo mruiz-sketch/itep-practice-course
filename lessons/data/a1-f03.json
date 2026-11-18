@@ -1,0 +1,77 @@
+{
+  "id": "a1-f03",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "My family, my home, my day",
+      "subtitle": "Describir familia, casa y rutina",
+      "goals": [
+        "Describir tu familia en 3 o 4 oraciones.",
+        "Describir tu casa con *There is / there are*.",
+        "Contar tu rutina con conectores de secuencia: **first, then, after that, finally**."
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Modelo: Valeria se presenta",
+      "items": [
+        { "en": "There are four people in my family: my parents, my brother and me.", "es": "Somos cuatro en mi familia: mis papás, mi hermano y yo." },
+        { "en": "We live in a small house. There are two bedrooms and a big kitchen.", "es": "Vivimos en una casa pequeña. Hay dos recámaras y una cocina grande." },
+        { "en": "First, I get up at six. Then I have breakfast.", "es": "Primero me levanto a las seis. Luego desayuno." },
+        { "en": "After that, I take the bus to school.", "es": "Después tomo el camión a la escuela." },
+        { "en": "Finally, I go to bed at eleven.", "es": "Por último, me acuesto a las once." }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Conectores de secuencia",
+      "table": {
+        "head": ["Conector", "Español", "Posición"],
+        "rows": [
+          ["**First**", "primero", "al inicio"],
+          ["**Then / Next**", "luego, después", "en medio"],
+          ["**After that**", "después de eso", "en medio"],
+          ["**Finally**", "por último", "al final"]
+        ]
+      },
+      "tip": "Escribe una coma después de *First, After that* y *Finally*: *First, I wake up.*"
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "There are five people in my family.", "es": "Somos cinco en mi familia." },
+        { "a": "My house has got a small garden.", "es": "Mi casa tiene un jardín pequeño." },
+        { "a": "After that, I do my homework.", "es": "Después de eso, hago mi tarea." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige el conector",
+      "items": [
+        { "q": "___, I wake up. Then I take a shower.", "options": ["Finally", "First", "After"], "a": 1 },
+        { "q": "I have lunch. ___ that, I go to the gym.", "options": ["After", "Then", "First"], "a": 0 },
+        { "q": "___, I go to bed at midnight.", "options": ["First", "Finally", "Next to"], "a": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa la descripción",
+      "items": [
+        { "t": "There ___ three bedrooms in my house.", "a": ["are"] },
+        { "t": "My brother ___ (work) in a factory.", "a": ["works"] },
+        { "t": "We ___ dinner together at 8. (comer / cenar)", "a": ["have", "eat"] },
+        { "t": "My mom ___ got a small car.", "a": ["has"] }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Tu turno",
+      "body": [
+        "Escribe en tu cuaderno 5 oraciones sobre tu familia, tu casa y tu rutina usando el modelo de Valeria.",
+        "Después léelas en voz alta. Usa al menos **tres conectores** y **there is / there are**."
+      ],
+      "tip": "Graba tu voz con el celular y compárala con los ejemplos de esta presentación."
+    }
+  ]
+}

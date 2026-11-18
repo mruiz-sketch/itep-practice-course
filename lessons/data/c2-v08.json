@@ -1,0 +1,89 @@
+{
+ "id": "c2-v08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "World Englishes",
+   "subtitle": "English around the world",
+   "goals": [
+    "Recognize varieties of English.",
+    "Understand vocabulary from different regions.",
+    "Value linguistic diversity."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "Indian English: prepone (bring forward), do the needful"
+    },
+    {
+     "en": "Singapore English (Singlish): can or not?"
+    },
+    {
+     "en": "Nigerian English: go-slow (traffic jam)"
+    },
+    {
+     "en": "Australian English: arvo (afternoon), brekkie"
+    },
+    {
+     "en": "South African English: robot (traffic light)"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "prepone",
+     "bring forward (Indian English)"
+    ],
+    [
+     "arvo",
+     "afternoon (Australian)"
+    ],
+    [
+     "robot",
+     "traffic light (South African)"
+    ],
+    [
+     "go-slow",
+     "traffic jam (Nigerian)"
+    ],
+    [
+     "lift",
+     "elevator (British)"
+    ],
+    [
+     "loonie",
+     "one-dollar coin (Canadian)"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "In Australia, *see you this arvo* means…",
+     "options": [
+      "this afternoon",
+      "this evening"
+     ],
+     "a": 0
+    },
+    {
+     "q": "In South Africa, *turn left at the robot* means…",
+     "options": [
+      "at the traffic light",
+      "at the machine"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

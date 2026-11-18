@@ -1,0 +1,110 @@
+{
+ "id": "a2-p03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Word stress",
+   "subtitle": "Acento de palabra",
+   "goals": [
+    "Identificar la sílaba fuerte.",
+    "Conocer patrones frecuentes.",
+    "Evitar errores de acento en cognados."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Patrones",
+   "table": {
+    "head": [
+     "Patrón",
+     "Ejemplos",
+     "Escucha"
+    ],
+    "rows": [
+     [
+      "Sustantivos y adjetivos de 2 sílabas: 1.ª",
+      "**TEA**cher, **HAP**py, **PRO**ject (n.)",
+      "teacher, happy, project"
+     ],
+     [
+      "Verbos de 2 sílabas: 2.ª",
+      "de**CIDE**, be**GIN**, pro**JECT** (v.)",
+      "decide, begin, project"
+     ],
+     [
+      "-tion / -sion: penúltima",
+      "infor**MA**tion, de**CI**sion",
+      "information, decision"
+     ],
+     [
+      "-ic: penúltima",
+      "fan**TAS**tic, e**CO**nomic",
+      "fantastic, economic"
+     ]
+    ],
+    "speak": 2
+   },
+   "watch": "Cognados con acento distinto al español: ***CHOC**olate*, ***VEG**etable*, *ho**TEL***, ***COM**fortable*."
+  },
+  {
+   "type": "mc",
+   "title": "¿Dónde va el acento?",
+   "items": [
+    {
+     "q": "hotel",
+     "options": [
+      "HO-tel",
+      "ho-TEL"
+     ],
+     "a": 1
+    },
+    {
+     "q": "chocolate",
+     "options": [
+      "CHOC-o-late",
+      "cho-co-LATE"
+     ],
+     "a": 0
+    },
+    {
+     "q": "computer",
+     "options": [
+      "COM-pu-ter",
+      "com-PU-ter"
+     ],
+     "a": 1
+    },
+    {
+     "q": "photograph",
+     "options": [
+      "PHO-to-graph",
+      "pho-TO-graph"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Escucha y elige el acento",
+   "items": [
+    {
+     "say": "information",
+     "options": [
+      "IN-for-ma-tion",
+      "in-for-MA-tion"
+     ],
+     "a": 1
+    },
+    {
+     "say": "vegetable",
+     "options": [
+      "VEG-e-ta-ble",
+      "ve-ge-TA-ble"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

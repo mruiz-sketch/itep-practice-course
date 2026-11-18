@@ -1,0 +1,71 @@
+{
+  "id": "a1-f04",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Likes and preferences",
+      "subtitle": "Expresar gustos y preferencias",
+      "goals": [
+        "Decir lo que te gusta y lo que no.",
+        "Responder con **So do I / Me too** y **Neither do I / Me neither**.",
+        "Expresar preferencia con **I prefer…** y **my favorite… is…**"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Reaccionar a los gustos de otros",
+      "table": {
+        "head": ["Tu amigo dice…", "Estás de acuerdo", "No estás de acuerdo"],
+        "rows": [
+          ["I like pizza. (+)", "**Me too.** / So do I.", "Really? I don't."],
+          ["I don't like rain. (–)", "**Me neither.** / Neither do I.", "Really? I do."]
+        ]
+      },
+      "list": [
+        "Favoritos: *My favorite band is…* / *What's your favorite movie?*",
+        "Preferencias: *I prefer tea **to** coffee.* / *Do you prefer cats **or** dogs?*",
+        "Muy informal: *I'm really into anime.* (me encanta)"
+      ],
+      "watch": "Con una frase **negativa** no se dice *Me too*, sino **Me neither**."
+    },
+    {
+      "type": "examples",
+      "title": "Conversación",
+      "items": [
+        { "en": "I love horror movies. — Me too!", "es": "Me encantan las películas de terror. — ¡A mí también!" },
+        { "en": "I don't like getting up early. — Me neither.", "es": "No me gusta madrugar. — A mí tampoco." },
+        { "en": "What's your favorite food? — Tacos al pastor!", "es": "¿Cuál es tu comida favorita? — ¡Tacos al pastor!" },
+        { "en": "Do you prefer the beach or the mountains? — I prefer the mountains.", "es": "¿Prefieres la playa o las montañas? — Las montañas." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "¿Me too o me neither?",
+      "items": [
+        { "q": "I like reggaeton. (Tú también)", "options": ["Me too.", "Me neither.", "So don't I."], "a": 0 },
+        { "q": "I don't eat meat. (Tú tampoco)", "options": ["Me too.", "Me neither.", "So do I."], "a": 1 },
+        { "q": "I love drawing. (Tú también)", "options": ["Neither do I.", "So do I.", "I do too not."], "a": 1 },
+        { "q": "I don't like math. (A ti sí te gusta)", "options": ["Me neither.", "Really? I do.", "Me too."], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las preguntas y respuestas",
+      "items": [
+        { "a": "What is your favorite movie?", "es": "¿Cuál es tu película favorita?" },
+        { "a": "I prefer tea to coffee.", "es": "Prefiero el té al café." },
+        { "a": "Do you prefer summer or winter?", "es": "¿Prefieres el verano o el invierno?" }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa",
+      "items": [
+        { "t": "I don't like spiders. — Me ___.", "a": ["neither"] },
+        { "t": "I love music. — So ___ I.", "a": ["do"] },
+        { "t": "My ___ color is green.", "a": ["favorite", "favourite"] },
+        { "t": "I prefer dogs ___ cats.", "a": ["to"] }
+      ]
+    }
+  ]
+}

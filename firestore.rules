@@ -45,6 +45,10 @@ service cloud.firestore {
           && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'diagnosticCompleted',
                'diagnosticLevel', 'diagnosticScore', 'diagnosticSections', 'diagnosticPractice',
                'diagnosticCorrect', 'diagnosticTotal', 'diagnosticAt']))
+        // learning path progress (only after the diagnostic)
+        || (resource.data.role == 'student' && resource.data.diagnosticCompleted == true
+          && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'pathProgress', 'pathDone', 'pathTotal', 'pathUpdatedAt'])
+          && (!('pathDone' in d()) || d().pathDone is int) && (!('pathTotal' in d()) || d().pathTotal is int))
         || (resource.data.role == 'teacher'
           && d().diff(resource.data).affectedKeys().hasOnly(['emailVerified', 'lastLogin', 'quarters', 'groups', 'setupComplete']))
       );

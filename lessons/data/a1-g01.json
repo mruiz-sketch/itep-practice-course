@@ -1,0 +1,187 @@
+{
+  "id": "a1-g01",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "The alphabet and numbers",
+      "subtitle": "Alfabeto, deletreo y números cardinales y ordinales",
+      "goals": [
+        "Decir el alfabeto y **deletrear** tu nombre y tu correo.",
+        "Usar los números del **0 al 1,000**.",
+        "Usar los ordinales **1st–31st** para decir fechas."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "El alfabeto se aprende por sonidos",
+      "body": [
+        "En inglés las letras se agrupan por el sonido de su vocal. Si memorizas los grupos, deletrear se vuelve mucho más fácil."
+      ],
+      "table": {
+        "head": ["Sonido", "Letras", "Escucha"],
+        "rows": [
+          ["/eɪ/ como *day*", "**A H J K**", "A, H, J, K"],
+          ["/iː/ como *see*", "**B C D E G P T V** (y **Z** en EE. UU.)", "B, C, D, E, G, P, T, V"],
+          ["/e/ como *bed*", "**F L M N S X** (y **Z** en Reino Unido)", "F, L, M, N, S, X"],
+          ["/aɪ/ como *my*", "**I Y**", "I, Y"],
+          ["/əʊ/ como *go*", "**O**", "O"],
+          ["/uː/ como *you*", "**Q U W**", "Q, U, W"],
+          ["/ɑː/ como *car*", "**R**", "R"]
+        ],
+        "speak": 2
+      },
+      "watch": "Las tres confusiones más comunes para hispanohablantes: la **E** suena como nuestra *i*; la **I** suena como *ai*; la **G** (/dʒiː/) y la **J** (/dʒeɪ/) se intercambian con facilidad."
+    },
+    {
+      "type": "examples",
+      "title": "Deletrear en una conversación",
+      "items": [
+        { "en": "How do you spell your name?", "es": "¿Cómo se deletrea tu nombre?" },
+        { "en": "M-E-L-A-N-I-E.", "say": "M, E, L, A, N, I, E.", "es": "Mel deletrea su nombre." },
+        { "en": "Is that with one L or double L?", "es": "¿Es con una L o con doble L?", "note": "Para letras repetidas se dice **double**: *double L, double O*." },
+        { "en": "My email is ana at gmail dot com.", "es": "Mi correo es ana@gmail.com.", "note": "**@** = *at* · **.** = *dot* · **_** = *underscore* · **-** = *dash*" },
+        { "en": "Can you spell that, please?", "es": "¿Me lo puedes deletrear, por favor?" }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué letra escuchas?",
+      "items": [
+        { "say": "E", "options": ["E", "I", "A"], "a": 0, "why": "La **E** se pronuncia /iː/, como *see*." },
+        { "say": "I", "options": ["E", "I", "Y"], "a": 1, "why": "La **I** se pronuncia /aɪ/, como *my*." },
+        { "say": "G", "options": ["J", "G", "Z"], "a": 1, "why": "La **G** suena /dʒiː/; la **J** suena /dʒeɪ/." },
+        { "say": "A", "options": ["E", "H", "A"], "a": 2, "why": "La **A** se pronuncia /eɪ/, como *day*." },
+        { "say": "R", "options": ["R", "A", "O"], "a": 0, "why": "La **R** se pronuncia /ɑː/, como *car*." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Agrupa las letras por su sonido",
+      "buckets": ["/eɪ/ como *day*", "/iː/ como *see*", "/e/ como *bed*"],
+      "items": [
+        { "w": "A", "b": 0 }, { "w": "H", "b": 0 }, { "w": "J", "b": 0 }, { "w": "K", "b": 0 },
+        { "w": "B", "b": 1 }, { "w": "E", "b": 1 }, { "w": "G", "b": 1 }, { "w": "P", "b": 1 },
+        { "w": "F", "b": 2 }, { "w": "L", "b": 2 }, { "w": "M", "b": 2 }, { "w": "S", "b": 2 }
+      ],
+      "why": "Repite cada grupo en voz alta: *A-H-J-K*, *B-C-D-E-G-P-T-V*, *F-L-M-N-S-X*."
+    },
+    {
+      "type": "explain",
+      "title": "Los números del 0 al 1,000",
+      "table": {
+        "head": ["Número", "En inglés", "Regla"],
+        "rows": [
+          ["0 – 12", "zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve", "Se memorizan."],
+          ["13 – 19", "thir**teen**, four**teen**, fif**teen**… nine**teen**", "Terminan en **-teen**."],
+          ["20 – 90", "twen**ty**, thir**ty**, for**ty**, fif**ty**… nine**ty**", "Terminan en **-ty**."],
+          ["21, 35, 99", "twenty-one, thirty-five, ninety-nine", "Decena + **guion** + unidad."],
+          ["100", "one hundred / a hundred", "*hundred* no lleva -s: *two hundred*."],
+          ["105, 250", "one hundred **and** five, two hundred **and** fifty", "En Reino Unido se dice **and**; en EE. UU. es opcional."],
+          ["1,000", "one thousand / a thousand", "Se escribe con coma: **1,000**."]
+        ]
+      },
+      "errors": [
+        { "bad": "fourty", "good": "forty", "note": "*Four* lleva **u**, pero *forty* no." },
+        { "bad": "two hundreds students", "good": "two hundred students", "note": "*Hundred* y *thousand* no van en plural después de un número." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Escucha la diferencia: -teen y -ty",
+      "items": [
+        { "en": "thirteen — thirty", "say": "thirteen. thirty.", "es": "13 — 30", "note": "En **-teen** el acento va al final: thir**TEEN**." },
+        { "en": "fourteen — forty", "say": "fourteen. forty.", "es": "14 — 40", "note": "En **-ty** el acento va al inicio: **FOR**ty." },
+        { "en": "fifteen — fifty", "say": "fifteen. fifty.", "es": "15 — 50" },
+        { "en": "eighteen — eighty", "say": "eighteen. eighty.", "es": "18 — 80" },
+        { "en": "It costs ninety-nine pesos.", "es": "Cuesta 99 pesos." },
+        { "en": "There are two hundred and fifty students.", "es": "Hay 250 estudiantes." }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué número escuchas?",
+      "items": [
+        { "say": "thirteen", "options": ["13", "30"], "a": 0, "why": "Acento al final: thir**TEEN**." },
+        { "say": "fifty", "options": ["15", "50"], "a": 1, "why": "Acento al inicio: **FIF**ty." },
+        { "say": "eighteen", "options": ["18", "80"], "a": 0 },
+        { "say": "forty", "options": ["14", "40"], "a": 1 },
+        { "say": "one hundred and twelve", "options": ["112", "120", "1,012"], "a": 0, "why": "*one hundred and twelve* = 112." },
+        { "say": "seventy-six", "options": ["67", "76", "16"], "a": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escribe el número con letras",
+      "items": [
+        { "t": "7 = ___", "a": ["seven"] },
+        { "t": "12 = ___", "a": ["twelve"] },
+        { "t": "40 = ___", "a": ["forty"], "clue": "Ojo con la ortografía: no lleva **u**." },
+        { "t": "21 = ___", "a": ["twenty-one", "twenty one"], "why": "Con guion: *twenty-one*." },
+        { "t": "100 = ___", "a": ["one hundred", "a hundred"] },
+        { "t": "15 = ___", "a": ["fifteen"], "clue": "Es *five* → *fif-*, no *five-*." }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Ordinales: first, second, third…",
+      "body": [
+        "Los ordinales sirven para **fechas** y **posiciones**. La mayoría solo añade **-th** al número."
+      ],
+      "table": {
+        "head": ["Número", "Ordinal", "Escucha"],
+        "rows": [
+          ["1st", "**first**", "first"],
+          ["2nd", "**second**", "second"],
+          ["3rd", "**third**", "third"],
+          ["4th", "four**th**", "fourth"],
+          ["5th", "**fifth** (ve → f)", "fifth"],
+          ["8th", "**eighth** (una sola t)", "eighth"],
+          ["9th", "**ninth** (sin e)", "ninth"],
+          ["12th", "**twelfth** (ve → f)", "twelfth"],
+          ["20th", "**twentieth** (y → ie)", "twentieth"],
+          ["21st", "twenty-**first**", "twenty-first"],
+          ["31st", "thirty-**first**", "thirty-first"]
+        ],
+        "speak": 2
+      },
+      "tip": "Las fechas se escriben *May 5th* pero se dicen **May fifth** o **the fifth of May**."
+    },
+    {
+      "type": "match",
+      "title": "Relaciona cada número con su ordinal",
+      "pairs": [
+        ["1st", "first"],
+        ["2nd", "second"],
+        ["3rd", "third"],
+        ["5th", "fifth"],
+        ["9th", "ninth"],
+        ["12th", "twelfth"],
+        ["20th", "twentieth"]
+      ],
+      "speak": "right",
+      "why": "Las formas irregulares son *first, second, third, fifth, ninth, twelfth*."
+    },
+    {
+      "type": "mc",
+      "title": "Fechas y posiciones",
+      "items": [
+        { "q": "My birthday is on March ___ (3).", "options": ["three", "third", "threeth"], "a": 1, "why": "Para fechas se usa el ordinal: *March third*." },
+        { "q": "¿Cómo se escribe 22nd?", "options": ["twenty-second", "twenty-two", "twentieth-second"], "a": 0 },
+        { "q": "She is ___ in the race (1).", "options": ["one", "first", "oneth"], "a": 1 },
+        { "q": "¿Cómo se dice 31 de diciembre?", "options": ["December thirty-one", "the thirty-first of December", "the thirty-oneth of December"], "a": 1 },
+        { "q": "¿Qué ordinal está bien escrito?", "options": ["eightth", "eighth", "eigth"], "a": 1, "why": "*Eight* + *h*: **eighth**, con una sola t." }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "La letra **E** en inglés suena como nuestra *i*.", "a": true },
+        { "s": "*Forty* se escribe **fourty**.", "a": false, "why": "Se escribe **forty**, sin u." },
+        { "s": "Para decir *ll* en un correo se dice **double L**.", "a": true },
+        { "s": "Se dice **three hundreds people**.", "a": false, "why": "Lo correcto es **three hundred people**." },
+        { "s": "En *thirteen* el acento va en la última sílaba.", "a": true }
+      ]
+    }
+  ]
+}

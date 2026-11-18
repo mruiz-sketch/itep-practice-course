@@ -1,0 +1,83 @@
+{
+  "id": "a1-f06",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Ordering food and asking prices",
+      "subtitle": "Pedir comida y preguntar precios",
+      "goals": [
+        "Pedir en un restaurante o cafetería con **I'd like… / Can I have…?**",
+        "Preguntar precios: **How much is…? / How much are…?**",
+        "Pedir la cuenta."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Frases del mesero y del cliente",
+      "table": {
+        "head": ["Mesero / cajero", "Cliente", "Escucha"],
+        "rows": [
+          ["Are you ready to order?", "Yes. **I'd like** a hamburger, please.", "Are you ready to order? Yes. I'd like a hamburger, please."],
+          ["Anything to drink?", "**Can I have** an orange juice?", "Anything to drink? Can I have an orange juice?"],
+          ["For here or to go?", "To go, please.", "For here or to go? To go, please."],
+          ["Anything else?", "No, that's all, thanks.", "Anything else? No, that's all, thanks."],
+          ["That's 120 pesos.", "Can I pay by card?", "That's one hundred and twenty pesos. Can I pay by card?"]
+        ],
+        "speak": 2
+      },
+      "tip": "*I'd like* = *I would like* (me gustaría). Es más cortés que *I want*."
+    },
+    {
+      "type": "explain",
+      "title": "Preguntar precios",
+      "table": {
+        "head": ["Singular", "Plural"],
+        "rows": [
+          ["How much **is** this T-shirt? — **It's** $15.", "How much **are** these shoes? — **They're** $40."],
+          ["How much is a coffee?", "How much are the tacos?"]
+        ]
+      },
+      "list": ["$15.50 = *fifteen fifty* o *fifteen dollars and fifty cents*", "$2.99 = *two ninety-nine*", "Pedir la cuenta: *Can we have the check, please?* (EE. UU.) / *the bill* (RU)"]
+    },
+    {
+      "type": "order",
+      "title": "Ordena el diálogo",
+      "items": [
+        { "a": "Are you ready to order?", "es": "¿Ya están listos para ordenar?" },
+        { "a": "I'd like a chicken salad, please.", "es": "Quisiera una ensalada de pollo, por favor." },
+        { "a": "How much is the lemonade?", "es": "¿Cuánto cuesta la limonada?" },
+        { "a": "Can we have the check, please?", "es": "¿Nos trae la cuenta, por favor?" }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona pregunta y respuesta",
+      "pairs": [
+        ["For here or to go?", "For here, please."],
+        ["Anything to drink?", "A bottle of water."],
+        ["Anything else?", "No, that's all."],
+        ["How much are the cookies?", "They're two dollars each."],
+        ["Can I pay by card?", "Sure, no problem."]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "listen",
+      "title": "¿Cuánto cuesta?",
+      "items": [
+        { "say": "It's fifteen fifty.", "options": ["$15.50", "$50.15", "$5.50"], "a": 0 },
+        { "say": "They're thirty dollars.", "options": ["$13", "$30", "$33"], "a": 1 },
+        { "say": "That's two ninety-nine.", "options": ["$2.19", "$2.99", "$29.90"], "a": 1 }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "How much ___ these jeans?", "options": ["is", "are", "do"], "a": 1 },
+        { "q": "¿Cuál es más cortés?", "options": ["Give me a coffee.", "I want a coffee.", "I'd like a coffee, please."], "a": 2 },
+        { "q": "___ I have a glass of water?", "options": ["Can", "Do", "Am"], "a": 0 }
+      ]
+    }
+  ]
+}

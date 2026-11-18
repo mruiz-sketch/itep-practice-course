@@ -1,0 +1,97 @@
+{
+ "id": "b2-v04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Psychology and behaviour",
+   "subtitle": "Psychology and behaviour",
+   "goals": [
+    "Describe behavior and emotions precisely.",
+    "Discuss motivation and habits.",
+    "Use adjective + preposition collocations."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "self-confidence, self-esteem, motivation"
+    },
+    {
+     "en": "anxious about, keen on, fed up with, aware of"
+    },
+    {
+     "en": "peer pressure, procrastination, resilience"
+    },
+    {
+     "en": "She tends to overthink things."
+    },
+    {
+     "en": "He lacks confidence in public speaking."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "resilience",
+     "ability to recover from difficulties"
+    ],
+    [
+     "procrastination",
+     "delaying tasks"
+    ],
+    [
+     "peer pressure",
+     "influence from people your age"
+    ],
+    [
+     "self-esteem",
+     "how you value yourself"
+    ],
+    [
+     "keen on",
+     "very interested in"
+    ],
+    [
+     "fed up with",
+     "tired of, annoyed by"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "I'm ___ with this traffic!",
+     "options": [
+      "fed up",
+      "keen"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Leaving things until the last minute:",
+     "options": [
+      "procrastination",
+      "resilience"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She's ___ of the risks.",
+     "options": [
+      "aware",
+      "keen"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

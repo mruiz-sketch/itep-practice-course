@@ -1,0 +1,107 @@
+{
+ "id": "a2-v07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Work: tasks and conditions",
+   "subtitle": "Trabajo: tareas y condiciones",
+   "goals": [
+    "Describir tus tareas en el trabajo.",
+    "Hablar de horario, sueldo y vacaciones.",
+    "Distinguir **job** y **work**."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "El trabajo",
+   "items": [
+    {
+     "en": "a full-time / part-time job",
+     "es": "trabajo de tiempo completo / medio tiempo"
+    },
+    {
+     "en": "work shifts / overtime",
+     "es": "trabajar por turnos / horas extra"
+    },
+    {
+     "en": "earn a salary",
+     "es": "ganar un sueldo"
+    },
+    {
+     "en": "my boss / my coworkers",
+     "es": "mi jefe / mis compañeros"
+    },
+    {
+     "en": "I'm in charge of social media.",
+     "es": "Estoy a cargo de las redes sociales."
+    },
+    {
+     "en": "I have two weeks of vacation.",
+     "es": "Tengo dos semanas de vacaciones."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "boss",
+     "jefe"
+    ],
+    [
+     "salary",
+     "sueldo"
+    ],
+    [
+     "shift",
+     "turno"
+    ],
+    [
+     "coworker",
+     "compañero de trabajo"
+    ],
+    [
+     "hire",
+     "contratar"
+    ],
+    [
+     "quit",
+     "renunciar"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "*Work* is…",
+     "options": [
+      "countable",
+      "uncountable"
+     ],
+     "a": 1,
+     "why": "Se dice *I have a job* o *I have work*, no *a work*."
+    },
+    {
+     "q": "You work 4 hours a day. It's a…",
+     "options": [
+      "full-time job",
+      "part-time job"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The company gives you a job. It…",
+     "options": [
+      "hires you",
+      "fires you"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

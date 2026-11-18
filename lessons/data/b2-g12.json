@@ -1,0 +1,99 @@
+{
+ "id": "b2-g12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced relative clauses",
+   "subtitle": "Prepositions, whom and reduced clauses",
+   "goals": [
+    "Use prepositions with relative pronouns.",
+    "Use **whom** in formal English.",
+    "Reduce relative clauses with participles."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Advanced patterns",
+   "table": {
+    "head": [
+     "Pattern",
+     "Formal",
+     "Informal"
+    ],
+    "rows": [
+     [
+      "Preposition + whom / which",
+      "The person **to whom** I spoke…",
+      "The person I spoke **to**…"
+     ],
+     [
+      "Quantifier + of whom / which",
+      "I have two brothers, **both of whom** live abroad.",
+      ""
+     ],
+     [
+      "Reduced (active)",
+      "The woman **sitting** there is my aunt.",
+      "(= who is sitting)"
+     ],
+     [
+      "Reduced (passive)",
+      "The houses **built** in 1900 are protected.",
+      "(= which were built)"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "The company for ___ she works is German.",
+     "options": [
+      "who",
+      "whom",
+      "which"
+     ],
+     "a": 2
+    },
+    {
+     "q": "I met 20 students, most of ___ were from Asia.",
+     "options": [
+      "them",
+      "whom",
+      "who"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The man ___ next to Ana is her boss.",
+     "options": [
+      "stand",
+      "standing",
+      "stood"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Reduce the relative clause",
+   "items": [
+    {
+     "t": "Products which are made in Mexico → Products ___ in Mexico",
+     "a": [
+      "made"
+     ]
+    },
+    {
+     "t": "People who live in cities → People ___ in cities",
+     "a": [
+      "living"
+     ]
+    }
+   ]
+  }
+ ]
+}

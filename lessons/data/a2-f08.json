@@ -1,0 +1,66 @@
+{
+ "id": "a2-f08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Bookings, shopping and complaints",
+   "subtitle": "Reservas, compras y quejas simples",
+   "goals": [
+    "Hacer una reservación por teléfono.",
+    "Quejarte con cortesía.",
+    "Pedir una solución."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Reservar y quejarse",
+   "items": [
+    {
+     "en": "I'd like to book a table for four at 8 p.m.",
+     "es": "Quisiera reservar una mesa para cuatro a las 8."
+    },
+    {
+     "en": "Can I have your name, please?",
+     "es": "¿Me da su nombre?"
+    },
+    {
+     "en": "Excuse me, I ordered my steak well done, but it's raw.",
+     "es": "Disculpe, pedí la carne bien cocida y está cruda."
+    },
+    {
+     "en": "This shirt has a hole. Can I change it?",
+     "es": "Esta camisa tiene un hoyo. ¿La puedo cambiar?"
+    },
+    {
+     "en": "I'm sorry about that. I'll bring you another one.",
+     "es": "Lo siento. Le traigo otra."
+    }
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Estructura de una queja",
+   "list": [
+    "1. Llama la atención: *Excuse me…*",
+    "2. Explica el problema: *My room is very noisy.*",
+    "3. Pide una solución: *Could I change rooms, please?*"
+   ],
+   "tip": "Empieza con **Excuse me** o **I'm sorry, but…** y usa **could** para sonar cortés."
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "I'd like to make a reservation for Saturday."
+    },
+    {
+     "a": "There's a problem with my order."
+    },
+    {
+     "a": "Could I speak to the manager, please?"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "b2-h02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Listening to lectures and debates",
+   "subtitle": "Following longer discourse",
+   "goals": [
+    "Follow arguments in talks.",
+    "Distinguish facts from opinions.",
+    "Take effective notes."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Note-taking tips",
+   "list": [
+    "Write **key words**, not full sentences.",
+    "Use symbols: ↑ increase, ↓ decrease, → causes, = means, ≠ different.",
+    "Listen for signposts: *firstly, however, the key point is…*"
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Listen and answer",
+   "items": [
+    {
+     "say": "While some experts claim that remote work reduces productivity, recent studies show the opposite: employees often work longer hours at home.",
+     "options": [
+      "Studies show remote workers work longer hours.",
+      "Studies show remote workers are lazy."
+     ],
+     "a": 0
+    },
+    {
+     "say": "The key point I want to make is that recycling alone won't solve the problem. We need to consume less.",
+     "options": [
+      "The main idea is to consume less.",
+      "The main idea is to recycle more."
+     ],
+     "a": 0
+    },
+    {
+     "say": "Personally, I think the plan is brilliant, but the numbers show it's too expensive.",
+     "options": [
+      "Fact: it's expensive. Opinion: it's brilliant.",
+      "Fact: it's brilliant. Opinion: it's expensive."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

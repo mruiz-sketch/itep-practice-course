@@ -1,0 +1,84 @@
+{
+  "id": "a1-v07",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Days, months and time",
+      "subtitle": "Días, meses, estaciones, la hora y la fecha",
+      "goals": [
+        "Decir los días, meses y estaciones (siempre con **mayúscula** días y meses).",
+        "Decir la hora: *It's half past three.*",
+        "Decir la fecha: *Today is Tuesday, November 17th.*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Días, meses y estaciones",
+      "table": {
+        "head": ["Días", "Meses", "Estaciones"],
+        "rows": [
+          ["Monday, Tuesday, Wednesday", "January, February, March, April", "spring (primavera)"],
+          ["Thursday, Friday", "May, June, July, August", "summer (verano)"],
+          ["Saturday, Sunday", "September, October", "fall / autumn (otoño)"],
+          ["weekdays / the weekend", "November, December", "winter (invierno)"]
+        ]
+      },
+      "watch": "**Wednesday** se pronuncia /ˈwenzdeɪ/ (\"uénsdei\"): la primera d no suena. Días y meses van **con mayúscula**."
+    },
+    {
+      "type": "explain",
+      "title": "La hora",
+      "table": {
+        "head": ["Hora", "Forma tradicional", "Forma digital"],
+        "rows": [
+          ["3:00", "three **o'clock**", "three"],
+          ["3:15", "**quarter past** three", "three fifteen"],
+          ["3:30", "**half past** three", "three thirty"],
+          ["3:45", "**quarter to** four", "three forty-five"],
+          ["3:10", "ten **past** three", "three ten"],
+          ["3:50", "ten **to** four", "three fifty"]
+        ],
+        "speak": 1
+      },
+      "tip": "**a.m.** = de medianoche a mediodía · **p.m.** = de mediodía a medianoche. *It's 7 a.m.*"
+    },
+    {
+      "type": "examples",
+      "title": "Preguntas útiles",
+      "items": [
+        { "en": "What time is it? — It's half past two.", "es": "¿Qué hora es? — Son las dos y media." },
+        { "en": "What day is it today? — It's Friday.", "es": "¿Qué día es hoy? — Viernes." },
+        { "en": "What's the date today? — It's November seventeenth.", "es": "¿Qué fecha es hoy? — 17 de noviembre." },
+        { "en": "When's your birthday? — It's on March third.", "es": "¿Cuándo es tu cumpleaños? — El 3 de marzo." },
+        { "en": "Wednesday", "say": "Wednesday", "es": "miércoles", "note": "/ˈwenzdeɪ/" }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué hora escuchas?",
+      "items": [
+        { "say": "It's quarter past seven.", "options": ["7:15", "6:45", "7:45"], "a": 0 },
+        { "say": "It's half past ten.", "options": ["10:30", "9:30", "10:15"], "a": 0 },
+        { "say": "It's quarter to nine.", "options": ["9:15", "8:45", "9:45"], "a": 1, "why": "*quarter to nine* = faltan 15 para las 9 → 8:45." },
+        { "say": "It's twenty past four.", "options": ["4:20", "3:40", "4:40"], "a": 0 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "¿Qué sigue?",
+      "items": [
+        { "t": "Monday, Tuesday, ___", "a": ["Wednesday"] },
+        { "t": "Thursday, Friday, ___", "a": ["Saturday"] },
+        { "t": "June, July, ___", "a": ["August"] },
+        { "t": "September, October, ___", "a": ["November"] },
+        { "t": "spring, summer, ___", "a": ["fall", "autumn"] }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la hora",
+      "pairs": [["five o'clock", "5:00"], ["half past six", "6:30"], ["quarter to two", "1:45"], ["ten past eleven", "11:10"], ["quarter past nine", "9:15"]],
+      "speak": "left"
+    }
+  ]
+}

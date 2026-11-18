@@ -1,0 +1,60 @@
+{
+ "id": "c1-h01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reading academic and technical texts",
+   "subtitle": "Critical reading",
+   "goals": [
+    "Identify claims, evidence and limitations.",
+    "Recognize hedging and bias.",
+    "Summarize complex texts."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Text: abstract",
+   "body": [
+    "This study examines the impact of generative AI tools on undergraduate design students' creative processes. Drawing on interviews with 42 students, findings suggest that while AI accelerates ideation, it may reduce the diversity of initial concepts. Participants reported greater confidence but also concerns about authorship. These results, though limited by sample size, indicate a need for pedagogical frameworks that integrate AI critically rather than prohibit it."
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Questions",
+   "items": [
+    {
+     "q": "What is the main finding?",
+     "options": [
+      "AI speeds up ideation but may reduce diversity of ideas.",
+      "AI makes students less confident."
+     ],
+     "a": 0
+    },
+    {
+     "q": "What limitation is mentioned?",
+     "options": [
+      "Sample size",
+      "Lack of funding"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What do the authors recommend?",
+     "options": [
+      "Prohibiting AI",
+      "Integrating AI critically"
+     ],
+     "a": 1
+    },
+    {
+     "q": "*May reduce* is an example of…",
+     "options": [
+      "hedging",
+      "exaggeration"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

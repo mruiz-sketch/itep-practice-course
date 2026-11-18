@@ -1,0 +1,50 @@
+{
+ "id": "c2-f05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Precision in every register",
+   "subtitle": "Switching registers expertly",
+   "goals": [
+    "Move between legal, academic, journalistic and colloquial registers.",
+    "Choose vocabulary and grammar for each.",
+    "Edit for tone."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Legal",
+      "The party of the first part shall…"
+     ],
+     [
+      "Academic",
+      "The findings indicate that…"
+     ],
+     [
+      "Journalistic",
+      "Officials have warned that…"
+     ],
+     [
+      "Colloquial",
+      "So basically, it's kind of a mess."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Write the same news (a university closes for a day due to flooding) in four registers: legal notice, academic note, news headline + lead, and a text to a friend."
+   ]
+  }
+ ]
+}

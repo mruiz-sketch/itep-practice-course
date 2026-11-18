@@ -1,0 +1,61 @@
+{
+ "id": "b2-h01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reading opinion articles",
+   "subtitle": "Understanding stance and purpose",
+   "goals": [
+    "Identify the writer's opinion and purpose.",
+    "Recognize persuasive techniques.",
+    "Infer meaning."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Text: \"Should homework be banned?\"",
+   "body": [
+    "Every evening, millions of students sit at kitchen tables completing worksheets that, research suggests, do little to improve their learning. Proponents argue that homework builds discipline. Yet the evidence for younger students is weak at best.",
+    "This is not to say practice is useless. Reading for pleasure and short, purposeful tasks clearly help. The problem is quantity, not the idea itself. Schools would be wise to replace hours of repetitive exercises with fewer, meaningful activities—and to give young people back the time they need to rest, play and think."
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Questions",
+   "items": [
+    {
+     "q": "What is the writer's main opinion?",
+     "options": [
+      "Homework should be completely banned.",
+      "Homework should be reduced and more meaningful."
+     ],
+     "a": 1
+    },
+    {
+     "q": "*Proponents* means…",
+     "options": [
+      "supporters",
+      "critics"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The tone of the article is…",
+     "options": [
+      "balanced but critical",
+      "humorous"
+     ],
+     "a": 0
+    },
+    {
+     "q": "What does the writer say about reading for pleasure?",
+     "options": [
+      "It helps.",
+      "It wastes time."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "b2-g17",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Negative inversion (introduction)",
+   "subtitle": "Never have I… / Not only…but also",
+   "goals": [
+    "Recognize inversion after negative adverbs.",
+    "Use it for emphasis in formal speech and writing.",
+    "Form it correctly with auxiliaries."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Common patterns",
+   "table": {
+    "head": [
+     "Adverbial",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Never (before)",
+      "**Never have I seen** such a mess."
+     ],
+     [
+      "Rarely / Seldom",
+      "**Rarely does she** complain."
+     ],
+     [
+      "Not only…but also",
+      "**Not only is he** smart, **but** he is **also** kind."
+     ],
+     [
+      "Hardly…when",
+      "**Hardly had we** arrived **when** it started to rain."
+     ],
+     [
+      "Under no circumstances",
+      "**Under no circumstances should you** open this."
+     ]
+    ]
+   },
+   "tip": "After the negative adverb, use **question word order**: auxiliary + subject."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "Never ___ so nervous.",
+     "options": [
+      "I have been",
+      "have I been"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Rarely ___ late.",
+     "options": [
+      "he arrives",
+      "does he arrive"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Not only ___ the exam, but she got the best score.",
+     "options": [
+      "she passed",
+      "did she pass"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

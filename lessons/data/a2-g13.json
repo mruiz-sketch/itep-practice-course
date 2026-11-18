@@ -1,0 +1,150 @@
+{
+ "id": "a2-g13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Requests and offers",
+   "subtitle": "Peticiones y ofrecimientos",
+   "goals": [
+    "Pedir algo con distintos grados de cortesía.",
+    "Ofrecer ayuda o algo de comer.",
+    "Aceptar y rechazar con amabilidad."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Pedir",
+   "table": {
+    "head": [
+     "Frase",
+     "Cortesía",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Can you…?",
+      "informal",
+      "**Can you** pass the salt?"
+     ],
+     [
+      "Could you…?",
+      "más cortés",
+      "**Could you** open the door, please?"
+     ],
+     [
+      "Would you mind + -ing?",
+      "muy cortés",
+      "**Would you mind closing** the window?"
+     ],
+     [
+      "Can / Could I…?",
+      "pedir permiso",
+      "**Could I** use your phone?"
+     ],
+     [
+      "I'd like…",
+      "pedir en tiendas",
+      "**I'd like** a coffee, please."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Ofrecer, aceptar y rechazar",
+   "table": {
+    "head": [
+     "Ofrecer",
+     "Aceptar",
+     "Rechazar"
+    ],
+    "rows": [
+     [
+      "Would you like some tea?",
+      "Yes, please.",
+      "No, thanks."
+     ],
+     [
+      "Shall I help you? / Can I help you?",
+      "That's very kind of you.",
+      "I'm OK, thanks."
+     ],
+     [
+      "I'll carry that for you.",
+      "Thanks a lot!",
+      "Don't worry, I can do it."
+     ]
+    ]
+   },
+   "watch": "*Would you mind…?* se responde **No, not at all** cuando aceptas (= no me molesta)."
+  },
+  {
+   "type": "match",
+   "title": "Relaciona",
+   "pairs": [
+    [
+     "Could you help me?",
+     "Sure, what do you need?"
+    ],
+    [
+     "Would you like a drink?",
+     "Yes, please. Water."
+    ],
+    [
+     "Would you mind waiting?",
+     "No, not at all."
+    ],
+    [
+     "Shall I open the window?",
+     "Yes, please. It's hot."
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "¿Cuál es más cortés?",
+   "items": [
+    {
+     "q": "Con tu jefe:",
+     "options": [
+      "Give me the report.",
+      "Could you send me the report, please?",
+      "Report, please."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Ofrecer café:",
+     "options": [
+      "Do you want coffee?",
+      "Would you like some coffee?"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Would you mind turning off the music? — (aceptas)",
+     "options": [
+      "Yes, I mind.",
+      "No, not at all."
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "Could you speak a little louder, please?",
+     "es": "¿Podría hablar un poco más fuerte, por favor?"
+    },
+    {
+     "a": "Would you like something to eat?",
+     "es": "¿Quieres algo de comer?"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "id": "b1-f02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Giving and justifying opinions",
+   "subtitle": "Opinions, agreement and disagreement",
+   "goals": [
+    "Give opinions with different strength.",
+    "Justify with reasons and examples.",
+    "Agree and disagree politely."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Opinion",
+      "In my opinion… / I believe… / Personally, I think…"
+     ],
+     [
+      "Reason",
+      "The main reason is… / That's because…"
+     ],
+     [
+      "Example",
+      "For example… / For instance…"
+     ],
+     [
+      "Agree",
+      "I completely agree. / That's a good point."
+     ],
+     [
+      "Partly agree",
+      "I see what you mean, but… / To some extent…"
+     ],
+     [
+      "Disagree politely",
+      "I'm not sure about that. / I see it differently."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the most polite disagreement",
+   "items": [
+    {
+     "q": "",
+     "options": [
+      "You're wrong.",
+      "I see what you mean, but I'm not sure that's true."
+     ],
+     "a": 1
+    },
+    {
+     "q": "",
+     "options": [
+      "That's a stupid idea.",
+      "I'm afraid I don't agree."
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Put in order",
+   "items": [
+    {
+     "a": "In my opinion, students should have less homework."
+    },
+    {
+     "a": "The main reason is that they need time to rest."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "c1-g09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Ellipsis and substitution",
+   "subtitle": "so, not, do so, one / ones",
+   "goals": [
+    "Avoid repetition with substitution.",
+    "Omit words naturally (ellipsis).",
+    "Use **so / not** after *think, hope, suppose, afraid*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Device",
+     "Example"
+    ],
+    "rows": [
+     [
+      "one / ones",
+      "I like the red **one** better."
+     ],
+     [
+      "do / do so",
+      "She wanted to leave, and she **did so** at once."
+     ],
+     [
+      "so / not",
+      "Will it rain? — I hope **not**. / I think **so**."
+     ],
+     [
+      "Ellipsis after auxiliary",
+      "He said he'd help, but he **didn't**."
+     ],
+     [
+      "Ellipsis with to",
+      "I didn't want to go, but I had **to**."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Is she coming? — I'm afraid ___.",
+     "options": [
+      "not",
+      "don't"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Do you think it will work? — I suppose ___.",
+     "options": [
+      "so",
+      "it"
+     ],
+     "a": 0
+    },
+    {
+     "q": "These shoes are too small. Do you have bigger ___?",
+     "options": [
+      "ones",
+      "one"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

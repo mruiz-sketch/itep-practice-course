@@ -1,0 +1,98 @@
+{
+ "id": "b1-v11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Topic-based phrasal verbs",
+   "subtitle": "Phrasal verbs by topic",
+   "goals": [
+    "Learn phrasal verbs grouped by topic.",
+    "Use them in context.",
+    "Understand separable phrasal verbs."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "Travel: set off, check in, get back"
+    },
+    {
+     "en": "Work: take on, carry out, deal with"
+    },
+    {
+     "en": "Relationships: get on with, look up to, put up with"
+    },
+    {
+     "en": "Problems: sort out, run out of, come up with"
+    },
+    {
+     "en": "Turn it off. / Turn off the TV.",
+     "note": "Separable: the object can go in the middle."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "set off",
+     "salir (de viaje)"
+    ],
+    [
+     "put up with",
+     "tolerar"
+    ],
+    [
+     "look up to",
+     "admirar"
+    ],
+    [
+     "run out of",
+     "quedarse sin"
+    ],
+    [
+     "come up with",
+     "ocurrírsele (una idea)"
+    ],
+    [
+     "sort out",
+     "resolver"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "We've ___ milk. Can you buy some?",
+     "options": [
+      "run out of",
+      "put up with"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She ___ a great idea for the project.",
+     "options": [
+      "came up with",
+      "looked up to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I can't ___ this noise anymore!",
+     "options": [
+      "put up with",
+      "set off"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "a2-f02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Plans, intentions and predictions",
+   "subtitle": "Planes, intenciones y predicciones",
+   "goals": [
+    "Hablar de planes con *going to* y presente continuo.",
+    "Hacer predicciones con *will* y *I think…*",
+    "Expresar duda: *maybe, probably*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Grado de seguridad",
+   "table": {
+    "head": [
+     "Seguridad",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "100 % — plan organizado",
+      "I'm flying to Monterrey on Friday."
+     ],
+     [
+      "Intención",
+      "I'm going to look for a new job."
+     ],
+     [
+      "Probable",
+      "I'll probably stay at home."
+     ],
+     [
+      "Posible",
+      "Maybe I'll go out. / I might go out."
+     ],
+     [
+      "Opinión",
+      "I think it will be a good year."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "What are you doing this weekend? — I'm visiting my grandparents.",
+     "es": "¿Qué harás este fin? — Visitaré a mis abuelos."
+    },
+    {
+     "en": "I'm going to save money for a new laptop.",
+     "es": "Voy a ahorrar para una laptop."
+    },
+    {
+     "en": "I don't think it will rain.",
+     "es": "No creo que llueva."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "Ya compraste el boleto:",
+     "options": [
+      "I'm going to the concert on Saturday.",
+      "Maybe I go to the concert."
+     ],
+     "a": 0
+    },
+    {
+     "q": "No estás seguro:",
+     "options": [
+      "I'll probably stay home.",
+      "I'm staying home, it's planned."
+     ],
+     "a": 0
+    },
+    {
+     "q": "¿Cuál es correcta?",
+     "options": [
+      "I don't think it will rain.",
+      "I think it won't rain."
+     ],
+     "a": 0,
+     "why": "Es más natural *I don't think…will*."
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "I'm going to study abroad next year."
+    },
+    {
+     "a": "I think you will love this movie."
+    }
+   ]
+  }
+ ]
+}

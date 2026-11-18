@@ -1,0 +1,83 @@
+{
+  "id": "a1-v01",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Hello, goodbye, please",
+      "subtitle": "Saludos, despedidas y cortesía",
+      "goals": [
+        "Saludar y despedirte según la hora y la situación.",
+        "Responder a *How are you?*",
+        "Usar **please, thank you, sorry** y **excuse me** correctamente."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Saludar y despedirse",
+      "table": {
+        "head": ["Situación", "Saludo", "Despedida"],
+        "rows": [
+          ["Informal", "Hi! / Hello! / Hey!", "Bye! / See you! / See you later!"],
+          ["Mañana (hasta 12 p.m.)", "Good morning.", "Have a nice day."],
+          ["Tarde (12–6 p.m.)", "Good afternoon.", "Goodbye."],
+          ["Noche (al llegar)", "Good evening.", "—"],
+          ["Noche (al irte o dormir)", "—", "**Good night.**"]
+        ]
+      },
+      "watch": "**Good night** solo sirve para despedirse. Para saludar en la noche se dice **Good evening**."
+    },
+    {
+      "type": "examples",
+      "title": "How are you?",
+      "items": [
+        { "en": "How are you? — I'm fine, thanks. And you?", "es": "¿Cómo estás? — Bien, gracias. ¿Y tú?" },
+        { "en": "How's it going? — Not bad!", "es": "¿Qué tal? — ¡Nada mal!" },
+        { "en": "Nice to meet you. — Nice to meet you too.", "es": "Mucho gusto. — Igualmente." },
+        { "en": "Thank you very much! — You're welcome.", "es": "¡Muchas gracias! — De nada." },
+        { "en": "Excuse me, where is the library?", "es": "Disculpe, ¿dónde está la biblioteca?", "note": "**Excuse me** = para llamar la atención o pasar." },
+        { "en": "Sorry, I'm late.", "es": "Perdón, llegué tarde.", "note": "**Sorry** = para disculparte por algo." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona cada frase con su respuesta",
+      "pairs": [
+        ["How are you?", "Fine, thanks."],
+        ["Nice to meet you.", "Nice to meet you too."],
+        ["Thank you!", "You're welcome."],
+        ["See you tomorrow!", "Bye! See you!"],
+        ["Sorry!", "That's OK."]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "¿Qué dices?",
+      "items": [
+        { "q": "Llegas a clase a las 8 a.m.", "options": ["Good night.", "Good morning.", "Good evening."], "a": 1 },
+        { "q": "Quieres pasar entre dos personas.", "options": ["Excuse me.", "Sorry.", "You're welcome."], "a": 0 },
+        { "q": "Pisaste a alguien sin querer.", "options": ["Excuse me.", "Sorry!", "Please."], "a": 1 },
+        { "q": "Te vas a dormir.", "options": ["Good evening.", "Good night.", "Good afternoon."], "a": 1 },
+        { "q": "Alguien te dice *Thanks!*", "options": ["Please.", "You're welcome.", "Sorry."], "a": 1 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige",
+      "items": [
+        { "say": "Good afternoon.", "options": ["Good morning.", "Good afternoon.", "Good evening."], "a": 1 },
+        { "say": "See you later!", "options": ["See you later!", "See you tomorrow!", "Nice to meet you!"], "a": 0 },
+        { "say": "You're welcome.", "options": ["You're welcome.", "Your welcome.", "Welcome!"], "a": 0 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena el diálogo",
+      "items": [
+        { "a": "Hi, how are you today?", "es": "Hola, ¿cómo estás hoy?" },
+        { "a": "I'm very well, thank you.", "es": "Muy bien, gracias." },
+        { "a": "Can you help me, please?", "es": "¿Me puedes ayudar, por favor?" }
+      ]
+    }
+  ]
+}

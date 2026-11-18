@@ -1,0 +1,88 @@
+{
+ "id": "b1-f05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reporting what others said",
+   "subtitle": "Reporting verbs and reported speech in conversation",
+   "goals": [
+    "Report conversations naturally.",
+    "Use reporting verbs: **explain, promise, suggest, warn**.",
+    "Summarize messages."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Reporting verbs",
+   "table": {
+    "head": [
+     "Verb",
+     "Pattern",
+     "Example"
+    ],
+    "rows": [
+     [
+      "explain",
+      "explain (that)…",
+      "She explained that the bus was late."
+     ],
+     [
+      "promise",
+      "promise to + verb",
+      "He promised to call."
+     ],
+     [
+      "suggest",
+      "suggest + -ing",
+      "She suggested going to the cinema."
+     ],
+     [
+      "warn",
+      "warn someone (not) to",
+      "They warned us not to swim."
+     ],
+     [
+      "offer",
+      "offer to + verb",
+      "He offered to help."
+     ],
+     [
+      "refuse",
+      "refuse to + verb",
+      "She refused to pay."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the right report",
+   "items": [
+    {
+     "q": "\"I'll help you.\" →",
+     "options": [
+      "He offered to help me.",
+      "He offered helping me."
+     ],
+     "a": 0
+    },
+    {
+     "q": "\"Let's eat out.\" →",
+     "options": [
+      "She suggested eating out.",
+      "She suggested to eat out."
+     ],
+     "a": 0
+    },
+    {
+     "q": "\"Don't touch it!\" →",
+     "options": [
+      "He warned me not to touch it.",
+      "He warned me to not touching it."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "a2-g08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Present simple vs present continuous",
+   "subtitle": "Presente simple vs continuo y verbos de estado",
+   "goals": [
+    "Elegir entre hábito y acción en progreso.",
+    "Reconocer los **verbos de estado** que no usan -ing.",
+    "Usar *usually* vs *now* para decidir."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Simple o continuo",
+   "table": {
+    "head": [
+     "Presente simple",
+     "Presente continuo"
+    ],
+    "rows": [
+     [
+      "hábitos, rutinas: *I **walk** to school.*",
+      "ahora: *I**'m walking** to school now.*"
+     ],
+     [
+      "hechos permanentes: *She **lives** in Querétaro.*",
+      "situaciones temporales: *She**'s living** with her aunt this month.*"
+     ],
+     [
+      "usually, always, every day",
+      "now, right now, at the moment, this week"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Verbos de estado",
+   "body": [
+    "Algunos verbos describen estados, no acciones, y casi nunca van en -ing."
+   ],
+   "list": [
+    "Gustos: *like, love, hate, want, prefer, need*",
+    "Mente: *know, understand, believe, remember, think (= opinar)*",
+    "Posesión: *have (= tener), own, belong*",
+    "Sentidos: *see, hear, smell, taste*"
+   ],
+   "errors": [
+    {
+     "bad": "I'm knowing the answer.",
+     "good": "I **know** the answer."
+    },
+    {
+     "bad": "She's wanting a coffee.",
+     "good": "She **wants** a coffee."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige la forma correcta",
+   "items": [
+    {
+     "q": "Shh! The baby ___.",
+     "options": [
+      "sleeps",
+      "is sleeping"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I ___ to the gym three times a week.",
+     "options": [
+      "go",
+      "am going"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I ___ what you mean.",
+     "options": [
+      "understand",
+      "am understanding"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Look! It ___.",
+     "options": [
+      "snows",
+      "is snowing"
+     ],
+     "a": 1
+    },
+    {
+     "q": "She usually ___ coffee, but today she ___ tea.",
+     "options": [
+      "drinks / is drinking",
+      "is drinking / drinks"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "Water ___ (boil) at 100 °C.",
+     "a": [
+      "boils"
+     ]
+    },
+    {
+     "t": "Why ___ you laughing?",
+     "a": [
+      "are"
+     ]
+    },
+    {
+     "t": "This bag ___ (belong) to Ana.",
+     "a": [
+      "belongs"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "¿Verbo de estado o de acción?",
+   "buckets": [
+    "estado",
+    "acción"
+   ],
+   "items": [
+    {
+     "w": "know",
+     "b": 0
+    },
+    {
+     "w": "want",
+     "b": 0
+    },
+    {
+     "w": "believe",
+     "b": 0
+    },
+    {
+     "w": "own",
+     "b": 0
+    },
+    {
+     "w": "run",
+     "b": 1
+    },
+    {
+     "w": "cook",
+     "b": 1
+    },
+    {
+     "w": "write",
+     "b": 1
+    },
+    {
+     "w": "swim",
+     "b": 1
+    }
+   ]
+  }
+ ]
+}

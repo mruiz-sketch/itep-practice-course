@@ -1,0 +1,102 @@
+{
+  "id": "a1-g05",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Plural nouns",
+      "subtitle": "Plurales regulares e irregulares",
+      "goals": [
+        "Formar plurales con **-s**, **-es** e **-ies**.",
+        "Memorizar los plurales irregulares más comunes.",
+        "Pronunciar bien la terminación del plural."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Plurales regulares",
+      "table": {
+        "head": ["Regla", "Singular → plural", "Escucha"],
+        "rows": [
+          ["La mayoría: **+ s**", "book → books, car → cars", "books, cars"],
+          ["Termina en -s, -ss, -sh, -ch, -x, -z: **+ es**", "bus → buses, class → classes, watch → watches, box → boxes", "buses, classes, watches, boxes"],
+          ["Consonante + y: **y → ies**", "city → cities, baby → babies", "cities, babies"],
+          ["Vocal + y: **+ s**", "day → days, boy → boys", "days, boys"],
+          ["Muchas en -f / -fe: **→ ves**", "knife → knives, leaf → leaves, wife → wives", "knives, leaves, wives"],
+          ["Algunas en -o: **+ es**", "tomato → tomatoes, potato → potatoes", "tomatoes, potatoes"]
+        ],
+        "speak": 2
+      },
+      "tip": "Las palabras en -o de origen extranjero o abreviadas solo llevan **-s**: *photos, pianos, videos, radios*."
+    },
+    {
+      "type": "explain",
+      "title": "Plurales irregulares",
+      "table": {
+        "head": ["Singular", "Plural", "Escucha"],
+        "rows": [
+          ["man", "**men**", "man, men"],
+          ["woman", "**women**", "woman, women"],
+          ["child", "**children**", "child, children"],
+          ["person", "**people**", "person, people"],
+          ["foot", "**feet**", "foot, feet"],
+          ["tooth", "**teeth**", "tooth, teeth"],
+          ["mouse", "**mice**", "mouse, mice"],
+          ["fish / sheep", "**fish / sheep** (no cambian)", "fish, sheep"]
+        ],
+        "speak": 2
+      },
+      "watch": "*Women* se pronuncia /ˈwɪmɪn/, como \"uí-min\". Y *people* ya es plural: **people are**, nunca *peoples are*."
+    },
+    {
+      "type": "examples",
+      "title": "Plurales en contexto",
+      "items": [
+        { "en": "There are thirty **students** in my class.", "es": "Hay 30 alumnos en mi grupo." },
+        { "en": "I have two **brothers** and three **sisters**.", "es": "Tengo dos hermanos y tres hermanas." },
+        { "en": "The **children** are in the park.", "es": "Los niños están en el parque." },
+        { "en": "Brush your **teeth**!", "es": "¡Lávate los dientes!" },
+        { "en": "These **boxes** are heavy.", "es": "Estas cajas pesan." },
+        { "en": "Many **people** live in big **cities**.", "es": "Mucha gente vive en ciudades grandes." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escribe el plural",
+      "items": [
+        { "t": "one bus → two ___", "a": ["buses"] },
+        { "t": "one city → two ___", "a": ["cities"] },
+        { "t": "one key → two ___", "a": ["keys"], "clue": "Vocal + y: solo **+ s**." },
+        { "t": "one child → two ___", "a": ["children"] },
+        { "t": "one knife → two ___", "a": ["knives"] },
+        { "t": "one woman → two ___", "a": ["women"] },
+        { "t": "one watch → two ___", "a": ["watches"] }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Qué terminación llevan?",
+      "buckets": ["+ s", "+ es", "y → ies"],
+      "items": [
+        { "w": "phone", "b": 0 }, { "w": "day", "b": 0 }, { "w": "photo", "b": 0 },
+        { "w": "dish", "b": 1 }, { "w": "glass", "b": 1 }, { "w": "potato", "b": 1 },
+        { "w": "party", "b": 2 }, { "w": "family", "b": 2 }, { "w": "story", "b": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona singular y plural irregular",
+      "pairs": [["man", "men"], ["foot", "feet"], ["person", "people"], ["mouse", "mice"], ["tooth", "teeth"], ["sheep", "sheep"]],
+      "speak": "right"
+    },
+    {
+      "type": "mc",
+      "title": "Encuentra la forma correcta",
+      "items": [
+        { "q": "There are many ___ in the street.", "options": ["peoples", "people", "persons"], "a": 1 },
+        { "q": "I need two ___ for the salad.", "options": ["tomatos", "tomatoes", "tomatoies"], "a": 1 },
+        { "q": "My ___ hurt after the run.", "options": ["foots", "feets", "feet"], "a": 2 },
+        { "q": "We have three ___ at home.", "options": ["babys", "babies", "babyes"], "a": 1 }
+      ]
+    }
+  ]
+}

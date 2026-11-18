@@ -1,0 +1,79 @@
+{
+ "id": "b2-g13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Participle clauses",
+   "subtitle": "Making writing more concise",
+   "goals": [
+    "Use **-ing** clauses for active, simultaneous or cause.",
+    "Use **-ed** clauses for passive meaning.",
+    "Use **having + participle** for earlier actions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Types",
+   "table": {
+    "head": [
+     "Type",
+     "Example",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "Present participle",
+      "**Feeling** tired, I went to bed.",
+      "Because I felt tired…"
+     ],
+     [
+      "Past participle",
+      "**Built** in 1850, the house is very old.",
+      "Because it was built…"
+     ],
+     [
+      "Perfect participle",
+      "**Having finished** the exam, she left.",
+      "After she had finished…"
+     ],
+     [
+      "Time",
+      "**While walking** home, I saw an accident.",
+      "While I was walking…"
+     ]
+    ]
+   },
+   "watch": "The subject must be the same in both clauses. *Walking home, the rain started* ✗ (the rain wasn't walking!)."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "___ the email, she called her boss.",
+     "options": [
+      "Having read",
+      "Read"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ in 1910, the theater is a national monument.",
+     "options": [
+      "Opening",
+      "Opened"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Not ___ what to say, I stayed quiet.",
+     "options": [
+      "knowing",
+      "known"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "b2-f03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Regret, criticism and reproach",
+   "subtitle": "Talking about what went wrong",
+   "goals": [
+    "Express regret about yourself.",
+    "Criticize others tactfully.",
+    "Respond to criticism."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Expressions",
+   "items": [
+    {
+     "en": "I really regret not taking that job."
+    },
+    {
+     "en": "If only I'd listened to you."
+    },
+    {
+     "en": "You shouldn't have said that. It upset her."
+    },
+    {
+     "en": "You could have at least called!"
+    },
+    {
+     "en": "You're right. I should have been more careful."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "Regret about yourself:",
+     "options": [
+      "I wish I hadn't eaten so much.",
+      "You should have eaten less."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Criticism of someone:",
+     "options": [
+      "You might have warned me!",
+      "I might have warned you."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

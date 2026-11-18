@@ -1,0 +1,106 @@
+{
+ "id": "b1-v01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Education",
+   "subtitle": "Education and school systems",
+   "goals": [
+    "Talk about levels of education.",
+    "Describe your studies and plans.",
+    "Use collocations: *apply for, graduate from, drop out*."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "primary / secondary school, high school",
+     "es": "primaria / secundaria, preparatoria"
+    },
+    {
+     "en": "undergraduate degree, master's, PhD",
+     "es": "licenciatura, maestría, doctorado"
+    },
+    {
+     "en": "apply for a scholarship",
+     "es": "solicitar una beca"
+    },
+    {
+     "en": "graduate from university",
+     "es": "graduarse de la universidad"
+    },
+    {
+     "en": "drop out of school",
+     "es": "abandonar la escuela"
+    },
+    {
+     "en": "tuition fees",
+     "es": "colegiaturas"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "scholarship",
+     "beca"
+    ],
+    [
+     "degree",
+     "título / carrera"
+    ],
+    [
+     "drop out",
+     "abandonar los estudios"
+    ],
+    [
+     "tuition",
+     "colegiatura"
+    ],
+    [
+     "assignment",
+     "tarea, trabajo"
+    ],
+    [
+     "lecture",
+     "clase magistral"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "She ___ from UPSRJ in 2025.",
+     "options": [
+      "graduated",
+      "finished from"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A *lecture* is…",
+     "options": [
+      "a talk given to students",
+      "a reading"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Money to help you pay for your studies:",
+     "options": [
+      "scholarship",
+      "salary"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

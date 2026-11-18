@@ -1,0 +1,50 @@
+{
+ "id": "c2-f02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Seamless reformulation",
+   "subtitle": "Rephrasing without breaking fluency",
+   "goals": [
+    "Self-correct naturally.",
+    "Find alternatives when you lack a word.",
+    "Keep the conversation flowing."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Self-correction",
+      "…or rather… / …well, actually…"
+     ],
+     [
+      "Circumlocution",
+      "It's a kind of… / the thing you use to…"
+     ],
+     [
+      "Clarification",
+      "What I mean is… / To put it another way…"
+     ],
+     [
+      "Precision",
+      "…or, more precisely,…"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Your turn",
+   "body": [
+    "Describe five objects without saying their names, using only circumlocution. A partner must guess them."
+   ]
+  }
+ ]
+}

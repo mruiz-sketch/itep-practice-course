@@ -1,0 +1,102 @@
+{
+ "id": "b1-v10",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Travel problems",
+   "subtitle": "Travel: airports and problems",
+   "goals": [
+    "Navigate an airport in English.",
+    "Explain travel problems.",
+    "Ask for help."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "check-in desk, security, gate, baggage claim"
+    },
+    {
+     "en": "My flight was delayed / cancelled."
+    },
+    {
+     "en": "I missed my connection.",
+     "es": "Perdí mi conexión."
+    },
+    {
+     "en": "My luggage didn't arrive."
+    },
+    {
+     "en": "I'd like to make a complaint."
+    },
+    {
+     "en": "Can you rebook me on the next flight?",
+     "es": "¿Me puede pasar al siguiente vuelo?"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "delayed",
+     "retrasado"
+    ],
+    [
+     "baggage claim",
+     "reclamo de equipaje"
+    ],
+    [
+     "customs",
+     "aduana"
+    ],
+    [
+     "layover",
+     "escala"
+    ],
+    [
+     "aisle seat",
+     "asiento de pasillo"
+    ],
+    [
+     "boarding pass",
+     "pase de abordar"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Where you collect your suitcase:",
+     "options": [
+      "baggage claim",
+      "gate"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A stop between two flights:",
+     "options": [
+      "layover",
+      "takeoff"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Your flight leaves 2 hours late. It's…",
+     "options": [
+      "delayed",
+      "cancelled"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

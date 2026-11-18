@@ -159,6 +159,7 @@
         <button type="button" class="btn-diag" data-action="start-diagnostic">TAKE<br />DIAGNOSTIC TEST</button>
         <p class="diag-foot">
           <span id="diagUser"></span>
+          <button type="button" class="link link-blue" data-action="diag-result" id="diagResult" hidden>My diagnostic result</button>
           <button type="button" class="link link-blue" data-action="logout">Log out</button>
         </p>
       </section>
@@ -233,6 +234,12 @@
     </main>
   </div>
 
+  <!-- Lesson player: English Practice Lessons inside the learning path -->
+  <div id="lessonPlayer" class="lesson-player" hidden>
+    <iframe id="lessonFrame" title="Lesson" src="about:blank" allow="autoplay"></iframe>
+  </div>
+
+  <script src="lessons/js/catalog.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+{
+ "id": "b2-g05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Wish and if only",
+   "subtitle": "Regrets and complaints",
+   "goals": [
+    "**wish + past perfect**: past regrets.",
+    "**wish + would**: complaints about others' behavior.",
+    "Contrast with **wish + past simple**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Three patterns",
+   "table": {
+    "head": [
+     "Pattern",
+     "Use",
+     "Example"
+    ],
+    "rows": [
+     [
+      "wish + past simple",
+      "present situation",
+      "I wish I **had** more time."
+     ],
+     [
+      "wish + past perfect",
+      "past regret",
+      "I wish I **had studied** harder."
+     ],
+     [
+      "wish + would",
+      "annoyance / wanting change from others",
+      "I wish you **would stop** interrupting."
+     ]
+    ]
+   },
+   "watch": "Not *I wish I would…* for yourself: use *I wish I could…*"
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I wish I ___ that. It was rude.",
+     "options": [
+      "hadn't said",
+      "didn't say"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I wish my neighbors ___ so much noise.",
+     "options": [
+      "wouldn't make",
+      "hadn't made"
+     ],
+     "a": 0
+    },
+    {
+     "q": "If only I ___ the answer now!",
+     "options": [
+      "knew",
+      "had known"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "I wish I ___ (go) to the concert last night.",
+     "a": [
+      "had gone"
+     ]
+    },
+    {
+     "t": "I wish it ___ stop raining!",
+     "a": [
+      "would"
+     ]
+    }
+   ]
+  }
+ ]
+}

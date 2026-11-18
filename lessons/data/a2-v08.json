@@ -1,0 +1,128 @@
+{
+ "id": "a2-v08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Directions in town",
+   "subtitle": "Direcciones en la ciudad",
+   "goals": [
+    "Entender y dar direcciones.",
+    "Usar puntos de referencia.",
+    "Preguntar con cortesía."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Frases de direcciones",
+   "items": [
+    {
+     "en": "Excuse me, how do I get to the station?",
+     "es": "Disculpe, ¿cómo llego a la estación?"
+    },
+    {
+     "en": "Go straight on for two blocks.",
+     "es": "Siga derecho dos cuadras."
+    },
+    {
+     "en": "Take the second street on the left.",
+     "es": "Tome la segunda calle a la izquierda."
+    },
+    {
+     "en": "Turn right at the traffic lights.",
+     "es": "Dé vuelta a la derecha en el semáforo."
+    },
+    {
+     "en": "It's on the corner, opposite the bank.",
+     "es": "Está en la esquina, frente al banco."
+    },
+    {
+     "en": "You can't miss it.",
+     "es": "No tiene pierde."
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Escucha y elige",
+   "items": [
+    {
+     "say": "Turn left at the roundabout.",
+     "options": [
+      "Turn left at the roundabout.",
+      "Turn right at the roundabout."
+     ],
+     "a": 0
+    },
+    {
+     "say": "It's the third building on your right.",
+     "options": [
+      "3rd on the left",
+      "3rd on the right"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "block",
+     "cuadra"
+    ],
+    [
+     "traffic lights",
+     "semáforo"
+    ],
+    [
+     "corner",
+     "esquina"
+    ],
+    [
+     "roundabout",
+     "glorieta"
+    ],
+    [
+     "crosswalk",
+     "paso peatonal"
+    ],
+    [
+     "sidewalk",
+     "banqueta"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "¿Cómo se dice *siga derecho*?",
+     "options": [
+      "Go straight on.",
+      "Go right."
+     ],
+     "a": 0
+    },
+    {
+     "q": "The place where four streets meet with lights:",
+     "options": [
+      "roundabout",
+      "traffic lights"
+     ],
+     "a": 1
+    },
+    {
+     "q": "It's ___ the bank. (frente)",
+     "options": [
+      "opposite",
+      "next"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

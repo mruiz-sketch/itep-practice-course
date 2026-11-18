@@ -1,0 +1,94 @@
+{
+ "id": "c1-v06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Idioms, binomials and similes",
+   "subtitle": "Fixed expressions",
+   "goals": [
+    "Use binomials: *pros and cons, by and large*.",
+    "Use similes: *as cool as a cucumber*.",
+    "Understand advanced idioms."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "pros and cons, sick and tired, peace and quiet, odds and ends"
+    },
+    {
+     "en": "as cool as a cucumber, as clear as mud, as fit as a fiddle"
+    },
+    {
+     "en": "the elephant in the room, a blessing in disguise, cut corners"
+    },
+    {
+     "en": "bite the bullet, sit on the fence, on the ball"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "sick and tired",
+     "completely fed up"
+    ],
+    [
+     "as cool as a cucumber",
+     "very calm"
+    ],
+    [
+     "the elephant in the room",
+     "obvious problem nobody mentions"
+    ],
+    [
+     "a blessing in disguise",
+     "good thing that seemed bad"
+    ],
+    [
+     "sit on the fence",
+     "avoid taking sides"
+    ],
+    [
+     "cut corners",
+     "do something cheaply or badly"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "I'm sick and ___ of excuses.",
+     "options": [
+      "tired",
+      "bored"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She never takes sides. She always sits on the ___.",
+     "options": [
+      "fence",
+      "wall"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Losing that job was a blessing in ___.",
+     "options": [
+      "disguise",
+      "secret"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

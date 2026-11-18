@@ -1,0 +1,105 @@
+{
+ "id": "b1-v06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Relationships and personality",
+   "subtitle": "Relationships and personality",
+   "goals": [
+    "Describe relationships.",
+    "Use phrasal verbs: *get on with, fall out, break up*.",
+    "Describe personality precisely."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "get on well with someone",
+     "es": "llevarse bien"
+    },
+    {
+     "en": "fall out with someone",
+     "es": "pelearse, distanciarse"
+    },
+    {
+     "en": "break up / split up",
+     "es": "terminar (una relación)"
+    },
+    {
+     "en": "make up",
+     "es": "reconciliarse"
+    },
+    {
+     "en": "reliable, generous, stubborn, sensitive, ambitious"
+    },
+    {
+     "en": "She's very easy-going.",
+     "es": "Es muy relajada."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "reliable",
+     "confiable"
+    ],
+    [
+     "stubborn",
+     "terco"
+    ],
+    [
+     "easy-going",
+     "relajado, tranquilo"
+    ],
+    [
+     "selfish",
+     "egoísta"
+    ],
+    [
+     "break up",
+     "terminar una relación"
+    ],
+    [
+     "get on with",
+     "llevarse bien con"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Someone who never changes their mind:",
+     "options": [
+      "stubborn",
+      "generous"
+     ],
+     "a": 0
+    },
+    {
+     "q": "They argued but now they're friends again. They…",
+     "options": [
+      "made up",
+      "broke up"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Someone who only thinks about themselves:",
+     "options": [
+      "selfish",
+      "sensitive"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

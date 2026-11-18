@@ -1,0 +1,80 @@
+{
+  "id": "a1-v03",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "My family",
+      "subtitle": "La familia",
+      "goals": [
+        "Nombrar a los miembros de tu familia.",
+        "Usar **parents, relatives, siblings** sin confundirlos.",
+        "Describir tu familia con *I've got…* y *My…'s name is…*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Familia cercana",
+      "table": {
+        "head": ["Masculino", "Femenino", "Plural / ambos"],
+        "rows": [
+          ["father / dad", "mother / mom", "**parents** (papás)"],
+          ["son", "daughter", "children (hijos)"],
+          ["brother", "sister", "**siblings** (hermanos)"],
+          ["husband", "wife", "—"],
+          ["grandfather / grandpa", "grandmother / grandma", "grandparents"],
+          ["uncle", "aunt", "—"],
+          ["nephew", "niece", "—"],
+          ["cousin", "cousin", "cousins"]
+        ]
+      },
+      "watch": "**Parents** significa *papás* (padre y madre). *Parientes* se dice **relatives**."
+    },
+    {
+      "type": "examples",
+      "title": "Habla de tu familia",
+      "items": [
+        { "en": "I've got two brothers and one sister.", "es": "Tengo dos hermanos y una hermana." },
+        { "en": "My mom's name is Laura.", "es": "Mi mamá se llama Laura." },
+        { "en": "My grandparents live in a small town.", "es": "Mis abuelos viven en un pueblo." },
+        { "en": "I'm an only child.", "es": "Soy hijo único." },
+        { "en": "My aunt has got three children.", "es": "Mi tía tiene tres hijos." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["aunt", "tía"], ["niece", "sobrina"], ["cousin", "primo / prima"], ["grandson", "nieto"], ["parents", "papás"], ["relatives", "parientes"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "¿Quién es?",
+      "items": [
+        { "t": "My mother's sister is my ___.", "a": ["aunt"] },
+        { "t": "My father's father is my ___.", "a": ["grandfather", "grandpa"] },
+        { "t": "My uncle's son is my ___.", "a": ["cousin"] },
+        { "t": "My brother's daughter is my ___.", "a": ["niece"] },
+        { "t": "My mom and dad are my ___.", "a": ["parents"] }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Hombre, mujer o ambos?",
+      "buckets": ["hombre", "mujer", "ambos"],
+      "items": [
+        { "w": "uncle", "b": 0 }, { "w": "nephew", "b": 0 }, { "w": "husband", "b": 0 },
+        { "w": "aunt", "b": 1 }, { "w": "niece", "b": 1 }, { "w": "wife", "b": 1 },
+        { "w": "cousin", "b": 2 }, { "w": "parent", "b": 2 }, { "w": "sibling", "b": 2 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige",
+      "items": [
+        { "say": "niece", "options": ["nice", "niece", "knees"], "a": 1 },
+        { "say": "daughter", "options": ["doctor", "daughter", "dollar"], "a": 1 },
+        { "say": "aunt", "options": ["aunt", "and", "ant"], "a": 0, "why": "En EE. UU. *aunt* suena igual que *ant* (hormiga)." }
+      ]
+    }
+  ]
+}

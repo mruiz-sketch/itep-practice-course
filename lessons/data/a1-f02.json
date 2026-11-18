@@ -1,0 +1,74 @@
+{
+  "id": "a1-f02",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Personal information",
+      "subtitle": "Dar y pedir información personal",
+      "goals": [
+        "Preguntar y dar nombre, edad, teléfono, correo y dirección.",
+        "Decir números de teléfono y correos en voz alta.",
+        "Llenar un formulario sencillo."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Preguntas de formulario",
+      "table": {
+        "head": ["Pregunta", "Respuesta", "Campo del formulario"],
+        "rows": [
+          ["What's your first name?", "It's Daniel.", "First name"],
+          ["What's your last name?", "It's Hernández.", "Last name / Surname"],
+          ["How old are you?", "I'm 20.", "Age"],
+          ["What's your phone number?", "It's 442 123 4567.", "Phone number"],
+          ["What's your email address?", "It's dan.h@gmail.com.", "Email"],
+          ["Where do you live?", "I live in Santa Rosa.", "Address"],
+          ["When's your birthday?", "It's on June 2nd.", "Date of birth"]
+        ],
+        "speak": 0
+      },
+      "tip": "Teléfonos: se dicen dígito por dígito. El **0** se dice *zero* o *oh*; dos iguales seguidos se pueden decir *double*: 44 = *double four*."
+    },
+    {
+      "type": "examples",
+      "title": "Escucha y repite",
+      "items": [
+        { "en": "My phone number is four four two, one two three, four five six seven.", "es": "442 123 4567" },
+        { "en": "My email is mel underscore ruiz at upsrj dot edu dot mx.", "es": "mel_ruiz@upsrj.edu.mx" },
+        { "en": "Can you spell your last name, please?", "es": "¿Me deletrea su apellido, por favor?" },
+        { "en": "I live at 25 Juárez Street.", "es": "Vivo en la calle Juárez 25.", "note": "En inglés el número va **antes** del nombre de la calle." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona pregunta y respuesta",
+      "pairs": [
+        ["What's your last name?", "It's Ramírez."],
+        ["How old are you?", "I'm twenty-one."],
+        ["Where do you live?", "In Querétaro."],
+        ["What's your email?", "It's ana12@gmail.com."],
+        ["When's your birthday?", "It's on May 9th."]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué número o correo escuchas?",
+      "items": [
+        { "say": "four four two, five five eight, three zero one nine", "options": ["442 558 3019", "442 585 3091", "424 558 3019"], "a": 0 },
+        { "say": "luis dot perez at gmail dot com", "options": ["luis.perez@gmail.com", "luis_perez@gmail.com", "luisperez@gmail.com"], "a": 0 },
+        { "say": "ana underscore g at hotmail dot com", "options": ["ana-g@hotmail.com", "ana_g@hotmail.com", "ana.g@hotmail.com"], "a": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa la pregunta",
+      "items": [
+        { "t": "What's your phone ___?", "a": ["number"] },
+        { "t": "How ___ are you? — I'm 18.", "a": ["old"] },
+        { "t": "Where do you ___? — In Santa Rosa.", "a": ["live"] },
+        { "t": "Can you ___ that, please? — Sure: R-U-I-Z.", "a": ["spell"] }
+      ]
+    }
+  ]
+}

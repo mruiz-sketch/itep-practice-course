@@ -1,0 +1,110 @@
+{
+  "id": "a1-g10",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Present simple",
+      "subtitle": "Presente simple: rutinas, hábitos y hechos",
+      "goals": [
+        "Usar el presente simple para **rutinas** y **hechos**.",
+        "Añadir **-s / -es / -ies** con *he, she, it*.",
+        "Formar negativas y preguntas con **do / does**."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Afirmativa: ¡cuidado con la tercera persona!",
+      "body": ["Con **he, she, it** el verbo lleva **-s**. Con los demás sujetos el verbo queda igual."],
+      "table": {
+        "head": ["Regla para he / she / it", "Ejemplo", "Escucha"],
+        "rows": [
+          ["La mayoría: **+ s**", "work → works, play → plays", "works, plays"],
+          ["-s, -sh, -ch, -x, -o: **+ es**", "watch → watches, go → goes, do → does", "watches, goes, does"],
+          ["Consonante + y: **y → ies**", "study → studies, fly → flies", "studies, flies"],
+          ["Irregular", "have → **has**", "has"]
+        ],
+        "speak": 2
+      },
+      "list": [
+        "Rutinas: *I get up at 6.*",
+        "Hábitos: *She drinks coffee every day.*",
+        "Hechos: *Water boils at 100 °C.*",
+        "Horarios: *The bus leaves at 7:15.*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Negativa y preguntas con do / does",
+      "table": {
+        "head": ["", "I / you / we / they", "he / she / it"],
+        "rows": [
+          ["Negativa", "I **don't** work.", "She **doesn't** work."],
+          ["Pregunta", "**Do** you work?", "**Does** she work?"],
+          ["Respuesta corta", "Yes, I do. / No, I don't.", "Yes, she does. / No, she doesn't."],
+          ["Pregunta wh-", "Where **do** you live?", "What time **does** he get up?"]
+        ]
+      },
+      "errors": [
+        { "bad": "She doesn't works.", "good": "She doesn't **work**.", "note": "Con **does / doesn't** la -s desaparece del verbo." },
+        { "bad": "Does she lives here?", "good": "Does she **live** here?" },
+        { "bad": "He go to school.", "good": "He **goes** to school." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "La rutina de Ana",
+      "items": [
+        { "en": "Ana **gets up** at six o'clock.", "es": "Ana se levanta a las seis." },
+        { "en": "She **has** breakfast with her family.", "es": "Desayuna con su familia." },
+        { "en": "She **takes** the bus to university.", "es": "Toma el camión a la universidad." },
+        { "en": "She **doesn't work** on weekends.", "es": "No trabaja los fines de semana." },
+        { "en": "**Do** you **study** at night? — Yes, I **do**.", "es": "¿Estudias en la noche? — Sí." },
+        { "en": "What time **does** the class **start**?", "es": "¿A qué hora empieza la clase?" }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Conjuga el verbo",
+      "items": [
+        { "t": "My dad ___ (work) in a factory.", "a": ["works"] },
+        { "t": "Luis ___ (watch) TV every night.", "a": ["watches"] },
+        { "t": "She ___ (study) engineering.", "a": ["studies"] },
+        { "t": "We ___ (live) in Querétaro.", "a": ["live"] },
+        { "t": "My sister ___ (go) to the gym.", "a": ["goes"] },
+        { "t": "He ___ (have) two jobs.", "a": ["has"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Do, does, don't o doesn't",
+      "items": [
+        { "q": "___ you like pizza?", "options": ["Do", "Does", "Are"], "a": 0 },
+        { "q": "My mom ___ drink coffee.", "options": ["don't", "doesn't", "isn't"], "a": 1 },
+        { "q": "Where ___ your brother live?", "options": ["do", "does", "is"], "a": 1 },
+        { "q": "Does he play football? — No, he ___", "options": ["don't.", "isn't.", "doesn't."], "a": 2 },
+        { "q": "They ___ speak French.", "options": ["doesn't", "don't", "aren't"], "a": 1 }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Cómo suena la -s?",
+      "instr": "Escucha mentalmente cada verbo y clasifícalo por el sonido final.",
+      "buckets": ["/s/", "/z/", "/ɪz/"],
+      "items": [
+        { "w": "works", "b": 0 }, { "w": "eats", "b": 0 }, { "w": "stops", "b": 0 },
+        { "w": "plays", "b": 1 }, { "w": "lives", "b": 1 }, { "w": "goes", "b": 1 },
+        { "w": "watches", "b": 2 }, { "w": "washes", "b": 2 }, { "w": "dances", "b": 2 }
+      ],
+      "why": "Tras /p, t, k, f/ suena **/s/**; tras /tʃ, ʃ, s, z, dʒ/ suena **/ɪz/**; en los demás casos **/z/**."
+    },
+    {
+      "type": "order",
+      "title": "Ordena las preguntas",
+      "items": [
+        { "a": "What time do you get up?", "es": "¿A qué hora te levantas?" },
+        { "a": "Does your sister speak English?", "es": "¿Tu hermana habla inglés?" },
+        { "a": "Where does he work?", "es": "¿Dónde trabaja él?" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "c1-g07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Distancing structures",
+   "subtitle": "It would appear that… / There seems to be…",
+   "goals": [
+    "Present information cautiously.",
+    "Report without full commitment.",
+    "Write in academic and journalistic style."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "It would appear / seem that",
+      "**It would appear that** the data is incomplete."
+     ],
+     [
+      "There seems / appears to be",
+      "**There appears to be** a mistake."
+     ],
+     [
+      "subject + seems / appears to",
+      "The economy **seems to be** recovering."
+     ],
+     [
+      "It is said / reported / alleged that",
+      "**It is alleged that** he accepted bribes."
+     ],
+     [
+      "According to…",
+      "**According to** the report, sales fell."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ to be a problem with your account.",
+     "options": [
+      "There seems",
+      "It seems"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It ___ appear that the meeting has been cancelled.",
+     "options": [
+      "would",
+      "will"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The suspect is ___ to have fled the country.",
+     "options": [
+      "alleged",
+      "alleging"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

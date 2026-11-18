@@ -1,0 +1,106 @@
+{
+ "id": "a2-v09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Festivals and celebrations",
+   "subtitle": "Fiestas y celebraciones",
+   "goals": [
+    "Hablar de fiestas y tradiciones.",
+    "Felicitar en diferentes ocasiones.",
+    "Describir cómo celebras."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Celebrar",
+   "items": [
+    {
+     "en": "Happy birthday! / Congratulations!",
+     "es": "¡Feliz cumpleaños! / ¡Felicidades!"
+    },
+    {
+     "en": "Merry Christmas! / Happy New Year!",
+     "es": "¡Feliz Navidad! / ¡Feliz Año Nuevo!"
+    },
+    {
+     "en": "We celebrate Day of the Dead on November 2nd.",
+     "es": "Celebramos el Día de Muertos el 2 de noviembre."
+    },
+    {
+     "en": "We decorate the house and make an altar.",
+     "es": "Decoramos la casa y ponemos un altar."
+    },
+    {
+     "en": "have a party / give presents / blow out candles",
+     "es": "hacer una fiesta / dar regalos / soplar las velas"
+    },
+    {
+     "en": "wedding, graduation, anniversary",
+     "es": "boda, graduación, aniversario"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "wedding",
+     "boda"
+    ],
+    [
+     "present / gift",
+     "regalo"
+    ],
+    [
+     "fireworks",
+     "fuegos artificiales"
+    ],
+    [
+     "parade",
+     "desfile"
+    ],
+    [
+     "guest",
+     "invitado"
+    ],
+    [
+     "costume",
+     "disfraz"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "Tu amigo se gradúa. Dices:",
+     "options": [
+      "Congratulations!",
+      "Happy birthday!"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Guest* is…",
+     "options": [
+      "an invited person",
+      "a present"
+     ],
+     "a": 0
+    },
+    {
+     "q": "People wear these at Halloween:",
+     "options": [
+      "costumes",
+      "fireworks"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

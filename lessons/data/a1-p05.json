@@ -1,0 +1,64 @@
+{
+  "id": "a1-p05",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Thirteen or thirty?",
+      "subtitle": "Acento en -teen y -ty",
+      "goals": [
+        "Poner el acento correcto en números **-teen** y **-ty**.",
+        "Distinguirlos al escucharlos en precios, horas y edades.",
+        "Confirmar un número cuando no estás seguro."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "El acento cambia el número",
+      "table": {
+        "head": ["-teen (13–19)", "-ty (30–90)", "Escucha"],
+        "rows": [
+          ["thir**TEEN**", "**THIR**ty", "thirteen, thirty"],
+          ["four**TEEN**", "**FOR**ty", "fourteen, forty"],
+          ["fif**TEEN**", "**FIF**ty", "fifteen, fifty"],
+          ["six**TEEN**", "**SIX**ty", "sixteen, sixty"],
+          ["seven**TEEN**", "**SEV**enty", "seventeen, seventy"],
+          ["eigh**TEEN**", "**EIGH**ty", "eighteen, eighty"],
+          ["nine**TEEN**", "**NINE**ty", "nineteen, ninety"]
+        ],
+        "speak": 2
+      },
+      "tip": "La **t** de *-teen* es clara y la vocal es larga /iː/. En inglés americano la **t** de *-ty* suena casi como una *d* suave: *thirty* ≈ \"zérdi\".",
+      "watch": "Si no estás seguro, confirma: *Sorry, is that one-five or five-zero?*"
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué número escuchas?",
+      "items": [
+        { "say": "sixteen", "options": ["16", "60"], "a": 0 },
+        { "say": "seventy", "options": ["17", "70"], "a": 1 },
+        { "say": "nineteen", "options": ["19", "90"], "a": 0 },
+        { "say": "forty", "options": ["14", "40"], "a": 1 },
+        { "say": "eighteen", "options": ["18", "80"], "a": 0 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Números en contexto",
+      "items": [
+        { "say": "It costs fifteen dollars.", "options": ["$15", "$50"], "a": 0 },
+        { "say": "My grandfather is eighty.", "options": ["18", "80"], "a": 1 },
+        { "say": "The class is in room thirteen.", "options": ["room 13", "room 30"], "a": 0 },
+        { "say": "The bus leaves at four forty.", "options": ["4:14", "4:40"], "a": 1 }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "En *fourteen* el acento va al final.", "a": true },
+        { "s": "En *sixty* el acento va al final.", "a": false, "why": "Va al inicio: **SIX**ty." },
+        { "s": "*Forty* se escribe sin **u**.", "a": true }
+      ]
+    }
+  ]
+}

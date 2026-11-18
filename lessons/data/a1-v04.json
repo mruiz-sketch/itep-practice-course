@@ -1,0 +1,80 @@
+{
+  "id": "a1-v04",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Jobs and workplaces",
+      "subtitle": "Profesiones y lugares de trabajo",
+      "goals": [
+        "Nombrar profesiones comunes.",
+        "Decir dónde trabaja alguien: *She works in a hospital.*",
+        "Recordar **a / an** con profesiones."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "¿Quién trabaja dónde?",
+      "table": {
+        "head": ["Profesión", "Lugar", "Escucha"],
+        "rows": [
+          ["doctor, nurse", "hospital", "a doctor, a nurse"],
+          ["teacher", "school, university", "a teacher"],
+          ["engineer", "factory, office", "an engineer"],
+          ["chef, waiter / waitress", "restaurant", "a chef, a waiter"],
+          ["shop assistant, cashier", "store, supermarket", "a shop assistant"],
+          ["police officer", "police station", "a police officer"],
+          ["mechanic", "garage, workshop", "a mechanic"],
+          ["animator, designer", "studio", "an animator, a designer"],
+          ["farmer", "farm", "a farmer"]
+        ],
+        "speak": 2
+      },
+      "tip": "Muchas profesiones terminan en **-er / -or / -ist**: *teacher, actor, dentist, artist*."
+    },
+    {
+      "type": "examples",
+      "title": "¿A qué te dedicas?",
+      "items": [
+        { "en": "What do you do? — I'm a student.", "es": "¿A qué te dedicas? — Soy estudiante." },
+        { "en": "My dad is an electrician.", "es": "Mi papá es electricista." },
+        { "en": "She works in a hospital. She's a nurse.", "es": "Trabaja en un hospital. Es enfermera." },
+        { "en": "I want to be a 3D animator.", "es": "Quiero ser animador 3D." },
+        { "en": "Where do you work? — At a hotel.", "es": "¿Dónde trabajas? — En un hotel." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona profesión y lugar",
+      "pairs": [["nurse", "hospital"], ["waiter", "restaurant"], ["mechanic", "garage"], ["farmer", "farm"], ["pilot", "plane"], ["librarian", "library"]],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "¿Qué profesión es?",
+      "items": [
+        { "q": "She takes care of people's teeth.", "options": ["dentist", "chef", "pilot"], "a": 0 },
+        { "q": "He cooks in a restaurant.", "options": ["waiter", "chef", "farmer"], "a": 1 },
+        { "q": "She designs bridges and machines.", "options": ["engineer", "nurse", "actor"], "a": 0 },
+        { "q": "He helps you find books.", "options": ["librarian", "cashier", "mechanic"], "a": 0 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con a o an",
+      "items": [
+        { "t": "She's ___ architect.", "a": ["an"] },
+        { "t": "My brother is ___ police officer.", "a": ["a"] },
+        { "t": "I'm ___ artist.", "a": ["an"] },
+        { "t": "He's ___ university teacher.", "a": ["a"], "clue": "*University* empieza con sonido /j/." }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "My mother works in a bank.", "es": "Mi mamá trabaja en un banco." },
+        { "a": "What does your sister do?", "es": "¿A qué se dedica tu hermana?" }
+      ]
+    }
+  ]
+}

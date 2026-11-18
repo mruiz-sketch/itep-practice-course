@@ -130,6 +130,15 @@ async function firebaseBackend() {
       } catch (e) { throw wrap(e); }
     },
 
+    // One entry per lesson of the learning path: { pct, stars, at }. Only a better score replaces an older one.
+    async saveLessonProgress(id, rec, done, total) {
+      try {
+        await F.updateDoc(userRef(auth.currentUser.uid),
+          new F.FieldPath("pathProgress", id), { pct: rec.pct, stars: rec.stars, at: new Date().toISOString() },
+          "pathDone", done, "pathTotal", total, "pathUpdatedAt", F.serverTimestamp());
+      } catch (e) { throw wrap(e); }
+    },
+
     async getMyProfile() {
       const snap = await F.getDoc(userRef(auth.currentUser.uid));
       return snap.data();
@@ -208,6 +217,12 @@ function demoBackend() {
     },
 
     async getMyProfile() { return load()[current]?.profile; },
+
+    async saveLessonProgress(id, rec, done, total) {
+      const db = load(); const p = db[current].profile;
+      p.pathProgress = { ...(p.pathProgress || {}), [id]: { pct: rec.pct, stars: rec.stars, at: new Date().toISOString() } };
+      Object.assign(p, { pathDone: done, pathTotal: total }); save(db);
+    },
 
     async saveDiagnostic(result) {
       const db = load(); Object.assign(db[current].profile, result, { diagnosticCompleted: true, diagnosticAt: new Date().toISOString() }); save(db);

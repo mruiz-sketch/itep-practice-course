@@ -1,0 +1,89 @@
+{
+ "id": "b2-v06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Art, culture and heritage",
+   "subtitle": "Art, culture and heritage",
+   "goals": [
+    "Discuss cultural heritage.",
+    "Describe artworks and styles.",
+    "Talk about traditions."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "heritage, tradition, custom, folklore"
+    },
+    {
+     "en": "UNESCO World Heritage Site"
+    },
+    {
+     "en": "masterpiece, mural, craftsmanship"
+    },
+    {
+     "en": "preserve, restore, promote"
+    },
+    {
+     "en": "The missions of the Sierra Gorda are a World Heritage Site."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "heritage",
+     "traditions and history passed down"
+    ],
+    [
+     "masterpiece",
+     "outstanding work of art"
+    ],
+    [
+     "restore",
+     "repair to original state"
+    ],
+    [
+     "craftsmanship",
+     "skill in making things by hand"
+    ],
+    [
+     "mural",
+     "painting on a wall"
+    ],
+    [
+     "custom",
+     "traditional practice"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Diego Rivera's ___ are famous worldwide.",
+     "options": [
+      "murals",
+      "mirrors"
+     ],
+     "a": 0
+    },
+    {
+     "q": "To repair an old building to its original state:",
+     "options": [
+      "restore",
+      "restart"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

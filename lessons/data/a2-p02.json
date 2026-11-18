@@ -1,0 +1,112 @@
+{
+ "id": "a2-p02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Weak forms and schwa",
+   "subtitle": "Formas débiles y schwa /ə/",
+   "goals": [
+    "Reconocer el sonido más común del inglés: /ə/.",
+    "Pronunciar débiles **to, of, a, can, was, for**.",
+    "Entender el inglés rápido."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "La vocal schwa",
+   "body": [
+    "/ə/ es una vocal corta y relajada, como una *e* murmurada. Aparece en sílabas sin acento: *a**bout**, **ba**na**na**, **doc**tor*."
+   ],
+   "table": {
+    "head": [
+     "Palabra",
+     "Forma fuerte",
+     "Forma débil en oración",
+     "Escucha"
+    ],
+    "rows": [
+     [
+      "to",
+      "/tuː/",
+      "I want /tə/ go.",
+      "I want to go."
+     ],
+     [
+      "of",
+      "/ɒv/",
+      "a cup /əv/ tea",
+      "a cup of tea"
+     ],
+     [
+      "can",
+      "/kæn/",
+      "I /kən/ swim.",
+      "I can swim."
+     ],
+     [
+      "was",
+      "/wɒz/",
+      "It /wəz/ late.",
+      "It was late."
+     ],
+     [
+      "for",
+      "/fɔːr/",
+      "This is /fə/ you.",
+      "This is for you."
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "listen",
+   "title": "Escucha y elige",
+   "items": [
+    {
+     "say": "I want to go home.",
+     "options": [
+      "I want to go home.",
+      "I want go home."
+     ],
+     "a": 0
+    },
+    {
+     "say": "A glass of water, please.",
+     "options": [
+      "A glass of water, please.",
+      "A glass water, please."
+     ],
+     "a": 0
+    },
+    {
+     "say": "She was here.",
+     "options": [
+      "She was here.",
+      "She is here."
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "tf",
+   "title": "¿Verdadero o falso?",
+   "items": [
+    {
+     "s": "En *banana* hay sonido schwa.",
+     "a": true
+    },
+    {
+     "s": "*To* siempre se pronuncia /tuː/.",
+     "a": false,
+     "why": "En oración suele ser débil: /tə/."
+    },
+    {
+     "s": "Las palabras de función (to, of, a) casi nunca llevan acento.",
+     "a": true
+    }
+   ]
+  }
+ ]
+}

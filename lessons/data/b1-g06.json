@@ -1,0 +1,113 @@
+{
+ "id": "b1-g06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Second and third conditionals",
+   "subtitle": "Imaginary present and past",
+   "goals": [
+    "Talk about **unreal present** situations (2nd).",
+    "Talk about **unreal past** situations and regrets (3rd).",
+    "Use **If I were you** for advice."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Two unreal conditionals",
+   "table": {
+    "head": [
+     "Type",
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "2nd (unreal now / future)",
+      "If + past simple, would + verb",
+      "If I **had** more time, I**'d learn** Japanese."
+     ],
+     [
+      "3rd (unreal past)",
+      "If + past perfect, would have + participle",
+      "If I **had studied**, I **would have passed**."
+     ]
+    ]
+   },
+   "tip": "*If I were you, I'd…* is the standard way to give advice. Use **were** for all persons in formal English."
+  },
+  {
+   "type": "examples",
+   "title": "Examples",
+   "items": [
+    {
+     "en": "If I won the lottery, I would travel the world."
+    },
+    {
+     "en": "What would you do if you saw a ghost?"
+    },
+    {
+     "en": "If we had left earlier, we wouldn't have missed the bus."
+    },
+    {
+     "en": "She would have come if you had invited her."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "If I ___ rich, I'd buy a house.",
+     "options": [
+      "am",
+      "were"
+     ],
+     "a": 1
+    },
+    {
+     "q": "If you had told me, I ___ you.",
+     "options": [
+      "would help",
+      "would have helped"
+     ],
+     "a": 1
+    },
+    {
+     "q": "If I were you, I ___ apologize.",
+     "options": [
+      "would",
+      "will"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "If it ___ (not / rain) yesterday, we would have gone out.",
+     "a": [
+      "hadn't rained",
+      "had not rained"
+     ]
+    },
+    {
+     "t": "What ___ you do if you lost your phone?",
+     "a": [
+      "would"
+     ]
+    },
+    {
+     "t": "If I knew the answer, I ___ tell you.",
+     "a": [
+      "would",
+      "'d"
+     ]
+    }
+   ]
+  }
+ ]
+}

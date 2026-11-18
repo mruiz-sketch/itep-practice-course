@@ -1,0 +1,86 @@
+{
+ "id": "c2-v04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Neologisms and slang",
+   "subtitle": "Contemporary English",
+   "goals": [
+    "Recognize new words and slang.",
+    "Understand online language.",
+    "Know when slang is inappropriate."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "ghost (someone), doomscrolling, binge-watch"
+    },
+    {
+     "en": "lowkey, highkey, vibe, it's giving…"
+    },
+    {
+     "en": "FOMO, gaslighting, influencer, cancel culture"
+    },
+    {
+     "en": "Slang changes fast and depends on age and region."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "ghost",
+     "suddenly stop all contact"
+    ],
+    [
+     "doomscrolling",
+     "reading bad news for too long"
+    ],
+    [
+     "binge-watch",
+     "watch many episodes at once"
+    ],
+    [
+     "FOMO",
+     "fear of missing out"
+    ],
+    [
+     "lowkey",
+     "slightly, secretly"
+    ],
+    [
+     "vibe",
+     "atmosphere, feeling"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "He stopped answering my messages. He ___ me.",
+     "options": [
+      "ghosted",
+      "gaslit"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Reading bad news on your phone for hours:",
+     "options": [
+      "doomscrolling",
+      "binge-watching"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

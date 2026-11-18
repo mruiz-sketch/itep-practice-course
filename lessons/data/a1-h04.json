@@ -1,0 +1,73 @@
+{
+  "id": "a1-h04",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Speaking: introduce yourself",
+      "subtitle": "Expresión oral: presentación personal",
+      "goals": [
+        "Preparar una presentación personal de 45–60 segundos.",
+        "Responder preguntas personales típicas de examen.",
+        "Autoevaluar tu pronunciación y fluidez."
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Modelo: escucha la presentación completa",
+      "items": [
+        { "en": "Hello! My name is Daniela Torres and I'm nineteen years old.", "es": "Nombre y edad" },
+        { "en": "I'm from Querétaro, but now I live in Santa Rosa Jáuregui.", "es": "Origen y lugar donde vives" },
+        { "en": "I'm a student at UPSRJ. I study animation.", "es": "Ocupación" },
+        { "en": "There are five people in my family: my parents, my two brothers and me.", "es": "Familia" },
+        { "en": "In my free time, I like drawing and watching series. I don't like cooking.", "es": "Gustos" },
+        { "en": "I want to be a 3D animator because I love movies.", "es": "Metas y razón" }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las partes de la presentación",
+      "items": [
+        { "a": "My name is Daniela and I am nineteen.", "es": "1. Nombre y edad" },
+        { "a": "I live in Santa Rosa Jáuregui.", "es": "2. Dónde vives" },
+        { "a": "I like drawing and watching series.", "es": "3. Gustos" }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Preguntas de examen y respuestas modelo",
+      "pairs": [
+        ["Can you tell me about your family?", "Sure. There are four of us…"],
+        ["What do you do in your free time?", "I usually play football."],
+        ["Why are you learning English?", "Because I want to work abroad."],
+        ["What's your favorite place in your town?", "The main square, because…"]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "listen",
+      "title": "Escucha la pregunta",
+      "instr": "Escucha la pregunta del examinador y elige la mejor respuesta.",
+      "items": [
+        { "say": "Where do you live?", "options": ["I'm twenty.", "In Santa Rosa Jáuregui.", "Yes, I do."], "a": 1 },
+        { "say": "What do you study?", "options": ["I study animation.", "At eight o'clock.", "I'm fine, thanks."], "a": 0 },
+        { "say": "Do you have any brothers or sisters?", "options": ["Yes, I have one sister.", "Yes, I am.", "My sister is."], "a": 0 },
+        { "say": "What do you like doing on weekends?", "options": ["I like play.", "I like going to the movies.", "On Saturday."], "a": 1 }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Tu turno: grábate",
+      "body": [
+        "Prepara tu presentación con las 6 partes del modelo. Grábate con el celular durante **45–60 segundos** y escúchate."
+      ],
+      "list": [
+        "☐ ¿Dije las 6 partes: nombre, origen, ocupación, familia, gustos, metas?",
+        "☐ ¿Usé *I'm* y no *I have* para la edad?",
+        "☐ ¿Pronuncié la **-s** final en *likes, works, brothers*?",
+        "☐ ¿Bajé la voz al final de cada oración?",
+        "☐ ¿Hablé sin leer todo el tiempo?"
+      ],
+      "tip": "Grábate otra vez una semana después y compara las dos grabaciones."
+    }
+  ]
+}

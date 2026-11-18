@@ -1,0 +1,75 @@
+{
+ "id": "c2-g06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Aspect and modality in specialised texts",
+   "subtitle": "Legal, academic and literary uses",
+   "goals": [
+    "Interpret *shall*, *may* and *must* in legal texts.",
+    "Recognize academic present simple.",
+    "Analyze tense in literature."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Context",
+     "Feature",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Legal",
+      "shall = obligation",
+      "The tenant **shall** pay rent monthly."
+     ],
+     [
+      "Legal",
+      "may = permission",
+      "The landlord **may** inspect the property."
+     ],
+     [
+      "Academic",
+      "present simple for citations",
+      "Smith (2020) **argues** that…"
+     ],
+     [
+      "Academic",
+      "present perfect for research areas",
+      "Several studies **have shown**…"
+     ],
+     [
+      "Literary",
+      "historic present for drama",
+      "She **opens** the door. Silence."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "In a contract, *shall* usually means…",
+     "options": [
+      "obligation",
+      "future"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Citing a source:",
+     "options": [
+      "Smith (2020) argues that…",
+      "Smith (2020) was arguing that…"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

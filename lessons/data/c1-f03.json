@@ -1,0 +1,66 @@
+{
+ "id": "c1-f03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Shades of certainty and attitude",
+   "subtitle": "Expressing nuanced positions",
+   "goals": [
+    "Express degrees of certainty precisely.",
+    "Show attitude with adverbs.",
+    "Avoid absolute statements."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Certain",
+      "Undoubtedly / There is no question that…"
+     ],
+     [
+      "Probable",
+      "In all likelihood / Chances are…"
+     ],
+     [
+      "Doubtful",
+      "It's doubtful whether… / I have my doubts about…"
+     ],
+     [
+      "Attitude",
+      "Surprisingly / Regrettably / Admittedly / Frankly"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Very probable:",
+     "options": [
+      "In all likelihood, prices will rise.",
+      "It is doubtful prices will rise."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Expressing regret:",
+     "options": [
+      "Regrettably, the event was cancelled.",
+      "Hopefully, the event was cancelled."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

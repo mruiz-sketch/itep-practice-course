@@ -1,0 +1,103 @@
+{
+ "id": "b1-v03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Media and news",
+   "subtitle": "Media and news",
+   "goals": [
+    "Talk about different media.",
+    "Discuss news and how you get information.",
+    "Recognize fake news vocabulary."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "newspaper, magazine, podcast, streaming platform"
+    },
+    {
+     "en": "headline, article, journalist, reporter"
+    },
+    {
+     "en": "breaking news",
+     "es": "noticias de última hora"
+    },
+    {
+     "en": "social media influencer"
+    },
+    {
+     "en": "fake news / misinformation",
+     "es": "noticias falsas / desinformación"
+    },
+    {
+     "en": "go viral",
+     "es": "hacerse viral"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "headline",
+     "titular"
+    ],
+    [
+     "journalist",
+     "periodista"
+    ],
+    [
+     "breaking news",
+     "noticia de última hora"
+    ],
+    [
+     "reliable source",
+     "fuente confiable"
+    ],
+    [
+     "advert",
+     "anuncio"
+    ],
+    [
+     "broadcast",
+     "transmitir"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "The title of a news story:",
+     "options": [
+      "headline",
+      "footnote"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A video that spreads very fast online:",
+     "options": [
+      "goes viral",
+      "goes live"
+     ],
+     "a": 0
+    },
+    {
+     "q": "A source you can trust is…",
+     "options": [
+      "reliable",
+      "biased"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

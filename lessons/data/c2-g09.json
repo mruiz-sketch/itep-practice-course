@@ -1,0 +1,73 @@
+{
+ "id": "c2-g09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Idiomatic articles, prepositions and particles",
+   "subtitle": "Fine-tuning precision",
+   "goals": [
+    "Master idiomatic preposition use.",
+    "Use articles with nuance.",
+    "Avoid fossilized errors."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Area",
+     "Examples"
+    ],
+    "rows": [
+     [
+      "Prepositional phrases",
+      "at odds with, in line with, on behalf of, by virtue of, in the light of"
+     ],
+     [
+      "Adjective + preposition",
+      "conducive to, tantamount to, devoid of, prone to"
+     ],
+     [
+      "Article nuance",
+      "go to **the** hospital (US) / go to hospital (UK); **a** Mr. Smith called (= someone called Mr. Smith)"
+     ],
+     [
+      "Particles",
+      "drag on, phase out, play down, bring about"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "His actions were ___ odds with his words.",
+     "options": [
+      "at",
+      "in"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The environment was not conducive ___ learning.",
+     "options": [
+      "to",
+      "for"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She spoke on ___ of the whole team.",
+     "options": [
+      "behalf",
+      "name"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

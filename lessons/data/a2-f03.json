@@ -1,0 +1,107 @@
+{
+ "id": "a2-f03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Comparing things",
+   "subtitle": "Comparar personas, lugares y objetos",
+   "goals": [
+    "Comparar con comparativos y superlativos.",
+    "Dar tu preferencia y justificarla.",
+    "Usar *much / a bit* para graduar la comparación."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Graduar la comparación",
+   "table": {
+    "head": [
+     "Diferencia",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "grande",
+      "Querétaro is **much bigger** than Santa Rosa."
+     ],
+     [
+      "pequeña",
+      "This phone is **a bit cheaper**."
+     ],
+     [
+      "igual",
+      "Both are **as good as** each other."
+     ],
+     [
+      "preferencia",
+      "I **prefer** the beach **because** it's warmer."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "Living in a city is more exciting than living in a village.",
+     "es": "Vivir en la ciudad es más emocionante que en un pueblo."
+    },
+    {
+     "en": "The bus is much slower than the train.",
+     "es": "El camión es mucho más lento que el tren."
+    },
+    {
+     "en": "For me, the best option is the second one.",
+     "es": "Para mí, la mejor opción es la segunda."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "This laptop is ___ cheaper than that one. (mucho)",
+     "a": [
+      "much"
+     ]
+    },
+    {
+     "t": "The red shirt is a ___ more expensive. (un poco)",
+     "a": [
+      "bit"
+     ]
+    },
+    {
+     "t": "I ___ cats because they are more independent.",
+     "a": [
+      "prefer"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "Which is ___, a car or a bike?",
+     "options": [
+      "more fast",
+      "faster"
+     ],
+     "a": 1
+    },
+    {
+     "q": "This is ___ restaurant in town.",
+     "options": [
+      "the better",
+      "the best"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

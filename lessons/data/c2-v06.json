@@ -1,0 +1,89 @@
+{
+ "id": "c2-v06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Etymology: Latin and Greek roots",
+   "subtitle": "Understanding words from their roots",
+   "goals": [
+    "Recognize common roots.",
+    "Guess meaning of unknown words.",
+    "Leverage Spanish cognates."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "bene- (good): benefit, benevolent"
+    },
+    {
+     "en": "chron- (time): chronic, chronology"
+    },
+    {
+     "en": "-cide (kill): pesticide, homicide"
+    },
+    {
+     "en": "graph (write): biography, graphic"
+    },
+    {
+     "en": "morph (form): metamorphosis, morphology"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "chron-",
+     "time"
+    ],
+    [
+     "bene-",
+     "good"
+    ],
+    [
+     "morph",
+     "form, shape"
+    ],
+    [
+     "graph",
+     "write"
+    ],
+    [
+     "-phobia",
+     "fear"
+    ],
+    [
+     "-logy",
+     "study of"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "*Chronic* illness lasts…",
+     "options": [
+      "a long time",
+      "a short time"
+     ],
+     "a": 0
+    },
+    {
+     "q": "*Benevolent* means…",
+     "options": [
+      "kind",
+      "cruel"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

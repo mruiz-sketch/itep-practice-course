@@ -1,0 +1,76 @@
+{
+ "id": "c1-p02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Connected speech: intrusion and elision",
+   "subtitle": "Linking /r/, /w/, /j/",
+   "goals": [
+    "Recognize intrusive sounds.",
+    "Understand rapid speech.",
+    "Link smoothly."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Intrusion",
+   "table": {
+    "head": [
+     "Type",
+     "Example",
+     "Sounds like",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "Linking /r/",
+      "far away",
+      "fa-raway",
+      "far away"
+     ],
+     [
+      "Intrusive /r/ (UK)",
+      "law and order",
+      "law-rand order",
+      "law and order"
+     ],
+     [
+      "Intrusive /w/",
+      "do it",
+      "do-wit",
+      "do it"
+     ],
+     [
+      "Intrusive /j/",
+      "see it",
+      "see-yit",
+      "see it"
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "listen",
+   "title": "Listen",
+   "items": [
+    {
+     "say": "Go away.",
+     "options": [
+      "Go away.",
+      "Go way."
+     ],
+     "a": 0
+    },
+    {
+     "say": "I agree.",
+     "options": [
+      "I agree.",
+      "I degree."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

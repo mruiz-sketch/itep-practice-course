@@ -1,0 +1,90 @@
+{
+  "id": "a1-h01",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Reading signs, menus and forms",
+      "subtitle": "Lectura: letreros, menús y formularios",
+      "goals": [
+        "Entender letreros y avisos públicos.",
+        "Encontrar precios y opciones en un menú.",
+        "Leer un formulario y una tarjeta de perfil."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Texto 1: letreros",
+      "table": {
+        "head": ["Letrero", "Significado"],
+        "rows": [
+          ["**OPEN / CLOSED**", "abierto / cerrado"],
+          ["**PUSH / PULL**", "empuje / jale"],
+          ["**NO PARKING**", "no estacionarse"],
+          ["**EXIT / ENTRANCE**", "salida / entrada"],
+          ["**OUT OF ORDER**", "fuera de servicio"],
+          ["**STAFF ONLY**", "solo personal autorizado"],
+          ["**WET FLOOR**", "piso mojado"],
+          ["**SALE – 50% OFF**", "oferta: 50 % de descuento"]
+        ]
+      },
+      "tip": "Lectura de letreros: busca la palabra clave, no traduzcas palabra por palabra."
+    },
+    {
+      "type": "mc",
+      "title": "¿Dónde ves este letrero?",
+      "items": [
+        { "q": "OUT OF ORDER", "options": ["En un elevador que no funciona", "En la puerta de un salón", "En una tienda en oferta"], "a": 0 },
+        { "q": "STAFF ONLY", "options": ["Solo pueden entrar empleados", "Todos pueden entrar", "Está cerrado"], "a": 0 },
+        { "q": "WET FLOOR", "options": ["Cuidado: te puedes resbalar", "No hay agua", "Baño fuera de servicio"], "a": 0 },
+        { "q": "OPEN 9 a.m. – 6 p.m. MON–SAT", "options": ["Abre el domingo", "Cierra a las 6 de la tarde", "Abre a las 6 de la mañana"], "a": 1 }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Texto 2: el menú de Coyote Café",
+      "table": {
+        "head": ["Item", "Price"],
+        "rows": [
+          ["Breakfast special: 2 eggs, beans, toast + coffee", "$85"],
+          ["Chicken sandwich", "$70"],
+          ["Veggie burger", "$75"],
+          ["Fruit salad", "$45"],
+          ["Coffee / Tea", "$25 / $20"],
+          ["Orange juice (small / large)", "$30 / $40"],
+          ["*Breakfast special: 7 – 11 a.m. only. Free refills on coffee!*", ""]
+        ]
+      }
+    },
+    {
+      "type": "mc",
+      "title": "Preguntas sobre el menú",
+      "items": [
+        { "q": "How much is a large orange juice?", "options": ["$30", "$40", "$45"], "a": 1 },
+        { "q": "What's in the breakfast special?", "options": ["Eggs, beans, toast and coffee", "A chicken sandwich and juice", "Fruit and tea"], "a": 0 },
+        { "q": "Can you order the breakfast special at 1 p.m.?", "options": ["Yes", "No"], "a": 1, "why": "Solo de 7 a 11 a.m." },
+        { "q": "*Free refills* on coffee means…", "options": ["El café es gratis", "Te sirven más café sin costo", "No hay café"], "a": 1 },
+        { "q": "You don't eat meat. What can you order?", "options": ["Chicken sandwich", "Veggie burger", "Breakfast special"], "a": 1 }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Texto 3: perfil de estudiante",
+      "body": [
+        "**Name:** Diego Martínez Olvera · **Age:** 19 · **Nationality:** Mexican",
+        "**Program:** Animation and Visual Effects Engineering · **Quarter:** 3rd · **Group:** IAEV-31",
+        "**About me:** Hi! I'm from San Juan del Río, but I live in Santa Rosa Jáuregui with my aunt. I've got two younger sisters. I love drawing and playing video games. I don't like getting up early, but my classes start at 7 a.m.!"
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "Diego lives in San Juan del Río.", "a": false, "why": "Es de San Juan del Río, pero **vive** en Santa Rosa Jáuregui." },
+        { "s": "He's got two sisters.", "a": true },
+        { "s": "He likes getting up early.", "a": false },
+        { "s": "He studies animation.", "a": true },
+        { "s": "He lives with his parents.", "a": false, "why": "Vive con su tía (*aunt*)." }
+      ]
+    }
+  ]
+}

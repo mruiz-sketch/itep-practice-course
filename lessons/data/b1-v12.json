@@ -1,0 +1,122 @@
+{
+ "id": "b1-v12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Word formation: suffixes",
+   "subtitle": "Building words with suffixes",
+   "goals": [
+    "Form nouns, adjectives and adverbs with suffixes.",
+    "Recognize word families.",
+    "Expand vocabulary quickly."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "Nouns: -tion, -ment, -ness, -ity, -er/-or",
+     "es": "inform**ation**, develop**ment**, happi**ness**, real**ity**, teach**er**"
+    },
+    {
+     "en": "Adjectives: -ful, -less, -able, -ous, -al, -ive",
+     "es": "use**ful**, use**less**, comfort**able**, danger**ous**, natur**al**, creat**ive**"
+    },
+    {
+     "en": "Adverbs: -ly",
+     "es": "careful**ly**"
+    },
+    {
+     "en": "Verbs: -ize, -en",
+     "es": "modern**ize**, wid**en**"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete with the right form",
+   "items": [
+    {
+     "t": "She is a very ___ person. (create)",
+     "a": [
+      "creative"
+     ]
+    },
+    {
+     "t": "The ___ of the bridge took two years. (construct)",
+     "a": [
+      "construction"
+     ]
+    },
+    {
+     "t": "Be ___! The floor is wet. (care)",
+     "a": [
+      "careful"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words",
+   "pairs": [
+    [
+     "employ → employment",
+     "empleo"
+    ],
+    [
+     "kind → kindness",
+     "amabilidad"
+    ],
+    [
+     "danger → dangerous",
+     "peligroso"
+    ],
+    [
+     "care → careless",
+     "descuidado"
+    ],
+    [
+     "create → creative",
+     "creativo"
+    ],
+    [
+     "able → ability",
+     "habilidad"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "The noun of *decide*:",
+     "options": [
+      "decision",
+      "decidement"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The adjective of *help* (useful):",
+     "options": [
+      "helpful",
+      "helpness"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The opposite of *useful*:",
+     "options": [
+      "useless",
+      "unuseful"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

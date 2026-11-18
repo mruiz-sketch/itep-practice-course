@@ -1,0 +1,70 @@
+{
+ "id": "c1-f04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Chairing meetings and debates",
+   "subtitle": "Leading discussions",
+   "goals": [
+    "Open and close meetings.",
+    "Manage participants.",
+    "Keep discussions on track."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Open",
+      "Let's get started. The aim of today's meeting is…"
+     ],
+     [
+      "Invite",
+      "Ana, could we hear your views on this?"
+     ],
+     [
+      "Control",
+      "Let's not get sidetracked. / Can we stick to the agenda?"
+     ],
+     [
+      "Summarize",
+      "So, to recap… / Where are we on this?"
+     ],
+     [
+      "Close",
+      "To wrap up… / Thank you all for your input."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Someone goes off topic:",
+     "options": [
+      "Let's not get sidetracked.",
+      "That's off."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Ending the meeting:",
+     "options": [
+      "To wrap up, …",
+      "To kick off, …"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

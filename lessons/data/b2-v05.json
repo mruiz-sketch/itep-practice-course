@@ -1,0 +1,97 @@
+{
+ "id": "b2-v05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Work: leadership and meetings",
+   "subtitle": "Work: leadership, meetings, negotiation",
+   "goals": [
+    "Participate in meetings.",
+    "Describe leadership styles.",
+    "Use negotiation vocabulary."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "set an agenda, chair a meeting, take minutes"
+    },
+    {
+     "en": "meet a deadline, delegate tasks"
+    },
+    {
+     "en": "reach an agreement, make a compromise"
+    },
+    {
+     "en": "stakeholder, budget, feedback"
+    },
+    {
+     "en": "Let's move on to the next item on the agenda."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "agenda",
+     "list of topics for a meeting"
+    ],
+    [
+     "minutes",
+     "written record of a meeting"
+    ],
+    [
+     "delegate",
+     "give tasks to others"
+    ],
+    [
+     "compromise",
+     "agreement where both sides give something"
+    ],
+    [
+     "deadline",
+     "final date to finish"
+    ],
+    [
+     "budget",
+     "money available"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Write the official notes of a meeting:",
+     "options": [
+      "take minutes",
+      "take hours"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Give part of your work to a team member:",
+     "options": [
+      "delegate",
+      "demand"
+     ],
+     "a": 0
+    },
+    {
+     "q": "An agreement where each side accepts less:",
+     "options": [
+      "compromise",
+      "promise"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

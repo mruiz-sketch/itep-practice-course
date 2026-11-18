@@ -1,0 +1,87 @@
+{
+ "id": "b1-g16",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Indirect questions",
+   "subtitle": "Asking politely",
+   "goals": [
+    "Make questions more polite with **Could you tell me…? / Do you know…?**",
+    "Use **statement word order** after the opening.",
+    "Use **if / whether** for yes/no questions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Direct → indirect",
+   "table": {
+    "head": [
+     "Direct",
+     "Indirect"
+    ],
+    "rows": [
+     [
+      "Where **is** the bank?",
+      "Could you tell me where **the bank is**?"
+     ],
+     [
+      "What time **does** it open?",
+      "Do you know what time **it opens**?"
+     ],
+     [
+      "**Is** he coming?",
+      "I wonder **if** he is coming."
+     ],
+     [
+      "How much **does** it cost?",
+      "I'd like to know how much **it costs**."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "Can you tell me where is the station?",
+     "good": "Can you tell me where **the station is**?"
+    },
+    {
+     "bad": "Do you know what time does it start?",
+     "good": "Do you know what time **it starts**?"
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose the correct question",
+   "items": [
+    {
+     "q": "",
+     "options": [
+      "Do you know where is Ana?",
+      "Do you know where Ana is?"
+     ],
+     "a": 1
+    },
+    {
+     "q": "",
+     "options": [
+      "Could you tell me if the shop is open?",
+      "Could you tell me is the shop open?"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Put in order",
+   "items": [
+    {
+     "a": "Could you tell me what time the train leaves?"
+    },
+    {
+     "a": "Do you know if there is a pharmacy near here?"
+    }
+   ]
+  }
+ ]
+}

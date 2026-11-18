@@ -1,0 +1,92 @@
+{
+  "id": "a1-g07",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "This, that, these, those",
+      "subtitle": "Demostrativos",
+      "goals": [
+        "Señalar cosas **cerca** y **lejos**, en singular y plural.",
+        "Usar *this is…* para presentar a alguien.",
+        "Pronunciar bien **this** /ðɪs/ y **these** /ðiːz/."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Cerca o lejos, uno o varios",
+      "table": {
+        "head": ["", "Cerca (aquí)", "Lejos (allá)"],
+        "rows": [
+          ["Singular", "**this** (este, esta, esto)", "**that** (ese, esa, aquel…)"],
+          ["Plural", "**these** (estos, estas)", "**those** (esos, aquellos…)"]
+        ]
+      },
+      "list": [
+        "Con sustantivo: ***this** book, **those** shoes*.",
+        "Solos, como pronombre: *What's **that**? **These** are mine.*",
+        "Para presentar: ***This is** my friend Ana.*",
+        "Al teléfono: *Hi, **this is** Mel.*"
+      ],
+      "watch": "El verbo concuerda: **this is / that is**, pero **these are / those are**."
+    },
+    {
+      "type": "examples",
+      "title": "Escucha y repite",
+      "items": [
+        { "en": "**This** is my phone.", "es": "Este es mi teléfono." },
+        { "en": "**That** car over there is new.", "es": "Ese coche de allá es nuevo." },
+        { "en": "**These** cookies are delicious.", "es": "Estas galletas están deliciosas." },
+        { "en": "Who are **those** people?", "es": "¿Quiénes son esas personas?" },
+        { "en": "**This** is my brother, Luis.", "es": "Te presento a mi hermano Luis." },
+        { "en": "this — these", "say": "this. these.", "es": "/ðɪs/ corta — /ðiːz/ larga", "note": "Alarga la vocal de **these**." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Qué demostrativo usas?",
+      "instr": "Imagina que lo dices señalando. Toca la frase y luego el demostrativo.",
+      "buckets": ["this", "that", "these", "those"],
+      "items": [
+        { "w": "un libro en tu mano", "b": 0 },
+        { "w": "tu celular, aquí", "b": 0 },
+        { "w": "un avión en el cielo", "b": 1 },
+        { "w": "una casa al fondo de la calle", "b": 1 },
+        { "w": "tus zapatos, puestos", "b": 2 },
+        { "w": "unas llaves en tu mano", "b": 2 },
+        { "w": "unas montañas a lo lejos", "b": 3 },
+        { "w": "unos niños al otro lado del parque", "b": 3 }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Completa la oración",
+      "items": [
+        { "q": "___ are my friends, Ana and Luis. (aquí, junto a ti)", "options": ["This", "These", "That"], "a": 1 },
+        { "q": "Look at ___ bird on the roof!", "options": ["those", "these", "that"], "a": 2 },
+        { "q": "___ jeans are too small for me. (los tengo puestos)", "options": ["These", "This", "Those"], "a": 0 },
+        { "q": "Hello, ___ is Carlos. Can I speak to Ana?", "options": ["that", "this", "these"], "a": 1, "why": "Al teléfono: **this is** + tu nombre." },
+        { "q": "Those ___ my books.", "options": ["is", "are", "am"], "a": 1 }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Pasa al plural",
+      "items": [
+        { "t": "This is my pen. → ___ are my pens.", "a": ["These"] },
+        { "t": "That is a big house. → ___ are big houses.", "a": ["Those"] },
+        { "t": "This box is heavy. → These boxes ___ heavy.", "a": ["are"] },
+        { "t": "That child is happy. → Those ___ are happy.", "a": ["children"] }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿This o these?",
+      "items": [
+        { "say": "this", "options": ["this", "these"], "a": 0 },
+        { "say": "these", "options": ["this", "these"], "a": 1, "why": "La vocal de **these** es larga: /iː/." },
+        { "say": "Those are my shoes.", "options": ["That are my shoes.", "Those are my shoes.", "These are my shoes."], "a": 1 },
+        { "say": "This is my friend.", "options": ["This is my friend.", "These is my friend.", "That is my friend."], "a": 0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+ "id": "b1-g04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Future forms review",
+   "subtitle": "Will, going to, present continuous, present simple",
+   "goals": [
+    "Choose the best future form for each situation.",
+    "Use the present simple for **timetables**.",
+    "Avoid using *will* for every future."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Which future?",
+   "table": {
+    "head": [
+     "Form",
+     "Use",
+     "Example"
+    ],
+    "rows": [
+     [
+      "will",
+      "instant decisions, promises, predictions (opinion)",
+      "I'll answer it. I think it'll be fine."
+     ],
+     [
+      "going to",
+      "intentions, predictions with evidence",
+      "I'm going to apply. It's going to rain."
+     ],
+     [
+      "present continuous",
+      "fixed arrangements",
+      "I'm meeting Sara at 5."
+     ],
+     [
+      "present simple",
+      "timetables, schedules",
+      "The train leaves at 7:15."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best form",
+   "items": [
+    {
+     "q": "The concert ___ at 9 p.m. (schedule)",
+     "options": [
+      "starts",
+      "'ll start"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I've got a ticket. I ___ to Monterrey tomorrow.",
+     "options": [
+      "'m flying",
+      "'ll fly"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Wait, I ___ you a hand with those bags.",
+     "options": [
+      "'ll give",
+      "'m giving"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Look at the score! They ___ win.",
+     "options": [
+      "are going to",
+      "will"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "What time ___ the class finish tomorrow? (timetable)",
+     "a": [
+      "does"
+     ]
+    },
+    {
+     "t": "We ___ our grandparents this weekend. It's arranged. (visit)",
+     "a": [
+      "'re visiting",
+      "are visiting"
+     ]
+    }
+   ]
+  }
+ ]
+}

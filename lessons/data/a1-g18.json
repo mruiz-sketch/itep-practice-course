@@ -1,0 +1,85 @@
+{
+  "id": "a1-g18",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Countable, uncountable, some and any",
+      "subtitle": "Sustantivos contables e incontables con some / any",
+      "goals": [
+        "Distinguir sustantivos **contables** e **incontables**.",
+        "Usar **some** en afirmativas y **any** en negativas y preguntas.",
+        "Ofrecer y pedir con *Would you like some…?*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "¿Se puede contar?",
+      "table": {
+        "head": ["", "Contables", "Incontables"],
+        "rows": [
+          ["Ejemplos", "apple, chair, student, egg", "water, rice, money, bread, information, homework"],
+          ["Singular", "**an** apple", "— (no llevan *a / an*)"],
+          ["Plural", "apple**s**", "— (no tienen plural)"],
+          ["Verbo", "There **are** some apples.", "There **is** some water."]
+        ]
+      },
+      "watch": "Algunos son incontables en inglés pero no en español: **information, advice, homework, furniture, news, money**. Se dice *some information*, nunca *informations*."
+    },
+    {
+      "type": "explain",
+      "title": "Some y any",
+      "table": {
+        "head": ["", "Uso", "Ejemplo"],
+        "rows": [
+          ["**some**", "afirmativas", "I have **some** friends. There's **some** milk."],
+          ["**any**", "negativas", "I don't have **any** money."],
+          ["**any**", "preguntas", "Are there **any** questions?"],
+          ["**some**", "ofrecer y pedir", "Would you like **some** coffee? Can I have **some** water?"]
+        ]
+      }
+    },
+    {
+      "type": "examples",
+      "title": "En la cocina",
+      "items": [
+        { "en": "There are **some** eggs in the fridge.", "es": "Hay algunos huevos en el refri." },
+        { "en": "There isn't **any** bread.", "es": "No hay pan." },
+        { "en": "Do we have **any** rice?", "es": "¿Tenemos arroz?" },
+        { "en": "Would you like **some** tea?", "es": "¿Quieres té?" },
+        { "en": "I need **some** information, please.", "es": "Necesito información, por favor." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Contable o incontable?",
+      "buckets": ["contable", "incontable"],
+      "items": [
+        { "w": "banana", "b": 0 }, { "w": "chair", "b": 0 }, { "w": "student", "b": 0 }, { "w": "cookie", "b": 0 },
+        { "w": "water", "b": 1 }, { "w": "rice", "b": 1 }, { "w": "money", "b": 1 },
+        { "w": "homework", "b": 1, "clue": "En inglés *homework* no tiene plural." },
+        { "w": "information", "b": 1, "clue": "Se dice *some information*." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con some o any",
+      "items": [
+        { "t": "I want ___ juice, please.", "a": ["some"] },
+        { "t": "There aren't ___ chairs in the room.", "a": ["any"] },
+        { "t": "Have you got ___ brothers?", "a": ["any"] },
+        { "t": "We have ___ homework for tomorrow.", "a": ["some"] },
+        { "t": "Would you like ___ cake?", "a": ["some"], "why": "Para ofrecer → **some**." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Encuentra la forma correcta",
+      "items": [
+        { "q": "¿Cuál es correcta?", "options": ["I need an advice.", "I need some advice.", "I need some advices."], "a": 1 },
+        { "q": "There ___ some money on the table.", "options": ["is", "are", "be"], "a": 0 },
+        { "q": "Is there ___ sugar?", "options": ["some", "any", "a"], "a": 1 },
+        { "q": "I'd like ___ orange.", "options": ["some", "an", "any"], "a": 1, "why": "Una naranja → contable singular → **an**." }
+      ]
+    }
+  ]
+}

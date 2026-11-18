@@ -1,0 +1,58 @@
+{
+ "id": "b2-f04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Describing graphs and data",
+   "subtitle": "Presenting statistics clearly",
+   "goals": [
+    "Introduce a graph.",
+    "Describe trends precisely.",
+    "Highlight key information."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Model description",
+   "items": [
+    {
+     "en": "This line graph shows the number of tourists in Querétaro from 2018 to 2024."
+    },
+    {
+     "en": "Numbers rose steadily until 2019, then dropped dramatically in 2020."
+    },
+    {
+     "en": "Since then, they have recovered gradually."
+    },
+    {
+     "en": "The highest figure was recorded in 2024."
+    },
+    {
+     "en": "Overall, tourism has grown by around 15 %."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "This graph shows",
+     "the introduction"
+    ],
+    [
+     "rose steadily",
+     "a gradual increase"
+    ],
+    [
+     "dropped dramatically",
+     "a big fall"
+    ],
+    [
+     "Overall,",
+     "the summary"
+    ]
+   ]
+  }
+ ]
+}

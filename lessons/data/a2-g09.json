@@ -1,0 +1,175 @@
+{
+ "id": "a2-g09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Comparatives and superlatives",
+   "subtitle": "Comparativos, superlativos y as…as",
+   "goals": [
+    "Comparar dos cosas: *taller than, more expensive than*.",
+    "Decir cuál es el mayor de un grupo: *the tallest, the most expensive*.",
+    "Expresar igualdad con **as…as**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Reglas",
+   "table": {
+    "head": [
+     "Adjetivo",
+     "Comparativo",
+     "Superlativo"
+    ],
+    "rows": [
+     [
+      "corto: tall",
+      "tall**er** than",
+      "the tall**est**"
+     ],
+     [
+      "termina en -e: nice",
+      "nice**r**",
+      "the nice**st**"
+     ],
+     [
+      "C-V-C: big",
+      "big**ger**",
+      "the big**gest**"
+     ],
+     [
+      "-y: easy",
+      "eas**ier**",
+      "the eas**iest**"
+     ],
+     [
+      "largo: expensive",
+      "**more** expensive",
+      "the **most** expensive"
+     ],
+     [
+      "good / bad / far",
+      "better / worse / farther",
+      "the best / the worst / the farthest"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "explain",
+   "title": "Igualdad",
+   "table": {
+    "head": [
+     "Estructura",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "as + adjetivo + as",
+      "My phone is **as good as** yours."
+     ],
+     [
+      "not as + adjetivo + as",
+      "This test is**n't as hard as** the last one."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "more big",
+     "good": "**bigger**"
+    },
+    {
+     "bad": "the most good",
+     "good": "the **best**"
+    },
+    {
+     "bad": "She is taller that me.",
+     "good": "She is taller **than** me."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "Mexico City is ___ (big) than Querétaro.",
+     "a": [
+      "bigger"
+     ]
+    },
+    {
+     "t": "This is the ___ (good) pizza in town.",
+     "a": [
+      "best"
+     ]
+    },
+    {
+     "t": "Math is ___ (difficult) than English for me.",
+     "a": [
+      "more difficult"
+     ]
+    },
+    {
+     "t": "Today is the ___ (hot) day of the year.",
+     "a": [
+      "hottest"
+     ]
+    },
+    {
+     "t": "My room is ___ (tidy) than my brother's.",
+     "a": [
+      "tidier"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "Ana is ___ person in my class.",
+     "options": [
+      "the funniest",
+      "the most funny",
+      "funnier"
+     ],
+     "a": 0
+    },
+    {
+     "q": "My car is not as fast ___ yours.",
+     "options": [
+      "than",
+      "as",
+      "that"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Today is ___ than yesterday.",
+     "options": [
+      "worse",
+      "worst",
+      "more bad"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "This is the most interesting book I have read.",
+     "es": "Este es el libro más interesante que he leído."
+    },
+    {
+     "a": "My brother is not as tall as me.",
+     "es": "Mi hermano no es tan alto como yo."
+    }
+   ]
+  }
+ ]
+}

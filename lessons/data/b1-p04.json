@@ -1,0 +1,84 @@
+{
+ "id": "b1-p04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Word stress with suffixes",
+   "subtitle": "How suffixes move stress",
+   "goals": [
+    "Predict stress with common suffixes.",
+    "Pronounce word families correctly.",
+    "Avoid Spanish-influenced stress."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Suffix rules",
+   "table": {
+    "head": [
+     "Suffix",
+     "Stress",
+     "Examples",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "-tion / -sion",
+      "syllable before",
+      "eduCAtion, deCIsion",
+      "education, decision"
+     ],
+     [
+      "-ic / -ical",
+      "syllable before",
+      "sciENtific, poLItical",
+      "scientific, political"
+     ],
+     [
+      "-ity",
+      "syllable before",
+      "uniVERsity, abILity",
+      "university, ability"
+     ],
+     [
+      "-ful / -less / -ment",
+      "no change",
+      "BEAUtiful, deVELopment",
+      "beautiful, development"
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Where is the stress?",
+   "items": [
+    {
+     "q": "photography",
+     "options": [
+      "PHO-to-gra-phy",
+      "pho-TO-gra-phy"
+     ],
+     "a": 1
+    },
+    {
+     "q": "photographic",
+     "options": [
+      "pho-to-GRA-phic",
+      "PHO-to-gra-phic"
+     ],
+     "a": 0
+    },
+    {
+     "q": "economy",
+     "options": [
+      "e-CO-no-my",
+      "E-co-no-my"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

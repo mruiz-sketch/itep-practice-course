@@ -1,0 +1,82 @@
+{
+ "id": "b2-f01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Arguing for and against",
+   "subtitle": "Building a balanced argument",
+   "goals": [
+    "Present both sides of an issue.",
+    "Use linkers of addition and contrast.",
+    "Reach a conclusion."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Introduce",
+      "There are arguments on both sides."
+     ],
+     [
+      "For",
+      "One advantage is… / Supporters argue that…"
+     ],
+     [
+      "Against",
+      "On the other hand… / Critics claim that…"
+     ],
+     [
+      "Add",
+      "Furthermore… / Moreover… / In addition…"
+     ],
+     [
+      "Conclude",
+      "On balance… / All things considered…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "___, social media connects people. ___, it can be addictive.",
+     "options": [
+      "On the one hand / On the other hand",
+      "However / Moreover"
+     ],
+     "a": 0
+    },
+    {
+     "q": "To add another argument:",
+     "options": [
+      "Furthermore",
+      "Nevertheless"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Put in order",
+   "items": [
+    {
+     "a": "On balance, I believe the advantages outweigh the disadvantages."
+    },
+    {
+     "a": "Critics claim that remote work isolates employees."
+    }
+   ]
+  }
+ ]
+}

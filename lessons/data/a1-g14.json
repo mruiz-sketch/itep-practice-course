@@ -1,0 +1,87 @@
+{
+  "id": "a1-g14",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "The imperative",
+      "subtitle": "Imperativo: instrucciones, órdenes y consejos",
+      "goals": [
+        "Dar instrucciones con el verbo en **forma base**.",
+        "Prohibir con **Don't** + verbo.",
+        "Sugerir con **Let's** + verbo."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Sin sujeto, con el verbo al inicio",
+      "table": {
+        "head": ["", "Forma", "Ejemplo"],
+        "rows": [
+          ["Afirmativo", "verbo base", "**Open** your books. **Listen**."],
+          ["Negativo", "**Don't** + verbo", "**Don't run**. **Don't be** late."],
+          ["Sugerencia", "**Let's** + verbo", "**Let's go**! **Let's start**."],
+          ["Cortés", "**Please** + imperativo", "**Please** sit down. / Sit down, **please**."]
+        ]
+      },
+      "tip": "El imperativo es igual para *tú* y para *ustedes*: *Come here* sirve para una persona o para un grupo.",
+      "errors": [
+        { "bad": "No run!", "good": "**Don't** run!" },
+        { "bad": "You open the door.", "good": "**Open** the door.", "note": "En el imperativo normal no se dice el sujeto." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Instrucciones del salón",
+      "items": [
+        { "en": "Open your books to page twenty.", "es": "Abran sus libros en la página 20." },
+        { "en": "Work in pairs.", "es": "Trabajen en parejas." },
+        { "en": "Don't use your phones, please.", "es": "No usen sus celulares, por favor." },
+        { "en": "Turn left at the bank.", "es": "Da vuelta a la izquierda en el banco." },
+        { "en": "Let's take a break.", "es": "Tomemos un descanso." },
+        { "en": "Don't worry!", "es": "¡No te preocupes!" }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la instrucción con el letrero",
+      "pairs": [
+        ["Don't smoke.", "No fumar"],
+        ["Push.", "Empuje"],
+        ["Pull.", "Jale"],
+        ["Keep off the grass.", "No pisar el pasto"],
+        ["Turn off your phone.", "Apague su celular"],
+        ["Wash your hands.", "Lávese las manos"]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Completa con el imperativo",
+      "items": [
+        { "t": "___ late to class! (negativo de *be*)", "a": ["Don't be", "Do not be"] },
+        { "t": "___ the window, please. It's hot. (open)", "a": ["Open"] },
+        { "t": "___ go to the cinema tonight! (sugerencia)", "a": ["Let's", "Let us"] },
+        { "t": "___ touch that. It's hot! (negativo)", "a": ["Don't", "Do not"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "¿Cómo se dice *No hablen*?", "options": ["No talk.", "Don't talk.", "Not talk."], "a": 1 },
+        { "q": "¿Cómo se dice *Vamos a comer*?", "options": ["Let's eat.", "Let's to eat.", "Let's eating."], "a": 0 },
+        { "q": "Para ser cortés agregas…", "options": ["please", "don't", "let's"], "a": 0 },
+        { "q": "¿Cuál es una instrucción correcta?", "options": ["You sit down.", "Sit down.", "Sits down."], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las instrucciones",
+      "items": [
+        { "a": "Please write your name on the paper.", "es": "Por favor escriban su nombre en la hoja." },
+        { "a": "Don't forget your homework.", "es": "No olvides tu tarea." },
+        { "a": "Let's practice the dialogue again.", "es": "Practiquemos el diálogo otra vez." }
+      ]
+    }
+  ]
+}

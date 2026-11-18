@@ -1,0 +1,97 @@
+{
+ "id": "b2-g06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Passive in all tenses and with modals",
+   "subtitle": "Full passive system",
+   "goals": [
+    "Form the passive in all tenses.",
+    "Use passive with modals and infinitives.",
+    "Choose the passive for formal writing."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Passive forms",
+   "table": {
+    "head": [
+     "Tense",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Present continuous",
+      "The road **is being repaired**."
+     ],
+     [
+      "Present perfect",
+      "The results **have been published**."
+     ],
+     [
+      "Past perfect",
+      "The tickets **had been sold**."
+     ],
+     [
+      "Future",
+      "You **will be contacted**."
+     ],
+     [
+      "Modal",
+      "It **must be done** today. It **should have been checked**."
+     ],
+     [
+      "Infinitive / -ing",
+      "I want **to be told**. I hate **being interrupted**."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "fill",
+   "title": "Make it passive",
+   "items": [
+    {
+     "t": "They are building a new hospital. → A new hospital is ___ built.",
+     "a": [
+      "being"
+     ]
+    },
+    {
+     "t": "Someone has stolen my bike. → My bike has ___ stolen.",
+     "a": [
+      "been"
+     ]
+    },
+    {
+     "t": "You must sign the form. → The form must ___ signed.",
+     "a": [
+      "be"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I don't like ___ what to do.",
+     "options": [
+      "telling",
+      "being told"
+     ],
+     "a": 1
+    },
+    {
+     "q": "The project ___ by next week.",
+     "options": [
+      "will have been finished",
+      "will have finished"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

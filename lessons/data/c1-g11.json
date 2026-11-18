@@ -1,0 +1,77 @@
+{
+ "id": "c1-g11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Fronting for emphasis",
+   "subtitle": "Strange as it may seem… / Try as I might…",
+   "goals": [
+    "Move elements to the front for emphasis.",
+    "Use concessive fronting: **adjective + as + subject + verb**.",
+    "Create stylistic effect."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Pattern",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Adjective + as / though + clause",
+      "**Strange as it may seem**, I enjoy exams."
+     ],
+     [
+      "Verb + as + subject + might",
+      "**Try as I might**, I couldn't open it."
+     ],
+     [
+      "Much as + clause",
+      "**Much as** I like him, I can't lend him money."
+     ],
+     [
+      "Fronted object",
+      "**That** I don't believe."
+     ],
+     [
+      "Fronted complement",
+      "**So successful was** the event that it was repeated."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ as it may sound, it's true.",
+     "options": [
+      "Incredible",
+      "Incredibly"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ as I might, I couldn't remember.",
+     "options": [
+      "Try",
+      "Trying"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ as I love my job, I need a break.",
+     "options": [
+      "Much",
+      "Many"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

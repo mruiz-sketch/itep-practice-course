@@ -1,0 +1,82 @@
+{
+  "id": "a1-g15",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Prepositions of place",
+      "subtitle": "Preposiciones de lugar: in, on, under, next to…",
+      "goals": [
+        "Decir **dónde** está algo.",
+        "Distinguir **in, on, at**.",
+        "Describir tu cuarto o tu salón."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "¿Dónde está?",
+      "table": {
+        "head": ["Preposición", "Significado", "Ejemplo"],
+        "rows": [
+          ["**in**", "dentro de", "The keys are **in** my bag."],
+          ["**on**", "sobre (tocando)", "The book is **on** the table."],
+          ["**under**", "debajo de", "The cat is **under** the bed."],
+          ["**next to / beside**", "junto a", "The bank is **next to** the café."],
+          ["**between**", "entre (dos cosas)", "I sit **between** Ana and Luis."],
+          ["**behind**", "detrás de", "The park is **behind** the school."],
+          ["**in front of**", "delante de, enfrente de", "The bus stop is **in front of** the hospital."],
+          ["**opposite**", "frente a (del otro lado)", "The pharmacy is **opposite** the bank."],
+          ["**above**", "arriba de (sin tocar)", "The clock is **above** the door."],
+          ["**near**", "cerca de", "I live **near** the university."]
+        ]
+      },
+      "tip": "**at** se usa para un punto o lugar concreto: *at the door, at the bus stop, at home, at school, at work*."
+    },
+    {
+      "type": "examples",
+      "title": "Describe un lugar",
+      "items": [
+        { "en": "My phone is on the desk.", "es": "Mi celular está sobre el escritorio." },
+        { "en": "The shoes are under the bed.", "es": "Los zapatos están debajo de la cama." },
+        { "en": "There's a poster above my bed.", "es": "Hay un póster arriba de mi cama." },
+        { "en": "The supermarket is between the bank and the gym.", "es": "El súper está entre el banco y el gimnasio." },
+        { "en": "Wait for me at the bus stop.", "es": "Espérame en la parada." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la preposición",
+      "items": [
+        { "q": "The milk is ___ the fridge.", "options": ["on", "in", "under"], "a": 1 },
+        { "q": "There's a picture ___ the wall.", "options": ["on", "in", "between"], "a": 0, "why": "En la pared, tocándola → **on**." },
+        { "q": "The letter B is ___ A and C.", "options": ["next", "between", "behind"], "a": 1 },
+        { "q": "I'm ___ home now.", "options": ["in", "on", "at"], "a": 2 },
+        { "q": "The car is ___ the house, so I can't see it from the street.", "options": ["in front of", "behind", "opposite"], "a": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["under", "debajo de"], ["behind", "detrás de"], ["in front of", "delante de"], ["next to", "junto a"], ["above", "arriba de"], ["opposite", "frente a"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Completa la descripción",
+      "items": [
+        { "t": "My laptop is ___ my backpack. (dentro)", "a": ["in"] },
+        { "t": "The lamp is ___ the table. (sobre)", "a": ["on"] },
+        { "t": "The café is ___ to the cinema. (junto)", "a": ["next"] },
+        { "t": "The dog is sleeping ___ the chair. (debajo)", "a": ["under"] }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "The bank is opposite the park.", "es": "El banco está frente al parque." },
+        { "a": "My keys are in my jacket.", "es": "Mis llaves están en mi chamarra." },
+        { "a": "Is there a pharmacy near here?", "es": "¿Hay una farmacia cerca de aquí?" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "a1-v16",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Describing people",
+      "subtitle": "Descripción física y personalidad",
+      "goals": [
+        "Describir el aspecto físico: altura, complexión, pelo y ojos.",
+        "Describir la personalidad con adjetivos comunes.",
+        "Distinguir *What does she look like?* y *What is she like?*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Aspecto físico",
+      "table": {
+        "head": ["Aspecto", "Vocabulario", "Ejemplo"],
+        "rows": [
+          ["Altura", "tall, short, medium height", "She's **tall**."],
+          ["Complexión", "thin / slim, medium build, strong", "He's **slim**."],
+          ["Pelo", "long, short, straight, curly, wavy; black, brown, blond, red, gray", "She's got **long curly** hair."],
+          ["Ojos", "brown, green, blue, gray", "He's got **brown** eyes."],
+          ["Otros", "a beard, a moustache, glasses, tattoos", "He's got **a beard**."]
+        ]
+      },
+      "tip": "Orden en el pelo: **largo → tipo → color**: *long straight black hair*.",
+      "watch": "Para describir el pelo y los ojos se usa **have got**: *She's **got** blue eyes*, no *She is blue eyes*."
+    },
+    {
+      "type": "explain",
+      "title": "Personalidad",
+      "table": {
+        "head": ["Positivo", "Negativo"],
+        "rows": [
+          ["friendly (amigable), kind (amable)", "unfriendly, rude (grosero)"],
+          ["funny (gracioso), outgoing (sociable)", "shy (tímido), serious"],
+          ["hard-working (trabajador)", "lazy (flojo)"],
+          ["patient (paciente), calm", "impatient, nervous"],
+          ["smart / clever (inteligente)", "—"]
+        ]
+      },
+      "list": [
+        "**What does she look like?** → aspecto: *She's tall with short hair.*",
+        "**What is she like?** → personalidad: *She's very friendly.*"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Ejemplos",
+      "items": [
+        { "en": "My best friend is short and has got curly brown hair.", "es": "Mi mejor amiga es bajita y tiene el pelo café y rizado." },
+        { "en": "He's tall and slim. He's got green eyes.", "es": "Es alto y delgado. Tiene ojos verdes." },
+        { "en": "What's your teacher like? — She's patient and funny.", "es": "¿Cómo es tu maestra? — Es paciente y graciosa." },
+        { "en": "My brother is a bit shy.", "es": "Mi hermano es un poco tímido." }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "¿Físico o personalidad?",
+      "buckets": ["appearance", "personality"],
+      "items": [
+        { "w": "tall", "b": 0 }, { "w": "curly", "b": 0 }, { "w": "slim", "b": 0 }, { "w": "blond", "b": 0 },
+        { "w": "friendly", "b": 1 }, { "w": "lazy", "b": 1 }, { "w": "shy", "b": 1 }, { "w": "funny", "b": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona los opuestos",
+      "pairs": [["tall", "short"], ["hard-working", "lazy"], ["outgoing", "shy"], ["patient", "impatient"], ["friendly", "unfriendly"]],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "Elige la respuesta",
+      "items": [
+        { "q": "What does Luis look like?", "options": ["He's kind.", "He's tall with black hair.", "He likes football."], "a": 1 },
+        { "q": "What is Ana like?", "options": ["She's very outgoing.", "She's got green eyes.", "She's 20."], "a": 0 },
+        { "q": "¿Cuál es correcta?", "options": ["She has long black straight hair.", "She's got long straight black hair.", "She is long black hair."], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena la descripción",
+      "items": [
+        { "a": "My sister has got short wavy hair.", "es": "Mi hermana tiene el pelo corto y ondulado." },
+        { "a": "He is very friendly and funny.", "es": "Él es muy amigable y gracioso." }
+      ]
+    }
+  ]
+}

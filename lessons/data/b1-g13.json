@@ -1,0 +1,103 @@
+{
+ "id": "b1-g13",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Used to / be used to / get used to",
+   "subtitle": "Three similar structures, three meanings",
+   "goals": [
+    "**used to + verb**: past habits.",
+    "**be used to + -ing / noun**: something is normal for you.",
+    "**get used to + -ing / noun**: the process of adapting."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Compare",
+   "table": {
+    "head": [
+     "Structure",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "used to + base verb",
+      "past habit (not now)",
+      "I **used to live** in Celaya."
+     ],
+     [
+      "be used to + -ing",
+      "it's normal / familiar",
+      "I**'m used to getting** up early."
+     ],
+     [
+      "get used to + -ing",
+      "become familiar",
+      "I'm **getting used to living** alone."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "I'm used to get up early.",
+     "good": "I'm used to **getting** up early."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I ___ play the piano, but I stopped.",
+     "options": [
+      "used to",
+      "am used to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She's from Mexicali, so she ___ hot weather.",
+     "options": [
+      "used to",
+      "is used to"
+     ],
+     "a": 1
+    },
+    {
+     "q": "It took me months to ___ driving on the left.",
+     "options": [
+      "get used to",
+      "use to"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "I'm not used to ___ (work) at night.",
+     "a": [
+      "working"
+     ]
+    },
+    {
+     "t": "Did you ___ to have long hair?",
+     "a": [
+      "use"
+     ]
+    },
+    {
+     "t": "You'll soon get used ___ the new system.",
+     "a": [
+      "to"
+     ]
+    }
+   ]
+  }
+ ]
+}

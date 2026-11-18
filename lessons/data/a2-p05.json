@@ -1,0 +1,108 @@
+{
+ "id": "a2-p05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "V vs B and SH vs CH",
+   "subtitle": "/v/ vs /b/ y /ʃ/ vs /tʃ/",
+   "goals": [
+    "Diferenciar /v/ (labio con dientes) y /b/ (dos labios).",
+    "Diferenciar /ʃ/ (*shoe*) y /tʃ/ (*chew*).",
+    "Evitar malentendidos como *very / berry*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Cómo se hacen",
+   "table": {
+    "head": [
+     "Sonido",
+     "Cómo",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "/v/",
+      "dientes de arriba sobre el labio de abajo",
+      "very, van, vote, have"
+     ],
+     [
+      "/b/",
+      "los dos labios juntos",
+      "berry, ban, boat, cab"
+     ],
+     [
+      "/ʃ/",
+      "como pedir silencio: shhh",
+      "shoe, she, wash, sure"
+     ],
+     [
+      "/tʃ/",
+      "como *ch* en español",
+      "chew, cheese, watch, church"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Pares mínimos",
+   "items": [
+    {
+     "en": "very — berry",
+     "say": "very. berry."
+    },
+    {
+     "en": "vest — best",
+     "say": "vest. best."
+    },
+    {
+     "en": "share — chair",
+     "say": "share. chair."
+    },
+    {
+     "en": "wash — watch",
+     "say": "wash. watch."
+    }
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Escucha y elige",
+   "items": [
+    {
+     "say": "vote",
+     "options": [
+      "vote",
+      "boat"
+     ],
+     "a": 0
+    },
+    {
+     "say": "best",
+     "options": [
+      "vest",
+      "best"
+     ],
+     "a": 1
+    },
+    {
+     "say": "chips",
+     "options": [
+      "ships",
+      "chips"
+     ],
+     "a": 1
+    },
+    {
+     "say": "wash",
+     "options": [
+      "wash",
+      "watch"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

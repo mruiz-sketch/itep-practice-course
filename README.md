@@ -20,6 +20,17 @@ Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS 
 - **Resultado:** nivel CEFR general, banda tipo iTEP (1.0–6.0), nivel por sección y "What to practice next" (temas que falló). Se guarda en Firestore (`diagnosticLevel`, `diagnosticScore`, `diagnosticSections`, …) y aparece en la pestaña *Students* de cada curso. Solo se puede guardar una vez.
 - Si se actualiza la hoja del banco, hay que volver a generar `data/question-bank.json`.
 
+## Ruta de aprendizaje personalizada (lecciones)
+
+Después del diagnóstico, cada alumno tiene **MY LEARNING PATH**: una ruta de 4 semanas con lecciones interactivas de *English Practice Lessons* (`lessons/`, 293 temas A1–C2).
+
+- **Temas:** cada tema que falló en el diagnóstico se vincula a su lección (`SKILL_LESSONS` en `js/pathway.js`) y va primero, del más fácil al más difícil.
+- **Número:** las secciones más débiles reciben más lecciones (de 3 a 8 por sección, según su banda frente al siguiente nivel).
+- **Orden:** sigue el plan de estudio (semana 1 = sección más débil … semana 4 = repaso + iTEP Writing & Speaking) y cada sección empieza en el nivel del alumno en esa sección.
+- **Desbloqueo:** una lección se aprueba con al menos 50 % (1 ★) y eso desbloquea la siguiente. Se guarda el mejor resultado.
+- **Progreso:** en Firestore, campos `pathProgress` (por lección: %, estrellas), `pathDone` y `pathTotal`. Los docentes lo ven en la columna *Learning path*.
+- Las lecciones se abren dentro de la app (`lessons/index.html?embed=1#<id>`); también funcionan solas en `/lessons/`.
+
 ## Docentes
 
 1. En la pantalla inicial: **ARE YOU A TEACHER?** pide el **teachers code** (lo da la administradora; la regla de Firestore también lo exige, y en este repositorio aparece como `TEACHER_CODE_HERE` porque es público). Con el código correcto aparecen su propio **CREATE ACCOUNT** (nombre, apellido, correo institucional y contraseña → correo de verificación) y su propio **LOG IN**.

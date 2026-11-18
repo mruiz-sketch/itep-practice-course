@@ -1,0 +1,168 @@
+{
+ "id": "a2-g11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Quantifiers",
+   "subtitle": "Cuantificadores: much, many, a lot of, a few, a little",
+   "goals": [
+    "Usar **much / many** según el sustantivo.",
+    "Usar **a few / a little** para cantidades pequeñas.",
+    "Expresar exceso con **too much / too many** y suficiente con **enough**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Contable vs incontable",
+   "table": {
+    "head": [
+     "",
+     "Contables (plural)",
+     "Incontables"
+    ],
+    "rows": [
+     [
+      "Mucho (preguntas y negativas)",
+      "**many**: How **many** books?",
+      "**much**: How **much** money?"
+     ],
+     [
+      "Mucho (afirmativas)",
+      "**a lot of** friends",
+      "**a lot of** time"
+     ],
+     [
+      "Poco (pero suficiente)",
+      "**a few** friends",
+      "**a little** sugar"
+     ],
+     [
+      "Demasiado",
+      "**too many** people",
+      "**too much** noise"
+     ],
+     [
+      "Suficiente",
+      "**enough** chairs",
+      "**enough** time"
+     ]
+    ]
+   },
+   "tip": "*Few / little* sin *a* tienen sentido negativo: *I have **few** friends* = casi no tengo amigos."
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "How many students are there? — Not many.",
+     "es": "¿Cuántos alumnos hay? — No muchos."
+    },
+    {
+     "en": "I don't have much time.",
+     "es": "No tengo mucho tiempo."
+    },
+    {
+     "en": "I need a little help.",
+     "es": "Necesito un poco de ayuda."
+    },
+    {
+     "en": "There are too many cars in the city.",
+     "es": "Hay demasiados coches en la ciudad."
+    },
+    {
+     "en": "We don't have enough money.",
+     "es": "No tenemos suficiente dinero."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "How ___ water do you drink?",
+     "options": [
+      "many",
+      "much"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I have ___ questions.",
+     "options": [
+      "a few",
+      "a little"
+     ],
+     "a": 0
+    },
+    {
+     "q": "There isn't ___ milk.",
+     "options": [
+      "many",
+      "much"
+     ],
+     "a": 1
+    },
+    {
+     "q": "There's ___ salt in this soup. It's terrible!",
+     "options": [
+      "too much",
+      "too many"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Do we have ___ chairs for everyone?",
+     "options": [
+      "enough",
+      "too"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "¿Many o much?",
+   "buckets": [
+    "many",
+    "much"
+   ],
+   "items": [
+    {
+     "w": "people",
+     "b": 0
+    },
+    {
+     "w": "apples",
+     "b": 0
+    },
+    {
+     "w": "hours",
+     "b": 0
+    },
+    {
+     "w": "friends",
+     "b": 0
+    },
+    {
+     "w": "rice",
+     "b": 1
+    },
+    {
+     "w": "homework",
+     "b": 1
+    },
+    {
+     "w": "information",
+     "b": 1
+    },
+    {
+     "w": "traffic",
+     "b": 1
+    }
+   ]
+  }
+ ]
+}

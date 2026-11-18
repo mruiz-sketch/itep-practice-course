@@ -1,0 +1,76 @@
+{
+  "id": "a1-p06",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Question intonation",
+      "subtitle": "Entonación de preguntas",
+      "goals": [
+        "Subir la voz al final de las preguntas **yes/no**.",
+        "Bajar la voz al final de las preguntas **wh-**.",
+        "Usar la entonación para sonar amable."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Sube o baja",
+      "table": {
+        "head": ["Tipo de pregunta", "Entonación", "Ejemplo", "Escucha"],
+        "rows": [
+          ["Yes/no (empieza con verbo)", "**sube ↗** al final", "Are you a student ↗?", "Are you a student?"],
+          ["Wh- (what, where, how…)", "**baja ↘** al final", "Where do you live ↘?", "Where do you live?"],
+          ["Opciones con *or*", "sube en la 1.ª, baja en la 2.ª", "Tea ↗ or coffee ↘?", "Tea or coffee?"],
+          ["Afirmación", "baja ↘", "I'm from Mexico ↘.", "I'm from Mexico."]
+        ],
+        "speak": 3
+      },
+      "tip": "Una afirmación dicha con la voz hacia arriba suena a pregunta o a sorpresa: *You're from Mexico ↗?* = ¿De verdad eres de México?"
+    },
+    {
+      "type": "sort",
+      "title": "¿Sube o baja al final?",
+      "buckets": ["sube ↗", "baja ↘"],
+      "items": [
+        { "w": "Do you like pizza?", "b": 0 },
+        { "w": "Is it far?", "b": 0 },
+        { "w": "Can you help me?", "b": 0 },
+        { "w": "Have you got a pen?", "b": 0 },
+        { "w": "What's your name?", "b": 1 },
+        { "w": "Where are you from?", "b": 1 },
+        { "w": "How old are you?", "b": 1 },
+        { "w": "I live in Querétaro.", "b": 1 }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Escucha y repite",
+      "items": [
+        { "en": "Do you speak English ↗?", "say": "Do you speak English?", "es": "¿Hablas inglés?" },
+        { "en": "What time is it ↘?", "say": "What time is it?", "es": "¿Qué hora es?" },
+        { "en": "Is this seat free ↗?", "say": "Is this seat free?", "es": "¿Está libre este asiento?" },
+        { "en": "Why are you late ↘?", "say": "Why are you late?", "es": "¿Por qué llegas tarde?" },
+        { "en": "Would you like water ↗ or juice ↘?", "say": "Would you like water, or juice?", "es": "¿Quieres agua o jugo?" }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Pregunta o afirmación?",
+      "instr": "Escucha la entonación final y decide.",
+      "items": [
+        { "say": "You're a teacher?", "options": ["Pregunta (sorpresa)", "Afirmación"], "a": 0 },
+        { "say": "You're a teacher.", "options": ["Pregunta (sorpresa)", "Afirmación"], "a": 1 },
+        { "say": "It's Monday?", "options": ["Pregunta (sorpresa)", "Afirmación"], "a": 0 }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la entonación correcta",
+      "items": [
+        { "q": "How are you?", "options": ["sube ↗", "baja ↘"], "a": 1 },
+        { "q": "Are you hungry?", "options": ["sube ↗", "baja ↘"], "a": 0 },
+        { "q": "Where's the bathroom?", "options": ["sube ↗", "baja ↘"], "a": 1 },
+        { "q": "Can I sit here?", "options": ["sube ↗", "baja ↘"], "a": 0 }
+      ]
+    }
+  ]
+}

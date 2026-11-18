@@ -1,0 +1,166 @@
+{
+  "id": "a1-g03",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "The verb to be",
+      "subtitle": "Verbo *to be* en presente: afirmativa, negativa y preguntas",
+      "goals": [
+        "Usar **am, is, are** con cada pronombre.",
+        "Formar oraciones **negativas** y **preguntas**.",
+        "Responder con **respuestas cortas**: *Yes, I am. / No, she isn't.*"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Afirmativa: am, is, are",
+      "body": [
+        "*To be* equivale a **ser** y **estar**. En la conversación casi siempre se usa la **contracción**."
+      ],
+      "table": {
+        "head": ["Forma completa", "Contracción", "Escucha"],
+        "rows": [
+          ["I **am**", "I'm", "I'm"],
+          ["you **are**", "you're", "you're"],
+          ["he **is**", "he's", "he's"],
+          ["she **is**", "she's", "she's"],
+          ["it **is**", "it's", "it's"],
+          ["we **are**", "we're", "we're"],
+          ["they **are**", "they're", "they're"]
+        ],
+        "speak": 2
+      },
+      "list": [
+        "Origen: *I'm from Mexico.*",
+        "Profesión, con **a / an**: *She's **a** doctor.*",
+        "Edad: *I'm 19 years old.*",
+        "Estados y sensaciones: *We're tired. Are you hungry?*",
+        "Lugar: *They're at school.*"
+      ],
+      "errors": [
+        { "bad": "I have 19 years.", "good": "I **am** 19 years old.", "note": "La edad se dice con **to be**, no con *have*." },
+        { "bad": "She is doctor.", "good": "She is **a** doctor.", "note": "Las profesiones en singular llevan **a / an**." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "To be en la vida diaria",
+      "items": [
+        { "en": "I'm Mel. I'm a teacher.", "es": "Soy Mel. Soy maestra." },
+        { "en": "You're in group 1A.", "es": "Estás en el grupo 1A." },
+        { "en": "He's 20 years old.", "es": "Tiene 20 años." },
+        { "en": "It's a great app.", "es": "Es una gran app." },
+        { "en": "We're from Santa Rosa Jáuregui.", "say": "We're from Santa Rosa.", "es": "Somos de Santa Rosa Jáuregui." },
+        { "en": "They're hungry.", "es": "Tienen hambre.", "note": "*hungry, thirsty, cold, hot* van con **to be**." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con am, is o are",
+      "items": [
+        { "t": "I ___ a student.", "a": ["am"] },
+        { "t": "My brother ___ a mechanic.", "a": ["is"] },
+        { "t": "You ___ very kind.", "a": ["are"] },
+        { "t": "The classroom ___ big.", "a": ["is"] },
+        { "t": "Luis and Ana ___ from Querétaro.", "a": ["are"], "why": "Dos personas → *they* → **are**." },
+        { "t": "We ___ ready.", "a": ["are"] }
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Negativa y preguntas",
+      "table": {
+        "head": ["", "Forma", "Ejemplo"],
+        "rows": [
+          ["Negativa", "sujeto + am / is / are + **not**", "She **isn't** at home. / I**'m not** tired."],
+          ["Pregunta", "**Am / Is / Are** + sujeto + …?", "**Are** you a student? **Is** he your brother?"],
+          ["Pregunta con *wh-*", "Wh- + am / is / are + sujeto?", "**Where are** you from? **How old is** she?"],
+          ["Respuesta corta", "Yes, sujeto + verbo. / No, sujeto + verbo + not.", "Yes, I **am**. No, he **isn't**."]
+        ]
+      },
+      "errors": [
+        { "bad": "I amn't ready.", "good": "I'**m not** ready.", "note": "*Amn't* no existe en inglés estándar." },
+        { "bad": "Yes, I'm.", "good": "Yes, I **am**.", "note": "En respuestas cortas **afirmativas** no se contrae." }
+      ],
+      "tip": "*isn't* = *is not* · *aren't* = *are not*. También se dice *she's not* y *they're not*."
+    },
+    {
+      "type": "examples",
+      "title": "Preguntas y respuestas cortas",
+      "items": [
+        { "en": "Are you a student? — Yes, I am.", "es": "¿Eres estudiante? — Sí." },
+        { "en": "Is she your sister? — No, she isn't.", "es": "¿Es tu hermana? — No." },
+        { "en": "Are they at school? — Yes, they are.", "es": "¿Están en la escuela? — Sí." },
+        { "en": "Where are you from? — I'm from Mexico.", "es": "¿De dónde eres? — Soy de México." },
+        { "en": "How old is he? — He's twenty-two.", "es": "¿Cuántos años tiene? — Tiene 22." }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "___ you tired?", "options": ["Is", "Are", "Am"], "a": 1 },
+        { "q": "My phone ___ new.", "options": ["isn't", "aren't", "amn't"], "a": 0 },
+        { "q": "¿Cómo se dice *Tengo 18 años*?", "options": ["I have 18 years.", "I am 18 years.", "I'm 18 years old."], "a": 2, "why": "La edad va con **to be**: *I'm 18 (years old)*." },
+        { "q": "Is Carlos an engineer? — Yes, ___", "options": ["he's.", "he is.", "is he."], "a": 1, "why": "En respuestas cortas afirmativas no se contrae." },
+        { "q": "Where ___ they from?", "options": ["is", "am", "are"], "a": 2 },
+        { "q": "I ___ hungry. I just ate.", "options": ["'m not", "isn't", "aren't"], "a": 0 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las preguntas",
+      "items": [
+        { "a": "Are you a student?", "es": "¿Eres estudiante?" },
+        { "a": "Is she from Mexico?", "es": "¿Ella es de México?" },
+        { "a": "Where are they now?", "es": "¿Dónde están ahora?" },
+        { "a": "How old is your brother?", "es": "¿Cuántos años tiene tu hermano?" }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la pregunta con su respuesta",
+      "pairs": [
+        ["Are you tired?", "Yes, I am."],
+        ["Is he a teacher?", "No, he isn't."],
+        ["Are they at home?", "Yes, they are."],
+        ["Is it cold?", "No, it isn't."],
+        ["Am I late?", "Yes, you are."],
+        ["Is Ana your sister?", "Yes, she is."]
+      ],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Escribe la negativa",
+      "items": [
+        { "t": "He is at school. → He ___ at school.", "a": ["isn't", "is not", "'s not"] },
+        { "t": "We are late. → We ___ late.", "a": ["aren't", "are not", "'re not"] },
+        { "t": "I am from Spain. → I ___ from Spain.", "a": ["'m not", "am not", "m not"], "clue": "Recuerda: *amn't* no existe." },
+        { "t": "It is expensive. → It ___ expensive.", "a": ["isn't", "is not", "'s not"] }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha y elige lo que oíste",
+      "items": [
+        { "say": "They're students.", "options": ["They're students.", "There students.", "Their students."], "a": 0, "why": "*They're* = *they are*. Suena igual que *their* y *there*." },
+        { "say": "She isn't here.", "options": ["She is here.", "She isn't here.", "Is she here?"], "a": 1 },
+        { "say": "Are you ready?", "options": ["You are ready.", "Are you ready?", "You aren't ready."], "a": 1, "why": "La pregunta empieza con el verbo: **Are** you…?" },
+        { "say": "We're from Mexico.", "options": ["We're from Mexico.", "Were from Mexico.", "We from Mexico."], "a": 0 },
+        { "say": "I'm not tired.", "options": ["I'm tired.", "I'm not tired.", "Am I tired?"], "a": 1 }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*Yes, I'm.* es una respuesta corta correcta.", "a": false, "why": "Se dice **Yes, I am.**" },
+        { "s": "*She's not* y *She isn't* significan lo mismo.", "a": true },
+        { "s": "*I have 20 years* es la forma correcta de decir tu edad.", "a": false, "why": "Se dice **I'm 20 (years old)**." },
+        { "s": "En una pregunta, *am / is / are* va antes del sujeto.", "a": true },
+        { "s": "*They're*, *their* y *there* suenan igual.", "a": true }
+      ]
+    }
+  ]
+}

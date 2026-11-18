@@ -1,0 +1,120 @@
+{
+ "id": "b1-g22",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "-ed vs -ing adjectives",
+   "subtitle": "bored or boring?",
+   "goals": [
+    "Use **-ed** for how people **feel**.",
+    "Use **-ing** for what **causes** the feeling.",
+    "Avoid the classic mistake *I'm boring*."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Feeling vs cause",
+   "table": {
+    "head": [
+     "-ed (how you feel)",
+     "-ing (what causes it)"
+    ],
+    "rows": [
+     [
+      "I'm **bored**.",
+      "The class is **boring**."
+     ],
+     [
+      "She's **interested** in art.",
+      "Art is **interesting**."
+     ],
+     [
+      "We were **tired**.",
+      "The trip was **tiring**."
+     ],
+     [
+      "I'm **confused**.",
+      "The instructions are **confusing**."
+     ],
+     [
+      "He was **embarrassed**.",
+      "It was an **embarrassing** moment."
+     ]
+    ]
+   },
+   "watch": "*I'm boring* = I'm a boring person! Usually you mean *I'm **bored***."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "This movie is so ___.",
+     "options": [
+      "bored",
+      "boring"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I'm ___ in learning Korean.",
+     "options": [
+      "interested",
+      "interesting"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The news was really ___.",
+     "options": [
+      "shocked",
+      "shocking"
+     ],
+     "a": 1
+    },
+    {
+     "q": "We were ___ after the long walk.",
+     "options": [
+      "exhausted",
+      "exhausting"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Feeling or cause?",
+   "buckets": [
+    "feeling (-ed)",
+    "cause (-ing)"
+   ],
+   "items": [
+    {
+     "w": "amazed",
+     "b": 0
+    },
+    {
+     "w": "frightened",
+     "b": 0
+    },
+    {
+     "w": "disappointed",
+     "b": 0
+    },
+    {
+     "w": "amazing",
+     "b": 1
+    },
+    {
+     "w": "frightening",
+     "b": 1
+    },
+    {
+     "w": "disappointing",
+     "b": 1
+    }
+   ]
+  }
+ ]
+}

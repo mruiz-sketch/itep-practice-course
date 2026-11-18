@@ -1,0 +1,75 @@
+{
+ "id": "c2-g01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Structures for stylistic effect",
+   "subtitle": "Expert grammar choices",
+   "goals": [
+    "Choose structures for effect, not only correctness.",
+    "Vary sentence structure for rhythm.",
+    "Control emphasis and focus."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and effect",
+   "table": {
+    "head": [
+     "Effect",
+     "Plain",
+     "Stylistic"
+    ],
+    "rows": [
+     [
+      "Emphasis",
+      "I rarely saw such talent.",
+      "Rarely have I seen such talent."
+     ],
+     [
+      "Focus",
+      "His attitude bothers me.",
+      "What bothers me is his attitude."
+     ],
+     [
+      "Concision",
+      "Because she felt tired, she left.",
+      "Feeling tired, she left."
+     ],
+     [
+      "Formality",
+      "If you need help…",
+      "Should you need help…"
+     ],
+     [
+      "Suspense",
+      "A man stood in the doorway.",
+      "In the doorway stood a man."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Most suspenseful:",
+     "options": [
+      "Out of the darkness came a voice.",
+      "A voice came out of the darkness."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Most concise:",
+     "options": [
+      "Having finished, he left.",
+      "After he had finished, he left."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "a1-f08",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Giving simple instructions",
+      "subtitle": "Dar instrucciones simples",
+      "goals": [
+        "Dar instrucciones paso a paso con el **imperativo**.",
+        "Ordenar los pasos con **first, then, next, finally**.",
+        "Dar direcciones básicas: *turn left, go straight*."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Instrucciones y direcciones",
+      "table": {
+        "head": ["Tipo", "Frases", "Ejemplo"],
+        "rows": [
+          ["Pasos", "First…, Then…, Next…, Finally…", "First, open the app. Then, click *Log in*."],
+          ["Direcciones", "go straight, turn left / right, go past, cross the street", "Go straight and turn left at the bank."],
+          ["Ubicación final", "It's on your left / right. It's on the corner.", "The café is on your right."],
+          ["Prohibición", "Don't + verbo", "Don't touch the screen."]
+        ]
+      }
+    },
+    {
+      "type": "examples",
+      "title": "Cómo hacer un café instantáneo",
+      "items": [
+        { "en": "First, boil some water.", "es": "Primero, hierve agua." },
+        { "en": "Then, put a spoon of coffee in a cup.", "es": "Luego, pon una cucharada de café en una taza." },
+        { "en": "Next, add the hot water and stir.", "es": "Después, agrega el agua caliente y mezcla." },
+        { "en": "Finally, add milk and sugar if you like.", "es": "Por último, agrega leche y azúcar si quieres." },
+        { "en": "Go straight, then turn right. The library is on your left.", "es": "Sigue derecho y luego da vuelta a la derecha. La biblioteca está a tu izquierda." }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las instrucciones",
+      "items": [
+        { "a": "First, turn on the computer.", "es": "Primero, prende la computadora." },
+        { "a": "Then, type your school ID and password.", "es": "Luego, escribe tu matrícula y contraseña." },
+        { "a": "Finally, click on the green button.", "es": "Por último, da clic en el botón verde." }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["turn left", "da vuelta a la izquierda"], ["go straight", "sigue derecho"], ["cross the street", "cruza la calle"], ["on the corner", "en la esquina"], ["go past the bank", "pasa el banco"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Completa las instrucciones",
+      "items": [
+        { "t": "___, wash your hands. Then, start cooking.", "a": ["First"] },
+        { "t": "Turn ___ at the traffic lights. (derecha)", "a": ["right"] },
+        { "t": "___ forget to save your work! (negativo)", "a": ["Don't", "Do not"] },
+        { "t": "___, check your answers and submit the test.", "a": ["Finally"] }
+      ]
+    }
+  ]
+}

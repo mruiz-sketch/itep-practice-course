@@ -1,0 +1,88 @@
+{
+  "id": "a1-g11",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Always, usually, never…",
+      "subtitle": "Adverbios de frecuencia",
+      "goals": [
+        "Decir **con qué frecuencia** haces algo.",
+        "Colocar el adverbio en el lugar correcto.",
+        "Preguntar con **How often…?**"
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "De 100 % a 0 %",
+      "table": {
+        "head": ["Adverbio", "Frecuencia", "Escucha"],
+        "rows": [
+          ["**always**", "100 % · siempre", "always"],
+          ["**usually**", "≈ 80 % · normalmente", "usually"],
+          ["**often**", "≈ 60 % · a menudo", "often"],
+          ["**sometimes**", "≈ 40 % · a veces", "sometimes"],
+          ["**rarely / hardly ever**", "≈ 10 % · casi nunca", "rarely"],
+          ["**never**", "0 % · nunca", "never"]
+        ],
+        "speak": 2
+      },
+      "list": [
+        "**Antes** del verbo principal: *I **always** get up early.*",
+        "**Después** de *to be*: *She is **never** late.*",
+        "En preguntas, después del sujeto: *Do you **often** eat out?*"
+      ],
+      "errors": [
+        { "bad": "I go always to school by bus.", "good": "I **always go** to school by bus." },
+        { "bad": "He never is tired.", "good": "He **is never** tired.", "note": "Con *to be*, el adverbio va **después**." },
+        { "bad": "I don't never eat meat.", "good": "I **never** eat meat.", "note": "*Never* ya es negativo: no se usa con *don't*." }
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "¿Qué tan seguido?",
+      "items": [
+        { "en": "I **always** have breakfast.", "es": "Siempre desayuno." },
+        { "en": "We **usually** study in the library.", "es": "Normalmente estudiamos en la biblioteca." },
+        { "en": "She **sometimes** works on Saturday.", "es": "A veces trabaja el sábado." },
+        { "en": "They are **never** late.", "es": "Nunca llegan tarde." },
+        { "en": "How often do you go to the gym? — Twice a week.", "es": "¿Qué tan seguido vas al gimnasio? — Dos veces por semana.", "note": "*once a week, twice a month, every day*" }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Pon el adverbio en su lugar",
+      "items": [
+        { "a": "I usually walk to school.", "es": "Normalmente camino a la escuela." },
+        { "a": "She is always happy.", "es": "Ella siempre está contenta." },
+        { "a": "We never eat fast food.", "es": "Nunca comemos comida rápida." },
+        { "a": "Do you often play video games?", "es": "¿Juegas videojuegos a menudo?" }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "¿Dónde va el adverbio?",
+      "items": [
+        { "q": "¿Cuál es correcta?", "options": ["He is always busy.", "He always is busy.", "Always he is busy."], "a": 0 },
+        { "q": "¿Cuál es correcta?", "options": ["I go sometimes to the cinema.", "I sometimes go to the cinema.", "I go to sometimes the cinema."], "a": 1 },
+        { "q": "*Casi nunca veo la tele* =", "options": ["I hardly ever watch TV.", "I always watch TV.", "I don't never watch TV."], "a": 0 },
+        { "q": "___ do you call your parents? — Every day.", "options": ["How much", "How often", "How many"], "a": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona con su porcentaje",
+      "pairs": [["always", "100 %"], ["usually", "80 %"], ["often", "60 %"], ["sometimes", "40 %"], ["hardly ever", "10 %"], ["never", "0 %"]],
+      "speak": "left"
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "Con *to be*, el adverbio va **antes** del verbo: *She never is late*.", "a": false, "why": "Va después: **She is never late**." },
+        { "s": "*Never* no se usa con *don't*.", "a": true },
+        { "s": "*How often* sirve para preguntar por la frecuencia.", "a": true },
+        { "s": "*Usually* significa casi nunca.", "a": false, "why": "*Usually* = normalmente." }
+      ]
+    }
+  ]
+}

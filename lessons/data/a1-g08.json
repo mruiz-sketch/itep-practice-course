@@ -1,0 +1,85 @@
+{
+  "id": "a1-g08",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "There is / there are",
+      "subtitle": "Para decir qué hay en un lugar",
+      "goals": [
+        "Usar **there is** con singular e incontables, y **there are** con plural.",
+        "Hacer preguntas: **Is there…? Are there…?**",
+        "Combinarlo con **a, some, any** y números."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Hay = there is / there are",
+      "table": {
+        "head": ["", "Singular / incontable", "Plural"],
+        "rows": [
+          ["Afirmativa", "**There's** a bank. There's some milk.", "**There are** two banks. There are some apples."],
+          ["Negativa", "**There isn't** a bank. There isn't any milk.", "**There aren't** any banks."],
+          ["Pregunta", "**Is there** a bank near here?", "**Are there** any good restaurants?"],
+          ["Respuesta corta", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]
+        ]
+      },
+      "errors": [
+        { "bad": "Have a bank near here.", "good": "**There is** a bank near here.", "note": "*Hay* nunca se traduce con *have*." },
+        { "bad": "There is three students.", "good": "There **are** three students." }
+      ],
+      "tip": "*How many…?* va con **are there**: *How many students **are there** in your class?*"
+    },
+    {
+      "type": "examples",
+      "title": "Describe tu salón y tu ciudad",
+      "items": [
+        { "en": "There's a big screen in my classroom.", "es": "Hay una pantalla grande en mi salón." },
+        { "en": "There are thirty chairs.", "es": "Hay treinta sillas." },
+        { "en": "There isn't a window.", "es": "No hay ventana." },
+        { "en": "Is there a pharmacy near here? — Yes, there is.", "es": "¿Hay una farmacia cerca? — Sí." },
+        { "en": "Are there any parks in your town?", "es": "¿Hay parques en tu pueblo?" },
+        { "en": "How many students are there?", "es": "¿Cuántos alumnos hay?" }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa con is o are",
+      "items": [
+        { "t": "There ___ a cat on the sofa.", "a": ["is", "'s"] },
+        { "t": "There ___ four people in my family.", "a": ["are"] },
+        { "t": "There ___ some water in the bottle.", "a": ["is", "'s"], "why": "*Water* es incontable → **is**." },
+        { "t": "___ there any eggs in the fridge?", "a": ["Are"] },
+        { "t": "There ___ any milk. (negativa)", "a": ["isn't", "is not"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "Elige la forma correcta",
+      "items": [
+        { "q": "___ a hospital in Santa Rosa?", "options": ["Is there", "Are there", "There is"], "a": 0 },
+        { "q": "How many rooms ___ in your house?", "options": ["there is", "are there", "is there"], "a": 1 },
+        { "q": "Are there any buses after 10 p.m.? — No, ___", "options": ["there isn't.", "there aren't.", "they aren't."], "a": 1 },
+        { "q": "¿Cómo se dice *Hay mucha gente*?", "options": ["Have a lot of people.", "There are a lot of people.", "There is a lot of people."], "a": 1, "why": "*People* es plural → **there are**." }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "There are two supermarkets near my house.", "es": "Hay dos supermercados cerca de mi casa." },
+        { "a": "Is there a bathroom on this floor?", "es": "¿Hay un baño en este piso?" },
+        { "a": "There isn't any coffee.", "es": "No hay café." }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "*Hay* se puede traducir como **have**.", "a": false, "why": "Se dice **there is / there are**." },
+        { "s": "**There's** es la contracción de *there is*.", "a": true },
+        { "s": "Con *money* (incontable) se dice **there is**.", "a": true },
+        { "s": "*There are a book* es correcto.", "a": false, "why": "Un libro → **There is a book**." }
+      ]
+    }
+  ]
+}

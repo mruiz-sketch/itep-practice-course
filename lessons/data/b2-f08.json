@@ -1,0 +1,66 @@
+{
+ "id": "b2-f08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Managing turn-taking",
+   "subtitle": "Interrupting, holding and giving the floor",
+   "goals": [
+    "Interrupt politely.",
+    "Keep your turn.",
+    "Invite others to speak."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Phrases",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Interrupt",
+      "Sorry to interrupt, but… / Can I just say…?"
+     ],
+     [
+      "Hold the floor",
+      "Let me finish… / If I could just finish my point…"
+     ],
+     [
+      "Give the floor",
+      "What do you think, Ana? / Would you like to add something?"
+     ],
+     [
+      "Return to topic",
+      "Going back to what you said…"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "Sorry to interrupt, but…",
+     "interrupting"
+    ],
+    [
+     "Let me just finish…",
+     "holding the floor"
+    ],
+    [
+     "What do you think?",
+     "giving the floor"
+    ],
+    [
+     "Going back to…",
+     "returning to a point"
+    ]
+   ]
+  }
+ ]
+}

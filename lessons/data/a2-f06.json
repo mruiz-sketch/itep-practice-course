@@ -1,0 +1,89 @@
+{
+ "id": "a2-f06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Asking for and giving advice",
+   "subtitle": "Pedir y dar consejo",
+   "goals": [
+    "Pedir consejo: *What should I do?*",
+    "Dar consejo con **should, why don't you…?, if I were you…**",
+    "Responder a un consejo."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Frases para aconsejar",
+   "table": {
+    "head": [
+     "Frase",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "You should / shouldn't…",
+      "You **should** talk to your teacher."
+     ],
+     [
+      "Why don't you…?",
+      "**Why don't you** take a break?"
+     ],
+     [
+      "If I were you, I'd…",
+      "**If I were you, I'd** buy the cheaper one."
+     ],
+     [
+      "You could…",
+      "You **could** try yoga."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "I always feel tired. What should I do?",
+     "es": "Siempre estoy cansado. ¿Qué hago?"
+    },
+    {
+     "en": "You should go to bed earlier.",
+     "es": "Deberías acostarte más temprano."
+    },
+    {
+     "en": "Why don't you drink less coffee?",
+     "es": "¿Por qué no tomas menos café?"
+    },
+    {
+     "en": "That's a good idea. Thanks!",
+     "es": "Buena idea. ¡Gracias!"
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "You ___ eat more vegetables.",
+     "a": [
+      "should"
+     ]
+    },
+    {
+     "t": "Why ___ you ask for help?",
+     "a": [
+      "don't"
+     ]
+    },
+    {
+     "t": "If I ___ you, I'd study more.",
+     "a": [
+      "were"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "b1-p01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Sentence stress and weak forms",
+   "subtitle": "Rhythm in connected speech",
+   "goals": [
+    "Stress content words.",
+    "Reduce auxiliaries and prepositions.",
+    "Recognize weak forms when listening."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Weak forms",
+   "table": {
+    "head": [
+     "Word",
+     "Weak",
+     "Example",
+     "Listen"
+    ],
+    "rows": [
+     [
+      "and",
+      "/ən/",
+      "fish and chips",
+      "fish and chips"
+     ],
+     [
+      "have",
+      "/əv/",
+      "I should have known",
+      "I should have known"
+     ],
+     [
+      "are",
+      "/ə/",
+      "They are coming",
+      "They are coming"
+     ],
+     [
+      "from",
+      "/frəm/",
+      "I'm from Mexico",
+      "I'm from Mexico"
+     ],
+     [
+      "some",
+      "/səm/",
+      "some water",
+      "some water"
+     ]
+    ],
+    "speak": 3
+   }
+  },
+  {
+   "type": "listen",
+   "title": "What did you hear?",
+   "items": [
+    {
+     "say": "Where have you been?",
+     "options": [
+      "Where have you been?",
+      "Where are you been?"
+     ],
+     "a": 0
+    },
+    {
+     "say": "I could have gone.",
+     "options": [
+      "I could have gone.",
+      "I could of gone."
+     ],
+     "a": 0,
+     "why": "It sounds like *could've*, but it's written *could have*."
+    },
+    {
+     "say": "A cup of tea.",
+     "options": [
+      "A cup of tea.",
+      "A cup a tea."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

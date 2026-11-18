@@ -1,0 +1,76 @@
+{
+ "id": "a2-p06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Rhythm and content words",
+   "subtitle": "Ritmo y palabras de contenido",
+   "goals": [
+    "Acentuar las **palabras de contenido**.",
+    "Reducir las palabras de función.",
+    "Hablar con ritmo natural."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Palabras de contenido vs de función",
+   "table": {
+    "head": [
+     "Contenido (acentuadas)",
+     "Función (débiles)"
+    ],
+    "rows": [
+     [
+      "sustantivos, verbos principales, adjetivos, adverbios, negativos",
+      "artículos, preposiciones, pronombres, auxiliares, conjunciones"
+     ],
+     [
+      "**WANT, GO, CINEMA, TOMORROW**",
+      "I, to, the, a, and"
+     ]
+    ]
+   },
+   "tip": "El inglés tiene ritmo de \"golpes\": el tiempo entre sílabas fuertes es parecido. *I WANT to GO to the CINema toMORrow.*"
+  },
+  {
+   "type": "examples",
+   "title": "Escucha el ritmo",
+   "items": [
+    {
+     "en": "I WANT to GO to the CINema.",
+     "say": "I want to go to the cinema."
+    },
+    {
+     "en": "She BOUGHT a NEW CAR.",
+     "say": "She bought a new car."
+    },
+    {
+     "en": "We DIDN'T SEE him at the PARty.",
+     "say": "We didn't see him at the party."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "¿Qué palabras se acentúan?",
+   "items": [
+    {
+     "q": "I need a cup of coffee.",
+     "options": [
+      "NEED, CUP, COFFEE",
+      "I, a, of"
+     ],
+     "a": 0
+    },
+    {
+     "q": "He is working at the hospital.",
+     "options": [
+      "WORKING, HOSPITAL",
+      "HE, IS, AT"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

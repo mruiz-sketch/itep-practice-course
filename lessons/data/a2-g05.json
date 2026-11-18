@@ -1,0 +1,155 @@
+{
+ "id": "a2-g05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Going to and will",
+   "subtitle": "Futuro con going to y will",
+   "goals": [
+    "Hablar de **planes** con *going to*.",
+    "Tomar **decisiones al momento** y hacer promesas con *will*.",
+    "Hacer predicciones con ambos."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Diferencia de uso",
+   "table": {
+    "head": [
+     "Uso",
+     "Forma",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Plan ya decidido",
+      "be + **going to**",
+      "I'm **going to** study medicine."
+     ],
+     [
+      "Decisión en el momento",
+      "**will**",
+      "It's cold. I**'ll** close the window."
+     ],
+     [
+      "Promesa / ofrecimiento",
+      "**will**",
+      "I**'ll** help you. I **won't** tell anyone."
+     ],
+     [
+      "Predicción con evidencia",
+      "**going to**",
+      "Look at those clouds! It's **going to** rain."
+     ],
+     [
+      "Opinión sobre el futuro",
+      "**will** (I think…)",
+      "I think you**'ll** pass."
+     ]
+    ]
+   },
+   "tip": "*won't* = *will not*. Con *will* el verbo va en forma base: *She will **go**.*"
+  },
+  {
+   "type": "examples",
+   "title": "Ejemplos",
+   "items": [
+    {
+     "en": "We're going to visit Oaxaca in December.",
+     "es": "Vamos a ir a Oaxaca en diciembre."
+    },
+    {
+     "en": "The phone's ringing. — I'll get it!",
+     "es": "Suena el teléfono. — ¡Yo contesto!"
+    },
+    {
+     "en": "Don't worry. I won't forget.",
+     "es": "No te preocupes. No se me va a olvidar."
+    },
+    {
+     "en": "I think robots will do many jobs.",
+     "es": "Creo que los robots harán muchos trabajos."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "¿Going to o will?",
+   "items": [
+    {
+     "q": "I'm thirsty. — I ___ get you some water.",
+     "options": [
+      "'ll",
+      "'m going to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She ___ start a new job next Monday. It's all planned.",
+     "options": [
+      "will",
+      "is going to"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Careful! You ___ fall!",
+     "options": [
+      "will",
+      "are going to"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I promise I ___ call you tonight.",
+     "options": [
+      "will",
+      "am going to"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "I ___ (not / tell) anybody, I promise. (will)",
+     "a": [
+      "won't",
+      "will not"
+     ]
+    },
+    {
+     "t": "They ___ buy a house next year. (plan)",
+     "a": [
+      "are going to",
+      "'re going to"
+     ]
+    },
+    {
+     "t": "I think it ___ be sunny tomorrow. (opinión)",
+     "a": [
+      "will",
+      "'ll"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "What are you going to do this weekend?",
+     "es": "¿Qué vas a hacer este fin de semana?"
+    },
+    {
+     "a": "I'll send you the file later.",
+     "es": "Te mando el archivo más tarde."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "a1-v13",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Places in town",
+      "subtitle": "Lugares de la ciudad",
+      "goals": [
+        "Nombrar lugares de la ciudad.",
+        "Decir para qué sirve cada lugar.",
+        "Preguntar *Is there a… near here?*"
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Lugares comunes",
+      "items": [
+        { "en": "bank, post office", "es": "banco, oficina de correos" },
+        { "en": "supermarket, market, mall", "es": "súper, mercado, centro comercial" },
+        { "en": "hospital, pharmacy (drugstore)", "es": "hospital, farmacia" },
+        { "en": "park, square", "es": "parque, plaza" },
+        { "en": "library, museum, cinema (movie theater)", "es": "biblioteca, museo, cine" },
+        { "en": "gas station, bus stop, train station", "es": "gasolinera, parada de camión, estación de tren" },
+        { "en": "church, police station, gym", "es": "iglesia, estación de policía, gimnasio" }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "¿Adónde vas?",
+      "pairs": [
+        ["To buy medicine", "pharmacy"],
+        ["To take out money", "bank"],
+        ["To borrow books", "library"],
+        ["To watch a movie", "cinema"],
+        ["To catch a bus", "bus stop"],
+        ["To exercise", "gym"]
+      ],
+      "speak": "right"
+    },
+    {
+      "type": "mc",
+      "title": "Elige el lugar",
+      "items": [
+        { "q": "You can see old paintings there.", "options": ["museum", "bakery", "bank"], "a": 0 },
+        { "q": "You can buy bread there.", "options": ["bakery", "library", "garage"], "a": 0 },
+        { "q": "You send letters and packages there.", "options": ["post office", "mall", "church"], "a": 0 },
+        { "q": "¿Cómo se dice *librería* (donde venden libros)?", "options": ["library", "bookstore", "bookshelf"], "a": 1, "why": "**library** = biblioteca; **bookstore** = librería." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa la pregunta",
+      "items": [
+        { "t": "Excuse me, is ___ a pharmacy near here?", "a": ["there"] },
+        { "t": "I need gas for the car. Where's the gas ___?", "a": ["station"] },
+        { "t": "Let's meet in the main ___. It's next to the church.", "a": ["square", "plaza"] }
+      ]
+    },
+    {
+      "type": "tf",
+      "title": "¿Verdadero o falso?",
+      "items": [
+        { "s": "**Library** significa librería.", "a": false, "why": "**Library** = biblioteca." },
+        { "s": "En EE. UU. al cine también se le dice **movie theater**.", "a": true },
+        { "s": "**Drugstore** es otra forma de decir farmacia en EE. UU.", "a": true }
+      ]
+    }
+  ]
+}

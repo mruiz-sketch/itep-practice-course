@@ -1,0 +1,91 @@
+{
+ "id": "b2-g11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Advanced reported speech",
+   "subtitle": "Reporting verbs and patterns",
+   "goals": [
+    "Use a range of reporting verbs.",
+    "Know their grammar patterns.",
+    "Summarize what people said accurately."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Verb patterns",
+   "table": {
+    "head": [
+     "Pattern",
+     "Verbs",
+     "Example"
+    ],
+    "rows": [
+     [
+      "+ to + verb",
+      "agree, offer, promise, refuse, threaten",
+      "He **refused to** sign."
+     ],
+     [
+      "+ person + to",
+      "advise, encourage, persuade, remind, warn",
+      "She **reminded me to** call."
+     ],
+     [
+      "+ -ing",
+      "admit, deny, recommend, suggest",
+      "He **denied stealing** the money."
+     ],
+     [
+      "+ preposition + -ing",
+      "apologize for, accuse sb of, insist on",
+      "She **apologized for being** late."
+     ],
+     [
+      "+ that",
+      "explain, claim, complain, admit",
+      "They **claimed that** it was safe."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the correct report",
+   "items": [
+    {
+     "q": "\"I didn't take it!\" →",
+     "options": [
+      "He denied taking it.",
+      "He denied to take it."
+     ],
+     "a": 0
+    },
+    {
+     "q": "\"Don't forget your passport.\" →",
+     "options": [
+      "She reminded me to take my passport.",
+      "She reminded me taking my passport."
+     ],
+     "a": 0
+    },
+    {
+     "q": "\"Sorry I'm late.\" →",
+     "options": [
+      "He apologized for being late.",
+      "He apologized to be late."
+     ],
+     "a": 0
+    },
+    {
+     "q": "\"You stole my idea!\" →",
+     "options": [
+      "She accused me of stealing her idea.",
+      "She accused me to steal her idea."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

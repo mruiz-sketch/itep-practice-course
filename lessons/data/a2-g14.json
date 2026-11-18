@@ -1,0 +1,162 @@
+{
+ "id": "a2-g14",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Verb + -ing or to",
+   "subtitle": "Verbo + -ing / verbo + to-infinitivo",
+   "goals": [
+    "Saber qué verbos van con **-ing**.",
+    "Saber qué verbos van con **to** + verbo.",
+    "Usar **would like to** para deseos."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Dos grupos de verbos",
+   "table": {
+    "head": [
+     "+ -ing",
+     "+ to + verbo"
+    ],
+    "rows": [
+     [
+      "enjoy, finish, mind, stop",
+      "want, need, decide, plan"
+     ],
+     [
+      "like, love, hate (también + to)",
+      "hope, learn, promise, would like"
+     ],
+     [
+      "go + actividad: go swimming",
+      "try (intentar), forget, agree"
+     ]
+    ]
+   },
+   "list": [
+    "*I enjoy **dancing**.* / *I finished **writing** the essay.*",
+    "*I want **to travel**.* / *She decided **to study** medicine.*",
+    "*I'd like **to go**.* (no *I'd like going*)"
+   ],
+   "errors": [
+    {
+     "bad": "I enjoy to read.",
+     "good": "I enjoy **reading**."
+    },
+    {
+     "bad": "I want going.",
+     "good": "I want **to go**."
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "¿-ing o to?",
+   "buckets": [
+    "+ -ing",
+    "+ to"
+   ],
+   "items": [
+    {
+     "w": "enjoy",
+     "b": 0
+    },
+    {
+     "w": "finish",
+     "b": 0
+    },
+    {
+     "w": "mind",
+     "b": 0
+    },
+    {
+     "w": "stop",
+     "b": 0
+    },
+    {
+     "w": "want",
+     "b": 1
+    },
+    {
+     "w": "decide",
+     "b": 1
+    },
+    {
+     "w": "hope",
+     "b": 1
+    },
+    {
+     "w": "learn",
+     "b": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "I enjoy ___ (cook).",
+     "a": [
+      "cooking"
+     ]
+    },
+    {
+     "t": "She wants ___ (be) a pilot.",
+     "a": [
+      "to be"
+     ]
+    },
+    {
+     "t": "We decided ___ (stay) at home.",
+     "a": [
+      "to stay"
+     ]
+    },
+    {
+     "t": "Do you mind ___ (wait) a minute?",
+     "a": [
+      "waiting"
+     ]
+    },
+    {
+     "t": "I'd like ___ (learn) French.",
+     "a": [
+      "to learn"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "He promised ___ me.",
+     "options": [
+      "calling",
+      "to call"
+     ],
+     "a": 1
+    },
+    {
+     "q": "They finished ___ at 9.",
+     "options": [
+      "working",
+      "to work"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I'm learning ___ the guitar.",
+     "options": [
+      "playing",
+      "to play"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

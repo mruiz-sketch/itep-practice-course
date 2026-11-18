@@ -1,0 +1,103 @@
+{
+ "id": "b1-g12",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Be able to, be allowed to, need to, ought to",
+   "subtitle": "Semi-modals for ability, permission and necessity",
+   "goals": [
+    "Use semi-modals in tenses where *can / must* don't work.",
+    "Talk about permission with **be allowed to**.",
+    "Give advice with **ought to**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Meanings",
+   "table": {
+    "head": [
+     "Form",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "be able to",
+      "ability (any tense)",
+      "I **won't be able to** come tomorrow."
+     ],
+     [
+      "be allowed to",
+      "permission",
+      "We **weren't allowed to** use phones."
+     ],
+     [
+      "need to / don't need to",
+      "necessity",
+      "You **don't need to** bring anything."
+     ],
+     [
+      "ought to",
+      "advice (= should)",
+      "You **ought to** see a doctor."
+     ]
+    ]
+   },
+   "tip": "*Can* has no future or perfect form: say *I'll be able to*, *I've been able to*."
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "I ___ swim since I was five.",
+     "options": [
+      "'ve been able to",
+      "'ve can"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Students ___ eat in the classroom.",
+     "options": [
+      "aren't allowed to",
+      "don't able to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You ___ pay now. You can pay later.",
+     "options": [
+      "don't need to",
+      "aren't able to"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "Will you ___ able to help me tomorrow?",
+     "a": [
+      "be"
+     ]
+    },
+    {
+     "t": "You ought ___ apologize.",
+     "a": [
+      "to"
+     ]
+    },
+    {
+     "t": "Were you ___ to go out late when you were 15?",
+     "a": [
+      "allowed"
+     ]
+    }
+   ]
+  }
+ ]
+}

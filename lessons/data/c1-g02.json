@@ -1,0 +1,96 @@
+{
+ "id": "c1-g02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Conditional inversion",
+   "subtitle": "Had I known… / Should you need… / Were it not for…",
+   "goals": [
+    "Replace *if* with inversion in formal style.",
+    "Use **should** for unlikely future conditions.",
+    "Use **were it not for / had it not been for**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Standard",
+     "Inverted"
+    ],
+    "rows": [
+     [
+      "If I had known, I would have come.",
+      "**Had I known**, I would have come."
+     ],
+     [
+      "If you should need help, call me.",
+      "**Should you need** help, call me."
+     ],
+     [
+      "If I were in your position…",
+      "**Were I** in your position…"
+     ],
+     [
+      "If it weren't for your help…",
+      "**Were it not for** your help…"
+     ],
+     [
+      "If it hadn't been for the rain…",
+      "**Had it not been for** the rain…"
+     ]
+    ]
+   },
+   "tip": "Negative inversion has no contraction: *Had I not…*, not *Hadn't I…*"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "___ you require further information, please contact us.",
+     "options": [
+      "Should",
+      "Would"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ I known about the strike, I would have stayed home.",
+     "options": [
+      "Had",
+      "Have"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___ it not for her support, I would have quit.",
+     "options": [
+      "Were",
+      "Had"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "___ it not been for the GPS, we'd have got lost.",
+     "a": [
+      "Had"
+     ]
+    },
+    {
+     "t": "___ the weather improve, the event will go ahead.",
+     "a": [
+      "Should"
+     ]
+    }
+   ]
+  }
+ ]
+}

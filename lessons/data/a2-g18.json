@@ -1,0 +1,114 @@
+{
+ "id": "a2-g18",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Reflexive pronouns",
+   "subtitle": "Pronombres reflexivos: myself, yourself…",
+   "goals": [
+    "Usar **myself, yourself, himself…** cuando sujeto y objeto son la misma persona.",
+    "Usar **by myself** = solo, sin ayuda.",
+    "Evitar reflexivos innecesarios."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Formas y usos",
+   "table": {
+    "head": [
+     "Sujeto",
+     "Reflexivo"
+    ],
+    "rows": [
+     [
+      "I",
+      "myself"
+     ],
+     [
+      "you",
+      "yourself / yourselves"
+     ],
+     [
+      "he / she / it",
+      "himself / herself / itself"
+     ],
+     [
+      "we",
+      "ourselves"
+     ],
+     [
+      "they",
+      "themselves"
+     ]
+    ]
+   },
+   "list": [
+    "Misma persona: *I cut **myself**.*",
+    "Énfasis: *I made it **myself**.*",
+    "Solo / sin ayuda: *She lives **by herself**.*",
+    "Expresiones: *Enjoy **yourself**! Help **yourself**!*"
+   ],
+   "watch": "Muchos verbos reflexivos en español **no** lo son en inglés: *wake up, get up, sit down, feel, relax, shower* (*Me levanto* = *I get up*)."
+  },
+  {
+   "type": "fill",
+   "title": "Completa",
+   "items": [
+    {
+     "t": "He hurt ___ playing football.",
+     "a": [
+      "himself"
+     ]
+    },
+    {
+     "t": "We painted the house ___.",
+     "a": [
+      "ourselves"
+     ]
+    },
+    {
+     "t": "Did you enjoy ___ at the party? (tú)",
+     "a": [
+      "yourself"
+     ]
+    },
+    {
+     "t": "My grandma lives by ___.",
+     "a": [
+      "herself"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "¿Lleva reflexivo?",
+   "items": [
+    {
+     "q": "¿Cómo se dice *Me levanto a las 6*?",
+     "options": [
+      "I get myself up at 6.",
+      "I get up at 6."
+     ],
+     "a": 1
+    },
+    {
+     "q": "¿Cómo se dice *Se cortó con un cuchillo*?",
+     "options": [
+      "She cut herself with a knife.",
+      "She cut with a knife."
+     ],
+     "a": 0
+    },
+    {
+     "q": "¿Cómo se dice *Relájate*?",
+     "options": [
+      "Relax yourself.",
+      "Relax."
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

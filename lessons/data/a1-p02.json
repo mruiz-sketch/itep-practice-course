@@ -1,0 +1,69 @@
+{
+  "id": "a1-p02",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Ship or sheep?",
+      "subtitle": "Vocales /ɪ/ e /iː/",
+      "goals": [
+        "Distinguir la **i corta** /ɪ/ y la **i larga** /iː/.",
+        "Reconocer su ortografía más común.",
+        "Evitar malentendidos como *ship / sheep* o *live / leave*."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Dos sonidos, no uno",
+      "body": ["En español solo hay una *i*. En inglés hay dos, y cambian el significado."],
+      "table": {
+        "head": ["Sonido", "Cómo se hace", "Ortografía común", "Ejemplos"],
+        "rows": [
+          ["/ɪ/ corta", "boca relajada, sonido breve, entre *i* y *e*", "i", "sit, ship, live, fill, it"],
+          ["/iː/ larga", "sonríe, tensa los labios, alarga el sonido", "ee, ea, e, ie", "seat, sheep, leave, feel, eat"]
+        ]
+      },
+      "tip": "Para /iː/ sonríe como en una foto. Para /ɪ/ relaja la boca y hazlo corto."
+    },
+    {
+      "type": "examples",
+      "title": "Pares mínimos",
+      "items": [
+        { "en": "ship — sheep", "say": "ship. sheep.", "es": "barco — oveja" },
+        { "en": "sit — seat", "say": "sit. seat.", "es": "sentarse — asiento" },
+        { "en": "live — leave", "say": "live. leave.", "es": "vivir — irse" },
+        { "en": "fill — feel", "say": "fill. feel.", "es": "llenar — sentir" },
+        { "en": "it — eat", "say": "it. eat.", "es": "eso — comer" },
+        { "en": "bin — bean", "say": "bin. bean.", "es": "bote de basura — frijol" }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "¿Corta o larga?",
+      "items": [
+        { "say": "sheep", "options": ["ship", "sheep"], "a": 1 },
+        { "say": "live", "options": ["live", "leave"], "a": 0 },
+        { "say": "feel", "options": ["fill", "feel"], "a": 1 },
+        { "say": "sit", "options": ["sit", "seat"], "a": 0 },
+        { "say": "eat", "options": ["it", "eat"], "a": 1 }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Clasifica por sonido",
+      "buckets": ["/ɪ/ corta", "/iː/ larga"],
+      "items": [
+        { "w": "big", "b": 0 }, { "w": "this", "b": 0 }, { "w": "win", "b": 0 }, { "w": "milk", "b": 0 },
+        { "w": "green", "b": 1 }, { "w": "teacher", "b": 1 }, { "w": "please", "b": 1 }, { "w": "me", "b": 1 }
+      ]
+    },
+    {
+      "type": "listen",
+      "title": "Escucha la oración",
+      "items": [
+        { "say": "I want to leave.", "options": ["I want to live.", "I want to leave."], "a": 1 },
+        { "say": "Is this your seat?", "options": ["Is this your sit?", "Is this your seat?"], "a": 1 },
+        { "say": "Look at the ship.", "options": ["Look at the ship.", "Look at the sheep."], "a": 0 }
+      ]
+    }
+  ]
+}

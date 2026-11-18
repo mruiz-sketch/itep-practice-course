@@ -1,0 +1,92 @@
+{
+ "id": "b2-g04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Third and mixed conditionals",
+   "subtitle": "Imagining a different past and present",
+   "goals": [
+    "Use the third conditional for past regrets.",
+    "Mix past condition + present result, and vice versa.",
+    "Talk about alternative realities."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Mixed conditionals",
+   "table": {
+    "head": [
+     "Type",
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Third",
+      "If + had done, would have done",
+      "If I had left earlier, I wouldn't have missed the flight."
+     ],
+     [
+      "Past → present",
+      "If + had done, would do",
+      "If I had studied medicine, I **would be** a doctor now."
+     ],
+     [
+      "Present → past",
+      "If + did, would have done",
+      "If I **were** more organized, I **would have finished** on time."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "If I had saved money, I ___ a car now.",
+     "options": [
+      "would have",
+      "would have had"
+     ],
+     "a": 0
+    },
+    {
+     "q": "If she weren't so shy, she ___ to the party last night.",
+     "options": [
+      "would go",
+      "would have gone"
+     ],
+     "a": 1
+    },
+    {
+     "q": "If we had taken the map, we ___ lost.",
+     "options": [
+      "wouldn't have got",
+      "wouldn't get"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "If I ___ (not / break) my leg, I would be playing today.",
+     "a": [
+      "hadn't broken",
+      "had not broken"
+     ]
+    },
+    {
+     "t": "If he spoke English, he ___ (get) the job last year.",
+     "a": [
+      "would have got"
+     ]
+    }
+   ]
+  }
+ ]
+}

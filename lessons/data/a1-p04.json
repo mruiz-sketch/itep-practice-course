@@ -1,0 +1,70 @@
+{
+  "id": "a1-p04",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Contractions",
+      "subtitle": "Contracciones",
+      "goals": [
+        "Reconocer y pronunciar **I'm, you're, he's, isn't, don't, can't**.",
+        "Entenderlas al escucharlas a velocidad normal.",
+        "Saber cuándo **no** se contraen."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Forma completa → contracción",
+      "table": {
+        "head": ["Completa", "Contracción", "Escucha"],
+        "rows": [
+          ["I am", "I'm", "I'm"],
+          ["you are / we are / they are", "you're / we're / they're", "you're, we're, they're"],
+          ["he is / she is / it is", "he's / she's / it's", "he's, she's, it's"],
+          ["is not / are not", "isn't / aren't", "isn't, aren't"],
+          ["do not / does not", "don't / doesn't", "don't, doesn't"],
+          ["cannot", "can't", "can't"],
+          ["I have / I would / I will", "I've / I'd / I'll", "I've, I'd, I'll"]
+        ],
+        "speak": 2
+      },
+      "watch": "No se contrae al final de una respuesta corta afirmativa: *Yes, I **am**.* / *Yes, she **is**.*",
+      "tip": "Las contracciones suenan como una sola sílaba: *they're* suena igual que *there* y *their*."
+    },
+    {
+      "type": "listen",
+      "title": "¿Qué escuchas?",
+      "items": [
+        { "say": "She's a doctor.", "options": ["She's a doctor.", "She a doctor.", "Is she a doctor?"], "a": 0 },
+        { "say": "They aren't here.", "options": ["They are here.", "They aren't here.", "There are here."], "a": 1 },
+        { "say": "I don't know.", "options": ["I do know.", "I don't know.", "I didn't know."], "a": 1 },
+        { "say": "We're late.", "options": ["We were late.", "We're late.", "Where late?"], "a": 1 },
+        { "say": "I'll call you.", "options": ["I call you.", "I'll call you.", "I'd call you."], "a": 1 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona la contracción con la forma completa",
+      "pairs": [["can't", "cannot"], ["doesn't", "does not"], ["we're", "we are"], ["I've", "I have"], ["it's", "it is"], ["isn't", "is not"]],
+      "speak": "left"
+    },
+    {
+      "type": "fill",
+      "title": "Escribe la contracción",
+      "items": [
+        { "t": "I am tired. → ___ tired.", "a": ["I'm"] },
+        { "t": "He is not here. → He ___ here.", "a": ["isn't", "'s not"] },
+        { "t": "They do not eat meat. → They ___ eat meat.", "a": ["don't"] },
+        { "t": "You are right. → ___ right.", "a": ["You're"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "¿Se contrae o no?",
+      "items": [
+        { "q": "Are you ready? — Yes, ___", "options": ["I'm.", "I am."], "a": 1 },
+        { "q": "Is she your sister? — No, ___", "options": ["she isn't.", "she is not."], "a": 0, "why": "En negativa sí se puede contraer (las dos son correctas, pero la contracción es más natural)." },
+        { "q": "___ my best friend.", "options": ["He's", "He"], "a": 0 }
+      ]
+    }
+  ]
+}

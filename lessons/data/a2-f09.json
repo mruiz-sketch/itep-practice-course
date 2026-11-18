@@ -1,0 +1,97 @@
+{
+ "id": "a2-f09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Talking on the phone",
+   "subtitle": "Hablar por teléfono",
+   "goals": [
+    "Contestar y presentarte al teléfono.",
+    "Pedir hablar con alguien y dejar recado.",
+    "Resolver problemas de señal."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Frases telefónicas",
+   "table": {
+    "head": [
+     "Situación",
+     "Frase"
+    ],
+    "rows": [
+     [
+      "Contestar",
+      "Hello, this is Mel speaking."
+     ],
+     [
+      "Pedir a alguien",
+      "Can I speak to Mr. Ruiz, please?"
+     ],
+     [
+      "Esperar",
+      "Hold on, please. / Just a moment."
+     ],
+     [
+      "No está",
+      "I'm sorry, he's not available right now."
+     ],
+     [
+      "Recado",
+      "Can I take a message? / Can I leave a message?"
+     ],
+     [
+      "Mala señal",
+      "Sorry, you're breaking up. Can you call me back?"
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "match",
+   "title": "Relaciona",
+   "pairs": [
+    [
+     "Can I speak to Ana?",
+     "Hold on, please."
+    ],
+    [
+     "Can I take a message?",
+     "Yes, please tell her I called."
+    ],
+    [
+     "You're breaking up.",
+     "I'll call you back."
+    ],
+    [
+     "Who's calling?",
+     "It's Luis, her classmate."
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "Contestas el teléfono del trabajo:",
+     "options": [
+      "Hello, this is Laura speaking.",
+      "Hello, I am Laura who speaks."
+     ],
+     "a": 0
+    },
+    {
+     "q": "¿Cómo se dice *Se está cortando*?",
+     "options": [
+      "You're breaking up.",
+      "You're cutting."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

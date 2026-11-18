@@ -1,0 +1,83 @@
+{
+ "id": "c2-v01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Low-frequency and specialised vocabulary",
+   "subtitle": "Precise, rare words",
+   "goals": [
+    "Use precise low-frequency words.",
+    "Expand passive vocabulary.",
+    "Understand specialised texts."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "ubiquitous, ephemeral, meticulous, pragmatic"
+    },
+    {
+     "en": "exacerbate, mitigate, corroborate, undermine"
+    },
+    {
+     "en": "dichotomy, paradigm, caveat, nuance"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match",
+   "pairs": [
+    [
+     "ubiquitous",
+     "found everywhere"
+    ],
+    [
+     "ephemeral",
+     "lasting a very short time"
+    ],
+    [
+     "exacerbate",
+     "make worse"
+    ],
+    [
+     "mitigate",
+     "make less severe"
+    ],
+    [
+     "corroborate",
+     "confirm with evidence"
+    ],
+    [
+     "caveat",
+     "warning or condition"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Smartphones are now ___.",
+     "options": [
+      "ubiquitous",
+      "ephemeral"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Measures to ___ the impact of floods:",
+     "options": [
+      "mitigate",
+      "exacerbate"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

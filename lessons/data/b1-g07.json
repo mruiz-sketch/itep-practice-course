@@ -1,0 +1,92 @@
+{
+ "id": "b1-g07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Zero conditional",
+   "subtitle": "General truths and routines",
+   "goals": [
+    "Use **if / when + present, present** for facts.",
+    "Describe what always happens.",
+    "Contrast it with the first conditional."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Type",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Scientific facts",
+      "If you heat ice, it melts."
+     ],
+     [
+      "Routines",
+      "If I'm tired, I go to bed early."
+     ],
+     [
+      "Instructions",
+      "If the light is red, press the button."
+     ]
+    ]
+   },
+   "tip": "In zero conditionals **if** can be replaced by **when** with almost no change in meaning."
+  },
+  {
+   "type": "mc",
+   "title": "Zero or first?",
+   "items": [
+    {
+     "q": "If you mix red and blue, you ___ purple.",
+     "options": [
+      "get",
+      "'ll get"
+     ],
+     "a": 0
+    },
+    {
+     "q": "If you call me tonight, I ___ you the details.",
+     "options": [
+      "give",
+      "'ll give"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Water ___ if you heat it to 100 °C.",
+     "options": [
+      "boils",
+      "will boil"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the halves",
+   "pairs": [
+    [
+     "If you don't water plants,",
+     "they die."
+    ],
+    [
+     "If I drink coffee at night,",
+     "I can't sleep."
+    ],
+    [
+     "When it rains,",
+     "the streets flood."
+    ],
+    [
+     "If you press this button,",
+     "the machine stops."
+    ]
+   ]
+  }
+ ]
+}

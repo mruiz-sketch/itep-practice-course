@@ -1,0 +1,85 @@
+{
+ "id": "a2-f07",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Obligation and prohibition",
+   "subtitle": "Obligación y prohibición",
+   "goals": [
+    "Explicar reglas con **must, have to, can't**.",
+    "Entender letreros de reglas.",
+    "Hablar de reglas de tu escuela o trabajo."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Reglas de la escuela",
+   "items": [
+    {
+     "en": "You have to wear your ID.",
+     "es": "Tienes que traer tu credencial."
+    },
+    {
+     "en": "You can't eat in the lab.",
+     "es": "No puedes comer en el laboratorio."
+    },
+    {
+     "en": "You mustn't use phones during exams.",
+     "es": "Está prohibido usar celular en exámenes."
+    },
+    {
+     "en": "You don't have to wear a uniform.",
+     "es": "No tienes que usar uniforme."
+    },
+    {
+     "en": "You can use the library until 8 p.m.",
+     "es": "Puedes usar la biblioteca hasta las 8."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona letrero y regla",
+   "pairs": [
+    [
+     "NO SMOKING",
+     "You mustn't smoke."
+    ],
+    [
+     "SILENCE",
+     "You have to be quiet."
+    ],
+    [
+     "FREE ENTRY",
+     "You don't have to pay."
+    ],
+    [
+     "PARKING FOR STAFF",
+     "Visitors can't park here."
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Elige",
+   "items": [
+    {
+     "q": "It's free. You ___ pay.",
+     "options": [
+      "mustn't",
+      "don't have to"
+     ],
+     "a": 1
+    },
+    {
+     "q": "It's dangerous. You ___ touch it.",
+     "options": [
+      "mustn't",
+      "don't have to"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

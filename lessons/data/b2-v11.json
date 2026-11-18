@@ -1,0 +1,114 @@
+{
+ "id": "b2-v11",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Common idioms",
+   "subtitle": "Everyday idioms",
+   "goals": [
+    "Understand common idioms.",
+    "Use them appropriately.",
+    "Avoid literal interpretation."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "a piece of cake",
+     "es": "muy fácil"
+    },
+    {
+     "en": "break the ice",
+     "es": "romper el hielo"
+    },
+    {
+     "en": "hit the books",
+     "es": "ponerse a estudiar"
+    },
+    {
+     "en": "under the weather",
+     "es": "un poco enfermo"
+    },
+    {
+     "en": "cost an arm and a leg",
+     "es": "costar un ojo de la cara"
+    },
+    {
+     "en": "once in a blue moon",
+     "es": "muy de vez en cuando"
+    },
+    {
+     "en": "call it a day",
+     "es": "dar por terminado"
+    },
+    {
+     "en": "let the cat out of the bag",
+     "es": "revelar un secreto"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "a piece of cake",
+     "very easy"
+    ],
+    [
+     "under the weather",
+     "slightly ill"
+    ],
+    [
+     "once in a blue moon",
+     "very rarely"
+    ],
+    [
+     "call it a day",
+     "stop working"
+    ],
+    [
+     "break the ice",
+     "start a conversation"
+    ],
+    [
+     "cost an arm and a leg",
+     "be very expensive"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "The exam was a ___ of cake.",
+     "options": [
+      "piece",
+      "slice"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I'm feeling a bit under the ___.",
+     "options": [
+      "weather",
+      "rain"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's late. Let's call it a ___.",
+     "options": [
+      "day",
+      "night"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

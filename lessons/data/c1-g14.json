@@ -1,0 +1,88 @@
+{
+ "id": "c1-g14",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Discourse markers",
+   "subtitle": "admittedly, by and large, that said, mind you",
+   "goals": [
+    "Use academic and conversational markers.",
+    "Signal attitude and structure.",
+    "Sound natural and organized."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Marker",
+     "Function",
+     "Example"
+    ],
+    "rows": [
+     [
+      "admittedly",
+      "concession",
+      "**Admittedly**, the plan has some risks."
+     ],
+     [
+      "by and large / on the whole",
+      "generalization",
+      "**By and large**, the results were positive."
+     ],
+     [
+      "that said / having said that",
+      "contrast after a point",
+      "It's expensive. **That said**, it's worth it."
+     ],
+     [
+      "mind you",
+      "informal afterthought",
+      "He's rude. **Mind you**, he works hard."
+     ],
+     [
+      "as it happens",
+      "coincidence",
+      "**As it happens**, I know her."
+     ],
+     [
+      "to be fair",
+      "balanced view",
+      "**To be fair**, she did warn us."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "The film was long. ___, the ending was brilliant.",
+     "options": [
+      "That said",
+      "By and large"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___, the project was a success, despite some problems.",
+     "options": [
+      "On the whole",
+      "Mind you"
+     ],
+     "a": 0
+    },
+    {
+     "q": "___, I was wrong about that.",
+     "options": [
+      "Admittedly",
+      "As it happens"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

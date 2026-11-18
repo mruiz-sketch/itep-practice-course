@@ -1,0 +1,75 @@
+{
+  "id": "a1-v08",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Food and drink",
+      "subtitle": "Comida, bebida y comidas del día",
+      "goals": [
+        "Nombrar alimentos y bebidas comunes.",
+        "Hablar de **breakfast, lunch, dinner**.",
+        "Decir lo que comes en un día normal."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "Las comidas del día",
+      "table": {
+        "head": ["Comida", "Significado", "Ejemplo"],
+        "rows": [
+          ["**breakfast**", "desayuno", "I have breakfast at 7."],
+          ["**lunch**", "comida del mediodía", "We have lunch at school."],
+          ["**dinner**", "cena (comida principal de la tarde-noche)", "Dinner is at 8 p.m."],
+          ["**snack**", "botana, refrigerio", "I eat a snack after class."]
+        ]
+      },
+      "tip": "Se dice **have** breakfast / lunch / dinner (sin *the*): *I have lunch at 2.*"
+    },
+    {
+      "type": "examples",
+      "title": "Alimentos comunes",
+      "items": [
+        { "en": "bread, rice, pasta", "es": "pan, arroz, pasta" },
+        { "en": "chicken, beef, fish, eggs", "es": "pollo, res, pescado, huevos" },
+        { "en": "apples, bananas, oranges", "es": "manzanas, plátanos, naranjas" },
+        { "en": "tomatoes, onions, potatoes", "es": "jitomates, cebollas, papas" },
+        { "en": "water, juice, milk, coffee, tea", "es": "agua, jugo, leche, café, té" },
+        { "en": "cheese, butter, beans, cereal", "es": "queso, mantequilla, frijoles, cereal" }
+      ]
+    },
+    {
+      "type": "sort",
+      "title": "Clasifica los alimentos",
+      "buckets": ["fruit", "vegetables", "drinks"],
+      "items": [
+        { "w": "apple", "b": 0 }, { "w": "strawberry", "b": 0 }, { "w": "grapes", "b": 0 },
+        { "w": "carrot", "b": 1 }, { "w": "lettuce", "b": 1 }, { "w": "onion", "b": 1 },
+        { "w": "juice", "b": 2 }, { "w": "tea", "b": 2 }, { "w": "milk", "b": 2 }
+      ]
+    },
+    {
+      "type": "match",
+      "title": "Relaciona inglés y español",
+      "pairs": [["beef", "carne de res"], ["chicken", "pollo"], ["beans", "frijoles"], ["corn", "maíz, elote"], ["pepper", "pimienta, chile morrón"], ["lettuce", "lechuga"]],
+      "speak": "left"
+    },
+    {
+      "type": "mc",
+      "title": "¿Qué comida es?",
+      "items": [
+        { "q": "The first meal of the day is…", "options": ["dinner", "breakfast", "lunch"], "a": 1 },
+        { "q": "You drink it hot in the morning. It's black or with milk.", "options": ["juice", "coffee", "water"], "a": 1 },
+        { "q": "It's yellow and monkeys love it.", "options": ["banana", "lemon", "corn"], "a": 0 },
+        { "q": "¿Cómo se dice *Comemos a las 3*?", "options": ["We eat the lunch at 3.", "We have lunch at 3.", "We take lunch at 3."], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "I have eggs and coffee for breakfast.", "es": "Desayuno huevos y café." },
+        { "a": "What do you usually have for dinner?", "es": "¿Qué cenas normalmente?" }
+      ]
+    }
+  ]
+}

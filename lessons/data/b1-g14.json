@@ -1,0 +1,105 @@
+{
+ "id": "b1-g14",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Non-defining relative clauses",
+   "subtitle": "Adding extra information with commas",
+   "goals": [
+    "Add extra information with **who, which, whose, where**.",
+    "Use **commas**.",
+    "Know that **that** is not used here."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Defining vs non-defining",
+   "table": {
+    "head": [
+     "Type",
+     "Example",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Defining (essential)",
+      "The man **who lives next door** is a doctor.",
+      "no commas, *that* OK"
+     ],
+     [
+      "Non-defining (extra)",
+      "My father, **who is 60**, still plays football.",
+      "commas, no *that*"
+     ],
+     [
+      "whose (possession)",
+      "Ana, **whose brother is a pilot**, travels a lot.",
+      ""
+     ],
+     [
+      "which (whole idea)",
+      "He passed, **which surprised everyone**.",
+      ""
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "Querétaro, that is in central Mexico, is beautiful.",
+     "good": "Querétaro, **which** is in central Mexico, is beautiful."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose the pronoun",
+   "items": [
+    {
+     "q": "My sister, ___ lives in Canada, is visiting us.",
+     "options": [
+      "who",
+      "which",
+      "that"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The Peña de Bernal, ___ is a huge monolith, attracts many tourists.",
+     "options": [
+      "who",
+      "which",
+      "where"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Frida Kahlo, ___ paintings are famous, was born in Coyoacán.",
+     "options": [
+      "who",
+      "whose",
+      "which"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Join the sentences",
+   "items": [
+    {
+     "t": "Mr. Díaz is our teacher. He speaks four languages. → Mr. Díaz, ___ speaks four languages, is our teacher.",
+     "a": [
+      "who"
+     ]
+    },
+    {
+     "t": "I visited Guanajuato. My grandmother was born there. → I visited Guanajuato, ___ my grandmother was born.",
+     "a": [
+      "where"
+     ]
+    }
+   ]
+  }
+ ]
+}

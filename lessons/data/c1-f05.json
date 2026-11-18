@@ -1,0 +1,66 @@
+{
+ "id": "c1-f05",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Academic and professional presentations",
+   "subtitle": "Engaging an expert audience",
+   "goals": [
+    "Open with impact.",
+    "Refer to visuals.",
+    "Handle difficult questions."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Useful language",
+   "table": {
+    "head": [
+     "Function",
+     "Phrases"
+    ],
+    "rows": [
+     [
+      "Hook",
+      "Imagine… / Here's a surprising fact:…"
+     ],
+     [
+      "Visuals",
+      "As you can see from this chart… / This slide illustrates…"
+     ],
+     [
+      "Emphasis",
+      "What's crucial here is…"
+     ],
+     [
+      "Difficult questions",
+      "That's an interesting point; I'd need to look into it further."
+     ]
+    ],
+    "speak": 1
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Referring to a chart:",
+     "options": [
+      "As you can see from this chart…",
+      "Look the chart."
+     ],
+     "a": 0
+    },
+    {
+     "q": "You don't know the answer:",
+     "options": [
+      "That's a great question; I'll look into it and get back to you.",
+      "I don't know."
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

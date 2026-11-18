@@ -1,0 +1,88 @@
+{
+ "id": "c1-g06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Modal nuances",
+   "subtitle": "be bound to, be due to, be to, needn't have vs didn't need to",
+   "goals": [
+    "Express certainty, schedules and formal arrangements.",
+    "Distinguish subtle modal meanings.",
+    "Sound more precise."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "Form",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "be bound to",
+      "certain",
+      "She's **bound to** pass. She's brilliant."
+     ],
+     [
+      "be due to",
+      "scheduled",
+      "The train **is due to** arrive at 9."
+     ],
+     [
+      "be to",
+      "official arrangement / order",
+      "The president **is to** visit Mexico next week."
+     ],
+     [
+      "be supposed to",
+      "expected / obligation",
+      "You **were supposed to** call me!"
+     ],
+     [
+      "needn't have done",
+      "did it, unnecessary",
+      "I **needn't have** cooked; they'd eaten."
+     ],
+     [
+      "didn't need to",
+      "wasn't necessary (maybe not done)",
+      "I **didn't need to** cook, so I didn't."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best option",
+   "items": [
+    {
+     "q": "Don't worry, he's ___ call. He always does.",
+     "options": [
+      "bound to",
+      "due to"
+     ],
+     "a": 0
+    },
+    {
+     "q": "The new law ___ come into effect in January.",
+     "options": [
+      "is due to",
+      "is bound"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You ___ have bought milk. We had plenty.",
+     "options": [
+      "needn't",
+      "didn't need"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

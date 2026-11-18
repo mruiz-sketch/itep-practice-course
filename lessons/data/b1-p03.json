@@ -1,0 +1,60 @@
+{
+ "id": "b1-p03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Intonation in question tags",
+   "subtitle": "Checking vs confirming",
+   "goals": [
+    "Use **falling** intonation to confirm.",
+    "Use **rising** intonation for real questions.",
+    "Interpret the speaker's intention."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Two meanings",
+   "table": {
+    "head": [
+     "Intonation",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Falling ↘",
+      "I'm sure, I expect agreement",
+      "It's a lovely day, isn't it ↘?"
+     ],
+     [
+      "Rising ↗",
+      "I'm not sure, real question",
+      "You're coming tomorrow, aren't you ↗?"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Rising or falling?",
+   "items": [
+    {
+     "q": "Small talk about the weather: *Cold today, isn't it?*",
+     "options": [
+      "falling ↘",
+      "rising ↗"
+     ],
+     "a": 0
+    },
+    {
+     "q": "You really don't know if the shop is open: *It's open, isn't it?*",
+     "options": [
+      "falling ↘",
+      "rising ↗"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

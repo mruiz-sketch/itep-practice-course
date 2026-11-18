@@ -1,0 +1,92 @@
+{
+ "id": "b2-g09",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Modals of deduction in the past",
+   "subtitle": "must have, might have, can't have",
+   "goals": [
+    "Make deductions about the past.",
+    "Express degrees of certainty.",
+    "Explain mysteries and situations."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Certainty about the past",
+   "table": {
+    "head": [
+     "Modal",
+     "Certainty",
+     "Example"
+    ],
+    "rows": [
+     [
+      "must have + participle",
+      "≈ 95 % yes",
+      "She **must have forgotten**. She never misses class."
+     ],
+     [
+      "may / might / could have",
+      "≈ 50 %",
+      "He **might have missed** the bus."
+     ],
+     [
+      "can't / couldn't have",
+      "≈ 95 % no",
+      "You **can't have seen** him. He's in Spain."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "The streets are wet. It ___ rained.",
+     "options": [
+      "must have",
+      "can't have"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She ___ written this. She doesn't speak German.",
+     "options": [
+      "can't have",
+      "must have"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I don't know where my keys are. I ___ left them at work.",
+     "options": [
+      "might have",
+      "must"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "He passed without studying? He ___ have cheated! (seguro)",
+     "a": [
+      "must"
+     ]
+    },
+    {
+     "t": "They ___ have arrived yet. The flight lands at 6. (imposible)",
+     "a": [
+      "can't",
+      "couldn't"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "b1-g03",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Past perfect",
+   "subtitle": "The past before the past",
+   "goals": [
+    "Form **had + past participle**.",
+    "Show which past action happened first.",
+    "Use it with **when, before, after, by the time, already**."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form and use",
+   "table": {
+    "head": [
+     "",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Positive",
+      "When I arrived, the film **had started**."
+     ],
+     [
+      "Negative",
+      "I **hadn't seen** snow before that trip."
+     ],
+     [
+      "Question",
+      "**Had** you **met** him before?"
+     ]
+    ]
+   },
+   "list": [
+    "Earlier action → past perfect; later action → past simple.",
+    "When I got to the station, the train **had left**. (= it left first)",
+    "When I got to the station, the train **left**. (= it left as I arrived)"
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Examples",
+   "items": [
+    {
+     "en": "By the time we got there, everyone had gone home."
+    },
+    {
+     "en": "She was nervous because she had never flown before."
+    },
+    {
+     "en": "I didn't recognize him. He had changed a lot."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "When I got home, my brother ___ all the pizza.",
+     "options": [
+      "ate",
+      "had eaten"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I ___ the movie because I'd read the book.",
+     "options": [
+      "enjoyed",
+      "had enjoyed"
+     ],
+     "a": 0
+    },
+    {
+     "q": "She ___ her keys, so she couldn't get in.",
+     "options": [
+      "had lost",
+      "has lost"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete with the past perfect",
+   "items": [
+    {
+     "t": "We were late. The meeting ___ (already / start).",
+     "a": [
+      "had already started"
+     ]
+    },
+    {
+     "t": "I ___ (not / finish) my homework when the teacher asked for it.",
+     "a": [
+      "hadn't finished",
+      "had not finished"
+     ]
+    },
+    {
+     "t": "___ you ever been abroad before 2020?",
+     "a": [
+      "Had"
+     ]
+    }
+   ]
+  }
+ ]
+}

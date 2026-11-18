@@ -1,0 +1,86 @@
+{
+  "id": "a1-g17",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Present continuous",
+      "subtitle": "Presente continuo: lo que pasa ahora",
+      "goals": [
+        "Formar el presente continuo: **am / is / are + -ing**.",
+        "Escribir bien el **-ing**: *making, running, studying*.",
+        "Distinguir **ahora** (continuo) y **siempre** (simple)."
+      ]
+    },
+    {
+      "type": "explain",
+      "title": "To be + verbo con -ing",
+      "table": {
+        "head": ["", "Forma", "Ejemplo"],
+        "rows": [
+          ["Afirmativa", "am / is / are + verbo**-ing**", "I'**m studying**. She'**s working**."],
+          ["Negativa", "am not / isn't / aren't + -ing", "They **aren't listening**."],
+          ["Pregunta", "Am / Is / Are + sujeto + -ing?", "**Are** you **watching** TV?"]
+        ]
+      },
+      "list": [
+        "La mayoría: **+ ing** → *play → playing, read → reading*",
+        "Termina en **-e**: quita la e → *make → making, write → writing*",
+        "Una sílaba con consonante-vocal-consonante: **dobla** → *run → running, sit → sitting, swim → swimming*",
+        "**-ie → -ying**: *lie → lying, die → dying*"
+      ],
+      "tip": "Palabras típicas: **now, right now, at the moment, today, Look!, Listen!**"
+    },
+    {
+      "type": "examples",
+      "title": "¿Qué está pasando?",
+      "items": [
+        { "en": "I'm **doing** my homework right now.", "es": "Estoy haciendo mi tarea ahorita." },
+        { "en": "Look! It's **raining**.", "es": "¡Mira! Está lloviendo." },
+        { "en": "Shh! The baby is **sleeping**.", "es": "¡Shh! El bebé está dormido." },
+        { "en": "Are you **listening** to me? — Yes, I am.", "es": "¿Me estás escuchando? — Sí." },
+        { "en": "We aren't **working** today.", "es": "Hoy no estamos trabajando." }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Escribe la forma -ing",
+      "items": [
+        { "t": "write → ___", "a": ["writing"] },
+        { "t": "run → ___", "a": ["running"] },
+        { "t": "study → ___", "a": ["studying"] },
+        { "t": "dance → ___", "a": ["dancing"] },
+        { "t": "swim → ___", "a": ["swimming"] },
+        { "t": "play → ___", "a": ["playing"] }
+      ]
+    },
+    {
+      "type": "fill",
+      "title": "Completa la oración",
+      "items": [
+        { "t": "My mom ___ (cook) dinner now.", "a": ["is cooking", "'s cooking"] },
+        { "t": "They ___ (play) football at the moment.", "a": ["are playing", "'re playing"] },
+        { "t": "I ___ (not / watch) TV.", "a": ["'m not watching", "am not watching", "m not watching"] },
+        { "t": "___ you waiting for the bus?", "a": ["Are"] }
+      ]
+    },
+    {
+      "type": "mc",
+      "title": "¿Simple o continuo?",
+      "items": [
+        { "q": "I usually ___ to school, but today I ___ the bus.", "options": ["walk / am taking", "am walking / take", "walks / taking"], "a": 0, "why": "*Usually* → simple. *Today* (ahora, distinto a lo normal) → continuo." },
+        { "q": "Listen! Somebody ___ at the door.", "options": ["knocks", "is knocking", "knock"], "a": 1 },
+        { "q": "She ___ English every Monday.", "options": ["is studying", "studies", "study"], "a": 1 },
+        { "q": "What ___ you doing?", "options": ["do", "are", "is"], "a": 1 }
+      ]
+    },
+    {
+      "type": "order",
+      "title": "Ordena las oraciones",
+      "items": [
+        { "a": "What are you doing now?", "es": "¿Qué estás haciendo ahora?" },
+        { "a": "She is talking on the phone.", "es": "Está hablando por teléfono." },
+        { "a": "We aren't sleeping.", "es": "No estamos dormidos." }
+      ]
+    }
+  ]
+}

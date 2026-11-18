@@ -1,0 +1,94 @@
+{
+ "id": "c1-v08",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Strong and weak collocations",
+   "subtitle": "Advanced collocations",
+   "goals": [
+    "Use strong collocations precisely.",
+    "Use intensifying collocations.",
+    "Sound natural in formal contexts."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Key vocabulary",
+   "items": [
+    {
+     "en": "deeply concerned, utterly ridiculous, fully aware"
+    },
+    {
+     "en": "bitterly cold, painfully slow, highly recommended"
+    },
+    {
+     "en": "wield power, pose a threat, draw a conclusion"
+    },
+    {
+     "en": "heated debate, sweeping changes, vested interest"
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Match the words and meanings",
+   "pairs": [
+    [
+     "pose a threat",
+     "be a danger"
+    ],
+    [
+     "draw a conclusion",
+     "decide based on evidence"
+    ],
+    [
+     "sweeping changes",
+     "wide-ranging changes"
+    ],
+    [
+     "heated debate",
+     "angry discussion"
+    ],
+    [
+     "vested interest",
+     "personal reason for involvement"
+    ],
+    [
+     "fully aware",
+     "completely conscious"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Choose the best answer",
+   "items": [
+    {
+     "q": "Climate change ___ a serious threat.",
+     "options": [
+      "poses",
+      "makes"
+     ],
+     "a": 0
+    },
+    {
+     "q": "It's ___ cold today.",
+     "options": [
+      "bitterly",
+      "deeply"
+     ],
+     "a": 0
+    },
+    {
+     "q": "We can ___ several conclusions.",
+     "options": [
+      "draw",
+      "take out"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

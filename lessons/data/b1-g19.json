@@ -1,0 +1,92 @@
+{
+ "id": "b1-g19",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Causative have / get something done",
+   "subtitle": "When someone else does it for you",
+   "goals": [
+    "Use **have / get + object + participle**.",
+    "Talk about services: haircuts, repairs, deliveries.",
+    "Use it in different tenses."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Form",
+   "table": {
+    "head": [
+     "Structure",
+     "Example"
+    ],
+    "rows": [
+     [
+      "have + object + participle",
+      "I **had my hair cut** yesterday."
+     ],
+     [
+      "get + object + participle (informal)",
+      "I need to **get my car fixed**."
+     ],
+     [
+      "Different tenses",
+      "We're **having the house painted**. I'll **get it delivered**."
+     ]
+    ]
+   },
+   "errors": [
+    {
+     "bad": "I cut my hair at the barber.",
+     "good": "I **had my hair cut** at the barber.",
+     "note": "If someone else did it, use the causative."
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "My phone screen broke. I need to get it ___ (repair).",
+     "a": [
+      "repaired"
+     ]
+    },
+    {
+     "t": "She had her nails ___ (do) for the wedding.",
+     "a": [
+      "done"
+     ]
+    },
+    {
+     "t": "We're having our kitchen ___ (paint) next week.",
+     "a": [
+      "painted"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "¿Te cortaste el pelo (en la estética)?",
+     "options": [
+      "Did you cut your hair?",
+      "Did you have your hair cut?"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I got my eyes ___ last week.",
+     "options": [
+      "tested",
+      "test"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

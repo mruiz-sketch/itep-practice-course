@@ -1,0 +1,110 @@
+{
+ "id": "a2-v06",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "School subjects and studying",
+   "subtitle": "Estudios y asignaturas",
+   "goals": [
+    "Nombrar materias.",
+    "Hablar de exámenes y calificaciones.",
+    "Usar **take / pass / fail an exam**."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "En la escuela",
+   "items": [
+    {
+     "en": "math, physics, chemistry, biology",
+     "es": "matemáticas, física, química, biología"
+    },
+    {
+     "en": "history, geography, art, IT",
+     "es": "historia, geografía, arte, informática"
+    },
+    {
+     "en": "take an exam",
+     "es": "presentar un examen"
+    },
+    {
+     "en": "pass / fail",
+     "es": "aprobar / reprobar"
+    },
+    {
+     "en": "get a good grade",
+     "es": "sacar buena calificación"
+    },
+    {
+     "en": "hand in homework",
+     "es": "entregar la tarea"
+    },
+    {
+     "en": "I'm good at drawing, but bad at math.",
+     "es": "Soy bueno para dibujar pero malo para mate."
+    }
+   ]
+  },
+  {
+   "type": "match",
+   "title": "Relaciona inglés y español",
+   "pairs": [
+    [
+     "pass",
+     "aprobar"
+    ],
+    [
+     "fail",
+     "reprobar"
+    ],
+    [
+     "grade",
+     "calificación"
+    ],
+    [
+     "timetable",
+     "horario"
+    ],
+    [
+     "term",
+     "periodo escolar"
+    ],
+    [
+     "degree",
+     "título universitario"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "Elige la respuesta",
+   "items": [
+    {
+     "q": "¿Cómo se dice *presentar un examen*?",
+     "options": [
+      "make an exam",
+      "take an exam"
+     ],
+     "a": 1
+    },
+    {
+     "q": "I'm good ___ languages.",
+     "options": [
+      "in",
+      "at"
+     ],
+     "a": 1
+    },
+    {
+     "q": "*Fail* means…",
+     "options": [
+      "aprobar",
+      "reprobar"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

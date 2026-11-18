@@ -1,0 +1,83 @@
+{
+ "id": "b1-f04",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Speculating about the present",
+   "subtitle": "must, might, can't + be / -ing",
+   "goals": [
+    "Make guesses about people and situations.",
+    "Describe photos with speculation.",
+    "Express certainty levels."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Speculating from a photo",
+   "items": [
+    {
+     "en": "They must be on holiday. They're wearing swimsuits."
+    },
+    {
+     "en": "She might be waiting for someone."
+    },
+    {
+     "en": "He can't be a teacher. He looks about 15."
+    },
+    {
+     "en": "It looks like a wedding. / They seem happy."
+    }
+   ]
+  },
+  {
+   "type": "mc",
+   "title": "Choose",
+   "items": [
+    {
+     "q": "The lights are off. They ___ be at home.",
+     "options": [
+      "can't",
+      "must"
+     ],
+     "a": 0
+    },
+    {
+     "q": "He's wearing a uniform. He ___ be a nurse.",
+     "options": [
+      "must",
+      "can't"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I'm not sure. She ___ be his sister.",
+     "options": [
+      "might",
+      "must"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "fill",
+   "title": "Complete",
+   "items": [
+    {
+     "t": "She ___ be very rich. She has three houses! (seguro)",
+     "a": [
+      "must"
+     ]
+    },
+    {
+     "t": "They ___ be studying. The library is open. (posible)",
+     "a": [
+      "might",
+      "may",
+      "could"
+     ]
+    }
+   ]
+  }
+ ]
+}

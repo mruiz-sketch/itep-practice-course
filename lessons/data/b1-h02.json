@@ -1,0 +1,55 @@
+{
+ "id": "b1-h02",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Listening to interviews and podcasts",
+   "subtitle": "Main idea and details",
+   "goals": [
+    "Listen for gist first, then details.",
+    "Identify the speaker's attitude.",
+    "Use signpost words."
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Signposts to listen for",
+   "list": [
+    "**First of all / To begin with** → first point",
+    "**Another thing is / Also** → new point",
+    "**The thing is / Actually** → important idea",
+    "**So, to sum up** → conclusion"
+   ]
+  },
+  {
+   "type": "listen",
+   "title": "Listen and answer",
+   "items": [
+    {
+     "say": "Actually, I started animating when I was sixteen. The thing is, I never studied art formally. I learned everything from online tutorials.",
+     "options": [
+      "She studied art at university.",
+      "She learned from online tutorials."
+     ],
+     "a": 1
+    },
+    {
+     "say": "To be honest, I don't think social media is all bad. It helps small businesses a lot. But we need to use it carefully.",
+     "options": [
+      "The speaker thinks social media is completely negative.",
+      "The speaker has a balanced opinion."
+     ],
+     "a": 1
+    },
+    {
+     "say": "So, to sum up, the three keys are: sleep well, eat well, and move every day.",
+     "options": [
+      "3 keys: sleep, eat, move",
+      "3 keys: study, eat, work"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "a2-f01",
+ "slides": [
+  {
+   "type": "cover",
+   "title": "Talking about past experiences",
+   "subtitle": "Narrar experiencias pasadas",
+   "goals": [
+    "Contar una anécdota corta en pasado.",
+    "Hacer preguntas de seguimiento.",
+    "Reaccionar: *Really? That sounds fun!*"
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Una anécdota",
+   "items": [
+    {
+     "en": "Last summer I went to Tequisquiapan with my friends.",
+     "es": "El verano pasado fui a Tequis con mis amigos."
+    },
+    {
+     "en": "We stayed in a small hotel and visited the market.",
+     "es": "Nos quedamos en un hotel pequeño y fuimos al mercado."
+    },
+    {
+     "en": "On the second day, it rained all afternoon!",
+     "es": "¡El segundo día llovió toda la tarde!"
+    },
+    {
+     "en": "But we had a great time.",
+     "es": "Pero nos la pasamos muy bien."
+    }
+   ]
+  },
+  {
+   "type": "explain",
+   "title": "Preguntar y reaccionar",
+   "table": {
+    "head": [
+     "Preguntas",
+     "Reacciones"
+    ],
+    "rows": [
+     [
+      "Where did you go?",
+      "Really?"
+     ],
+     [
+      "Who did you go with?",
+      "That sounds fun!"
+     ],
+     [
+      "What did you do there?",
+      "Oh no! What happened?"
+     ],
+     [
+      "How was it?",
+      "Lucky you!"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "match",
+   "title": "Pregunta y respuesta",
+   "pairs": [
+    [
+     "Where did you go?",
+     "To Guanajuato."
+    ],
+    [
+     "Who did you go with?",
+     "With my cousins."
+    ],
+    [
+     "How long did you stay?",
+     "Three days."
+    ],
+    [
+     "How was it?",
+     "Amazing!"
+    ]
+   ],
+   "speak": "left"
+  },
+  {
+   "type": "mc",
+   "title": "¿Qué reacción usas?",
+   "items": [
+    {
+     "q": "I lost my wallet on the trip.",
+     "options": [
+      "Oh no! What happened?",
+      "Lucky you!"
+     ],
+     "a": 0
+    },
+    {
+     "q": "I won a free trip to Cancún.",
+     "options": [
+      "Lucky you!",
+      "That's terrible."
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "type": "order",
+   "title": "Ordena",
+   "items": [
+    {
+     "a": "What did you do last weekend?"
+    },
+    {
+     "a": "I went to a concert with my sister."
+    }
+   ]
+  }
+ ]
+}
