@@ -1,6 +1,6 @@
 # iTEP Practice Course · UPSRJ · OBLT
 
-Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS + JS, sin compilación) con Firebase para las cuentas y la base de datos. Se publica en Netlify desde GitHub.
+Plataforma de práctica para iTEP Core / iTEP Plus. Sitio estático (HTML + CSS + JS, sin compilación) con Firebase para las cuentas y la base de datos. Se publica en **Cloudflare Pages** desde GitHub (antes Netlify, que pausó el sitio por límite de uso).
 
 ## Flujo
 
@@ -54,16 +54,20 @@ Mientras `js/firebase-config.js` tenga `PASTE_YOUR_API_KEY`, la app funciona en 
 2. **Build → Authentication → Get started → Email/Password → Enable**.
 3. **Build → Firestore Database → Create database** (modo producción). En la pestaña **Rules**, pega el contenido de `firestore.rules` → **Publish**.
 4. **Project settings (⚙️) → Your apps → Web (`</>`)** → registra la app y copia el `firebaseConfig` en `js/firebase-config.js`.
-5. **Authentication → Settings → Authorized domains → Add domain**: agrega tu dominio de Netlify (`tu-sitio.netlify.app`).
-6. **Correo de verificación**: se usa la plantilla estándar de Firebase. El enlace del correo abre la página de Firebase que confirma la verificación; su botón **Continue** regresa a la app y abre LOG IN con la matrícula escrita. (Por ahora Firebase no permite editar plantillas en proyectos nuevos; cuando lo permita, en *Templates → Customize action URL* se puede poner `https://itep-practice-upsrj.netlify.app/` para saltarse esa página.)
+5. **Authentication → Settings → Authorized domains → Add domain**: agrega el dominio de Cloudflare Pages (`itep-practice-upsrj.pages.dev`).
+6. **Correo de verificación**: se usa la plantilla estándar de Firebase. El enlace del correo abre la página de Firebase que confirma la verificación; su botón **Continue** regresa a la app y abre LOG IN con la matrícula escrita. (Por ahora Firebase no permite editar plantillas en proyectos nuevos; cuando lo permita, en *Templates → Customize action URL* se puede poner `https://itep-practice-upsrj.pages.dev/` para saltarse esa página.)
 
-**Sitio en producción:** <https://itep-practice-upsrj.netlify.app> · Proyecto Firebase: `itep-practice-upsrj` (Firestore en `northamerica-south1`, México).
+**Sitio en producción:** <https://itep-practice-upsrj.pages.dev> · Proyecto Firebase: `itep-practice-upsrj` (Firestore en `northamerica-south1`, México).
 
-## GitHub → Netlify (actualización automática)
+## GitHub → Cloudflare Pages (actualización automática)
 
-1. En Netlify: **Add new site → Import an existing project → GitHub** → elige este repositorio.
-2. Build command: *(vacío)* · Publish directory: `.` (ya viene en `netlify.toml`).
-3. Desde ese momento, cada cambio que se suba a la rama `main` se publica solo.
+1. <https://dash.cloudflare.com> → **Workers & Pages** → **Create** → pestaña **Pages** → **Import an existing Git repository** → GitHub.
+2. Si no aparece `itep-practice-course`, entra a *Configure GitHub App* y dale acceso a ese repositorio.
+3. Project name: `itep-practice-upsrj` · Framework preset: **None** · Build command: *(vacío)* · Build output directory: `/`.
+4. **Save and Deploy** → queda en `https://itep-practice-upsrj.pages.dev`. Cada cambio que se suba a `main` se publica solo.
+5. Firebase → Authentication → Settings → **Authorized domains** → agregar `itep-practice-upsrj.pages.dev`.
+
+Las cabeceras de caché y seguridad están en `_headers`.
 
 ## Archivos
 

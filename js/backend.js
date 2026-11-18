@@ -59,6 +59,15 @@ async function firebaseBackend() {
   await A.setPersistence(auth, A.browserSessionPersistence); // logs out when the tab closes (shared lab PCs)
   const db = F.getFirestore(app);
   const userRef = (uid) => F.doc(db, "users", uid);
+  // If this site's address is not yet in Firebase's authorized domains, send the
+  // e-mail without the "continue" link instead of failing the sign-up.
+  async function sendVerification(user, schoolId) {
+    try { await A.sendEmailVerification(user, { url: returnUrl(schoolId) }); }
+    catch (e) {
+      if (/unauthorized-continue-uri|invalid-continue-uri/.test(e.code || "")) await A.sendEmailVerification(user);
+      else throw e;
+    }
+  }
 
   return {
     async signUp(data) {
@@ -67,7 +76,7 @@ async function firebaseBackend() {
         const cred = await A.createUserWithEmailAndPassword(auth, data.email, data.password);
         await A.updateProfile(cred.user, { displayName: `${data.firstName} ${data.lastName}` });
         await F.setDoc(userRef(cred.user.uid), { ...profile, createdAt: F.serverTimestamp() });
-        await A.sendEmailVerification(cred.user, { url: returnUrl(profile.schoolId) });
+        await sendVerification(cred.user, profile.schoolId);
         await A.signOut(auth);
         return {};
       } catch (e) { throw wrap(e); }
@@ -100,7 +109,7 @@ async function firebaseBackend() {
       try {
         const user = auth.currentUser;
         if (!user) throw new AppError("no-session", "Log in again to resend the e-mail.");
-        await A.sendEmailVerification(user, { url: returnUrl(toSchoolId(user.email)) });
+        await sendVerification(user, toSchoolId(user.email));
         await A.signOut(auth);
       } catch (e) { throw wrap(e); }
     },
